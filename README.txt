@@ -12,4 +12,4 @@ We will use a Kinect and several third-party libraries and frameworks (ex.: Open
 Group members :
 Maxime Coupez
 Kim-Adeline Miguel
-Julia Vigo
+Julia Alexandra Vigo
