@@ -2,6 +2,8 @@
 
 #include <WinUser.h>
 
+/** UI **/
+
 class FrameWindow
 {
 private :
