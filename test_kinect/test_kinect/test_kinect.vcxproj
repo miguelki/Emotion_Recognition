@@ -39,13 +39,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Program Files\Microsoft SDKs\Kinect\v1.0 Beta2\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\Microsoft SDKs\Kinect\v1.0 Beta2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(KINECTSDK_DIR)\lib\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Program Files\Microsoft SDKs\Kinect\v1.0 Beta2\inc;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Program Files\Microsoft SDKs\Kinect\v1.0 Beta2\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>$(KINECTSDK_DIR)\lib\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -57,6 +57,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;MSRKinectNUI.lib;D3D10.lib;D3DX10.lib;d3d9.lib;d3dx9.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -73,16 +74,21 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;MSRKinectNUI.lib;D3D10.lib;D3DX10.lib;d3d9.lib;d3dx9.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FrameWindow.h" />
+    <ClInclude Include="KinectAccess.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="FrameWindow.cpp" />
+    <ClCompile Include="KinectAccess.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
