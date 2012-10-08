@@ -59,6 +59,7 @@ void KinectAccess::init() {
 			{ 
 				OutputDebugString( L"Longueur du buffer erronée\r\n" ); 
 			} 
+			// liberation des ressources
 			hr=NuiImageStreamReleaseFrame(_videoStreamHandle, pImageFrame ); 
 		} 
 		//_pD2D1Helper->D2D1GetContexteRendu()->EndDraw();

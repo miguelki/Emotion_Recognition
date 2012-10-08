@@ -61,7 +61,7 @@ Il y a une variable d'environnement avec le chemin d'installation du SDK DirectX
 	et ajouter le chemin vers les dossiers ($(KINECTSDK_DIR)\lib) et $(DXSDK_DIR)Lib\x86 (toujours sans '\')
 
 - Inclure dans les dépendances extérieures : clic-droit sur le projet>Propriétés>Propriétés de configuration>Editeur de liens>entrée>Dépendances supplémentaires :
-D3D10.lib, D3DX10.lib, D3D9.lib & D3DX9.lib
+d2d1.lib, D3D10.lib, D3DX10.lib, D3D9.lib & D3DX9.lib
 
 
 Si ça ne compile toujours pas, penser à fermer MVSC++ et le relancer.
