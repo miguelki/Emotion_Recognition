@@ -15,7 +15,7 @@ public:
 	KinectController(KinectAccess* m, FrameWindow* w);
 	~KinectController(void);
 
-		/** Getters & setters **/
+	/** Getters & setters **/
 
 	HWND getWdwHandle() {return window->getHandle();}
 	HWND setWdwHandle(HWND wh) {window->setHandle(wh);}

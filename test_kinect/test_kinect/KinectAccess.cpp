@@ -4,10 +4,6 @@
 using namespace std;
 
 KinectAccess::KinectAccess(DWORD f) : flags(f) {
-	window = new FrameWindow();
-}
-
-KinectAccess::KinectAccess(DWORD f, FrameWindow* wdw) : flags(f), window(wdw) {
 }
 
 KinectAccess::~KinectAccess(void)
@@ -27,6 +23,7 @@ void KinectAccess::init() {
 
 	//Création du manual reset event, afin d'attendre la disponibilité de la prochaine trame 
 	_videoNextFrame=CreateEvent( NULL, TRUE, FALSE, NULL ); // http://msdn.microsoft.com/en-us/library/windows/desktop/ms682396(v=vs.85).aspx
+	
 	// Parametres : type d'image - resolution - pre-processing de l’image - nb de frames a bufferiser - handle 1 - handle 2
 	hr_ = NuiImageStreamOpen(NUI_IMAGE_TYPE_COLOR, NUI_IMAGE_RESOLUTION_640x480, 0, 2, _videoNextFrame, &_videoStreamHandle);
 
@@ -65,10 +62,10 @@ void KinectAccess::init() {
 		} 
 		//_pD2D1Helper->D2D1GetContexteRendu()->EndDraw();
 	}
-	// ---------- Terminaison ----------
-	NuiShutdown();
+
 }
 
 void KinectAccess::shutdown() {
-
+		// ---------- Terminaison ----------
+	NuiShutdown();
 }
