@@ -28,7 +28,7 @@ private :
 public:
 	FrameWindow(void);
 	~FrameWindow(void);
-	HRESULT createWindow();
+	HRESULT createWdw();
 	HRESULT createFactory();
 	HRESULT createRenderTarget(HWND hw);
 	HRESULT init(HWND hw);

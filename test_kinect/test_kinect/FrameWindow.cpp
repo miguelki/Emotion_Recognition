@@ -15,7 +15,7 @@ FrameWindow::~FrameWindow(void) {
 }
 
 
-HRESULT FrameWindow::createWindow() {
+HRESULT FrameWindow::createWdw() {
 	// Create window
 	HRESULT hr = S_OK;
 	FLOAT dpiX, dpiY;
@@ -84,21 +84,45 @@ HRESULT FrameWindow::createRenderTarget(HWND hw) {
 }
 
 HRESULT FrameWindow::init(HWND hw) {
-	HRESULT hr = S_OK;
+	HRESULT hr;
 
 	// Creer factory
+	hr=createFactory();
 
-	// Si ca a fonctionne, creer fenetre & renderTarget
+	if (SUCCEEDED(hr))
+	{
+		// Si ca a fonctionne, creer fenetre & render target
+		hr = createWdw();
+
+		if (SUCCEEDED(hr))
+			hr = createRenderTarget(hwnd);
+	}
 
 	return hr;
 }
 
+/** Le code vient d'ici : http://blogs.msdn.com/b/devosaure/archive/2011/07/11/comment-d-233-velopper-avec-le-sdk-kinect-en-c-part-i.aspx **/
 HRESULT FrameWindow::drawWindow() {
-	HRESULT hr = S_OK;
+	HRESULT hr=S_OK;
+	pD2DTarget->BeginDraw();
+
+	// dessiner arriere plan
+	RECT rc;
+	GetClientRect(pD2DTarget->GetHwnd(),&rc);
+	D2D1_RECT_F rect;			
+	rect.top =(FLOAT)rc.top ;
+
+	rect.bottom =(FLOAT)rc.bottom ;
+
+	rect.right =(FLOAT)rc.right; 			
+	rect.left =(FLOAT)rc.left;
+
+	pD2DTarget->FillRectangle  (&rect,pBlackBrush);
 
 	return hr;
 }
 
+/** Le code vient d'ici : http://blogs.msdn.com/b/devosaure/archive/2011/07/11/comment-d-233-velopper-avec-le-sdk-kinect-en-c-part-i.aspx **/
 HRESULT FrameWindow::drawFrame(BYTE* frame, UINT32 pitch,UINT32 width,UINT32 height) {
 	HRESULT hr = S_OK;
 
