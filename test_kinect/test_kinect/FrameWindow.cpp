@@ -118,6 +118,8 @@ HRESULT FrameWindow::drawWindow() {
 	rect.left =(FLOAT)rc.left;
 
 	pD2DTarget->FillRectangle  (&rect,pBlackBrush);
+	
+	pD2DTarget->EndDraw();
 
 	return hr;
 }
@@ -135,7 +137,6 @@ HRESULT FrameWindow::drawFrame(BYTE* frame, UINT32 pitch,UINT32 width,UINT32 hei
 
 	properties.pixelFormat.format =DXGI_FORMAT_B8G8R8A8_UNORM     ;
 	properties.pixelFormat.alphaMode =D2D1_ALPHA_MODE_PREMULTIPLIED; 
-
 
 	hr=pD2DTarget->CreateBitmap(size,
 		frame,
@@ -155,6 +156,7 @@ HRESULT FrameWindow::drawFrame(BYTE* frame, UINT32 pitch,UINT32 width,UINT32 hei
 		rect.left =(FLOAT)rc.left;									
 		pD2DTarget->DrawBitmap (pD2D1Frame,&rect);					
 	}	
+
 	SafeRelease (&pD2D1Frame);
 
 	return hr;

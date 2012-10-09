@@ -3,11 +3,12 @@
 
 using namespace std;
 
-KinectAccess::KinectAccess(DWORD f) : flags(f)
-{
+KinectAccess::KinectAccess(DWORD f) : flags(f) {
 	window = new FrameWindow();
 }
 
+KinectAccess::KinectAccess(DWORD f, FrameWindow* wdw) : flags(f), window(wdw) {
+}
 
 KinectAccess::~KinectAccess(void)
 {
