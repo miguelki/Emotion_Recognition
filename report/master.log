@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  11 OCT 2012 10:36
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  11 OCT 2012 19:42
 entering extended mode
 **master.tex
 
@@ -1003,12 +1003,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 
 Package hyperref Warning: Option `pdfpagelabels' has already been used,
-(hyperref)                setting the option has no effect on input line 158.
+(hyperref)                setting the option has no effect on input line 170.
 
-Package hyperref Info: Option `plainpages' set `false' on input line 158.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 158.
+Package hyperref Info: Option `plainpages' set `false' on input line 170.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 170.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 158.
+Package hyperref Info: Option `colorlinks' set `true' on input line 170.
 )
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
 \setup/hyphenations.tex")
@@ -1152,7 +1152,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<figures/aau_logo_en.pdf, id=54, 203.76125pt x 36.135pt>
+<figures/aau_logo_en.pdf, id=61, 203.76125pt x 36.135pt>
 File: figures/aau_logo_en.pdf Graphic file (type pdf)
 
 <use figures/aau_logo_en.pdf>
@@ -1173,19 +1173,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--55
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Pin/Documents/UT
 C/AAU/Interactive systems/Emotion_Recognition/report/figures/aau_logo_en.pdf>])
-
-("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
-\sections/colophon.tex"
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 4.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
-File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 4.
  [2
 
-])
+
+]
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
 \sections/titlepages.tex"
 \titlepageleftcolumnwidth=\skip75
@@ -1211,16 +1202,12 @@ Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
 [] 
  []
 
-[3
-
-]) [4
+[3]) [4
 
 
 ]
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
-\sections/preface.tex") [5
-
-] [6
+\sections/preface.tex") [5] [6
 
 ]
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
@@ -1228,44 +1215,50 @@ Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
 \tf@toc=\write5
 
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
-\sections/introduction.tex" [1
-
-]
+\sections/introduction.tex"
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
-
-]
+[1]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6   \end{titlepage}
+                      [1]
 Chapter 1.
 
-Overfull \hbox (2.65555pt too wide) in paragraph at lines 15--16
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+Overfull \hbox (2.65555pt too wide) in paragraph at lines 22--23
 []\T1/lmr/m/n/10.95 Another do-main that is re-ally in-ter-ested in fa-cial ex-
 pres-sion recog-ni-tion is robotics.
  []
 
-[3]
-Package hyperref Info: bookmark level for unknown exa defaults to 0 on input li
-ne 27.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 46.
-)
+[3]
+Chapter 2.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4])
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
 \sections/ch2name.tex"
+Chapter 3.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1273,26 +1266,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [5]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 2.
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
 
-[6
-
-]
-Chapter 2.
-
-Package natbib Warning: Citation `Madsen2010' on page 7 undefined on input line
+Package natbib Warning: Citation `Madsen2010' on page 6 undefined on input line
  2.
 
 
-Package natbib Warning: Citation `Oetiker2010' on page 7 undefined on input lin
+Package natbib Warning: Citation `Oetiker2010' on page 6 undefined on input lin
 e 2.
 
 
-Package natbib Warning: Citation `Mittelbach2005' on page 7 undefined on input 
+Package natbib Warning: Citation `Mittelbach2005' on page 6 undefined on input 
 line 2.
 
 
@@ -1302,80 +1288,78 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
 )
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
-\sections/conclusion.tex" [7]
+\sections/conclusion.tex"
+Chapter 4.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8
-
-]
-Chapter 3.
-)
+[6])
 No file master.bbl.
 
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
-\sections/appAname.tex" [9]
+\sections/appAname.tex"
+Appendix A.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10
-
-]
-Appendix A.
-)
+[7])
 \tf@thm=\write6
 
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-[11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
 
 ("C:\Users\Pin\Documents\UTC\AAU\Interactive systems\Emotion_Recognition\report
 \master.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 45.
 Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 445160327CBE0B0084FFBD338E5CA158;733.
+(rerunfilecheck)             Checksum: 4AAAFD890C4B702CD0DA6C09D9B1BA84;827.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
  ) 
 Here is how much of TeX's memory you used:
- 18222 strings out of 494045
- 315953 string characters out of 3145975
- 390164 words of memory out of 3000000
- 21047 multiletter control sequences out of 15000+200000
- 80870 words of font info for 65 fonts, out of 3000000 for 9000
+ 18112 strings out of 494045
+ 313900 string characters out of 3145975
+ 390156 words of memory out of 3000000
+ 20961 multiletter control sequences out of 15000+200000
+ 83566 words of font info for 65 fonts, out of 3000000 for 9000
  720 hyphenation exceptions out of 8191
- 65i,14n,78p,858b,681s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/
-fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
-/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb
-><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (17 pages, 298104 bytes).
+ 65i,14n,74p,858b,681s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/public/lm/lmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
+lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on master.pdf (15 pages, 286468 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 204 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 138 words of extra memory for PDF output out of 10000 (max. 10000000)
 

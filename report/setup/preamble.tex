@@ -88,6 +88,18 @@
 % Modify how \chapter, \section, etc. look
 % The titlesec package is very configureable
 \usepackage{titlesec}
+\titleclass{\part}{straight}
+\titleformat{\part}[display]
+  {\centering\normalfont\huge\bfseries}
+  {\normalfont\huge\partname\ \thepart}
+  {20pt}
+  {\Huge}
+\titleclass{\chapter}{straight}
+\titleformat{\chapter}[display]
+  {\newpage\normalfont\bfseries}
+  {\normalfont\LARGE\textbf{\chaptername\ \thechapter}}
+  {20pt}
+  {\huge}
 \titleformat*{\section}{\normalfont\Large\bfseries\color{aaublue}}
 \titleformat*{\subsection}{\normalfont\large\bfseries\color{aaublue}}
 \titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\color{aaublue}}
