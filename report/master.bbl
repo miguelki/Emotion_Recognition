@@ -1,0 +1,31 @@
+\begin{thebibliography}{}
+
+\bibitem[Donato et~al., 1999]{DON99}
+Donato, G., Bartlett, M.~S., Hager, J.~C., Ekman, P., and Sejnowski, T.~J.
+  (1999).
+\newblock Classifying facial actions.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  21(10):974--989.
+
+\bibitem[Madsen, 2010]{Madsen2010}
+Madsen, L. (2010).
+\newblock Introduktion til {LaTeX}.
+\newblock \url{http://www.imf.au.dk/system/latex/bog/}.
+
+\bibitem[Mittelbach, 2005]{Mittelbach2005}
+Mittelbach, F. (2005).
+\newblock {\em The LATEX companion}.
+\newblock Addison-Wesley, 2. ed. edition.
+
+\bibitem[Oetiker, 2010]{Oetiker2010}
+Oetiker, T. (2010).
+\newblock The not so short a introduction to {LaTeX2e}.
+\newblock \url{http://tobi.oetiker.ch/lshort/lshort.pdf}.
+
+\bibitem[Pantic and Rothkrantzi, 2000]{PAN00}
+Pantic, M. and Rothkrantzi, L.~J. (2000).
+\newblock Automatic analysis of facial expressions: the state of the art.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  22(12):1424--1445.
+
+\end{thebibliography}
