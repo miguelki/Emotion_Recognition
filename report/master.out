@@ -2,27 +2,16 @@
 \BOOKMARK [0][-]{label:titlepage_en.0}{English title page}{}% 2
 \BOOKMARK [0][-]{Doc-Start}{Preface}{}% 3
 \BOOKMARK [0][-]{label:contents.0}{Contents}{}% 4
-<<<<<<< HEAD
 \BOOKMARK [-1][-]{part.1}{I Introduction}{}% 5
 \BOOKMARK [0][-]{chapter.1}{1 Motivation}{part.1}% 6
 \BOOKMARK [0][-]{chapter.1}{Motivation}{part.1}% 7
 \BOOKMARK [0][-]{chapter.2}{2 Existing systems}{part.1}% 8
 \BOOKMARK [0][-]{chapter.2}{Existing systems}{part.1}% 9
-\BOOKMARK [0][-]{chapter.3}{3 Chapter 2 name}{part.1}% 10
-\BOOKMARK [0][-]{chapter.3}{Chapter 2 name}{part.1}% 11
-\BOOKMARK [0][-]{chapter.4}{4 Conclusion}{part.1}% 12
-\BOOKMARK [0][-]{chapter.4}{Conclusion}{part.1}% 13
-\BOOKMARK [0][-]{chapter.A}{A Appendix A name}{part.1}% 14
-\BOOKMARK [0][-]{chapter.A}{Appendix A name}{part.1}% 15
-=======
-\BOOKMARK [0][-]{chapter.1}{1 Introduction}{}% 5
-\BOOKMARK [1][-]{section.1.1}{1.1 Motivation}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.1.1}{1.1.1 Facial Expression Recognition system}{section.1.1}% 7
-\BOOKMARK [1][-]{section.1.2}{1.2 Existing systems}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.3}{1.3 How Does Sections, Subsections, and Subsections Look?}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.3.1}{1.3.1 This is a Subsection}{section.1.3}% 10
-\BOOKMARK [0][-]{chapter.2}{2 Chapter 2 name}{}% 11
-\BOOKMARK [0][-]{chapter.3}{3 Conclusion}{}% 12
-\BOOKMARK [0][-]{chapter*.9}{Bibliography}{}% 13
-\BOOKMARK [0][-]{appendix.A}{A Appendix A name}{}% 14
->>>>>>> origin/master
+\BOOKMARK [1][-]{section.2.1}{2.1 Facial Expression Recognition system}{chapter.2}% 10
+\BOOKMARK [0][-]{chapter.3}{3 Chapter 2 name}{part.1}% 11
+\BOOKMARK [0][-]{chapter.3}{Chapter 2 name}{part.1}% 12
+\BOOKMARK [0][-]{chapter.4}{4 Conclusion}{part.1}% 13
+\BOOKMARK [0][-]{chapter.4}{Conclusion}{part.1}% 14
+\BOOKMARK [0][-]{chapter.4}{Bibliography}{part.1}% 15
+\BOOKMARK [0][-]{chapter.A}{A Appendix A name}{part.1}% 16
+\BOOKMARK [0][-]{chapter.A}{Appendix A name}{part.1}% 17
