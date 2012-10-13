@@ -11,6 +11,7 @@ int main(int argc, char* argv[])
 
 
 	KinectAccess* kA = new KinectAccess(flags);
+	kA->init();
 	FrameWindow* wdw = new FrameWindow();
 	KinectController* kC = new KinectController(kA, wdw);
 

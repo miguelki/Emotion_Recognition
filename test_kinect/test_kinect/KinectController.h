@@ -17,7 +17,7 @@ public:
 
 	/** Getters & setters **/
 
-	HWND getWdwHandle() {return window->getHandle();}
+	/*HWND getWdwHandle() {return window->getHandle();}
 	HWND setWdwHandle(HWND wh) {window->setHandle(wh);}
-};
+*/};
 
