@@ -1,5 +1,29 @@
 \begin{thebibliography}{}
 
+\bibitem[Anderson and McOwan, 2006]{AND06}
+Anderson, K. and McOwan, P.~W. (2006).
+\newblock A real-time automated system for recognition of human facial
+  expressions.
+\newblock {\em IEEE Trans. Systems, Man, and Cybernetics Part B},
+  36(1):96--105.
+
+\bibitem[Bartlett et~al., 2003]{BAR03}
+Bartlett, M.~S., Littlewort, G., Fasel, I., and Movellan, J.~R. (2003).
+\newblock Real time face detection and facial expression recognition:
+  Development and application to human computer interaction.
+\newblock {\em Proc. CVPR Workshop on Computer Vision and Pattern Recognition
+  for Human-Computer Interaction}, 5:53.
+
+\bibitem[Bettadapura, 2012]{BET12}
+Bettadapura, V. (2012).
+\newblock Face expression recognition and analysis: The state of the art.
+\newblock {\em Tech Report}.
+
+\bibitem[Darwin, 1904]{DAR04}
+Darwin, C. (1904).
+\newblock {\em The Expression of the Emotions in Man and Animals}.
+\newblock John Murray, 2. ed. edition.
+
 \bibitem[Donato et~al., 1999]{DON99}
 Donato, G., Bartlett, M.~S., Hager, J.~C., Ekman, P., and Sejnowski, T.~J.
   (1999).
@@ -11,11 +35,6 @@ Donato, G., Bartlett, M.~S., Hager, J.~C., Ekman, P., and Sejnowski, T.~J.
 Madsen, L. (2010).
 \newblock Introduktion til {LaTeX}.
 \newblock \url{http://www.imf.au.dk/system/latex/bog/}.
-
-\bibitem[Mittelbach, 2005]{Mittelbach2005}
-Mittelbach, F. (2005).
-\newblock {\em The LATEX companion}.
-\newblock Addison-Wesley, 2. ed. edition.
 
 \bibitem[Oetiker, 2010]{Oetiker2010}
 Oetiker, T. (2010).
