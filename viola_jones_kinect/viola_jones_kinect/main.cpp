@@ -8,6 +8,8 @@
 
 #include "stdafx.h"
 
+using namespace std;
+
 CvHaarClassifierCascade *cascade; 
 CvMemStorage *storage;
 int key;
@@ -26,7 +28,7 @@ int main (int argc, char * const argv[]) {
 
 	if (!capture) {
 
-		printf("Ouverture du flux vidéo impossible !\n");
+		cout << "Ouverture du flux vidéo impossible !" << endl;
 		return -1;
 	}
 
