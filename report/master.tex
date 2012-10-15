@@ -15,7 +15,6 @@
 %  You can find the GNU General Public License at <http://www.gnu.org/licenses/>.
 %
 \input{setup/preamble.tex}% package inclusion and set up of the document
-\input{setup/hyphenations.tex}% 
 \input{setup/macros.tex}% my new macros
 
 \begin{document}
@@ -28,12 +27,12 @@
 \input{sections/preface.tex}
 \cleardoublepage
 \pdfbookmark[0]{Contents}{label:contents}
-\pagestyle{fancy} %enable headers and footers again
+%\pagestyle{fancy} %enable headers and footers again
 \tableofcontents
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
 \input{sections/introduction.tex}
 \bookmarksetup{startatroot}% faire en sorte que la conclusion 
-\addtocontents{toc}{\bigskip} % ne soit pas incluse dans la partie précédente
+%\addtocontents{toc}{\bigskip} % ne soit pas incluse dans la partie précédente
 \newpage
 \input{sections/conclusion.tex}
 \newpage
