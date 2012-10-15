@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 OCT 2012 14:37
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 OCT 2012 15:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1291,7 +1291,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4 <./figures/facial_expression_recognition_process.png>])
+[4 <./figures/facial_expression_recognition_process.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -1359,10 +1369,10 @@ l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/20
 ist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/lm/lmssbx10.pfb>
-Output written on master.pdf (15 pages, 303983 bytes).
+Output written on master.pdf (15 pages, 305067 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
+ 196 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  34 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
