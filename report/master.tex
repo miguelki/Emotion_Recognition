@@ -19,12 +19,10 @@
 \input{setup/macros.tex}% my new macros
 
 \begin{document}
-%frontmatter
 \pagestyle{empty} %disable headers and footers
 \pagenumbering{roman} %use roman page numbering in the frontmatter
 \input{sections/frontpage.tex}
 \cleardoublepage
-%\input{sections/colophon.tex}
 \input{sections/titlepages.tex}
 \cleardoublepage
 \input{sections/preface.tex}
@@ -32,13 +30,17 @@
 \pdfbookmark[0]{Contents}{label:contents}
 \pagestyle{fancy} %enable headers and footers again
 \tableofcontents
-%\listoftodos
-%mainmatter
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
 \input{sections/introduction.tex}
+\bookmarksetup{startatroot}% faire en sorte que la conclusion 
+\addtocontents{toc}{\bigskip} % ne soit pas incluse dans la partie précédente
+\newpage
 \input{sections/conclusion.tex}
+\newpage
 \bibliography{bib/mybib}
 \label{bib:mybiblio}
+\phantomsection
+\newpage
 \appendix
 \input{sections/appAname.tex}
 \end{document}

@@ -90,16 +90,10 @@
 \usepackage{titlesec}
 \titleclass{\part}{straight}
 \titleformat{\part}[display]
-  {\centering\normalfont\huge\bfseries}
-  {\normalfont\huge\partname\ \thepart}
-  {20pt}
-  {\Huge}
+{\normalfont\huge\bfseries}{\centering\partname\ \thepart}{20pt}{\Huge\centering}
 \titleclass{\chapter}{straight}
 \titleformat{\chapter}[display]
-  {\newpage\normalfont\bfseries}
-  {\normalfont\LARGE\textbf{\chaptername\ \thechapter}}
-  {20pt}
-  {\huge}
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
 \titleformat*{\section}{\normalfont\Large\bfseries\color{aaublue}}
 \titleformat*{\subsection}{\normalfont\large\bfseries\color{aaublue}}
 \titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\color{aaublue}}
@@ -153,6 +147,7 @@
 % Enable hyperlinks and insert info into the pdf
 % file. Hypperref should be loaded as one of the 
 % last packages
+\usepackage{bookmark}
 \usepackage{hyperref}
 \hypersetup{%
 	pdfpagelabels=true,%

@@ -1,13 +1,10 @@
 \select@language {english}
 \contentsline {chapter}{Preface}{v}{Doc-Start}
 \contentsline {part}{I\hspace {1em}Introduction}{1}{part.1}
-\contentsline {chapter}{\numberline {1}Motivation}{2}{chapter.1}
-\contentsline {chapter}{Motivation}{3}{chapter.1}
-\contentsline {chapter}{\numberline {2}Existing systems}{4}{chapter.2}
-\contentsline {chapter}{Existing systems}{5}{chapter.2}
+\contentsline {chapter}{\numberline {1}Motivation}{3}{chapter.1}
+\contentsline {chapter}{\numberline {2}Existing systems}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Facial Expression Recognition system}{5}{section.2.1}
-\contentsline {chapter}{\numberline {3}Conclusion}{5}{chapter.3}
-\contentsline {chapter}{Conclusion}{6}{chapter.3}
+\vspace \bigskipamount 
+\contentsline {chapter}{\numberline {3}Conclusion}{6}{chapter.3}
 \contentsline {chapter}{Bibliography}{7}{chapter.3}
-\contentsline {chapter}{\numberline {A}Appendix A name}{7}{chapter.A}
-\contentsline {chapter}{Appendix A name}{8}{chapter.A}
+\contentsline {chapter}{\numberline {A}Appendix A name}{8}{chapter.A}
