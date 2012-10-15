@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  15 OCT 2012 14:13
-=======
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 OCT 2012 14:02
->>>>>>> Avancement intro rapport
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 OCT 2012 14:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -866,18 +862,17 @@ File: tikzlibrarypositioning.code.tex 2008/10/06 v2.10 (rcs-revision 1.7)
 )
 \c@@todonotes@numberoftodonotes=\count135
 )
-<<<<<<< HEAD
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdfescape.sty
 Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -886,10 +881,7 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-=======
 (/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
->>>>>>> Avancement intro rapport
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
 (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
@@ -991,10 +983,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip69
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
+(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count146
 ))
@@ -1005,26 +997,14 @@ Package hyperref Warning: Option `pdfpagelabels' has already been used,
 Package hyperref Info: Option `plainpages' set `false' on input line 165.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 165.
 
-<<<<<<< HEAD
 Package hyperref Info: Option `colorlinks' set `true' on input line 165.
-)
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/hyphenations.te
-x) (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/macros.tex
+) (./setup/hyphenations.tex) (./setup/macros.tex
 \c@currexactr=\count147
 \c@endexactr=\count148
 \c@exa=\count149
-)
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
-=======
-Package hyperref Info: Option `colorlinks' set `true' on input line 170.
-) (./setup/hyphenations.tex) (./setup/macros.tex
-\c@currexactr=\count146
-\c@endexactr=\count147
-\c@exa=\count148
 ) (./master.aux)
 \openout1 = `master.aux'.
 
->>>>>>> Avancement intro rapport
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
@@ -1046,36 +1026,22 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-<<<<<<< HEAD
 \scratchcounter=\count150
-\scratchdimen=\dimen207
+\scratchdimen=\dimen205
 \scratchbox=\box38
 \nofMPsegments=\count151
 \nofMParguments=\count152
-\everyMPshowfont=\toks55
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count153
-\MPscratchDim=\dimen208
+\MPscratchDim=\dimen206
 \MPnumerator=\count154
 \makeMPintoPDFobject=\count155
-\everyMPtoPDFconversion=\toks56
-=======
-\scratchcounter=\count149
-\scratchdimen=\dimen205
-\scratchbox=\box38
-\nofMPsegments=\count150
-\nofMParguments=\count151
-\everyMPshowfont=\toks49
-\MPscratchCnt=\count152
-\MPscratchDim=\dimen206
-\MPnumerator=\count153
-\makeMPintoPDFobject=\count154
 \everyMPtoPDFconversion=\toks50
 ) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
->>>>>>> Avancement intro rapport
 )
 Package grfext Info: Graphics extension search list:
 (grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
@@ -1140,16 +1106,7 @@ LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
 LaTeX Info: Redefining \nameref on input line 21.
 
-<<<<<<< HEAD
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/frontpage.te
-x
-=======
-(./master.out) (./master.out)
-\@outlinefile=\write4
-\openout4 = `master.out'.
-
- (./sections/frontpage.tex
->>>>>>> Avancement intro rapport
+(./sections/frontpage.tex
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 21.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
@@ -1188,11 +1145,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<<<<<<< HEAD
-<figures/aau_logo_en.pdf, id=6, 203.76125pt x 36.135pt>
-=======
-<figures/aau_logo_en.pdf, id=62, 203.76125pt x 36.135pt>
->>>>>>> Avancement intro rapport
+<figures/aau_logo_en.pdf, id=7, 203.76125pt x 36.135pt>
 File: figures/aau_logo_en.pdf Graphic file (type pdf)
 
 <use figures/aau_logo_en.pdf>
@@ -1245,15 +1198,10 @@ Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
 
 ] (./sections/preface.tex) [5] [6
 
-<<<<<<< HEAD
-] (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc)
-\tf@toc=\write4
-=======
 ] (./master.toc)
-\tf@toc=\write5
-\openout5 = `master.toc'.
+\tf@toc=\write4
+\openout4 = `master.toc'.
 
->>>>>>> Avancement intro rapport
 
 (./sections/introduction.tex
 
@@ -1268,13 +1216,6 @@ as been already used, duplicate ignored
                    \relax 
 l.6   \end{titlepage}
                       [1]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
@@ -1292,6 +1233,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
  []
 
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
@@ -1308,14 +1255,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [3]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4]
-<<<<<<< HEAD
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--43
@@ -1323,12 +1262,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 
-<figures/facial_expression_recognition_process.png, id=97, 689.57625pt x 294.09
+<figures/facial_expression_recognition_process.png, id=94, 689.57625pt x 294.09
 875pt>
-=======
-<figures/facial_expression_recognition_process.png, id=147, 689.57625pt x 294.0
-9875pt>
->>>>>>> Avancement intro rapport
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
  <use figures/facial_expression_recognition_process.png>
@@ -1340,67 +1275,52 @@ Overfull \hbox (12.56506pt too wide) in paragraph at lines 47--48
 [] 
  []
 
-<<<<<<< HEAD
-)
-=======
-) (./sections/conclusion.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./figures/facial_expression_recognition_process.png>])
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5] (./sections/conclusion.tex
 Chapter 3.
->>>>>>> Avancement intro rapport
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-<<<<<<< HEAD
-[5 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_exp
-ression_recognition_process.png>]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
-ex
-Chapter 3.
 )
-=======
-[5 <./figures/facial_expression_recognition_process.png>]
->>>>>>> Avancement intro rapport
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<<<<<<< HEAD
-[6] (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl)
-=======
-[6]) (./master.bbl
+[6] (./master.bbl)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]) (./sections/appAname.tex
-Appendix A.
->>>>>>> Avancement intro rapport
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-<<<<<<< HEAD
-[7]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/appAname.tex
+[7] (./sections/appAname.tex
 Appendix A.
 )
 \tf@thm=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
-=======
-[8])
-\tf@thm=\write6
-\openout6 = `master.thm'.
+\openout5 = `master.thm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
->>>>>>> Avancement intro rapport
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1408,21 +1328,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-<<<<<<< HEAD
 [8]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
- (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
+ (./master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 46.
-=======
-[9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
- (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
-Package rerunfilecheck Info: File `master.out' has not changed.
-(rerunfilecheck)             Checksum: 36877B25908BAEAF646CDDC9F1059901;839.
->>>>>>> Avancement intro rapport
 
 
 LaTeX Warning: There were undefined references.
@@ -1430,39 +1340,13 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 18007 strings out of 494045
- 312382 string characters out of 3145975
- 389840 words of memory out of 3000000
- 20840 multiletter control sequences out of 15000+200000
+ 18069 strings out of 493488
+ 311972 string characters out of 3141326
+ 390442 words of memory out of 3000000
+ 20911 multiletter control sequences out of 15000+200000
  81822 words of font info for 64 fonts, out of 3000000 for 9000
- 720 hyphenation exceptions out of 8191
- 65i,14n,57p,913b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
-MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
-s/type1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi
-7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 
-2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
-lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10
-.pfb>
-Output written on master.pdf (15 pages, 323620 bytes).
-PDF statistics:
- 189 PDF objects out of 1000 (max. 8388607)
- 33 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
- 17799 strings out of 493488
- 307356 string characters out of 3141326
- 387732 words of memory out of 3000000
- 20655 multiletter control sequences out of 15000+200000
- 87835 words of font info for 66 fonts, out of 3000000 for 9000
  962 hyphenation exceptions out of 8191
- 65i,14n,57p,903b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,14n,57p,913b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
 12/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2012/texmf-dist/
@@ -1470,17 +1354,15 @@ fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
 1/public/lm/lmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
 m/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
-/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx
-10.pfb>
-Output written on master.pdf (16 pages, 325257 bytes).
+l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/20
+12/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
+c/lm/lmssbx10.pfb>
+Output written on master.pdf (15 pages, 303983 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 191 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 143 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> Avancement intro rapport
+ 194 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 
