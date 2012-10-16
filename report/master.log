@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 OCT 2012 15:57
-=======
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  15 OCT 2012 19:49
->>>>>>> nettoyage en-tête
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  16 OCT 2012 08:06
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -1243,7 +1239,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 
-<figures/facial_expression_recognition_process.png, id=93, 689.57625pt x 294.09
+<figures/facial_expression_recognition_process.png, id=99, 689.57625pt x 294.09
 875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1267,16 +1263,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--54
  []
 
 [4 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_exp
-ression_recognition_process.png>])
-Underfull \hbox (badness 10000) in paragraph at lines 55--36
-
-<<<<<<< HEAD
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[4 <./figures/facial_expression_recognition_process.png>]
+ression_recognition_process.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
@@ -1287,65 +1274,91 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--60
  []
 
 )
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
+ction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 61--2
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 13.59999pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-=======
  []
->>>>>>> nettoyage en-tête
 
-[5]
+[5]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6   \end{titlepage}
+                      [1])
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
+sification.texpdfTeX warning (ext4): destination with the same identifier (name
+{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2   \begin{titlepage}
+                        [2]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6   \end{titlepage}
+                      [1])
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
+expdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2   \begin{titlepage}
+                        [2]pdfTeX warning (ext4): destination with the same ide
+ntifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.6   \end{titlepage}
+                      [1])pdfTeX warning (ext4): destination with the same iden
+tifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \newpage
+              [2]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
-ex
-Chapter 3.
-) [6] (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl)
-[7]
+ex)pdfTeX warning (ext4): destination with the same identifier (name{page.3}) h
+as been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 \newpage
+              [3]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl)pdfTeX war
+ning (ext4): destination with the same identifier (name{page.4}) has been alrea
+dy used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.45 \newpage
+              [4]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/appAname.tex
 Appendix A.
 )
 \tf@thm=\write5
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 45.
- [8]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 45.
- (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 45.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 45.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 48.
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \end{document}
+                    [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 48.
+
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 48.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 48.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 45.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 48.
  ) 
 Here is how much of TeX's memory you used:
- 17878 strings out of 494045
- 310871 string characters out of 3145975
- 385879 words of memory out of 3000000
- 20722 multiletter control sequences out of 15000+200000
+ 17892 strings out of 494045
+ 311476 string characters out of 3145975
+ 385878 words of memory out of 3000000
+ 20725 multiletter control sequences out of 15000+200000
  81822 words of font info for 64 fonts, out of 3000000 for 9000
-<<<<<<< HEAD
- 962 hyphenation exceptions out of 8191
- 65i,14n,57p,913b,427s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-12/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}</usr/local/texlive/2012/texmf-dist/
-fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/public/lm/lmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
-m/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/20
-12/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-d
-ist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/lm/lmssbx10.pfb>
-Output written on master.pdf (15 pages, 305067 bytes).
-PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
-=======
  715 hyphenation exceptions out of 8191
- 65i,14n,57p,913b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 65i,14n,57p,913b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}<C:/Program Files (x86)/MiKTeX 2.9/font
@@ -1358,10 +1371,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files
 ype1/public/lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/
 lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10
 .pfb>
-Output written on master.pdf (15 pages, 324479 bytes).
+Output written on master.pdf (21 pages, 330592 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
->>>>>>> nettoyage en-tête
- 34 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 226 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
