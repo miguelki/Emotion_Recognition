@@ -9,15 +9,15 @@ class KinectController
 private:
 	KinectAccess* model;
 	FrameWindow* window;
+	char* title;
 
 public:
 	KinectController(DWORD f);
-	KinectController(KinectAccess* m, FrameWindow* w);
+	KinectController(KinectAccess* m, FrameWindow* w, char* t);
 	~KinectController(void);
 
-	/** Getters & setters **/
-
-	/*HWND getWdwHandle() {return window->getHandle();}
-	HWND setWdwHandle(HWND wh) {window->setHandle(wh);}
-*/};
+	void init();
+	void display();
+	void shutdown();	
+};
 

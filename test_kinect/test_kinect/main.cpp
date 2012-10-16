@@ -11,9 +11,11 @@ int main(int argc, char* argv[])
 
 
 	KinectAccess* kA = new KinectAccess(flags);
-	kA->init();
 	FrameWindow* wdw = new FrameWindow();
-	KinectController* kC = new KinectController(kA, wdw);
+	KinectController* kC = new KinectController(kA, wdw, "Face Expression Recognition");
+	kC->init();
+	kC->display();
+	kC->shutdown();
 
 	system("pause");
 
