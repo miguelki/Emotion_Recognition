@@ -9,7 +9,7 @@ KinectController::KinectController(DWORD f) {
 }
 
 
-KinectController::KinectController(KinectAccess* m, FrameWindow* w, char* t) : model(m), window(w) {
+KinectController::KinectController(KinectAccess* m, FrameWindow* w, char* t) : model(m), window(w), img(NULL) {
 	title = new char[100];
 	strcpy(title, t);
 }
@@ -27,16 +27,19 @@ void KinectController::display() {
 
 	int key = 'a';
 	while( key != 'q' ) { 
+		if (img != NULL)
+			delete img;
+
 		model->fetchImg();
 		BYTE* buffer = model->getBuffer();
 		if (buffer != NULL) {
-		IplImage * img = NULL;
-		img = cvCreateImage(cvSize(640, 480), 8, 4);
+		IplImage * iplimg = NULL;
+		iplimg = cvCreateImage(cvSize(640, 480), 8, 4);
 
-		cvSetData(img,(BYTE*) buffer, img->widthStep);
-		Mat m(img);
-		IplImage iplimg(m);
-		window->displayImg(&iplimg, title);
+		cvSetData(iplimg,(BYTE*) buffer, iplimg->widthStep);
+		Mat m(iplimg);
+		img = new IplImage(m);
+		window->displayImg(img, title);
 
 		key = cvWaitKey( 10 ); 
 		}
@@ -49,6 +52,7 @@ void KinectController::shutdown() {
 	model->shutdown();
 	window->destroyWindow(title);
 	delete[] title;
+	delete img;
 	//cvReleaseHaarClassifierCascade( &cascade );
 	//cvReleaseMemStorage( &storage );
 

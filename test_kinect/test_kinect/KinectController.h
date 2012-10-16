@@ -10,6 +10,7 @@ private:
 	KinectAccess* model;
 	FrameWindow* window;
 	char* title;
+	IplImage* img;
 
 public:
 	KinectController(DWORD f);
