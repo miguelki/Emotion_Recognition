@@ -62,11 +62,13 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \phantomsection
 \section{Existing systems}
 
-\noindent Principal Component Analysis (PCA)
+\noindent Principal Component Analysis (PCA) : Principal Component Analysis is a statistical method; one of the most used in linear algebra. PCA is mainly used to reduce high dimensionality of data and to obtain the most important information from this data. Because Facial Expression Recognition needs to reduce the dimensionality of data during features extraction, PCA is commonly used. It helps transforming high dimensionality of data to a new coordinate system of lower dimensions while still preserving the most important information. PCA computes a covariance matrix and a set of values called the eigenvalues and eigenvectors from the original data \cite{GAN08}.
 \newline
-\noindent Linear Discriminant Analysis (LDA)
+
+\noindent Linear Discriminant Analysis (LDA) : Linear Discriminant Analysis is a statistical method as PCA, used to classify a set of objects into groups. It is done by observing a set of features that describe the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. The main difference is that LDA uses the linear relationship to model the differences into classes of objects and PCA does not take any differences into account in the linear relationship. The idea is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}.
 \newline
-\noindent Problem Based Learning (PBL) : Problem Based Learning is a features extraction method with an appearance based approach. It can be used to describe texture and shape. PBL extracts some informations from the neighborhood of a central pixel. It compares the intensity value of the neighborhood pixels with the intensity value of the central pixel  \cite{GAN08}.
+
+\noindent Problem Based Learning (PBL) : Problem Based Learning is a features extraction method with an appearance based approach. It can be used to describe texture and shape. PBL extracts some informations from the neighborhood of a central pixel. It compares the intensity values of the neighborhood pixels with the intensity value of the central pixel  \cite{GAN08}.
 \newline
 
 \noindent Hidden Markov Model (HMM)
