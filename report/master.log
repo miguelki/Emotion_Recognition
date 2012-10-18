@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 OCT 2012 10:48
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  18 OCT 2012 11:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1292,22 +1292,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--77
+Underfull \hbox (badness 10000) in paragraph at lines 65--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 72--78
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
 
 ) (./sections/feature_detection.tex
-Underfull \hbox (badness 10000) in paragraph at lines 98--2
+Underfull \hbox (badness 10000) in paragraph at lines 99--2
 
  []
 
@@ -1389,10 +1394,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
  ) 
 Here is how much of TeX's memory you used:
- 17988 strings out of 493488
- 311331 string characters out of 3141326
- 389433 words of memory out of 3000000
- 20815 multiletter control sequences out of 15000+200000
+ 17990 strings out of 493488
+ 311348 string characters out of 3141326
+ 389460 words of memory out of 3000000
+ 20816 multiletter control sequences out of 15000+200000
  81822 words of font info for 64 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  65i,14n,57p,913b,419s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1409,10 +1414,10 @@ ist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/
 type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssb
 x10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on master.pdf (25 pages, 314293 bytes).
+Output written on master.pdf (25 pages, 314757 bytes).
 PDF statistics:
- 278 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 46 named destinations out of 1000 (max. 500000)
+ 280 PDF objects out of 1000 (max. 8388607)
+ 237 compressed objects within 3 object streams
+ 47 named destinations out of 1000 (max. 500000)
  143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

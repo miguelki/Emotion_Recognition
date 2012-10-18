@@ -35,6 +35,11 @@ Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
 \newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
   21(10):974--989, 1999.
 
+\bibitem{GAN08}
+Abhiram Ganesh.
+\newblock Evaluation of appearance based methods for facial expression
+  recognition, 2008.
+
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
 \newblock Automatic analysis of facial expressions: the state of the art.
