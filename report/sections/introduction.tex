@@ -10,7 +10,6 @@
 \chapter*{Contents}
 
 First, this project is motivated by analyzing the need of robust facial expression recognition systems for various applications. Then already existing algorithms will be studied to choose one that is basic but effective in order to improve it. In the last part, the problem will be formulated.
-\pagebreak
 
 \phantomsection
 \chapter{Motivation}
@@ -34,10 +33,10 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \newpage
 
 \phantomsection
-\chapter{Facial expression recognition}
+\chapter{Existing systems}
 
 \phantomsection
-\section{General structure}
+\section{Facial Expression Recognition system}
 
 \noindent Facial Expression Recognition is a system that allows to recognize emotion on a human face in an automatic way. Facial Expression Recognition can be based on images or on videos; it can be real time or not. Most of the time, searchers use images of human faces and try to recognize the emotion. But this can also be done in real time by using video. While the person is having and expressing his emotions, the Facial Expression Recognition system is analyzing the video and detect in real time the emotion of the person.
 \newline
@@ -56,20 +55,23 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \noindent The third step is "Pre-processing". It consists of applying different processing to the image. This way the image processed is optimized for the next step that is "Features Extraction".The most used processing are: noise removal, normalization against the variation of pixel position or brightness, segmentation, location, or tracking of the parts of the face. Emotion recognition is also sensitive to transformation, scaling and rotation of the head in the image or image sequence. In order to supplant this problem, the image can be geometrically standardized. Usually, this standardization is based on references that make the eyes \cite{CHI03}.
 \newline
 
-\noindent Once the image has been prepared while the "Pre-processing" part, the next and fourth step is "Features Extraction". It is this step that converts image data into a higher representation of shape, texture, color, etc... The extracted data are used for the next step that is "Classification". One of the main goals of this step is to reduce the dimensionality of the input space. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}.
+\noindent Once the image has been prepared while the "Pre-processing" part, the next and fourth step is "Features Extraction". It is this step that converts image data into a higher representation of shape, texture, color, etc... The extracted data are used for the next step that is "Classification". One of the main goals of this step is to reduce the dimensionality of the input space. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}. There is a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Problem Based Learning (PBL), Hidden Markov Model (HMM), Eigenfaces, Gabor Wavelets.
 \newline
+
+\noindent Principal Component Analysis (PCA)
+\newline
+\noindent Linear Discriminant Analysis (LDA)
+\newline
+\noindent Problem Based Learning (PBL)
+\newline
+\noindent Hidden Markov Model (HMM)
+\newline
+\noindent Eigenfaces
+\newline
+\noindent Gabor Wavelets
+\newline
+
+
 
 \noindent Before developing a facial expression recognition project, it is important to know what already exist; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a system for the project.
 \newline
-
-\phantomsection
-\section{Issues}
-
-
-\phantomsection
-\section{Requirements}
-
-\phantomsection
-\chapter{Existing systems}
-
-
