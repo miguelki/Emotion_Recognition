@@ -4,9 +4,9 @@
 \contentsline {chapter}{\numberline {1}Motivation}{3}{chapter.1}
 \contentsline {chapter}{\numberline {2}Facial expression recognition}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}General structure}{5}{section.2.1}
-\contentsline {section}{\numberline {2.2}Issues}{6}{section.2.2}
-\contentsline {section}{\numberline {2.3}Requirements}{6}{section.2.3}
-\contentsline {section}{\numberline {2.4}Existing systems}{7}{section.2.4}
+\contentsline {section}{\numberline {2.2}Existing systems}{6}{section.2.2}
+\contentsline {section}{\numberline {2.3}Issues}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Requirements}{7}{section.2.4}
 \contentsline {part}{II\hspace {1em}Feature detection}{1}{part.2}
 \contentsline {part}{III\hspace {1em}Feature classification}{1}{part.3}
 \contentsline {part}{IV\hspace {1em}Implementation}{1}{part.4}
