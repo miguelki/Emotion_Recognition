@@ -13,7 +13,7 @@ First, this project is motivated by analyzing the need of robust facial expressi
 \pagebreak
 
 \phantomsection
-\chapter{Motivation}
+\chapter{Motivations}
 
 A facial expression is a visible manifestation of the effective state, cognitive activity, intent, personality, and psychopathology of a person \cite{DON99}; facial expressions play a significant role in human dialogue and interaction. Indeed, facial expressions carry more informations than mere speech, informations on which humans can relay for interaction. Facial expressions have a considerable effect on a listening interlocutor; a speaker facial expressions accounts for about 55 percent of the effect, 38 percent of the latter is conveyed by voice intonation and 7 percent by the spoken words \cite{PAN00}.
 \newline
@@ -39,24 +39,24 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \phantomsection
 \section{General structure}
 
-\noindent Facial Expression Recognition is a system that allows to recognize emotion on a human face in an automatic way. Facial Expression Recognition can be based on images or on videos; it can be real time or not. Most of the time, searchers use images of human faces and try to recognize the emotion. But this can also be done in real time by using video. While the person is having and expressing his emotions, the Facial Expression Recognition system is analyzing the video and detect in real time the emotion of the person.
+\noindent Facial expression eecognition is a system enabling an automatic recognition of emotions displayed by a human face. Facial expression recognition can be image or video-based; it can also be computed real-time. Most of the time, researchers try to recognize emotions ou of images of human faces. This can also be achieved real-time on video streams : While the person displays his/her emotions, the facial expression recognition system analyzes the video, and detect in real-time the displayed emotion.
 \newline
 
-\noindent In both cases, Facial Expression Recognition process is composed as follows:
+\noindent In both cases, facial expression recognition process is structured as follows:
 
 
 \noindent \includegraphics[scale=0.6]{figures/facial_expression_recognition_process}
 
-\noindent The first step of the process is "Image Acquisition". The images used for Facial Expression Recognition can be static images or a image sequences. Image sequences gives more information about the facial expression, as the steps in the movement of the muscles of the face to get to the facial expression. Concerning the static images, most of the time, 2D grey-scale images are used for automatic Facial Expression Recognition system. But in the future, more and more systems will potentially use more and more colour images. First because the technologies capable of capturing images or image sequences become more affordable. And then, because colours can give more information on emotion as blushing \cite{CHI03}.
+\noindent First step of the process is "Image Acquisition". Images used for facial expression recognition can be static images or image sequences. Image sequences give more informations about the facial expression, as the steps in muscles movement. About static images, facial expression recognition systems usually need 2D greyscale images as inputs. We can however expect future systems to use colour images; first because of the increasing affordability of technologies and devices capable of capturing images or image sequences; then because colours can give more information on emotions, i.e blushing \cite{CHI03}.
 \newline
 
-\noindent The second step is "Face Detection". "Face Detection" is a step that can be included in the 'Pre-processing' one. But because it is necessary to do it; it represents a step in itself. Indeed, in a static image and even more in an image sequence, the need of detecting the face is obvious. Once the face has been detecting, all the other information in the image can be deleted; only the face is needed. In a Facial Expression Recognition system working in real-time with image sequences, the face needs to be detected but also to be tracked. The most used and famous algorithm capable of doing that is the Viola-Jones Algorithm. It can be trained to detect all kind of objects; but it is mostly used for face detection.
+\noindent Second step is "Face Detection". Indeed, in a static image and even more in an images sequence, this is an obvious need. Once the face has been detected, all other non-relevant information can be deleted, since only the face is needed. It could hence be included in the next step, which is "Pre-processing", but because of its importance it represents a step in itself. In a real-time facial expression recognition system working with image sequences, the face has to be detected, but also tracked. One of the most used and famous detection and tracking algorithm is the Viola-Jones Algorithm, which we will explain in detail later in ths report. This algorithm can be trained to detect all kind of objects, but is mostly used for face detection. 
 \newline
 
-\noindent The third step is "Pre-processing". It consists of applying different processing to the image. This way the image processed is optimized for the next step that is "Features Extraction".The most used processing are: noise removal, normalization against the variation of pixel position or brightness, segmentation, location, or tracking of the parts of the face. Emotion recognition is also sensitive to transformation, scaling and rotation of the head in the image or image sequence. In order to supplant this problem, the image can be geometrically standardized. Usually, this standardization is based on references that make the eyes \cite{CHI03}.
+\noindent Third step is "Pre-processing", which is about applying  image processing algorithms to the image, in order to prepare it for the next step. Pre-processing is usually about noise removal, normalization against the variation of pixel position or brightness, segmentation, location, or tracking of parts of the face. Emotion recognition is also sensitive to transformation, scaling and rotation of the head in the image or image sequence. In order to solve this problem, the image can be geometrically standardized. References used for this standardization are usually the eyes \cite{CHI03}.
 \newline
 
-\noindent Once the image has been prepared while the "Pre-processing" part, the next and fourth step is "Features Extraction". It is this step that converts image data into a higher representation of shape, texture, color, etc... The extracted data are used for the next step that is "Classification". One of the main goals of this step is to reduce the dimensionality of the input space. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}. There is a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Problem Based Learning (PBL), Hidden Markov Model (HMM), Eigenfaces, Gabor Wavelets.
+\noindent Once the image has gone through the "Pre-processing" step, the next one is "Features Extraction". In this step, data is converted into a higher representation of shape, motion, colour, texture, and spatial configuration of the face or its components. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}. There are a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Problem Based Learning (PBL), Hidden Markov Model (HMM), Eigenfaces, Gabor Wavelets. The extracted data is then used in the "Classification" step.
 \newline
 
 \phantomsection
