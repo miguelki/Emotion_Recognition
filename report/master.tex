@@ -27,7 +27,7 @@
 \input{sections/preface.tex}
 \cleardoublepage
 \pdfbookmark[0]{Contents}{label:contents}
-%\pagestyle{fancy} %enable headers and footers again
+\pagestyle{plain} %enable headers and footers again
 \tableofcontents
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
 \input{sections/introduction.tex}
@@ -43,7 +43,7 @@
 \bibliography{bib/mybib}
 \label{bib:mybiblio}
 \phantomsection
-\newpage
+\cleardoublepage
 \appendix
 \input{sections/appAname.tex}
 \end{document}

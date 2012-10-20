@@ -84,16 +84,19 @@
 \usepackage[
   left=28mm,% left margin on an odd page
   right=41mm,% right margin on an odd page
-  ]{geometry}
+  ]{geometry} 
+  
 % Modify how \chapter, \section, etc. look
 % The titlesec package is very configureable
 \usepackage{titlesec}
 \titleclass{\part}{straight}
 \titleformat{\part}[display]
 {\normalfont\huge\bfseries}{\centering\partname\ \thepart}{20pt}{\Huge\centering}
+
 \titleclass{\chapter}{straight}
 \titleformat{\chapter}[display]
 {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
 \titleformat*{\section}{\normalfont\Large\bfseries\color{aaublue}}
 \titleformat*{\subsection}{\normalfont\large\bfseries\color{aaublue}}
 \titleformat*{\subsubsection}{\normalfont\normalsize\bfseries\color{aaublue}}
@@ -133,12 +136,14 @@
 \usepackage[nottoc]{tocbibind}
 % Add the command \pageref{LastPage} which refers to the
 % page number of the last page
-\usepackage[
-%  disable, %turn off todonotes
-  colorinlistoftodos, %enable a coloured square in the list of todos
-  textwidth=\marginparwidth, %set the width of the todonotes
-  textsize=scriptsize, %size of the text in the todonotes
-  ]{todonotes}
+\usepackage{lastpage}
+
+% prevent page counter to be reset after new part
+% I DON'T GET IT, but it works
+\let\oldsetcounter=\setcounter
+\renewcommand\setcounter[2]{%
+    \def\arg{#1}\def\pg{page}%
+    \ifx\arg\pg\else\oldsetcounter{#1}{#2}\fi}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Hyperlinks
@@ -150,7 +155,6 @@
 \usepackage{bookmark}
 \usepackage{hyperref}
 \hypersetup{%
-	pdfpagelabels=true,%
 	plainpages=false,%
 	pdfauthor={Author(s)},%
 	pdftitle={Title},%
@@ -159,7 +163,7 @@
 	colorlinks,%
 	citecolor=black,%
 	filecolor=black,%
-	linkcolor=aaublue,% you should probably change this to black before printing
+	linkcolor=black,% you should probably change this to black before printing
 	urlcolor=black,%
 	pdfstartview=FitH%
 }
