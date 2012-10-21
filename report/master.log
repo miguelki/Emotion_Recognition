@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  20 OCT 2012 19:09
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  21 OCT 2012 13:25
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -593,25 +593,6 @@ Package tocbibind Note: Using chapter style headings, unless overridden.
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
-Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
@@ -624,7 +605,8 @@ Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
 Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
@@ -635,8 +617,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package hobsub Info: Skipping package `pdftexcmds' (already loaded).
-Package hobsub Info: Skipping package `pdfescape' (already loaded).
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
 Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
 Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
@@ -669,6 +656,7 @@ Now handling font encoding PD1 ...
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+Package hyperref Info: Option `hypertexnames' set `false' on input line 3941.
 Package hyperref Info: Hyper figures OFF on input line 4062.
 Package hyperref Info: Link nesting OFF on input line 4067.
 Package hyperref Info: Hyper index ON on input line 4070.
@@ -714,6 +702,14 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip63
 )
+Package hyperref Info: Option `plainpages' set `false' on input line 170.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 170.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 170.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
@@ -721,11 +717,6 @@ Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count125
 ))
-Package hyperref Info: Option `plainpages' set `false' on input line 169.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 169.
-
-Package hyperref Info: Option `colorlinks' set `true' on input line 169.
-)
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/macros.tex)
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -982,7 +973,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
  []
 
 
-<figures/facial_expression_recognition_process.png, id=112, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=113, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1049,7 +1040,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--92
 )
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
 ction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 101--1
+Underfull \hbox (badness 10000) in paragraph at lines 101--2
 
  []
 
@@ -1061,32 +1052,37 @@ on.tex [12] [13])
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
 ex [14] [15]) [16]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
-ex) [17] (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl)
-[18]
+ex) [17
+
+] [18
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl) [19]
+[20
+
+]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/appAname.tex
 Appendix A.
 )
 \tf@thm=\write4
  
 AED: lastpage setting LastPage
-[19
-
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 49.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 49.
+[21]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
  (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 49.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 49.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 49.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
  ) 
 Here is how much of TeX's memory you used:
- 9750 strings out of 494045
- 142971 string characters out of 3145975
- 241429 words of memory out of 3000000
- 12752 multiletter control sequences out of 15000+200000
+ 9745 strings out of 494045
+ 142566 string characters out of 3145975
+ 241277 words of memory out of 3000000
+ 12751 multiletter control sequences out of 15000+200000
  81822 words of font info for 64 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,14n,38p,885b,417s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,885b,414s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
 MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
@@ -1100,9 +1096,9 @@ ype1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on master.pdf (25 pages, 345167 bytes).
+Output written on master.pdf (27 pages, 346339 bytes).
 PDF statistics:
- 290 PDF objects out of 1000 (max. 8388607)
- 59 named destinations out of 1000 (max. 500000)
+ 301 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

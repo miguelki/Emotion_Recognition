@@ -140,6 +140,7 @@
 
 % prevent page counter to be reset after new part
 % I DON'T GET IT, but it works
+% http://typethinker.blogspot.dk/2009/01/sequential-page-numbering-in-latex.html
 \let\oldsetcounter=\setcounter
 \renewcommand\setcounter[2]{%
     \def\arg{#1}\def\pg{page}%
@@ -152,8 +153,8 @@
 % Enable hyperlinks and insert info into the pdf
 % file. Hypperref should be loaded as one of the 
 % last packages
-\usepackage{bookmark}
-\usepackage{hyperref}
+
+\usepackage[hypertexnames=false]{hyperref}
 \hypersetup{%
 	plainpages=false,%
 	pdfauthor={Author(s)},%
@@ -167,3 +168,5 @@
 	urlcolor=black,%
 	pdfstartview=FitH%
 }
+
+\usepackage{bookmark}

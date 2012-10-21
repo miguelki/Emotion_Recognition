@@ -1,16 +1,16 @@
 \select@language {english}
 \contentsline {chapter}{Preface}{v}{Doc-Start}
 \contentsline {part}{I\hspace {1em}Introduction}{2}{part.1}
-\contentsline {chapter}{\numberline {1}Motivations}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Facial expression recognition}{6}{chapter.2}
-\contentsline {section}{\numberline {2.1}General structure}{6}{section.2.1}
-\contentsline {section}{\numberline {2.2}Existing systems}{7}{section.2.2}
-\contentsline {section}{\numberline {2.3}Issues}{8}{section.2.3}
-\contentsline {section}{\numberline {2.4}Requirements}{8}{section.2.4}
-\contentsline {part}{II\hspace {1em}Feature detection}{9}{part.2}
-\contentsline {part}{III\hspace {1em}Feature classification}{11}{part.3}
-\contentsline {part}{IV\hspace {1em}Implementation}{13}{part.4}
-\contentsline {part}{V\hspace {1em}Evaluation}{15}{part.5}
-\contentsline {chapter}{Conclusion}{17}{section*.11}
-\contentsline {chapter}{Bibliography}{18}{section*.11}
-\contentsline {chapter}{\numberline {A}Appendix A name}{19}{chapter.A}
+\contentsline {chapter}{\numberline {1}Motivations}{4}{chapter.4}
+\contentsline {chapter}{\numberline {2}Facial expression recognition}{6}{chapter.6}
+\contentsline {section}{\numberline {2.1}General structure}{6}{section.8}
+\contentsline {section}{\numberline {2.2}Existing systems}{7}{section.10}
+\contentsline {section}{\numberline {2.3}Issues}{8}{section.12}
+\contentsline {section}{\numberline {2.4}Requirements}{8}{section.14}
+\contentsline {part}{II\hspace {1em}Feature detection}{9}{part.15}
+\contentsline {part}{III\hspace {1em}Feature classification}{11}{part.17}
+\contentsline {part}{IV\hspace {1em}Implementation}{13}{part.19}
+\contentsline {part}{V\hspace {1em}Evaluation}{15}{part.21}
+\contentsline {chapter}{Conclusion}{17}{section*.23}
+\contentsline {chapter}{Bibliography}{19}{section*.24}
+\contentsline {chapter}{\numberline {A}Appendix A name}{21}{chapter.26}

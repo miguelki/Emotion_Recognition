@@ -35,13 +35,14 @@
 \input{sections/feature_classification.tex}
 \input{sections/implementation.tex}
 \input{sections/evaluation.tex}
-\bookmarksetup{startatroot}% faire en sorte que la conclusion 
-%\addtocontents{toc}{\bigskip} % ne soit pas incluse dans la partie précédente
-\newpage
+\hypersetup{bookmarksdepth=0} 
+\bookmarksetup{startatroot}% faire en sorte que la conclusion ne soit pas incluse dans la partie précédente
+\cleardoublepage
 \input{sections/conclusion.tex}
-\newpage
+\cleardoublepage
+\phantomsection
+%\label{bib:mybiblio}
 \bibliography{bib/mybib}
-\label{bib:mybiblio}
 \phantomsection
 \cleardoublepage
 \appendix
