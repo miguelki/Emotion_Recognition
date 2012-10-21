@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  21 OCT 2012 13:25
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  21 OCT 2012 23:24
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -1008,39 +1008,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 68--70
 
  []
 
-[7]
+
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--80
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+Underfull \hbox (badness 10000) in paragraph at lines 77--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--95
 
  []
 
 )
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
 ction.tex
-Underfull \hbox (badness 10000) in paragraph at lines 101--2
+Underfull \hbox (badness 10000) in paragraph at lines 104--2
 
  []
 
@@ -1068,12 +1068,12 @@ Appendix A.
  
 AED: lastpage setting LastPage
 [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 50.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 50.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
  (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 50.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 50.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 50.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
  ) 
 Here is how much of TeX's memory you used:
  9745 strings out of 494045
@@ -1096,7 +1096,7 @@ ype1/public/lm/lmri10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /lm/lmri9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.p
 fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on master.pdf (27 pages, 346339 bytes).
+Output written on master.pdf (27 pages, 348411 bytes).
 PDF statistics:
  301 PDF objects out of 1000 (max. 8388607)
  63 named destinations out of 1000 (max. 500000)

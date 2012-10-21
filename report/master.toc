@@ -11,6 +11,9 @@
 \contentsline {part}{III\hspace {1em}Feature classification}{11}{part.17}
 \contentsline {part}{IV\hspace {1em}Implementation}{13}{part.19}
 \contentsline {part}{V\hspace {1em}Evaluation}{15}{part.21}
+\vspace \bigskipamount 
 \contentsline {chapter}{Conclusion}{17}{section*.23}
+\vspace \bigskipamount 
 \contentsline {chapter}{Bibliography}{19}{section*.24}
+\vspace \bigskipamount 
 \contentsline {chapter}{\numberline {A}Appendix A name}{21}{chapter.26}
