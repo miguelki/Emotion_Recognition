@@ -56,7 +56,7 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \noindent Third step is "Pre-processing", which is about applying image processing algorithms to the image, in order to prepare it for the next step. Pre-processing is usually about noise removal, normalization against the variation of pixel position or brightness, segmentation, location, or tracking of parts of the face. Emotion recognition is also sensitive to transformation, scaling and rotation of the head in the image or image sequence. In order to solve this problem, the image can be geometrically standardized. References used for this standardization are usually the eyes \cite{CHI03}.
 \newline
 
-\noindent Once the image has gone through the "Pre-processing" step, the next one is "Features Extraction". In this step, data is converted into a higher representation of shape, motion, colour, texture, and spatial configuration of the face or its components. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}. There are a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Problem Based Learning (PBL), Hidden Markov Model (HMM), Eigenfaces, Gabor Wavelets. The extracted data is then used in the "Classification" step.
+\noindent Once the image has gone through the "Pre-processing" step, the next one is "Features Extraction". In this step, data is converted into a higher representation of shape, motion, colour, texture, and spatial configuration of the face or its components. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain essential information possessing high discrimination power and high stability \cite{CHI03}. There are a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Problem Based Learning (PBL), Hidden Markov Models (HMM), Eigenfaces, Gabor Wavelets. The extracted data is then used in the "Classification" step.
 \newline
 
 \noindent
@@ -71,11 +71,12 @@ A facial expression is a visible manifestation of the effective state, cognitive
 \noindent Linear Discriminant Analysis (LDA) : Linear Discriminant Analysis is a statistical method as PCA, used to classify a set of objects into groups. It is done by observing a set of features that describe the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. The main difference is that LDA uses the linear relationship to model the differences into classes of objects and PCA does not take any differences into account in the linear relationship. The idea is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}.
 \newline
 
-\noindent Local Binary Pattern (LBP) : Local Binary Pattern is a features extraction method with an appearance based approach. It can be used to describe texture and shape. LBP extracts some informations from the neighborhood of a central pixel. It compares the intensity values of the neighborhood pixels with the intensity value of the central pixel  \cite{GAN08}.
+\noindent Local Binary Pattern (LBP) : Local Binary Pattern is a features extraction method with an appearance based approach. It can be used to describe texture and shape. LBP extracts some informations from the neighborhood of a central pixel. It compares the intensity values of the neighborhood pixels with the intensity value of the central pixel  \cite{GAN08}. This method is the one that will be used for this Facial Expression Recognition system.
 \newline
 
-\noindent Hidden Markov Model (HMM)
+\noindent Hidden Markov Models (HMM) : Hidden Markov Models are a set of statistical models used to characterize the sattistical properties of a signal (L. Rabiner and B. Huanf, Fundamentals of Speech Recognition. Englewood Cliffs, NJ: Prentice-Hall, 1993.).It is developed to recognize expressions based on the maximum likelihood decision criterion (Automatic Recognition of Facial Expressions Using Hidden Markov Models and Estimation of Expression Intensity Jenn-Jier James Lien April 14, 1998).
 \newline
+
 \noindent Eigenfaces
 \newline
 \noindent Gabor Wavelets

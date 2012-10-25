@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  23 OCT 2012 11:07
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 OCT 2012 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,22 +1021,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--76
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--83
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--89
+Underfull \hbox (badness 10000) in paragraph at lines 80--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--95
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
  []
 
 ) (./sections/feature_detection.tex
-Underfull \hbox (badness 10000) in paragraph at lines 104--2
+Underfull \hbox (badness 10000) in paragraph at lines 105--2
 
  []
 
@@ -1086,7 +1091,7 @@ ist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/
 type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
 c/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssb
 x10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on master.pdf (27 pages, 319164 bytes).
+Output written on master.pdf (27 pages, 319598 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  260 compressed objects within 3 object streams
