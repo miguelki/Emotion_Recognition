@@ -39,8 +39,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\OpenCV_2.4.2\build\include;C:\OpenCV_2.4.2\build\include\opencv;$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
-    <LibraryPath>C:\OpenCV_2.4.2\build\x86\vc10\lib;$(KINECTSDK_DIR)\lib\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
+    <IncludePath>c:\OpenCV2.4.2\build\include;c:\OpenCV2.4.2\build\include\opencv;$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <LibraryPath>c:\OpenCV2.4.2\build\x86\vc10\lib;$(KINECTSDK_DIR)\lib\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>

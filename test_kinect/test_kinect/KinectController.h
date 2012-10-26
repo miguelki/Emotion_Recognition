@@ -11,11 +11,19 @@ private:
 	FrameWindow* window;
 	char* title;
 	IplImage* img;
+	CvHaarClassifierCascade * cascade; 
+	CvMemStorage *storage;
+	CvSeq *faces;
+	
 
 public:
 	KinectController(DWORD f);
 	KinectController(KinectAccess* m, FrameWindow* w, char* t);
 	~KinectController(void);
+
+	
+
+	void detectFaces( IplImage *img );
 
 	void init();
 	void display();
