@@ -61,34 +61,26 @@ int main (int argc, char* argv[]) {
 					end_w = img_w;
 
 				/** Process sub-area **/
-
-				/*cout << "Area #" << j*(NB_ROWS-1)+i << " : (" << i << "," << j << ")" << endl;
-				cout << "Top left coordinates : (" << start_w << "," << start_h << ")" << endl;
-				cout << "Bottom right coordinates : (" << end_w << "," << end_h << ")" << endl;
-				cout << "------" << endl;
-				*/
 				CvRect roi = cvRect(start_w, start_h, (end_w - start_w), (end_h - start_h));
 
 				Mat res = lbpProcess(i_mat(roi));
-				//cout << "test 1 " << j*(NB_ROWS-1)+i << endl; 
+				
 				/** Compute histogram **/
 				vector<unsigned int> tmp = histogramProcess(res);
 
 				for (unsigned int k = 0; k < tmp.size(); k++) {
 					hist.push_back(tmp[i]);
 				}
-				//cout << "test 2 " << j*(NB_ROWS-1)+i << endl;
+				
 				/** Copy new area into output matrix **/
 				Mat tmp_m = o_mat(roi);
 				res.copyTo(tmp_m);
 			}
 		}
-
+		cout << "taille de l'histogramme" << "1x" << hist.size() << endl;
 		o_mat = lbpProcess(i_mat);
 
 		/** Save output image and histogram **/
-		// TODO
-
 		imwrite(o_file, o_mat);
 
 		/** Display both images **/
@@ -128,7 +120,7 @@ Mat lbpProcess(Mat src) {
 	return dst;
 }
 
-/** Improve it elegantly with a recursive algorithm **/
+/** TODO : Improve it elegantly with a recursive algorithm **/
 
 vector<unsigned int> histogramProcess(Mat src) {
 	vector<unsigned int> hist (256,0);
