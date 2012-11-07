@@ -20,8 +20,8 @@
 \contentsline {subsection}{\numberline {2.2.3}Local Binary Patterns (LBP)}{10}{subsection.24}
 \contentsline {subsection}{\numberline {2.2.4}Hidden Markov Models (HMM)}{10}{subsection.25}
 \contentsline {subsection}{\numberline {2.2.5}Eigenfaces}{10}{subsection.26}
-\contentsline {subsection}{\numberline {2.2.6}Gabor Wavelets}{10}{subsection.27}
-\contentsline {section}{\numberline {2.3}Issues}{10}{section.29}
+\contentsline {subsection}{\numberline {2.2.6}Gabor Filters}{10}{subsection.27}
+\contentsline {section}{\numberline {2.3}Issues}{11}{section.29}
 \contentsline {section}{\numberline {2.4}Requirements}{11}{section.31}
 \contentsline {part}{II\hspace {1em}Feature detection}{12}{part.32}
 \contentsline {part}{III\hspace {1em}Feature classification}{14}{part.34}

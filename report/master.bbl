@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{AND06}
 Keith Anderson and Peter~W. McOwan.
@@ -40,10 +40,36 @@ Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression
   recognition, 2008.
 
+\bibitem{JEM09}
+Yousra~Ben Jemaa and Sana Khanfir.
+\newblock Automatic local gabor features extraction for face recognition.
+\newblock {\em International Journal of Computer Science and Information
+  Security}, 3(1), 2009.
+
+\bibitem{LIE98}
+Jenn-Jier~James Lien.
+\newblock Automatic recognition of facial expressions using hidden markov
+  models and estimation of expression intensity, 1998.
+
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
 \newblock Automatic analysis of facial expressions: the state of the art.
 \newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
   22(12):1424--1445, 2000.
+
+\bibitem{PRA09}
+Lekshmi~V Praseeda and M~Sasikumar.
+\newblock Facial expression recognition from global and a combination of local
+  features.
+\newblock {\em IETE Tech Rev}, 26(1):41--46, 2009.
+
+\bibitem{RAB93}
+Lawrence~R. Rabiner and Biing-Hwang Juang.
+\newblock Fundamentals of speech recognition, 1993.
+
+\bibitem{TUR91}
+Matthew Turk and Alex Pentland.
+\newblock Eigenfaces for recognition.
+\newblock {\em Journal of Cognitive Neuroscience}, 3(1):71--86, 1991.
 
 \end{thebibliography}
