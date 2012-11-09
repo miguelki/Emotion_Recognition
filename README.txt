@@ -5,8 +5,9 @@ VGIS9 semester project
 
 Theme : Interactive Systems
 
-The aim of this project is to use video-based face recognition and sound processing in order to detect the user's emotions.
-We will use a Kinect and several third-party libraries and frameworks (ex.: OpenCV, Pure Data) in our project.
+The aim of this project is to perform real-time facial expression recognition (which can roughly be translated into "emotions").
+We will use Local Binary Patterns for feature extraction, and classification will be performed using Support Vector Machines.
+We will use a Kinect as video input and several third-party libraries and frameworks (ex.: OpenCV, libsvm) in our project.
 
 
 Group members :
