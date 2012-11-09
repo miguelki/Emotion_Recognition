@@ -46,10 +46,19 @@ Yousra~Ben Jemaa and Sana Khanfir.
 \newblock {\em International Journal of Computer Science and Information
   Security}, 3(1), 2009.
 
+\bibitem{KDEF}
+Emotion Lab.
+\newblock Karolinska directed emotional faces (kdef).
+\newblock \url{http://www.emotionlab.se/resources/kdef}.
+
 \bibitem{LIE98}
 Jenn-Jier~James Lien.
 \newblock Automatic recognition of facial expressions using hidden markov
   models and estimation of expression intensity, 1998.
+
+\bibitem{JAFFE}
+Michael Lyons.
+\newblock The japanese female facial expression (jaffe) database.
 
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
@@ -71,5 +80,10 @@ Lawrence~R. Rabiner and Biing-Hwang Juang.
 Matthew Turk and Alex Pentland.
 \newblock Eigenfaces for recognition.
 \newblock {\em Journal of Cognitive Neuroscience}, 3(1):71--86, 1991.
+
+\bibitem{MSFDE}
+UQUAM.
+\newblock The msfde.
+\newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
 
 \end{thebibliography}

@@ -3,44 +3,49 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: plain.bst
 Database file #1: bib/mybib.bib
-You've used 13 entries,
+Illegal end of database file---line 135 of file bib/mybib.bib
+ :  }
+ :   
+I'm skipping whatever remains of this entry
+You've used 16 entries,
             2118 wiz_defined-function locations,
-            582 strings with 5874 characters,
-and the built_in function-call counts, 3625 in all, are:
-= -- 347
-> -- 170
+            596 strings with 6142 characters,
+and the built_in function-call counts, 4173 in all, are:
+= -- 401
+> -- 191
 < -- 0
-+ -- 69
-- -- 54
-* -- 234
-:= -- 626
-add.period$ -- 35
-call.type$ -- 13
-change.case$ -- 66
++ -- 80
+- -- 60
+* -- 249
+:= -- 728
+add.period$ -- 43
+call.type$ -- 16
+change.case$ -- 78
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 126
-empty$ -- 299
-format.name$ -- 54
-if$ -- 740
+cite$ -- 16
+duplicate$ -- 150
+empty$ -- 344
+format.name$ -- 60
+if$ -- 848
 int.to.chr$ -- 0
-int.to.str$ -- 13
+int.to.str$ -- 16
 missing$ -- 10
-newline$ -- 64
-num.names$ -- 26
-pop$ -- 75
+newline$ -- 78
+num.names$ -- 32
+pop$ -- 93
 preamble$ -- 1
-purify$ -- 53
+purify$ -- 62
 quote$ -- 0
-skip$ -- 101
+skip$ -- 115
 stack$ -- 0
-substring$ -- 189
-swap$ -- 13
+substring$ -- 206
+swap$ -- 16
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
+type$ -- 62
 warning$ -- 0
-while$ -- 37
-width$ -- 15
-write$ -- 132
+while$ -- 43
+width$ -- 18
+write$ -- 157
+(There was 1 error message)

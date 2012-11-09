@@ -35,23 +35,77 @@
 \phantomsection
 \section{Emotion Datasets}
 
-\noindent Introduction bla bla bla
+\noindent Databases are very important for facial expression recognition system.
 \newline
 
-\subsection{JAFFE Database}
+\noindent Using the same databases for studies that aims to improve existing systems is very useful. It allows to compare he results and to see if the new system is indeed better than the existing one. A lot of research studies work is based on the same databases than previous studies in order to compare the efficiency of their algorithm.
+\newline
+
+\noindent But databases are hard to construct. It has to fill all the requirements and that is why most of the work on facial expression recognition is based on existing databases. The hardest requirement to fill is to have a standardized database. Most of the actual databases use posed expressions and not spontaneous expression, and both are very different. New versions of the databases are coming out with spontaneous expressions in order to be more complete. Even with this transition from posed expressions to spontaneous expressions, there are other requirements that should be respected to have a database standardized for training and testing. It should contain images and video sequences and both should be of different resolutions. It should also contain people displaying expressions under different conditions: it could be change in the lighting, occlusions or rotations of the head \cite{PAN00}.  
+\newline
+
+\noindent Following are the databases that will be used to test this facial expression recognition system. These are part of the databases that are popular, freely available and mostly used in the past few years.
+\newline
+
+\subsection{Japanese Female Facial Expression Database (JAFFE)}
 
 \vspace{\baselineskip}
-\noindent bla bla bla
+\noindent The database contains 213 images of 7 facial expressions (6 basic facial expressions: happy, angry, afraid, disgusted, sad, surprised + 1 neutral) posed by 10 Japanese female models. Each expression has been photographed three or four times. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. The database was planned and assembled by Miyuki Kamachi, Michael Lyons, and Jiro Gyoba \cite{JAFFE}.
 \newline
 
-\subsection{KDFE Database}
+\noindent This DB contains only posed expressions. The photos have been taken under strict controlled conditions of similar lighting and with the hair tied away from the face \cite{PAN00}. 
+\newline
+
+\noindent Following are an example of images contained in the database. Here the subject is a woman and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised): 
+\newline
 
 \vspace{\baselineskip}
-\noindent bla bla bla
+\begin{center}
+\noindent \includegraphics[scale=0.8]{figures/jaffe_7facialexpressions} 
 \newline
+\end{center} 
 
-\subsection{MSFDE Database}
+\subsection{Karolinska Directed Emotional Faces Database (KDEF)}
 
 \vspace{\baselineskip}
-\noindent bla bla bla
+\noindent The Karolinska Directed Emotional Faces (KDEF) is a set of totally 4900 pictures of human facial expressions of emotion. The material was developed in 1998 by Daniel Lundqvist, Anders Flykt and Professor Arne Ohman at Karolinska Institutet, Department of Clinical Neuroscience, Section of Psychology, Stockholm, Sweden \cite{KDEF}.
 \newline
+
+\noindent The material was originally developed to be used for psychological and medical research purposes. More specifically material was made to be particularly suitable for perception, attention, emotion, memory and backward masking experiments. Hence, particular attention was for instance paid to create a soft, even light, shooting expressions in multiple angles, use of uniform T-shirt colors, and use of a grid to center participants face during shooting, and positioning of eyes and mouths in fixed image coordinates during scanning \cite{KDEF}.
+\newline
+
+\noindent The set contains 70 individuals (35 males and 35 females), ranging from 20 to 30 years, each displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised),each expression being photographed (twice) from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
+\newline
+
+\noindent Following are an example of images contained in the database. Here the subject is a woman photographed from a straight angle and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised): 
+\newline
+
+\vspace{\baselineskip}
+\begin{center}
+\noindent \includegraphics[scale=0.7]{figures/kdef_7facialexpressions} 
+\newline
+\end{center} 
+
+\subsection{Montreal Set of Facial Displays of Emotion Database (MSFDE)}
+
+\vspace{\baselineskip}
+\noindent The database consists of emotional facial expressions by men and women of European, Asian, and African descent. Each expression was created using a directed facial action task and all expressions were FCAS coded to assure identical expressions across actors \cite{MSFDE}.
+\newline
+
+\noindent The set contains expressions of happiness, sadness, anger, fear, disgust, and embarrassment as well as a neutral expression for each actor. All expressions have been morphed into 5 different levels of intensity \cite{MSFDE}.
+\newline
+
+\noindent Following are an example of images contained in the database. Here the subject is an african woman and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, ashamed): 
+\newline
+
+\vspace{\baselineskip}
+\begin{center}
+\noindent \includegraphics[scale=0.9]{figures/msfde_7facialexpressions} 
+\newline
+\end{center} 
+
+
+
+
+
+
