@@ -10,6 +10,7 @@
 #include <cv.h>
 #include <highgui.h>
 #include <iostream>
+#include <Windows.h>
 
 
 
