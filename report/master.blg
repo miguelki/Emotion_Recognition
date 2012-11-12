@@ -2,50 +2,56 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: plain.bst
-Database file #1: bib/mybib.bib
-Illegal end of database file---line 135 of file bib/mybib.bib
- :  }
- :   
-I'm skipping whatever remains of this entry
-You've used 16 entries,
+I found no \bibdata command---while reading file master.aux
+Warning--I didn't find a database entry for "DON99"
+Warning--I didn't find a database entry for "PAN00"
+Warning--I didn't find a database entry for "BET12"
+Warning--I didn't find a database entry for "DAR04"
+Warning--I didn't find a database entry for "BAR03"
+Warning--I didn't find a database entry for "AND06"
+Warning--I didn't find a database entry for "JAFFE"
+Warning--I didn't find a database entry for "KDEF"
+Warning--I didn't find a database entry for "MSFDE"
+Warning--I didn't find a database entry for "CHI03"
+You've used 0 entries,
             2118 wiz_defined-function locations,
-            596 strings with 6142 characters,
-and the built_in function-call counts, 4173 in all, are:
-= -- 401
-> -- 191
+            516 strings with 4083 characters,
+and the built_in function-call counts, 18 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 80
-- -- 60
-* -- 249
-:= -- 728
-add.period$ -- 43
-call.type$ -- 16
-change.case$ -- 78
++ -- 0
+- -- 0
+* -- 2
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 16
-duplicate$ -- 150
-empty$ -- 344
-format.name$ -- 60
-if$ -- 848
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
 int.to.chr$ -- 0
-int.to.str$ -- 16
-missing$ -- 10
-newline$ -- 78
-num.names$ -- 32
-pop$ -- 93
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 62
+purify$ -- 0
 quote$ -- 0
-skip$ -- 115
+skip$ -- 1
 stack$ -- 0
-substring$ -- 206
-swap$ -- 16
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 62
+type$ -- 0
 warning$ -- 0
-while$ -- 43
-width$ -- 18
-write$ -- 157
+while$ -- 0
+width$ -- 0
+write$ -- 2
 (There was 1 error message)
