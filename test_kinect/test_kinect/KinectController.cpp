@@ -43,9 +43,11 @@ void KinectController::display() {
 
 
 		detectFaces(img);
+		
 		//cout<< "il y a une image "<<endl;
 
 		window->displayImg(img, title);
+		cvResetImageROI(img);
 
 		key = cvWaitKey( 10 ); 
 		}
@@ -77,10 +79,11 @@ void KinectController::detectFaces( IplImage *img ){
 	for( i = 0 ; i < ( faces ? faces->total : 0 ) ; i++ ) {        
 		CvRect *r = ( CvRect* )cvGetSeqElem( faces, i );
 
+		cvSetImageROI( img, *r);
+
 		cvRectangle( img, cvPoint( r->x, r->y ), cvPoint( r->x + r->width, r->y + r->height ), CV_RGB( 255, 0, 0 ), 1, 8, 0 );        
 	}
-
-	//cvShowImage("Window-FT", img );   
+ 
 
 	
 
