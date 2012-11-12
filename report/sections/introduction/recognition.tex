@@ -100,19 +100,40 @@
 \noindent Databases can be a source of issues. As said previously, databases should fulfill a number of requirements in order to be the most efficient as possible. 
 \newline
 
-\noindent If the Facial Expression Recognition system wants to be close to reality, it should be able to recognize spontaneous expressions rather than posed expressions. Indeed, spontaneous expressions are closer to reality than posed expressions. Posed expressions are exaggerated. While creating a database of spontaneous expressions, Sebe and colleagues \cite{SEB07} made some observations:
+\noindent If the Facial Expression Recognition system wants to be close to reality, it should be able to recognize spontaneous expressions rather than posed expressions. Indeed, spontaneous expressions are closer to reality than posed expressions. Posed expressions are exaggerated. While creating a database of spontaneous expressions, Sebe and colleagues \cite{SEB07} made some observations of the major problems they encountered \cite{BET12}:
+\newline
+\begin{itemize}
+  \item Different subjects express the same emotions at different intensities
+  \item If the subject becomes aware that he or she is being photographed, their expression loses its authenticity
+  \item Even if the subject is not aware of the recording, the laboratory conditions may not encourage the subject to display spontaneous expressions.
+\end{itemize}
+
+\vspace{\baselineskip}
+\noindent In order to get round of these problems, they came up with a method. The method was to record facial expressions with a camera hidden in a video kiosk. The video kiosk was displaying emotion inducing videos. Once the recording was done, subjects were notified of the recording and were asked for their permission to use the captured images and videos for research studies. Then the subjects explained which emotions they felt and expressed and their replies were documented against the recordings of the facial expressions \cite{SEB07}.
+\newline
+
+\noindent They found that a wide range of expressions are hard to induce and particularly fear and sadness. They also found that spontaneous expressions could be misleading: some subjects express one emotion while feeling another one (for example, one subject was showing sadness while being happy) \cite{SEB07}.
+\newline
+
+\noindent At the end, databases bring some issues that can affect the authenticity of the recognition system. It depends of the type of the expressions : spontaneous or posed expressions. If the system aims to recognize facial expressions of people unaware of it, spontaneous expressions databases will be used but it leads to authenticity issues as seen previously. If the system aims to recognize facial expressions of people asked to express certain emotion, posed expressions databases will be used but the result will not be close to the reality.
 \newline
 
 \subsection{Real-time}
 
 \vspace{\baselineskip}
-\noindent bla bla bla
+\noindent The goal of the Facial Expression Recognition system of this paper is to recognize facial expression in real time. For a real-time application, the processing should not be too heavy otherwise the time of processing will be too long and the application will not be in real time anymore. 
+\newline
+
+\noindent This is one of the challenge of this kind of system. Because most of the time the processing is really heavy whatever the algorithm is and it is really difficult to make it work in real-time. Most of the applications in need of Facial Fxpression Recognition are in need of real-time recognition. For example in robotics, or in surveillance. The solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
 \newline
 
 \subsection{Conditions}
 
 \vspace{\baselineskip}
-\noindent bla bla bla
+\noindent Another one of the challenge of this kind of system is to be independent to the conditions of the recording.
+occlusion
+lignthing
+angle
 \newline
 
 \phantomsection

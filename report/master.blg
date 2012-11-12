@@ -2,56 +2,45 @@ This is BibTeX, Version 0.99d (TeX Live 2012)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: master.aux
 The style file: plain.bst
-I found no \bibdata command---while reading file master.aux
-Warning--I didn't find a database entry for "DON99"
-Warning--I didn't find a database entry for "PAN00"
-Warning--I didn't find a database entry for "BET12"
-Warning--I didn't find a database entry for "DAR04"
-Warning--I didn't find a database entry for "BAR03"
-Warning--I didn't find a database entry for "AND06"
-Warning--I didn't find a database entry for "JAFFE"
-Warning--I didn't find a database entry for "KDEF"
-Warning--I didn't find a database entry for "MSFDE"
-Warning--I didn't find a database entry for "CHI03"
-You've used 0 entries,
+Database file #1: bib/mybib.bib
+You've used 17 entries,
             2118 wiz_defined-function locations,
-            516 strings with 4083 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
+            605 strings with 6334 characters,
+and the built_in function-call counts, 4654 in all, are:
+= -- 449
+> -- 224
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 93
+- -- 72
+* -- 291
+:= -- 812
+add.period$ -- 47
+call.type$ -- 17
+change.case$ -- 87
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 17
+duplicate$ -- 161
+empty$ -- 372
+format.name$ -- 72
+if$ -- 942
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 17
+missing$ -- 11
+newline$ -- 84
+num.names$ -- 34
+pop$ -- 100
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 70
 quote$ -- 0
-skip$ -- 1
+skip$ -- 120
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 242
+swap$ -- 17
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 66
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 47
+width$ -- 19
+write$ -- 170

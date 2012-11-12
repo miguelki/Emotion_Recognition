@@ -23,16 +23,16 @@
 \contentsline {subsection}{\numberline {2.2.6}Gabor Filters}{13}{subsection.27}
 \contentsline {section}{\numberline {2.3}Issues}{13}{section.29}
 \contentsline {subsection}{\numberline {2.3.1}Database}{14}{subsection.30}
-\contentsline {subsection}{\numberline {2.3.2}Real-time}{14}{subsection.31}
-\contentsline {subsection}{\numberline {2.3.3}Conditions}{14}{subsection.32}
-\contentsline {section}{\numberline {2.4}Requirements}{14}{section.34}
-\contentsline {part}{II\hspace {1em}Feature detection}{15}{part.35}
-\contentsline {part}{III\hspace {1em}Feature classification}{17}{part.37}
-\contentsline {part}{IV\hspace {1em}Implementation}{19}{part.39}
-\contentsline {part}{V\hspace {1em}Evaluation}{21}{part.41}
+\contentsline {subsection}{\numberline {2.3.2}Real-time}{15}{subsection.31}
+\contentsline {subsection}{\numberline {2.3.3}Conditions}{15}{subsection.32}
+\contentsline {section}{\numberline {2.4}Requirements}{15}{section.34}
+\contentsline {part}{II\hspace {1em}Feature detection}{16}{part.35}
+\contentsline {part}{III\hspace {1em}Feature classification}{18}{part.37}
+\contentsline {part}{IV\hspace {1em}Implementation}{20}{part.39}
+\contentsline {part}{V\hspace {1em}Evaluation}{22}{part.41}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{23}{section*.43}
+\contentsline {chapter}{Conclusion}{25}{section*.43}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{25}{section*.44}
+\contentsline {chapter}{Bibliography}{27}{section*.44}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{27}{chapter.46}
+\contentsline {chapter}{\numberline {A}Appendix A name}{29}{chapter.46}
