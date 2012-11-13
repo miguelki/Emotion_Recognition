@@ -61,6 +61,12 @@ Michael Lyons.
 \newblock The japanese female facial expression (jaffe) database.
 \newblock \url{http://www.kasrl.org/jaffe.html}.
 
+\bibitem{ARFACE}
+Aleix Martinez and Robert Benavente.
+\newblock The ar face database.
+\newblock
+  \url{http://www-sipl.technion.ac.il/new/DataBases/Aleix%20Face%20Database.htm}.
+
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
 \newblock Automatic analysis of facial expressions: the state of the art.

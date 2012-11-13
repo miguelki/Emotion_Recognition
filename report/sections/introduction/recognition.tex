@@ -124,16 +124,52 @@
 \noindent The goal of the Facial Expression Recognition system of this paper is to recognize facial expression in real time. For a real-time application, the processing should not be too heavy otherwise the time of processing will be too long and the application will not be in real time anymore. 
 \newline
 
-\noindent This is one of the challenge of this kind of system. Because most of the time the processing is really heavy whatever the algorithm is and it is really difficult to make it work in real-time. Most of the applications in need of Facial Fxpression Recognition are in need of real-time recognition. For example in robotics, or in surveillance. The solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
+\noindent This is one of the challenges of this kind of system. Because most of the time the processing is really heavy whatever the algorithm is and it is really difficult to make it work in real-time. Most of the applications in need of Facial Fxpression Recognition are in need of real-time recognition. For example in robotics, or in surveillance. The solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
 \newline
 
 \subsection{Conditions}
 
 \vspace{\baselineskip}
-\noindent Another one of the challenge of this kind of system is to be independent to the conditions of the recording.
-occlusion
-lignthing
-angle
+\noindent Another one of the challenges of this kind of system is to be independent to the conditions of the recording. It means that the recognition should not be disturbed by occlusions for example, or difference in the lighting, or even by the angle that the face makes with the camera lens. This examples cover almost all the conditions that can change during the recording and have an influence on the recognition system. 
+\newline
+
+\noindent "Occlusion" represents all the elements that can cover the face or a part of it. For example, a beard, a scarf masking the bottom of the face, glasses or bangs. By hiding a part of the face, these occlusions can affect the recognition. Indeed, these Facial Expression Recognition systems are based on comparison of features and if all the features cannot be compared because something is covering a part of the face, the recognition is affected. In order to compensate for this problem, some databases includes data with already occlusions in it as beard, glasses or scarf for example. This is the case for the AR Face database and following some examples of the images contained in this database \cite{ARFACE}:
+\newline
+
+\vspace{\baselineskip}
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.7]{figures/arface_example1} 
+\newline
+\caption{example of occlusion by glasses in the AR Face database}
+\label{arface_example1}
+\end{center} 
+\end{figure}
+
+\vspace{\baselineskip}
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.7]{figures/arface_example2} 
+\newline
+\caption{example of occlusion by sunglasses in the AR Face database}
+\label{arface_example2}
+\end{center} 
+\end{figure}
+
+\vspace{\baselineskip}
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.7]{figures/arface_example3} 
+\newline
+\caption{example of occlusion by scarf and glasses in the AR Face database}
+\label{arface_example3}
+\end{center} 
+\end{figure} 
+
+\noindent lignthing
+\newline
+
+\noindent angle
 \newline
 
 \phantomsection
