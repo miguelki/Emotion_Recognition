@@ -11,9 +11,10 @@
 \contentsline {section}{\numberline {2.1}General structure}{10}{section.14}
 \contentsline {subsection}{\numberline {2.1.1}Image Acquisition}{11}{subsection.15}
 \contentsline {subsection}{\numberline {2.1.2}Face Detection}{11}{subsection.16}
-\contentsline {subsection}{\numberline {2.1.3}Pre-processing}{11}{subsection.17}
-\contentsline {subsection}{\numberline {2.1.4}Features Extraction}{11}{subsection.18}
+\contentsline {subsection}{\numberline {2.1.3}Pre-processing}{12}{subsection.17}
+\contentsline {subsection}{\numberline {2.1.4}Features Extraction}{12}{subsection.18}
 \contentsline {subsection}{\numberline {2.1.5}Classification}{12}{subsection.19}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2.2}Existing systems}{12}{section.21}
 \contentsline {subsection}{\numberline {2.2.1}Principal Component Analysis (PCA)}{12}{subsection.22}
 \contentsline {subsection}{\numberline {2.2.2}Linear Discriminant Analysis (LDA)}{12}{subsection.23}
@@ -30,6 +31,24 @@
 \contentsline {part}{III\hspace {1em}Feature classification}{19}{part.40}
 \contentsline {part}{IV\hspace {1em}Implementation}{21}{part.42}
 \contentsline {part}{V\hspace {1em}Evaluation}{23}{part.44}
+=======
+\contentsline {section}{\numberline {2.2}Feature extraction algorithms}{12}{section.21}
+\contentsline {subsection}{\numberline {2.2.1}Principal Component Analysis (PCA)}{13}{subsection.22}
+\contentsline {subsection}{\numberline {2.2.2}Linear Discriminant Analysis (LDA)}{13}{subsection.23}
+\contentsline {subsection}{\numberline {2.2.3}Local Binary Patterns (LBP)}{14}{subsection.24}
+\contentsline {subsection}{\numberline {2.2.4}Hidden Markov Models (HMM)}{14}{subsection.25}
+\contentsline {subsection}{\numberline {2.2.5}Eigenfaces}{14}{subsection.26}
+\contentsline {subsection}{\numberline {2.2.6}Gabor Filters}{14}{subsection.27}
+\contentsline {section}{\numberline {2.3}Issues}{15}{section.29}
+\contentsline {subsection}{\numberline {2.3.1}Database}{15}{subsection.30}
+\contentsline {subsection}{\numberline {2.3.2}Real-time}{16}{subsection.31}
+\contentsline {subsection}{\numberline {2.3.3}Conditions}{16}{subsection.32}
+\contentsline {section}{\numberline {2.4}Requirements}{16}{section.34}
+\contentsline {part}{II\hspace {1em}Feature detection}{17}{part.35}
+\contentsline {part}{III\hspace {1em}Feature classification}{19}{part.37}
+\contentsline {part}{IV\hspace {1em}Implementation}{21}{part.39}
+\contentsline {part}{V\hspace {1em}Evaluation}{23}{part.41}
+>>>>>>> 696fc3c4392fc5ef7863afef0fa556ef8a5e7336
 \vspace \bigskipamount 
 \contentsline {chapter}{Conclusion}{25}{section*.46}
 \vspace \bigskipamount 

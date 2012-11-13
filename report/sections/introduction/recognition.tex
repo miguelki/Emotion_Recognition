@@ -1,8 +1,7 @@
 \phantom\phantomsection
 \chapter{Facial expression recognition}
 
-\noindent
-\textbf{\color{red} Introductory paragraph of the chapter}
+\noindent After having stated the conditions and motivations of our project, we will now describe an overview of the system we will implement. A facial recognition system can roughly be summed up as classification applied to a pre-processed image. The image processing steps, especially the feature extraction part, along with commonly used classification algorithms, will be detailed further in this chapter. Next sections will be about issues raised facial expression recognition systems, and key requirements these systems have to meet in order to be considered acceptable.
 
 \section{General structure}
 
@@ -41,30 +40,37 @@
 
 \subsection{Classification}
 
-\noindent
-\textbf{\color{red} INSERT PARAGRAPH ON CLASSIFICATION}
-- explanation
-
-- existing algorithms : PCA et LDA, mais aussi neural networks, svm
+\noindent The classification step marks the end of image processing steps (face detection, normalization, feature extraction). There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as stated in Section \ref{feat_x}. This step takes into input a model, previously trained with pre-processed data, and test data, which is feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and train data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
 
 \phantomsection
-\section{Existing systems}
+\section{Feature extraction algorithms} \label{feat_x}
 
 \vspace{\baselineskip}
-\noindent Before developing a facial expression recognition project, it is important to know what already exist; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a system for the project.
-\textbf{\color{red} Introductory paragraph on which methods are we going to focus on, appearance-based \& geometry-based}
+\noindent Before developing a facial expression recognition project, it is important to know what already exists; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a system for the project.
+\newline
+
+\noindent 2 main categories of feature extraction algorithms can be distinguished : \textit{appearance-based} or \textit{geometry-based}. The first ones are algorithms that try to find basic vectors characterising the whole picture, usually by a dimensionality reduction method. These algorithms lead to a simplification of the dataset, while retaining the main characteristics of the picture. However, these methods have to be carefully parametrized, so they do not encounter the "curse of dimensionality", which is about processing high-dimensional data.
+\vspace{\baselineskip}
+
+\noindent Examples of appearance-based methods : Principal Component Analysis, Linear Discriminant Analysis, Hidden Markov Models, Eigenfaces
+\newline
+
+\noindent The second type of feature extraction algorithms is geometry-based algorithms. These methods tend to locate important features, and build the feature vectors depending on those regions of interest. The key point of these methods is that the face is not a global structure anymore. Indeed, it has been summarized in a set of features regions, which are themselves translated into feature vectors.
+\vspace{\baselineskip}
+
+\noindent Examples of geometry-based methods : Gabor Wavelets, Local Binary Patterns
 \newline
 
 \subsection{Principal Component Analysis (PCA)}
 
 \vspace{\baselineskip}
-\noindent This is a statistical method; one of the most used in linear algebra. PCA is mainly used to reduce high dimensionality of data and to obtain the most important information from this data. Because Facial Expression Recognition needs to reduce the dimensionality of data during features extraction, PCA is commonly used. It helps transforming high dimensionality of data to a new coordinate system of lower dimensions while still preserving the most important information. PCA computes a covariance matrix and a set of values called the eigenvalues and eigenvectors from the original data \cite{GAN08}.
+\noindent This is a statistical method; one of the most used in linear algebra. PCA is mainly used to reduce high dimensionality of data and to obtain the most important information from this data. Because Facial Expression Recognition needs to reduce the dimensionality of data during features extraction, PCA is commonly used. It helps transforming high dimensionality of data to a new coordinate system of lower dimensions while still preserving the most important information. PCA computes a covariance matrix and a set of values called the eigenvalues and eigenvectors from the original data \cite{GAN08}. Since it is a statistical method, it can also be used in the classification step.
 \newline
 
 \subsection{Linear Discriminant Analysis (LDA)}
 
 \vspace{\baselineskip}
-\noindent Linear Discriminant Analysis is also a statistical method, used to classify a set of objects into groups. It is done by observing a set of features that describe the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. The main difference is that LDA uses the linear relationship to model the differences into classes of objects and PCA does not take any differences into account in the linear relationship. The idea is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}.
+\noindent Linear Discriminant Analysis is also a statistical method, used to classify a set of objects into groups. It is done by observing a set of features that describe the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. The main difference is that LDA uses the linear relationship to model the differences into classes of objects and PCA does not take any differences into account in the linear relationship. The idea is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}. Like PCA, LDA is also a classification algorithm.
 \newline
 
 \subsection{Local Binary Patterns (LBP)}
@@ -76,7 +82,7 @@
 \subsection{Hidden Markov Models (HMM)}
 
 \vspace{\baselineskip}
-\noindent These models are a set of statistical models used to characterize the statistical properties of a signal \cite{RAB93}. It is developed to recognize expressions based on the maximum likelihood decision criterion \cite{LIE98}.
+\noindent These models are a set of statistical models used to characterize the statistical properties of a signal \cite{RAB93}. It can be used as a classification algorithm, and canalso be  developed to recognize expressions based on the maximum likelihood decision criterion \cite{LIE98}.
 \newline
 
 \subsection{Eigenfaces}
