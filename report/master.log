@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  13 NOV 2012 16:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 NOV 2012 11:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1026,7 +1026,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=161, 403.5075pt x 234.8775pt>
+<figures/jaffe_7facialexpressions.png, id=162, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
@@ -1057,7 +1057,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/kdef_7facialexpressions.png, id=173, 401.5pt x 274.02374pt>
+<figures/kdef_7facialexpressions.png, id=176, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
@@ -1089,7 +1089,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<figures/msfde_7facialexpressions.png, id=183, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=187, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
@@ -1111,7 +1111,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
  []
 
 
-<figures/facial_expression_recognition_process.png, id=190, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=194, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1243,14 +1243,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-<figures/arface_example2.png, id=244, 499.8675pt x 127.47626pt>
+<figures/arface_example2.png, id=250, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
 Package pdftex.def Info: figures/arface_example2.png used on input line 156.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=245, 498.86375pt x 127.47626pt>
+<figures/arface_example3.png, id=251, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
@@ -1266,7 +1266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
  []
 
 [15 <./figures/arface_example2.png>]
-<figures/arface_example1.png, id=254, 499.8675pt x 127.47626pt>
+<figures/arface_example1.png, id=262, 499.8675pt x 127.47626pt>
 File: figures/arface_example1.png Graphic file (type png)
 
 <use figures/arface_example1.png>
@@ -1278,7 +1278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
  []
 
 [16 <./figures/arface_example3.png> <./figures/arface_example1.png>]
-<figures/kdef_example_angle.png, id=263, 500.87125pt x 135.50626pt>
+<figures/kdef_example_angle.png, id=271, 500.87125pt x 135.50626pt>
 File: figures/kdef_example_angle.png Graphic file (type png)
 
 <use figures/kdef_example_angle.png>
@@ -1353,7 +1353,7 @@ Here is how much of TeX's memory you used:
  12954 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,14n,38p,1022b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1022b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/20
 12/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-d
@@ -1369,10 +1369,10 @@ c/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10
 .pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></u
 sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/t
 exlive/2012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (38 pages, 909821 bytes).
+Output written on master.pdf (38 pages, 910715 bytes).
 PDF statistics:
- 524 PDF objects out of 1000 (max. 8388607)
- 457 compressed objects within 5 object streams
+ 532 PDF objects out of 1000 (max. 8388607)
+ 465 compressed objects within 5 object streams
  114 named destinations out of 1000 (max. 500000)
  318 words of extra memory for PDF output out of 10000 (max. 10000000)
 
