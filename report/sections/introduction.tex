@@ -5,15 +5,22 @@
     \vspace*{\fill}
   \end{titlepage}
 
+\startcontents[parts]
+
 %\chapter{Introduction}\label{ch:introduction}
 \phantomsection
 \chapter*{Contents}
 
 \textit{The main motive of this project is to understand real-time facial expression recognition systems and their applications. Then a review of the architecture of such systems will be done, along with a state of the art of already existing algorithms for each step. After this study, one algorithm for each step will be chosen, considering their difficulty and their efficiency, in order to improve it. In the last part, the problem will be formulated.}
+
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
 \pagebreak
 
 \input{sections/introduction/motivations.tex}
 \newpage
 \input{sections/introduction/recognition.tex}
 
-
+\stopcontents[parts]

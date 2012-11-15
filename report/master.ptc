@@ -1,6 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{Preface}{v}{Doc-Start}
 \contentsline {part}{I\hspace {1em}Introduction}{2}{part.1}
+\ttl@starttoc {parts@1}
 \contentsline {chapter}{\numberline {1}Motivations}{4}{chapter.4}
 \contentsline {section}{\numberline {1.1}Environment Setup}{5}{section.6}
 \contentsline {section}{\numberline {1.2}Emotion Datasets}{5}{section.8}
@@ -29,6 +30,7 @@
 \contentsline {subsubsection}{Lightning}{16}{subsubsection*.40}
 \contentsline {subsubsection}{Angle}{16}{subsubsection*.42}
 \contentsline {section}{\numberline {2.4}Requirements}{17}{section.45}
+\ttl@stoptoc {parts@1}
 \contentsline {part}{II\hspace {1em}Feature detection}{19}{part.46}
 \contentsline {part}{III\hspace {1em}Feature classification}{21}{part.48}
 \contentsline {part}{IV\hspace {1em}Implementation}{23}{part.50}
