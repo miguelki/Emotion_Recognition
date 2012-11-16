@@ -30,12 +30,20 @@
 \contentsline {subsubsection}{Angle}{16}{subsubsection*.42}
 \contentsline {section}{\numberline {2.4}Requirements}{17}{section.45}
 \contentsline {part}{II\hspace {1em}Feature detection}{19}{part.46}
-\contentsline {part}{III\hspace {1em}Feature classification}{21}{part.48}
-\contentsline {part}{IV\hspace {1em}Implementation}{23}{part.50}
-\contentsline {part}{V\hspace {1em}Evaluation}{25}{part.52}
+\contentsline {chapter}{\numberline {3}Face detection}{21}{chapter.49}
+\contentsline {section}{\numberline {3.1}Detection}{21}{section.51}
+\contentsline {section}{\numberline {3.2}Classifiers}{21}{section.55}
+\contentsline {chapter}{\numberline {4}Viola-Jones}{23}{chapter.57}
+\contentsline {section}{\numberline {4.1}Haar features}{23}{section.59}
+\contentsline {section}{\numberline {4.2}Weak classifiers}{23}{section.61}
+\contentsline {section}{\numberline {4.3}AdaBoost}{23}{section.63}
+\contentsline {section}{\numberline {4.4}Test set and training}{23}{section.65}
+\contentsline {part}{III\hspace {1em}Feature classification}{24}{part.66}
+\contentsline {part}{IV\hspace {1em}Implementation}{26}{part.68}
+\contentsline {part}{V\hspace {1em}Evaluation}{28}{part.70}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{27}{section*.54}
+\contentsline {chapter}{Conclusion}{31}{section*.72}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{29}{section*.55}
+\contentsline {chapter}{Bibliography}{33}{section*.73}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{31}{chapter.57}
+\contentsline {chapter}{\numberline {A}Appendix A name}{35}{chapter.75}

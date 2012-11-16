@@ -28,6 +28,11 @@ Charles Darwin.
 \newblock {\em The Expression of the Emotions in Man and Animals}.
 \newblock John Murray, 2. ed. edition, 1904.
 
+\bibitem{DIN08}
+Fabrizio Dini.
+\newblock An application of viola-jones algorithm: face detection and tracking.
+\newblock \url{http://www.micc.unifi.it/dini/download/dbmm2008-Dini.pdf}, 2008.
+
 \bibitem{DON99}
 Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
   Terrence~J. Sejnowski.
@@ -97,5 +102,10 @@ Matthew Turk and Alex Pentland.
 UQUAM.
 \newblock The msfde.
 \newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
+
+\bibitem{CLASS}
+Wikipedia.
+\newblock Statistical classification.
+\newblock \url{http://en.wikipedia.org/wiki/Classifier_(mathematics)}.
 
 \end{thebibliography}
