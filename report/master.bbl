@@ -45,6 +45,20 @@ Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression
   recognition, 2008.
 
+\bibitem{HAR12}
+Adam Harvey.
+\newblock Adam harvey explains viola-jones face detection.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2012.
+
+\bibitem{HEW07}
+Robin Hewitt.
+\newblock How face detection works.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2007.
+
 \bibitem{JEM09}
 Yousra~Ben Jemaa and Sana Khanfir.
 \newblock Automatic local gabor features extraction for face recognition.
@@ -102,6 +116,10 @@ Matthew Turk and Alex Pentland.
 UQUAM.
 \newblock The msfde.
 \newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
+
+\bibitem{VIO01}
+Paul Viola and Michael Jones.
+\newblock Robust real-time object detection, 2001.
 
 \bibitem{CLASS}
 Wikipedia.
