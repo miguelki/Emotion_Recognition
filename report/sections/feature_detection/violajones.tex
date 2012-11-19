@@ -64,7 +64,41 @@
 \phantomsection
 \section{Integral image}
 
-\noindent bla bla bla
+\noindent Rectangle features can be computed very rapidly using an intermediate representation for the image which Viola and Jones called the "integral image" \cite{VIO01}. This integral image technique allows to determine the presence or absence of hundreds of Haar features at every image location and at several scales efficiently. In general, "integrating" means adding small units together; here, the small units are pixel values. The integral value for each pixel is the sum of all the pixels above it and to its left. Starting at the left and traversing to the right and down, the entire image can be integrated with a few integer operations per pixel \cite{HEW07}.
+\newline
+
+\noindent It means that the integral image, at location $ x,y $ contains the sum of the pixels above and to the left of $ x,y $, inclusive: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the regional image. In the figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is the sum of all the pixels above and to the left \cite{VIO01}. 
+\newline
+	
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.6]{figures/integral_image_description} 
+\newline
+\caption{Integral image}
+\label{integral_image_description}
+\end{center} 
+\end{figure}
+	
+\noindent Using the following pair of recurrences: 
+\begin{equation}
+s(x,y) = s(x,y - 1) + i(x,y)
+\end{equation}
+\begin{equation}
+ii(x,y) = ii(x - 1,y) + s(x,y)
+\end{equation}
+(where $ s(x,y) $ is the cumulative row sum, $ s(x,-1) = 0 $, and $ ii(-1,y) = 0 $) the integral image can be computed in one pass over the original image. Using the integral image any rectangular sum can be computed in four array references. In the figure~\ref{integral_image_four_array}, the sum of the pixels within rectangle D can be computed with four array references. The value of the integral image at location 1 is the sum of the pixels in rectangle $ A $. The value at location 2 is $ A + B $, a location 3 is $ A + C $, and at location 4 is $ A + B + C + D $. The sum within D can be computed as $ 4 + 1 - (2 + 3) $ \cite{VIO01}. 
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.6]{figures/integral_image_four_array} 
+\newline
+\caption{Integral image with four array references}
+\label{integral_image_four_array}
+\end{center} 
+\end{figure}
+
+\noindent The integral is in fact the double integral of the image (first along rows and then along columns). The second derivative of the rectangle (first in row then in column) yields four delta functions at the corners of the rectangle \cite{VIO01}. 
 \newline
 
 \phantomsection

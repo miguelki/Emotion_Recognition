@@ -36,15 +36,15 @@
 \contentsline {chapter}{\numberline {4}Viola-Jones}{23}{chapter.57}
 \contentsline {section}{\numberline {4.1}Haar features}{23}{section.59}
 \contentsline {section}{\numberline {4.2}Integral image}{24}{section.65}
-\contentsline {section}{\numberline {4.3}Weak classifiers}{24}{section.67}
-\contentsline {section}{\numberline {4.4}AdaBoost}{25}{section.69}
-\contentsline {section}{\numberline {4.5}Test set and training}{25}{section.71}
-\contentsline {part}{III\hspace {1em}Feature classification}{27}{part.72}
-\contentsline {part}{IV\hspace {1em}Implementation}{29}{part.74}
-\contentsline {part}{V\hspace {1em}Evaluation}{31}{part.76}
+\contentsline {section}{\numberline {4.3}Weak classifiers}{28}{section.71}
+\contentsline {section}{\numberline {4.4}AdaBoost}{28}{section.73}
+\contentsline {section}{\numberline {4.5}Test set and training}{28}{section.75}
+\contentsline {part}{III\hspace {1em}Feature classification}{29}{part.76}
+\contentsline {part}{IV\hspace {1em}Implementation}{31}{part.78}
+\contentsline {part}{V\hspace {1em}Evaluation}{33}{part.80}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{33}{section*.78}
+\contentsline {chapter}{Conclusion}{35}{section*.82}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{35}{section*.79}
+\contentsline {chapter}{Bibliography}{37}{section*.83}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{37}{chapter.81}
+\contentsline {chapter}{\numberline {A}Appendix A name}{39}{chapter.85}
