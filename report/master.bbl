@@ -107,6 +107,10 @@ N~Sebe, M~S Lew, Y~Sun, I~Cohen, T~Gevers, and T~S Huang.
 \newblock Authentic facial expression analysis.
 \newblock {\em Image and Vision Computing}, 25:1856--1863, 2007.
 
+\bibitem{SMY07}
+Padhraic Smyth.
+\newblock Face detection using the viola-jones method, 2007.
+
 \bibitem{TUR91}
 Matthew Turk and Alex Pentland.
 \newblock Eigenfaces for recognition.
