@@ -86,6 +86,10 @@ Aleix Martinez and Robert Benavente.
 \newblock
   \url{http://www-sipl.technion.ac.il/new/DataBases/Aleix%20Face%20Database.htm}.
 
+\bibitem{UBC01}
+University of~British~Columbia.
+\newblock The viola/jones face detector, 2001.
+
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
 \newblock Automatic analysis of facial expressions: the state of the art.

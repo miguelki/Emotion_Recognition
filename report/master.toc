@@ -34,17 +34,18 @@
 \contentsline {section}{\numberline {3.1}Detection}{22}{section.51}
 \contentsline {section}{\numberline {3.2}Classifiers}{22}{section.55}
 \contentsline {chapter}{\numberline {4}Viola-Jones}{24}{chapter.57}
-\contentsline {section}{\numberline {4.1}Haar features}{24}{section.59}
-\contentsline {section}{\numberline {4.2}Integral image}{28}{section.66}
-\contentsline {section}{\numberline {4.3}Weak classifiers and AdaBoost}{29}{section.72}
-\contentsline {section}{\numberline {4.4}Classifiers cascade}{31}{section.76}
-\contentsline {section}{\numberline {4.5}Test set and training}{33}{section.80}
-\contentsline {part}{III\hspace {1em}Feature classification}{34}{part.81}
-\contentsline {part}{IV\hspace {1em}Implementation}{36}{part.83}
-\contentsline {part}{V\hspace {1em}Evaluation}{38}{part.85}
+\contentsline {section}{\numberline {4.1}Overview}{24}{section.59}
+\contentsline {section}{\numberline {4.2}Haar features}{24}{section.61}
+\contentsline {section}{\numberline {4.3}Integral image}{26}{section.68}
+\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{30}{section.74}
+\contentsline {section}{\numberline {4.5}Classifiers cascade}{32}{section.78}
+\contentsline {section}{\numberline {4.6}Test set and training}{35}{section.84}
+\contentsline {part}{III\hspace {1em}Feature classification}{38}{part.86}
+\contentsline {part}{IV\hspace {1em}Implementation}{40}{part.88}
+\contentsline {part}{V\hspace {1em}Evaluation}{42}{part.90}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{41}{section*.87}
+\contentsline {chapter}{Conclusion}{45}{section*.92}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{43}{section*.88}
+\contentsline {chapter}{Bibliography}{47}{section*.93}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{45}{chapter.90}
+\contentsline {chapter}{\numberline {A}Appendix A name}{49}{chapter.95}
