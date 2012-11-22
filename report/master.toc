@@ -31,26 +31,31 @@
 \contentsline {section}{\numberline {2.4}Requirements}{17}{section.45}
 \contentsline {part}{II\hspace {1em}Feature detection}{19}{part.46}
 \contentsline {part}{III\hspace {1em}Feature extraction and classification}{21}{part.48}
-\contentsline {chapter}{\numberline {1}Feature extraction}{23}{chapter.51}
-\contentsline {section}{\numberline {1.1}Appearance-based methods}{23}{section.52}
-\contentsline {section}{\numberline {1.2}Local Binary Patterns}{23}{section.53}
-\contentsline {subsection}{\numberline {1.2.1}Overview}{23}{subsection.54}
-\contentsline {subsection}{\numberline {1.2.2}Histogram computing}{23}{subsection.55}
-\contentsline {section}{\numberline {1.3}Improvements}{23}{section.56}
-\contentsline {subsection}{\numberline {1.3.1}Circular LBP}{23}{subsection.57}
-\contentsline {subsection}{\numberline {1.3.2}Uniform LBP}{24}{subsection.58}
-\contentsline {chapter}{\numberline {2}Feature classification}{25}{chapter.60}
-\contentsline {section}{\numberline {2.1}Supervised and unsupervised learning}{25}{section.61}
-\contentsline {subsection}{\numberline {2.1.1}Supervised learning}{25}{subsection.62}
-\contentsline {subsection}{\numberline {2.1.2}Unsupervised learning}{25}{subsection.63}
-\contentsline {section}{\numberline {2.2}Support Vector Machine}{25}{section.64}
-\contentsline {section}{\numberline {2.3}Combining LBP and SVM}{25}{section.65}
-\contentsline {part}{IV\hspace {1em}Implementation}{26}{part.66}
-\contentsline {part}{V\hspace {1em}Evaluation}{28}{part.68}
+\contentsline {chapter}{\numberline {3}Feature extraction}{23}{chapter.51}
+\contentsline {section}{\numberline {3.1}Overview}{23}{section.52}
+\contentsline {section}{\numberline {3.2}Appearance-based methods}{23}{section.53}
+\contentsline {section}{\numberline {3.3}Geometry-based methods}{23}{section.54}
+\contentsline {chapter}{\numberline {4}Local Binary Patterns}{24}{chapter.56}
+\contentsline {section}{\numberline {4.1}Overview}{24}{section.57}
+\contentsline {section}{\numberline {4.2}Histogram computing}{24}{section.58}
+\contentsline {section}{\numberline {4.3}Improvements}{24}{section.59}
+\contentsline {subsection}{\numberline {4.3.1}Circular LBP}{24}{subsection.60}
+\contentsline {subsection}{\numberline {4.3.2}Uniform LBP}{24}{subsection.61}
+\contentsline {chapter}{\numberline {5}Feature classification}{25}{chapter.63}
+\contentsline {section}{\numberline {5.1}Supervised and unsupervised learning}{25}{section.64}
+\contentsline {subsection}{\numberline {5.1.1}Supervised learning}{25}{subsection.65}
+\contentsline {subsection}{\numberline {5.1.2}Unsupervised learning}{25}{subsection.66}
+\contentsline {chapter}{\numberline {6}Support Vector Machine}{26}{chapter.68}
+\contentsline {section}{\numberline {6.1}Overview}{26}{section.69}
+\contentsline {subsection}{\numberline {6.1.1}Margin maximization}{26}{subsection.70}
+\contentsline {subsection}{\numberline {6.1.2}SVM kernels}{26}{subsection.71}
+\contentsline {section}{\numberline {6.2}Combining LBP and SVM}{26}{section.72}
+\contentsline {part}{IV\hspace {1em}Implementation}{27}{part.73}
+\contentsline {part}{V\hspace {1em}Evaluation}{29}{part.75}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{31}{section*.70}
+\contentsline {chapter}{Conclusion}{31}{section*.77}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{33}{section*.71}
+\contentsline {chapter}{Bibliography}{33}{section*.78}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{35}{chapter.73}
+\contentsline {chapter}{\numberline {A}Appendix A name}{35}{chapter.80}
 \contentsfinish 
