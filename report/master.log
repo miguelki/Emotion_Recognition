@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  15 NOV 2012 20:39
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  22 NOV 2012 17:12
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -932,7 +932,7 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 ) [5] [6
 
 ]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc)
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc [7])
 \tf@toc=\write3
 
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
@@ -1035,7 +1035,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=130, 403.5075pt x 234.8775pt>
+<figures/jaffe_7facialexpressions.png, id=150, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
@@ -1066,7 +1066,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/kdef_7facialexpressions.png, id=142, 401.5pt x 274.02374pt>
+<figures/kdef_7facialexpressions.png, id=163, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
@@ -1099,7 +1099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<figures/msfde_7facialexpressions.png, id=154, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=174, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
@@ -1123,7 +1123,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--13
  []
 
 
-<figures/facial_expression_recognition_process.png, id=161, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=181, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1144,23 +1144,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
-[9]
+
 Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--46
 
  []
 
 [10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_ex
 pression_recognition_process.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
@@ -1256,14 +1256,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-<figures/arface_example2.png, id=228, 499.8675pt x 127.47626pt>
+<figures/arface_example2.png, id=249, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
 Package pdftex.def Info: figures/arface_example2.png used on input line 156.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=229, 498.86375pt x 127.47626pt>
+<figures/arface_example3.png, id=250, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
@@ -1279,7 +1279,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--177
  []
 
 [15 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
-ample2.png>] <figures/arface_example1.png, id=239, 499.8675pt x 127.47626pt>
+ample2.png>] <figures/arface_example1.png, id=261, 499.8675pt x 127.47626pt>
 File: figures/arface_example1.png Graphic file (type png)
 
 <use figures/arface_example1.png>
@@ -1293,7 +1293,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 190--192
 [16 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
 ample3.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/a
 rface_example1.png>]
-<figures/kdef_example_angle.png, id=248, 500.87125pt x 135.50626pt>
+<figures/kdef_example_angle.png, id=269, 500.87125pt x 135.50626pt>
 File: figures/kdef_example_angle.png Graphic file (type png)
 
 <use figures/kdef_example_angle.png>
@@ -1320,8 +1320,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--221
 
  []
 
-[17 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_exam
-ple_angle.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 222--225
 
  []
@@ -1331,19 +1330,89 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--229
 
  []
 
-))
+[17 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_exam
+ple_angle.png>]))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
 ction.tex [18] [19])
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
-sification.tex [20] [21])
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
-on.tex [22] [23])
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
-ex [24] [25]) [26]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
-ex) [27
+sification.tex [20] [21]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [22]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/feat_extraction.tex
+Chapter 1.
 
-] [28
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 42--23
+
+ []
+
+[23] [24]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/feat_classification.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 30--25
+
+ []
+
+)
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on.tex [25] [26])
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
+ex [27] [28]) [29] [30
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
+ex) [31] [32
 
 ]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl
@@ -1351,7 +1420,7 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 52.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [29]) [30]
+) [33]) [34]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/appAname.tex
 Appendix A.
 )
@@ -1359,7 +1428,7 @@ Appendix A.
 \tf@ptc=\write5
  
 AED: lastpage setting LastPage
-[31
+[35
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1370,10 +1439,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 10021 strings out of 494045
- 147622 string characters out of 3145975
- 244229 words of memory out of 3000000
- 12951 multiletter control sequences out of 15000+200000
+ 10061 strings out of 494045
+ 148577 string characters out of 3145975
+ 244244 words of memory out of 3000000
+ 12959 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,14n,38p,1022b,481s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1392,9 +1461,9 @@ b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (37 pages, 953285 bytes).
+Output written on master.pdf (42 pages, 965116 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 535 PDF objects out of 1000 (max. 8388607)
+ 135 named destinations out of 1000 (max. 500000)
+ 246 words of extra memory for PDF output out of 10000 (max. 10000000)
 

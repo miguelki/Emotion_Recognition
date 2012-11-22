@@ -1,12 +1,28 @@
 %\newpage
   \begin{titlepage}
     \vspace*{\fill}
-      \part{Feature classification}
+      \part{Feature extraction and classification}
     \vspace*{\fill}
   \end{titlepage}
+
+\startcontents[parts]
 
 %\chapter{Introduction}\label{ch:introduction}
 \phantomsection
 \chapter*{Contents}
 
-Bla bla bla
+\textit{Bla bla bla.}
+
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+
+\input{sections/classification/feat_extraction.tex}
+\newpage
+\input{sections/classification/feat_classification.tex}
+
+\stopcontents[parts]
+
+
