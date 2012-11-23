@@ -1,6 +1,7 @@
 \select@language {english}
 \contentsline {chapter}{Preface}{v}{Doc-Start}
 \contentsline {part}{I\hspace {1em}Introduction}{2}{part.1}
+\ttl@starttoc {parts@1}
 \contentsline {chapter}{\numberline {1}Motivations}{4}{chapter.4}
 \contentsline {section}{\numberline {1.1}Environment Setup}{5}{section.6}
 \contentsline {section}{\numberline {1.2}Emotion Datasets}{5}{section.8}
@@ -29,7 +30,10 @@
 \contentsline {subsubsection}{Lightning}{16}{subsubsection*.40}
 \contentsline {subsubsection}{Angle}{17}{subsubsection*.42}
 \contentsline {section}{\numberline {2.4}Requirements}{17}{section.45}
+\ttl@stoptoc {parts@1}
 \contentsline {part}{II\hspace {1em}Feature detection}{20}{part.46}
+\ttl@stoptoc {parts@1}
+\ttl@starttoc {parts@2}
 \contentsline {chapter}{\numberline {3}Face detection}{22}{chapter.49}
 \contentsline {section}{\numberline {3.1}Detection}{22}{section.51}
 \contentsline {section}{\numberline {3.2}Classifiers}{22}{section.55}
@@ -40,7 +44,10 @@
 \contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{30}{section.74}
 \contentsline {section}{\numberline {4.5}Classifiers cascade}{32}{section.78}
 \contentsline {section}{\numberline {4.6}Test set and training}{35}{section.84}
+\ttl@stoptoc {parts@2}
 \contentsline {part}{III\hspace {1em}Feature extraction and classification}{38}{part.86}
+\ttl@stoptoc {parts@2}
+\ttl@starttoc {parts@3}
 \contentsline {chapter}{\numberline {5}Feature extraction}{40}{chapter.89}
 \contentsline {section}{\numberline {5.1}Overview}{40}{section.90}
 \contentsline {section}{\numberline {5.2}Appearance-based methods}{40}{section.91}
@@ -60,6 +67,7 @@
 \contentsline {subsection}{\numberline {8.1.1}Margin maximization}{43}{subsection.108}
 \contentsline {subsection}{\numberline {8.1.2}SVM kernels}{43}{subsection.109}
 \contentsline {section}{\numberline {8.2}Combining LBP and SVM}{43}{section.110}
+\ttl@stoptoc {parts@3}
 \contentsline {part}{IV\hspace {1em}Implementation}{44}{part.111}
 \contentsline {part}{V\hspace {1em}Evaluation}{46}{part.113}
 \vspace \bigskipamount 
