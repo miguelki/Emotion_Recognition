@@ -5,10 +5,11 @@
 
 \section{General structure}
 
+\vspace{\baselineskip}
 \noindent Facial expression recognition is a system enabling an automatic recognition of emotions displayed by a human face. Facial expression recognition can be image or video-based; it can also be computed real-time. Most of the time, researchers try to recognize emotions out of images of human faces. This can also be achieved real-time on video streams : While the person displays his/her emotions, the facial expression recognition system analyses the video, and detect in real-time the displayed emotion.
 \newline
 
-\noindent In both cases, facial expression recognition process is structured as follows:
+\noindent In both cases, facial expression recognition process is structured as in the figure~\ref{facial_expression_recognition_process}
 \newline
 
 \begin{figure}[!h]
@@ -46,7 +47,8 @@
 
 \subsection{Classification}
 
-\noindent The classification step marks the end of image processing steps (face detection, normalization, feature extraction). There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as stated in Section \ref{feat_x}. This step takes into input a model  previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
+\noindent The classification step marks the end of image processing steps (face detection, normalization, feature extraction). There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as stated in Section \ref{feat_x}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
+\vspace{\baselineskip}
 
 \phantomsection
 \section{Feature extraction algorithms} \label{feat_x}
@@ -106,6 +108,7 @@
 \phantomsection
 \section{Issues}
 
+\vspace{\baselineskip}
 \subsection{Database}
 
 \vspace{\baselineskip}
@@ -148,7 +151,7 @@
 \subsubsection{Occlusion}
 
 \vspace{\baselineskip}
-\noindent "Occlusion" represents all the elements that can cover the face or a part of it. For example, a beard, a scarf masking the bottom of the face, glasses or bangs. By hiding a part of the face, these occlusions can affect the recognition. Indeed, these Facial Expression Recognition systems are based on comparison of features and if all the features cannot be compared because something is covering a part of the face, the recognition is affected. In order to compensate for this problem, some databases includes data with already occlusions in it as beard, glasses or scarf for example. This is the case for the AR Face database and following some examples of the images contained in this database \cite{ARFACE}:
+\noindent "Occlusion" represents all the elements that can cover the face or a part of it. For example, a beard, a scarf masking the bottom of the face, glasses or bangs. By hiding a part of the face, these occlusions can affect the recognition. Indeed, these Facial Expression Recognition systems are based on comparison of features and if all the features cannot be compared because something is covering a part of the face, the recognition is affected. In order to compensate for this problem, some databases includes data with already occlusions in it as beard, glasses or scarf for example. This is the case for the AR Face database and some examples of the images contained in this database are given by figure~\ref{arface_example2} and figure~\ref{arface_example3} \cite{ARFACE}:
 \newline
 
 \begin{figure}[!h]
@@ -172,7 +175,7 @@
 \subsubsection{Lightning}
 
 \vspace{\baselineskip}
-\noindent As for occlusion, lightning is an element that can affect Facial Expression Recognition system. With a lightning different from the one used in the database, the recognition will be less efficient. All the conditions that change from the one of the database on which is based the recognition process will disturb the recognition in itself. If the images are brighter or darker than the one of the database, some details can disappear or some features cannot be recognized as well as if the conditions were the same. In order to compensate for this problem, some databases includes data with already changes in the lightning. This is the case for the AR Face database and following an example of the images contained in this database \cite{ARFACE}:
+\noindent As for occlusion, lightning is an element that can affect Facial Expression Recognition system. With a lightning different from the one used in the database, the recognition will be less efficient. All the conditions that change from the one of the database on which is based the recognition process will disturb the recognition in itself. If the images are brighter or darker than the one of the database, some details can disappear or some features cannot be recognized as well as if the conditions were the same. In order to compensate for this problem, some databases includes data with already changes in the lightning. This is the case for the AR Face database and an example of the images contained in this database is given by the figure~\ref{arface_example1} \cite{ARFACE}:
 \newline
 
 \begin{figure}[!h]
@@ -187,7 +190,7 @@
 \subsubsection{Angle}
 
 \vspace{\baselineskip}
-\noindent The angle of the head from the camera lens is one of the conditions that can affect the most the recognition process. Indeed if the head is too much turned from straight angle, some features will disappear. For example, with a profile angle, one eyes and half of the nose and of the mouth disappear. And if the database does not contain sample with profile face, the recognition will not succeed. This constraint is based on the database; if the database contains images from straight angle as well as from profile angle and other, the recognition will be possible even if the head is not with a straight angle. But if the database contains images only from straight angle, the recognition will be almost impossible if the head is turned. Following an example of the different images taken from different angles for one emotion, "Fear", from the KDEF database:
+\noindent The angle of the head from the camera lens is one of the conditions that can affect the most the recognition process. Indeed if the head is too much turned from straight angle, some features will disappear. For example, with a profile angle, one eyes and half of the nose and of the mouth disappear. And if the database does not contain sample with profile face, the recognition will not succeed. This constraint is based on the database; if the database contains images from straight angle as well as from profile angle and other, the recognition will be possible even if the head is not with a straight angle. But if the database contains images only from straight angle, the recognition will be almost impossible if the head is turned. An example of the different images taken from different angles for one emotion, "Fear", from the KDEF database is given in figure~\ref{kdef_example_angle}:
 \newline
 
 \begin{figure}[!h]
@@ -216,15 +219,25 @@
 \newline
 
   \item Recognition from straight angle of the face : 
-  \noindent bla bla bla
+  \noindent This system would be able to recognize facial expression from a straight angle of the face. It means that the system would be able to detect faces that are in front of the camera lens and to recognize expressions in these faces. It would not be able to recognize emotions on a face that is from profile or half-profile.
 \newline
 
   \item Recognition with no occlusion on the face : 
-  \noindent bla bla bla
+  \noindent This system would be able to recognize emotions with no occlusion on the subject's face. It means that the face would not be cover in any way: no glasses, no beard or no scarf. The face would be complete and not masked.
 \newline
 
   \item Recognition with no change in lightning : 
-  \noindent bla bla bla
+  \noindent This system would be able to recognize emotions on faces under the same lighting conditions. It means that the light would not vary during the recognition part. The light would stay the same and the level of intensity of the light would be as close as possible that the one of the database. This way the lightning would not have any influence on the recognition.
 \newline
 \end{itemize}
+
+
+
+
+
+
+
+
+
+
 

@@ -28,6 +28,11 @@ Charles Darwin.
 \newblock {\em The Expression of the Emotions in Man and Animals}.
 \newblock John Murray, 2. ed. edition, 1904.
 
+\bibitem{DIN08}
+Fabrizio Dini.
+\newblock An application of viola-jones algorithm: face detection and tracking.
+\newblock \url{http://www.micc.unifi.it/dini/download/dbmm2008-Dini.pdf}, 2008.
+
 \bibitem{DON99}
 Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
   Terrence~J. Sejnowski.
@@ -39,6 +44,20 @@ Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
 Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression
   recognition, 2008.
+
+\bibitem{HAR12}
+Adam Harvey.
+\newblock Adam harvey explains viola-jones face detection.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2012.
+
+\bibitem{HEW07}
+Robin Hewitt.
+\newblock How face detection works.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2007.
 
 \bibitem{JEM09}
 Yousra~Ben Jemaa and Sana Khanfir.
@@ -67,6 +86,10 @@ Aleix Martinez and Robert Benavente.
 \newblock
   \url{http://www-sipl.technion.ac.il/new/DataBases/Aleix%20Face%20Database.htm}.
 
+\bibitem{UBC01}
+University of~British~Columbia.
+\newblock The viola/jones face detector, 2001.
+
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.
 \newblock Automatic analysis of facial expressions: the state of the art.
@@ -88,6 +111,10 @@ N~Sebe, M~S Lew, Y~Sun, I~Cohen, T~Gevers, and T~S Huang.
 \newblock Authentic facial expression analysis.
 \newblock {\em Image and Vision Computing}, 25:1856--1863, 2007.
 
+\bibitem{SMY07}
+Padhraic Smyth.
+\newblock Face detection using the viola-jones method, 2007.
+
 \bibitem{TUR91}
 Matthew Turk and Alex Pentland.
 \newblock Eigenfaces for recognition.
@@ -97,5 +124,14 @@ Matthew Turk and Alex Pentland.
 UQUAM.
 \newblock The msfde.
 \newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
+
+\bibitem{VIO01}
+Paul Viola and Michael Jones.
+\newblock Robust real-time object detection, 2001.
+
+\bibitem{CLASS}
+Wikipedia.
+\newblock Statistical classification.
+\newblock \url{http://en.wikipedia.org/wiki/Classifier_(mathematics)}.
 
 \end{thebibliography}
