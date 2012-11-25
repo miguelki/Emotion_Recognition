@@ -1,7 +1,7 @@
 \phantomsection
 \chapter{Viola-Jones}
 
-\noindent Viola-Jones algorithm is a visual object detection framework that is capable of processing images extremely rapidly while achieving high detection rates. It is based on a new image representation called "Integral Image" which allows the features used to be computed very quickly. It is also based on a learning algorithm, based on AdaBoost that gives extremely efficient classifiers. And it is also based on a method for combining classifiers in "cascade"; it allows to discard quickly the background of the image and to focus on the promising object-like regions \cite{VIO01}.
+\noindent Viola-Jones algorithm is "a visual object detection framework that is capable of processing images extremely rapidly while achieving high detection rates". 3 main points characterize this algorithm. The first one is the use of what is called an "Integral image". It is a new representation of the image and it allows the features used to be computed very quickly. The second one is the use of a learning algorithm based on AdaBoost. It results in giving extremely efficient classifiers. The third and last one is the use of a method to combine classifiers. This method combine classifiers in "cascade". It allows to focus on the promising object-like regions by discarding the background in a very quick way \cite{VIO01}.
 \newline
 
 \phantomsection
@@ -11,22 +11,22 @@
 \noindent The Viola-Jones algorithm works as following \cite{DIN08}:
 
 \begin{itemize}
-  \item The Viola-Jones detector is a strong, binary classifier build of several weak detectors
-  \item Each weak detector is an extremely simple binary classifier
-  \item During the learning stage, a cascade of weak detectors is trained so as to gain the desired hit rate / miss rate (or precision / recall) using AdaBoost
-  \item To detect objects, the original image is partitioned in several rectangular sub-regions, each of which is submitted to the cascade
-  \item if a rectangular image sub-region passes through all of the cascade stages, then it is classified as "positive"
-  \item The process is repeated at different scales
+  \item "The Viola-Jones detector is a strong, binary classifier build of several weak detectors"
+  \item "Each weak detector is a simple binary classifier"
+  \item During the learning part, a cascade of weak classifiers is used and trained in order to attained the desired hit/miss rate using the learning algorithm based on AdaBoost
+  \item The input image is divided in several rectangular sub-regions in order to detect objects. The cascade computes each of these sub-regions
+  \item To classify a sub-region as "positive", it has to go through all of the stages of the cascade
+  \item All the process involving the sub-regions is repeated at different scales
 \end{itemize}
 
 \phantomsection
 \section{Haar features}
 
 \vspace{\baselineskip}
-\noindent The features used by Viola and Jones are called Haar features and are based on Haar wavelets. Haar wavelets are single wavelength square waves (one high interval and one low interval). In two dimensions, a square wave is a pair of adjacent rectangles: one light and one dark. The actual rectangle combinations used for visual object detection are not true Haar wavelets. Instead, they contain rectangle combinations better suited to visual recognition tasks. That is because of this difference that these features are called Haar features, or Haarlike features, rather than Haar wavelets \cite{HEW07}.
+\noindent The features used by Viola and Jones are called Haar features and are based on Haar wavelets. Haar wavelets are single wavelength square waves. It is composed of one high interval and one low interval. In two dimensions, a square wave is represented by a pair of adjacent rectangles: one rectangle that is light and one rectangle that is dark. The true Haar wavelets are not the one used for this rectangle combinations that is used for visual object detection. They use instead rectangle combinations that are better suited to recognition tasks. That is because of this difference that these features are called Haar features rather than Haar wavelets (they can also be called Haarlike features) \cite{HEW07}.
 \newline
 
-\noindent For example, the figure~\ref{haar_features_first_2_stage} shows the first two Haar features in the original Viola-Jones cascade \cite{HEW07}. These are all features from the original set of features. In figure~\ref{haar_features_extended}, there is an example of features from the extended set of features \cite{DIN08}. In the figure~\ref{haar_features_early_stage} , it is an example of a early stage in the Haar cascade. Each black and white patch represents a feature that the algorithm hunts for in the image \cite{HAR12}.
+\noindent For example, the figure~\ref{haar_features_first_2_stage} shows the first two Haar features in the original Viola-Jones cascade \cite{HEW07}. These are all features from the original set of features. In figure~\ref{haar_features_extended}, there is an example of features from the extended set of features \cite{DIN08}. In the figure~\ref{haar_features_early_stage} , it is an example of a early stage in the Haar cascade. Each black and white rectangle represents a feature. And that is what the algorithm hunts for in the image \cite{HAR12}.
 \newline
 
 \begin{figure}[!h]
@@ -56,10 +56,10 @@
 \end{center} 
 \end{figure}
 
-\noindent The presence of a Haar feature is determined by subtracting the average dark-region pixel value from the average light-region pixel value. if the difference is above a threshold, that feature is said to be present and then it can go on to the next stage \cite{HEW07}. There is about 20-30 different stages. The first stage is a very coarse scan of the image. Stage 2 gets a little more detailed, stage 3 is a harder test to pass, stage 4 is even harder and it goes on and on. More it goes further into the cascade, more the features get increasingly complex and larger. It also takes more time to compute \cite{HAR12}.
+\noindent To detect if a Haar feature is present or not, basic subtraction is used. The subtraction consists in subtracting the average pixel value of the dark-region from the average pixel value of the light-region. Then it is a simple comparison. The result of the subtraction is compared with a threshold. If the result is above the threshold, then the feature is considered as present and it can go to the next stage \cite{HEW07}. There is about 20 to 30 different stages to detect the presence of Haar features. The first stage is a very coarse scan of the image. The second stage is more detailed, the third stage is once again more detailed and harder to pass, the fourth stage is even harder and it goes on and on till the end. The more it moves froward into the cascade, the more it becomes harder. The features become increasingly complex and larger. All this processing takes indeed more time to compute \cite{HAR12}.
 \newline
 
-\noindent For example, the figure~\ref{haar_feature_later_stage} shows the later stage in the Haar cascade where many more patterns of black and white rectangles need to match the candidate image \cite{HAR12}.
+\noindent For example, the figure~\ref{haar_feature_later_stage} shows the later stage in the Haar cascade. There are many more patterns of black and white rectangles that need to match the input image \cite{HAR12}.
 \newline
 
 \begin{figure}[!h]
@@ -71,10 +71,10 @@
 \end{center} 
 \end{figure}
 
-\noindent Three kinds of feature are used by Viola and Jones. The value of a two-rectangle feature is the difference between the sum of the pixels within two rectangular regions. The regions have the same size and shape and are horizontally or vertically adjacent. A three-rectangle feature computes the sum within two outside rectangles subtracted from the sum in a center rectangle. Finally a four-rectangle feature computes the difference between diagonal pairs of rectangles \cite{VIO01}.
+\noindent It exists three kinds of feature that Viola and Jones use: a two-rectangle feature, a three-rectangle feature and a four-rectangle feature. To find the value of the two-rectangle feature, it consists in the difference between the sum of the pixels that are in the two rectangular regions. The regions (or rectangles) are the same: they have the same size and the same shape. And they are horizontally or vertically adjacent. The three-rectangle feature are calculated by the sum of the pixels of the two outside rectangles subtracted from the sum of the pixels in the center rectangle. The last kind of feature is the four-rectangle feature consists in the difference between the diagonal pairs of rectangles \cite{VIO01}.
 \newline
 
-\noindent For example, the figure~\ref{haar_feature_description} shows the different kinds of rectangle features used by the Viola-Jones algorithm. Two-rectangle features are shown in (A) and (B). Figure (C) shows a three-rectangle feature, and (D) a four-rectangle feature \cite{VIO01}.
+\noindent For example, the figure~\ref{haar_feature_description} shows the different kinds of rectangle features used by the Viola-Jones algorithm. The images (A) and (B) show the two-rectangle features. The image (C) shows the three-rectangle feature, and the image (D) shows the four-rectangle feature \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
@@ -86,17 +86,17 @@
 \end{center} 
 \end{figure}
 
-\noindent Rectangle features can be considered as somewhat primitive. In contrast with other features, rectangle features, while sensitive to the presence of edges, bars and other simple image structure, are quite coarse. It appears as though the set of rectangle features do however provide a rich image representation which supports effective learning. The extreme computational efficiency of rectangle features provides ample compensation for their limited flexibility \cite{VIO01}.
+\noindent Viola and Jones admit that rectangle features can be considered as primitive features. In contrast with other features, rectangle features are quite coarse (even though they are sensitive to the presence of edges, bars and other simple image structure). It appears that however, a rich image representation is provided by this set of rectangle features and furthermore this representation supports effective learning. In comparison with the extreme computational efficiency provided by rectangle features, their limited flexibility is not much of a problem \cite{VIO01}.
 \newline
 
 \phantomsection
 \section{Integral image}
 
 \vspace{\baselineskip}
-\noindent Rectangle features can be computed very rapidly using an intermediate representation for the image which Viola and Jones called the "integral image" \cite{VIO01}. This integral image technique allows to determine the presence or absence of hundreds of Haar features at every image location and at several scales efficiently. In general, "integrating" means adding small units together; here, the small units are pixel values. The integral value for each pixel is the sum of all the pixels above it and to its left. Starting at the left and traversing to the right and down, the entire image can be integrated with a few integer operations per pixel \cite{HEW07}.
+\noindent Viola and Jones used an intermediate representation of an image that they called "integral image". This integral image allows to compute very quickly the rectangle features \cite{VIO01}. This technique allows to determine the presence or absence of hundreds of Haar features. It can be determined for every image location and for several scales efficiently. In general, adding small units together is what is called "integrating"; here, the small units are pixel values. The sum of all the pixels above and to the left of each pixel is the the integral value. And this value can be found for each pixel. That is why this technique is efficient: the entire image can be integrated only with a few calculations per pixel. This integration starts at the top left corner and go through all the image to the right and down \cite{HEW07}.
 \newline
 
-\noindent It means that the integral image, at location $ x,y $ contains the sum of the pixels above and to the left of $ x,y $, inclusive: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the regional image. In the figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is the sum of all the pixels above and to the left \cite{VIO01}. 
+\noindent It means that the integral image, at location $ x,y $ contains the sum of the pixels above and on the left of $ x,y $, $ x,y$ included: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the regional image. In the figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is the sum of all the pixels above and on the left \cite{VIO01}. 
 \newline
 	
 \begin{figure}[!h]
@@ -115,7 +115,10 @@ s(x,y) = s(x,y - 1) + i(x,y)
 \begin{equation}
 ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{equation}
-(where $ s(x,y) $ is the cumulative row sum, $ s(x,-1) = 0 $, and $ ii(-1,y) = 0 $) the integral image can be computed in one pass over the original image. Using the integral image any rectangular sum can be computed in four array references. In the figure~\ref{integral_image_four_array}, the sum of the pixels within rectangle D can be computed with four array references. The value of the integral image at location 1 is the sum of the pixels in rectangle $ A $. The value at location 2 is $ A + B $, a location 3 is $ A + C $, and at location 4 is $ A + B + C + D $. The sum within D can be computed as $ 4 + 1 - (2 + 3) $ \cite{VIO01}. 
+(where $ s(x,y) $ is the cumulative row sum, $ s(x,-1) = 0 $, and $ ii(-1,y) = 0 $) the integral image can be computed in one pass over the original image. 
+\newline
+
+\noindent Thanks to the integral image, any rectangular sum can be calculated in four array references. In the figure~\ref{integral_image_four_array}, the sum of the pixels in rectangle D can be calculated with four array references. The value of the integral image at the point 1 is the sum of the pixels in rectangle $ A $. The value at the point 2 is $ A + B $, at the point 3 is $ A + C $, and at the point 4 is $ A + B + C + D $. The sum in D can then be computed as $ 4 + 1 - (2 + 3) $ \cite{VIO01}. 
 \newline
 
 \begin{figure}[!h]
@@ -127,17 +130,14 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent The integral is in fact the double integral of the image (first along rows and then along columns). The second derivative of the rectangle (first in row then in column) yields four delta functions at the corners of the rectangle \cite{VIO01}. 
-\newline
-
 \phantomsection
 \section{Weak classifiers and AdaBoost}
 
 \vspace{\baselineskip}
-\noindent Features are extracted from a sub windows of a sample image. The base size for this sub window is 24 by 24 pixels. Each of all the features types are scaled and shifted across all possible combinations (In a 24 pixel by 24 pixel sub window, there are about 160,000 possible features to be calculated) \cite{SMY07}.
+\noindent Features are extracted from a sub-region of an input image. This sub-region has a size that is usually of 24 by 24 pixels. Each of all the features types are moved and scaled across the entire input image (In a 24 pixel by 24 pixel sub-region, it means that there are about 160,000 possible combinations to process) \cite{SMY07}.
 \newline
 
-\noindent To select the specific Haar features to use, and to set threshold levels, Viola and Jones use a machine-learning method called AdaBoost. AdaBoost combines many "weak" classifiers to create one "strong" classifier. "Weak" here means that the classifier only gets the right answer a little more often than random guessing would. That is not very good. That is why a lot of weak classifiers are used. If a whole lot of these weak classifiers are used, and each one "pushed" the final answer a little bit in the right direction, this represents a strong, combined for to arrive at the correct solution. 
+\noindent AdaBoost is a machine-learning method used by Viola and Jones in order to select the specific Haar features to use. It is also used to set the threshold levels. This method is based on the combination of many weak classifiers to form a strong one. It is called a weak classifier because this kind of classifiers obtains the right answer only a little more often than a random guess would which is not particularly good. The purpose of using so many weak classifiers is to get a right answer with a higher rate of success. All of this is based on the verified hypothesis that if each of the weak classifiers pushes the final answer a little bit in the right direction each time, it means that at the end, the correct answer is obtained. This combination of several weak classifiers represents a strong one \cite{HEW07}. 
 \newline
 
 \noindent AdaBoost selects a set of weak classifiers to combine and assigns a weight to each (see figure~\ref{haar_feature_adaboost}). This weighted combination is the strong classifier \cite{HEW07}. The challenge is to associate a large weight with each good classification function and a smaller weight with poor functions. AdaBoost is an aggressive mechanism for selecting a small set of good classification functions which nevertheless have signficant variety \cite{VIO01}.
