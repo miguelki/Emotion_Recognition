@@ -53,27 +53,27 @@
 \contentsline {section}{\numberline {5.2}Appearance-based methods}{41}{section.91}
 \contentsline {section}{\numberline {5.3}Geometry-based methods}{41}{section.92}
 \contentsline {chapter}{\numberline {6}Local Binary Patterns}{42}{chapter.94}
-\contentsline {section}{\numberline {6.1}Overview}{42}{section.95}
-\contentsline {section}{\numberline {6.2}Histogram computing}{42}{section.96}
-\contentsline {section}{\numberline {6.3}Improvements}{42}{section.97}
-\contentsline {subsection}{\numberline {6.3.1}Circular LBP}{42}{subsection.98}
-\contentsline {subsection}{\numberline {6.3.2}Uniform LBP}{42}{subsection.99}
-\contentsline {chapter}{\numberline {7}Feature classification}{43}{chapter.101}
-\contentsline {section}{\numberline {7.1}Supervised and unsupervised learning}{43}{section.102}
-\contentsline {subsection}{\numberline {7.1.1}Supervised learning}{43}{subsection.103}
-\contentsline {subsection}{\numberline {7.1.2}Unsupervised learning}{43}{subsection.104}
-\contentsline {chapter}{\numberline {8}Support Vector Machine}{44}{chapter.106}
-\contentsline {section}{\numberline {8.1}Overview}{44}{section.107}
-\contentsline {subsection}{\numberline {8.1.1}Margin maximization}{44}{subsection.108}
-\contentsline {subsection}{\numberline {8.1.2}SVM kernels}{44}{subsection.109}
-\contentsline {section}{\numberline {8.2}Combining LBP and SVM}{44}{section.110}
+\contentsline {section}{\numberline {6.1}Overview}{42}{section.96}
+\contentsline {section}{\numberline {6.2}Histogram computing}{42}{section.98}
+\contentsline {section}{\numberline {6.3}Improvements}{43}{section.100}
+\contentsline {subsection}{\numberline {6.3.1}Circular LBP}{43}{subsection.102}
+\contentsline {subsection}{\numberline {6.3.2}Uniform LBP}{43}{subsection.104}
+\contentsline {chapter}{\numberline {7}Feature classification}{44}{chapter.106}
+\contentsline {section}{\numberline {7.1}Supervised and unsupervised learning}{44}{section.107}
+\contentsline {subsection}{\numberline {7.1.1}Supervised learning}{44}{subsection.108}
+\contentsline {subsection}{\numberline {7.1.2}Unsupervised learning}{44}{subsection.109}
+\contentsline {chapter}{\numberline {8}Support Vector Machine}{45}{chapter.111}
+\contentsline {section}{\numberline {8.1}Overview}{45}{section.112}
+\contentsline {subsection}{\numberline {8.1.1}Margin maximization}{45}{subsection.113}
+\contentsline {subsection}{\numberline {8.1.2}SVM kernels}{45}{subsection.114}
+\contentsline {section}{\numberline {8.2}Combining LBP and SVM}{45}{section.115}
 \ttl@stoptoc {parts@3}
-\contentsline {part}{IV\hspace {1em}Implementation}{45}{part.111}
-\contentsline {part}{V\hspace {1em}Evaluation}{47}{part.113}
+\contentsline {part}{IV\hspace {1em}Implementation}{46}{part.116}
+\contentsline {part}{V\hspace {1em}Evaluation}{48}{part.118}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{49}{section*.115}
+\contentsline {chapter}{Conclusion}{51}{section*.120}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{51}{section*.116}
+\contentsline {chapter}{Bibliography}{53}{section*.121}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{53}{chapter.118}
+\contentsline {chapter}{\numberline {A}Appendix A name}{55}{chapter.123}
 \contentsfinish 

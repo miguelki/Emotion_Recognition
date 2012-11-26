@@ -1,5 +1,12 @@
 \begin{thebibliography}{10}
 
+\bibitem{AHO06}
+Timo Ahonen, Abdenour Hadid, and Matti Pietikainen.
+\newblock Face description with local binary patterns: Application to face
+  recognition.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  28(12):2037--2041, 2006.
+
 \bibitem{AND06}
 Keith Anderson and Peter~W. McOwan.
 \newblock A real-time automated system for recognition of human facial
@@ -65,6 +72,10 @@ Yousra~Ben Jemaa and Sana Khanfir.
 \newblock {\em International Journal of Computer Science and Information
   Security}, 3(1), 2009.
 
+\bibitem{JUL07}
+Bram~K. Julsing.
+\newblock Face recognition with local binary patterns, 2007.
+
 \bibitem{KDEF}
 Emotion Lab.
 \newblock Karolinska directed emotional faces (kdef).
@@ -89,6 +100,12 @@ Aleix Martinez and Robert Benavente.
 \bibitem{UBC01}
 University of~British~Columbia.
 \newblock The viola/jones face detector, 2001.
+
+\bibitem{OJA96}
+Timo Ojala, Matti Pietikainen, and David Harwood.
+\newblock A comparative study of texture measures with classification based on
+  feature distributions.
+\newblock {\em Pattern Recognition}, 29:51--59, 1996.
 
 \bibitem{PAN00}
 Maja Pantic and Leon~J.M. Rothkrantzi.

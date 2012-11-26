@@ -2,29 +2,44 @@
 \chapter{Local Binary Patterns}
 \label{chap:lbp}
 
-\noindent bla
+\noindent Some feature extractions are widely used and studied as the Principal Component Analysis (PCA) and the Linear Discriminant Analysis (LDA) to characterize and describe the face. They in fact describe the whole face. But these method are not efficient when the lightning changes or when the pose of the head changes. This is quite a challenge for these method. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterize the parts of the face in function of their importance. The Local Binary Pattern (LBP) feature extraction is a local descriptor and it is widely used \cite{AHO06}.
+\newline
 
+\phantomsection
 \section{Overview}
 
-\noindent bla
+\vspace{\baselineskip}
+\noindent The LBP operator is one of the best performing texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. It is also one of the most widely used. This operator has a lot of advantages. One of its main advantages is that this operator is highly discriminative. The other advantages are its invariance to gray-level changes and its computation efficiency. Its computation efficiency is suitable for image analysis but it may not be efficient enough for real-time analysis \cite{AHO06}.
 \newline
 
+\noindent LBP is known to be a great operator for texture description but why is it used for face description? Because faces can be seen as a composition of micro-patterns. And describing micro-patterns is what the LBP operator does \cite{AHO06}.
+\newline
+
+\noindent Globally, an image of a face is divided into small regions. LBP histograms are extracted from each of those small regions. Then these histogram are concatenated into a single feature vector \cite{JUL07}.
+\newline
+
+\phantomsection
 \section{Histogram computing}
 
+\vspace{\baselineskip}
 \noindent bla
 \newline
 
+\phantomsection
 \section{Improvements}
 
+\vspace{\baselineskip}
 \noindent bla
 \newline
 
+\phantomsection
 \subsection{Circular LBP}
 
 \vspace{\baselineskip}
 \noindent bla
 \newline
 
+\phantomsection
 \subsection{Uniform LBP}
 
 \vspace{\baselineskip}

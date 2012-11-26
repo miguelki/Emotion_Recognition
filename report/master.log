@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 15:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  26 NOV 2012 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1692,17 +1692,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--23
 [41] (./sections/classification/lbp.tex
 Chapter 6.
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--16
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
@@ -1711,12 +1716,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 31--25
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[42] (./sections/classification/feat_classification.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 46--25
+
+ []
+
+[43] (./sections/classification/feat_classification.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1733,7 +1748,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-) [43] (./sections/classification/svm.tex
+) [44] (./sections/classification/svm.tex
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -1760,23 +1775,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-) (./sections/implementation.tex [44] [45]) (./sections/evaluation.tex [46]
-[47]) [48] (./sections/conclusion.tex) [49
+) (./sections/implementation.tex [45] [46]) (./sections/evaluation.tex [47]
+[48]) [49] [50
 
-] [50
+] (./sections/conclusion.tex) [51] [52
 
 ] (./master.bbl
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 34.
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 41.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [51]
-Underfull \hbox (badness 2103) in paragraph at lines 133--136
+) [53]
+Underfull \hbox (badness 2103) in paragraph at lines 150--153
 []\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
 tt/m/n/10.95 http : / / en . wikipedia . org / wiki /
  []
 
-) [52] (./sections/appAname.tex
+) [54] (./sections/appAname.tex
 Appendix A.
 )
 \tf@thm=\write4
@@ -1787,7 +1802,7 @@ Appendix A.
 
  
 AED: lastpage setting LastPage
-[53
+[55
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1795,17 +1810,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 10351 strings out of 493488
- 152479 string characters out of 3141326
- 248806 words of memory out of 3000000
- 13159 multiletter control sequences out of 15000+200000
+ 10364 strings out of 493488
+ 152604 string characters out of 3141326
+ 248886 words of memory out of 3000000
+ 13162 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,14n,38p,1049b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1829,10 +1840,10 @@ fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/ty
 pe1/public/lm/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /lm/lmsy6.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.p
 fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (60 pages, 2386901 bytes).
+Output written on master.pdf (62 pages, 2389702 bytes).
 PDF statistics:
- 874 PDF objects out of 1000 (max. 8388607)
- 760 compressed objects within 8 object streams
- 205 named destinations out of 1000 (max. 500000)
+ 897 PDF objects out of 1000 (max. 8388607)
+ 781 compressed objects within 8 object streams
+ 215 named destinations out of 1000 (max. 500000)
  446 words of extra memory for PDF output out of 10000 (max. 10000000)
 
