@@ -2,7 +2,7 @@
 
 #include "stdafx.h"
 
-#define MAX_SZ 3300
+#define MAX_SZ 5800
 #define NB_FEAT 420
 #define NB_CLASS 7
 #define NB_ELEM_PER_CLASS 12
@@ -20,9 +20,9 @@ int main(int argc, char* argv[])
 {
 	int existing_model = 1; // 1 if model already exists, 0 otherwise
 
-	string model_file = "model_kdef_poly";
-	string train_file = "svm/kdef.tr";
-	string test_file = "svm/kdef.t";
+	string model_file = "model_kdef";
+	string train_file = "svm/kdef_sc2.tr";
+	string test_file = "svm/kdef_sc2.t";
 
 	struct svm_model *model;
 
@@ -32,24 +32,33 @@ int main(int argc, char* argv[])
 	if (!existing_model) {
 		cout << "reading train data" << endl;
 
-		struct svm_problem *prob = read_file(train_file);
-		struct svm_parameter *param = fill_params(prob);
+		struct svm_problem* prob = read_file(train_file);
+		struct svm_parameter* param = fill_params(prob);
 
 		cout << "parameters fetched - training in progress" << endl;
+
+		/** Cross-validation and re-training **/
+		//double* target = new double[prob->l];
+		//svm_cross_validation(prob, param, 5, target);
+		//prob->y = target;
+
+		//cout << "cross-validation done" << endl;
 
 		/** Train model **/
 		model = svm_train(prob, param);
 
-		cout << "training done";
+		cout << "training done" << endl;
 
 		/** Save model into a file **/
-		cout << " - saving model" << endl;
+		cout << "saving model" << endl;
 		if (svm_save_model(model_file.c_str(), model) == -1)
 			exit(-1);
 
 		cout << "model saved - classification" << endl;
-		free(param);
-		free(prob);
+		
+		//delete[] target;
+		delete param;
+		delete prob;		
 	} else {
 		/** Load model **/
 		cout << "Loading model" << endl;
@@ -67,7 +76,7 @@ int main(int argc, char* argv[])
 	cout << "Overall accuracy : " <<  acc[NB_CLASS] << endl;
 
 	/** Release memory **/
-	free(test_d);
+	delete test_d;
 	svm_free_and_destroy_model(&model);
 
 	system("pause");
@@ -85,12 +94,11 @@ struct svm_problem* read_file(string train_file) {
 	/** Open file **/
 	infile.open (train_file, ifstream::in);
 
-	while (infile.good()) {		
+	while (infile.getline(buf, MAX_SZ)) {		
 		struct svm_node* ln_vec;
 		int nb, nb_elem = 0;
 		size_t lbl_p, cur_p, nxt_p;
 
-		infile.getline(buf, MAX_SZ);
 		string tmp(buf);
 
 		// First value is label
@@ -136,7 +144,7 @@ struct svm_problem* read_file(string train_file) {
 
 	/** Close file **/
 	infile.close();
-
+	//cout << "number of lines read : " << nb_d << endl;
 	/** Copy and assign structures to svm_problem so it won't be wiped out at the end of the function **/
 	prob->l = nb_d;		
 	prob->y = new double[nb_d];
@@ -155,14 +163,14 @@ struct svm_parameter* fill_params(struct svm_problem* prob) {
 
 	/** Fill up parameter structure : each value is taken from default values in the Matlab implementation**/
 	params->svm_type = C_SVC;
-	params->kernel_type = POLY;
-	params->gamma = 1/NB_FEAT;
+	params->kernel_type = RBF;
+	params->gamma = 0.00048828125;//1/NB_FEAT;//0.0078125;//1;
 	params->degree = 3;
 	params->coef0 = 0;
 	params->nr_weight = 0;
 	params->eps = 0.001;
 	params->cache_size = 100;
-	params->C = 1;
+	params->C = 32.0;//1;
 	params->shrinking = 1;
 	params->probability = 0;
 
@@ -208,13 +216,13 @@ vector<double> class_accuracy(struct svm_model* model, struct svm_problem* test_
 			class_acc[(int)predict]++;
 		}
 	}
-	
+
 	for (int j = 0; j < NB_CLASS; j++) {
-	class_acc[j] /= NB_ELEM_PER_CLASS;
-	class_acc[NB_CLASS] += class_acc[j];
+		class_acc[j] /= NB_ELEM_PER_CLASS;
+		class_acc[NB_CLASS] += class_acc[j];
 	}
 
 	class_acc[NB_CLASS] /= NB_CLASS;
-	
+
 	return class_acc;
 }
