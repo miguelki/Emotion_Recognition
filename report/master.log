@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 NOV 2012 13:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 NOV 2012 15:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1727,79 +1727,132 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
+<figures/lbp_basic_operator_example.png, id=585, 806.01125pt x 458.71375pt>
+File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--45
+<use figures/lbp_basic_operator_example.png>
+Package pdftex.def Info: figures/lbp_basic_operator_example.png used on input l
+ine 38.
+(pdftex.def)             Requested size: 403.00464pt x 229.35631pt.
 
- []
-
-[43 <./figures/lbp_basic_operator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-<figures/lbp_circular_operator.png, id=597, 812.03375pt x 285.065pt>
-File: figures/lbp_circular_operator.png Graphic file (type png)
-
-<use figures/lbp_circular_operator.png>
-Package pdftex.def Info: figures/lbp_circular_operator.png used on input line 7
-1.
-(pdftex.def)             Requested size: 406.01588pt x 142.53215pt.
-
-Overfull \hbox (4.83202pt too wide) in paragraph at lines 71--73
+Overfull \hbox (1.82077pt too wide) in paragraph at lines 38--40
  []  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--80
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+[43 <./figures/lbp_basic_operator.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[44 <./figures/lbp_circular_operator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+<figures/lbp_circular_operator.png, id=602, 812.03375pt x 285.065pt>
+File: figures/lbp_circular_operator.png Graphic file (type png)
+
+<use figures/lbp_circular_operator.png>
+Package pdftex.def Info: figures/lbp_circular_operator.png used on input line 8
+0.
+(pdftex.def)             Requested size: 406.01588pt x 142.53215pt.
+
+Overfull \hbox (4.83202pt too wide) in paragraph at lines 80--82
+ []  
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+[44 <./figures/lbp_basic_operator_example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--102
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--110
+Underfull \hbox (badness 10000) in paragraph at lines 109--111
+
+ []
+
+[45 <./figures/lbp_circular_operator.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--117
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--133
+Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
-[45])
-Underfull \hbox (badness 10000) in paragraph at lines 138--25
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--142
 
  []
 
-[46] (./sections/classification/feat_classification.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 155--157
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 158--160
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 164--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 174--25
+
+ []
+
+[47] (./sections/classification/feat_classification.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1816,7 +1869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-) [47] (./sections/classification/svm.tex
+) [48] (./sections/classification/svm.tex
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -1843,23 +1896,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-) (./sections/implementation.tex [48] [49]) (./sections/evaluation.tex [50]
-[51]) [52] (./sections/conclusion.tex) [53
+) (./sections/implementation.tex [49] [50]) (./sections/evaluation.tex [51]
+[52]) [53] [54
 
-] [54
+] (./sections/conclusion.tex) [55] [56
 
 ] (./master.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 41.
 
 (/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [55]
-Underfull \hbox (badness 2103) in paragraph at lines 150--153
+) [57]
+Underfull \hbox (badness 2103) in paragraph at lines 156--159
 []\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
 tt/m/n/10.95 http : / / en . wikipedia . org / wiki /
  []
 
-) [56] (./sections/appAname.tex
+) [58] (./sections/appAname.tex
 Appendix A.
 )
 \tf@thm=\write4
@@ -1870,7 +1923,7 @@ Appendix A.
 
  
 AED: lastpage setting LastPage
-[57
+[59
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 54.
@@ -1878,20 +1931,16 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 54.
  (./master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 54.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 10388 strings out of 493488
- 153128 string characters out of 3141326
- 249066 words of memory out of 3000000
- 13173 multiletter control sequences out of 15000+200000
+ 10401 strings out of 493488
+ 153429 string characters out of 3141326
+ 249207 words of memory out of 3000000
+ 13180 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,14n,38p,1088b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1241b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/
@@ -1904,19 +1953,20 @@ e/2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/tex
 mf-dist/fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fon
 ts/type1/public/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
 blic/lm/lmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr
-12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/public/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/
-public/lm/lmssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
-m/lmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy6.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (64 pages, 2495216 bytes).
+12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texli
+ve/2012/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texm
+f-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/lm/lmri9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+blic/lm/lmss10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lm
+ssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on master.pdf (66 pages, 3169994 bytes).
 PDF statistics:
- 943 PDF objects out of 1000 (max. 8388607)
- 821 compressed objects within 9 object streams
- 226 named destinations out of 1000 (max. 500000)
- 456 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 970 PDF objects out of 1000 (max. 8388607)
+ 844 compressed objects within 9 object streams
+ 231 named destinations out of 1000 (max. 500000)
+ 461 words of extra memory for PDF output out of 10000 (max. 10000000)
 

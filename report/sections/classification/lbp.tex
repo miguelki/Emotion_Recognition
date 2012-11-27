@@ -30,8 +30,17 @@
 \end{center} 
 \end{figure}
 
-\noindent The LBP operator works with one central pixel and its eight neighbor pixels. It is basically a comparison with a threshold between the central pixel and the neighbor pixels. The intensity value of the central pixel sets the threshold. Then for each neighbor pixels, the same method is applied. If a neighbor pixel has a value superior to the one of the central pixel or equal to, a 1 is assigned to this pixel. If the pixel value of the neighbor pixel is inferior to the one of the central pixel, then a 0 is assigned to this pixel. Then, when all the neighbor pixels are done, a LBP code for the central pixel can be obtained by concatenating all the values of the eight neighbor pixels into a binary code. And for a better comprehension for the human, this code can also be transformed from a binary code to a decimal one. The figure~\ref{lbp_basic_operator} shows an example of the LBP process for a central pixel and its eight neighbor pixels \cite{JUL07}.
+\noindent The LBP operator works with one central pixel and its eight neighbor pixels. It is basically a comparison with a threshold between the central pixel and the neighbor pixels. The intensity value of the central pixel sets the threshold. Then for each neighbor pixels, the same method is applied. If a neighbor pixel has a value superior to the one of the central pixel or equal to, a 1 is assigned to this pixel. If the pixel value of the neighbor pixel is inferior to the one of the central pixel, then a 0 is assigned to this pixel. Then, when all the neighbor pixels are done, a LBP code for the central pixel can be obtained by concatenating all the values of the eight neighbor pixels into a binary code. And for a better comprehension for the human, this code can also be transformed from a binary code to a decimal one. The figure~\ref{lbp_basic_operator} shows an example of the LBP process for a central pixel and its eight neighbor pixels \cite{JUL07}. The figure~\ref{lbp_basic_operator_example} shows an example of the LBP operator applied on a facial image from the JAFFE database \cite{LIU11}.
 \newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.5]{figures/lbp_basic_operator_example} 
+\newline
+\caption{Example of the LBP operator applied on a facial image from the JAFFE database}
+\label{lbp_basic_operator_example}
+\end{center} 
+\end{figure}
 
 \phantomsection
 \section{Improvements}
@@ -63,7 +72,7 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The figure~\ref{lbp_circular_operator} shows the circular LBP operator with a different number of neighbor pixels P and with various sizes \cite{JUL07}. The circular operator with $ P = 8 $ and $ R = 1.0 $ looks like the basic LBP operator. For the circular LBP operator, the following notation is used: $ (P,R) $ and for a pixel p, the following notation is used: $ LBP_{P,R}(p) $ \cite{GAN08}.
+\noindent The figure~\ref{lbp_circular_operator} shows the circular LBP operator with a different number of neighbor pixels P and with various sizes \cite{JUL07}. For the circular LBP operator, the following notation is used: $ (P,R) $ and for a pixel p, the following notation is used: $ LBP_{P,R}(p) $ \cite{GAN08}.
 \newline
 
 \begin{figure}[!h]
@@ -75,7 +84,7 @@
 \end{center} 
 \end{figure}
 
-\noindent Most of the time, when a circular LBP operator is used, the coordinates of the neighbor pixels (calculated with the formula given above) may not fall exactly on a pixel. In this case, using a bilinear interpolations of the neighbor pixel intensity values is recommended for the comparison \cite{GAN08}.
+\noindent Most of the time, when a circular LBP operator is used, the coordinates of the neighbor pixels (calculated with the formula given above) may not fall exactly on a pixel. In this case, using a bilinear interpolations of the neighbor pixel intensity values is recommended for the comparison. For example, the circular operator with $ P = 8 $ and $ R = 1.0 $ looks like the basic LBP operator; the only difference is that for the calculation, in case of the neighbor pixels do not fall right into single pixels, these pixel has to be interpolated first \cite{GAN08}.
 \newline
 
 \noindent What is resulting of the LBP operation is the texture. The formula of the texture is the following \cite{GAN08}:
@@ -86,7 +95,7 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent With $ I_C $, the intensity value of the central pixel, $ I_n $ for $ n = 0, 1, ..., P $, the intensity values of the P neighbor pixels, with $ T $, the texture in the local neighborhood of $ C $ \cite{GAN08}.
+\noindent With $ I_C $, the intensity value of the central pixel, $ I_p $ for $ p = 0, 1, ..., P $, the intensity values of the P neighbor pixels, with $ T $, the texture in the local neighborhood of $ C $ \cite{GAN08}.
 \newline
 
 \noindent But this texture can also be calculated in an other way. It consists in subtracting the central pixel intensity value from the pixel values of the computed neighborhood values. This way, the texture $ T $ is the combination of the differences between the intensity values of the neighbor pixels and the central pixel, and of the intensity value of the central pixel $ I_C $. The formula resulting is the following \cite{GAN08}:
@@ -124,11 +133,38 @@ s(x) = \left\{
 \right.
 \end{equation}
 
+\vspace{\baselineskip}
+\noindent For the pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For the pixels with an intensity value inferior to the one of the central pixel, the sign assigned would be 0 \cite{GAN08}.
+\newline
+
+\noindent The last step is to assign a binomial weight to each sign, for the LBP operation.These weights are summed and it produces for the central pixel $ C $ of coordinates $ (x_C,y_C) $, the LBP code. The formula is as follows \cite{GAN08}:
+\newline
+
+\begin{equation}
+   LBP_{P,R}(x_C,y_C) = \sum_{p = 0}^{P-1} s(I_p - I_C)2^p
+\end{equation}
+
+\vspace{\baselineskip}
+\noindent The use of the formula above to calculate LBP produce a large number of patterns and it does not help to reduce the size of data. That is why Uniform Local Binary Pattern are used; this way, LBP are used in an efficient way for image processing \cite{GAN08}. This kind of LBP will be explained in the subsection below.
+\newline
+
 \phantomsection
 \subsection{Uniform LBP}
 
 \vspace{\baselineskip}
-\noindent bla
+\noindent A Local Binary Pattern can be called uniform only if it contains 2 or less bitwise transitions. A bitwise transitions can be a transition from 0 to 1 or the opposite: from 1 to 0 \cite{GAN08}. 
+\newline
+
+\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the LBP is circular so there cannot be only 1 bitwise transition. If at a moment on the circle, one pixel is at 1 and then after two pixel for example, there is a pixel at 0, this is one bitwise transition. But then, going on on the circle, there will be inevitably another bitwise transition from 0 to 1 to go back at the pixel with the value of 1 \cite{GAN08}.
+\newline
+
+\noindent If a pattern contains 0 bitwise transition, it means that it is composed only of 0s or of 1s \cite{GAN08}.
+\newline
+
+\noindent For the patterns containing 2 bitwise transitions, with P numbers of neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transition; the patterns with all 1s or all 0s). The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbor pixels and R, the value of the radius \cite{GAN08}.
+\newline
+
+\noindent  \cite{GAN08}.
 \newline
 
 \phantomsection

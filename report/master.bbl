@@ -86,6 +86,12 @@ Jenn-Jier~James Lien.
 \newblock Automatic recognition of facial expressions using hidden markov
   models and estimation of expression intensity, 1998.
 
+\bibitem{LIU11}
+Weifeng Liu, Yanjiang Wang, and Shujuan Li.
+\newblock Lbp feature extraction for facial expression recognition.
+\newblock {\em Journal of Information and Computational Science},
+  8(3):412--421, 2011.
+
 \bibitem{JAFFE}
 Michael Lyons.
 \newblock The japanese female facial expression (jaffe) database.
