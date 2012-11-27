@@ -11,6 +11,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <cmath>
 
 #include "svm\svm.h";
 
