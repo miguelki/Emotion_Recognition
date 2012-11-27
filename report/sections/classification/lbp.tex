@@ -161,11 +161,23 @@ s(x) = \left\{
 \noindent If a pattern contains 0 bitwise transition, it means that it is composed only of 0s or of 1s \cite{GAN08}.
 \newline
 
-\noindent For the patterns containing 2 bitwise transitions, with P numbers of neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transition; the patterns with all 1s or all 0s). The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbor pixels and R, the value of the radius \cite{GAN08}.
+\noindent For a uniform LBP with a bit-length of 8 bits, containing 2 bitwise transitions, with P numbers of neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transition; the patterns with all 1s or all 0s). The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbor pixels and R, the value of the radius \cite{GAN08}.
 \newline
 
-\noindent  \cite{GAN08}.
+\noindent There are 2 main advantages coming along with the uniform LBP. The first one is the reduction in range of possible pattern that the uniform LBP allows. With the uniform LBP operator, there are 58 possible combinations as seen above. With the basic LBP operator, for the same bit-length, there are $ 2^8 = 256 $ possible combinations. More than four times more possible combinations \cite{GAN08}.
 \newline
+
+\noindent The second advantages is that even though there is a reduction of dimensionality thanks to the uniform LBP, the patterns are still discriminative between various structural features. These structural features still detected by the uniform LBP are the spot, the spot/flat, the line end, the edge and the corner. These features are shown in the figure~\ref{lbp_structural_features}  \cite{GAN08}.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.6]{figures/lbp_structural_features} 
+\newline
+\caption{Patterns that can be detected with uniform LBP}
+\label{lbp_structural_features}
+\end{center} 
+\end{figure}
 
 \phantomsection
 \section{Histogram computing}

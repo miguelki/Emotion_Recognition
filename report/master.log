@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 NOV 2012 15:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  27 NOV 2012 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1847,8 +1847,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--172
+
+ []
+
+<figures/lbp_structural_features.png, id=643, 480.79625pt x 366.36874pt>
+File: figures/lbp_structural_features.png Graphic file (type png)
+
+<use figures/lbp_structural_features.png>
+Package pdftex.def Info: figures/lbp_structural_features.png used on input line
+ 175.
+(pdftex.def)             Requested size: 288.47997pt x 219.82294pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 174--25
+Underfull \hbox (badness 10000) in paragraph at lines 186--25
 
  []
 
@@ -1869,7 +1885,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--23
 
  []
 
-) [48] (./sections/classification/svm.tex
+) [48 <./figures/lbp_structural_features.png>] [49]
+(./sections/classification/svm.tex
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -1896,10 +1913,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-) (./sections/implementation.tex [49] [50]) (./sections/evaluation.tex [51]
-[52]) [53] [54
+) (./sections/implementation.tex [50] [51]) (./sections/evaluation.tex [52]
+[53]) [54] (./sections/conclusion.tex) [55
 
-] (./sections/conclusion.tex) [55] [56
+] [56
 
 ] (./master.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 41.
@@ -1934,10 +1951,10 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 54.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
  ) 
 Here is how much of TeX's memory you used:
- 10401 strings out of 493488
- 153429 string characters out of 3141326
- 249207 words of memory out of 3000000
- 13180 multiletter control sequences out of 15000+200000
+ 10408 strings out of 493488
+ 153658 string characters out of 3141326
+ 249290 words of memory out of 3000000
+ 13185 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,14n,38p,1241b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1963,10 +1980,10 @@ ssbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb
 ></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/loca
 l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2
 012/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (66 pages, 3169994 bytes).
+Output written on master.pdf (66 pages, 3192906 bytes).
 PDF statistics:
- 970 PDF objects out of 1000 (max. 8388607)
- 844 compressed objects within 9 object streams
- 231 named destinations out of 1000 (max. 500000)
- 461 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 974 PDF objects out of 1000 (max. 8388607)
+ 847 compressed objects within 9 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 
