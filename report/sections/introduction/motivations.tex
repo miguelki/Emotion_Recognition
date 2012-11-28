@@ -1,25 +1,25 @@
 \phantomsection
 \chapter{Motivations}
 
-\noindent A facial expression is a visible manifestation of the effective state, cognitive activity, intent, personality, and psychopathology of a person \cite{DON99}; facial expressions play a significant role in human dialogue and interaction. Indeed, facial expressions carry more informations than mere speech, informations on which humans can relay for interaction. Facial expressions have a considerable effect on a listening interlocutor; a speaker facial expressions accounts for about 55 percent of the effect, 38 percent of the latter is conveyed by voice intonation and 7 percent by the spoken words \cite{PAN00}.
+\noindent A facial expression is a "visible manifestation of the effective state, cognitive activity, intent, personality, and psychopathology of a person" \cite{DON99}; facial expressions represent a huge part in dialogue and interaction with other humans. Indeed, facial expressions carry more informations than speech, informations on which humans can relay for interaction. Facial expressions have a considerable effect on a listening interlocutor; the facial expressions of a speaker represent 55 percent of the information that the listener get, 38 percent of information is conveyed by voice intonation and 7 percent by the spoken words \cite{PAN00}.
 \newline
 
-\noindent Since Antiquity, researchers have been interested in emotion and more particularly in emotion recognition. But one of the important studies on facial expression analysis impacting on the modern day science of automatic facial expression recognition was the work carried out by Charles Darwin \cite{BET12}. In 1872, Darwin wrote a treatise that established general expression principles and expression means for both humans and animals \cite{DAR04}. He also classified various kinds of expressions. This can be considered as the beginning of facial expression recognition.
+\noindent Since Antiquity, researchers have been interested in emotion and more particularly in emotion recognition. But one of the important studies on facial expression analysis impacting on the modern day science of automatic facial expression recognition was the work carried out by Charles Darwin \cite{BET12}. In 1872, Darwin wrote a book that established general expression principles, expression means and expression description for both humans and animals \cite{DAR04}. He also classified various kinds of expressions. This can be considered as the beginning of facial expression recognition.
 \newline
 
-\noindent Now, with the emergence of new technologies and computers, research is now focused on computer-based automatic facial expression recognition. Because facial expressions are major factors in human interaction, this research field will broaden the domain of Human-Machine Interaction. Indeed, emotion recognition will enable computers to be more responsive to users' emotions, and allow interactions to become more and more realistic. 
+\noindent Now, with the emergence of new technologies and computers, research is now focused on computer-based automatic facial expression recognition. Because facial expressions are major factors in human interaction, this research field will improve the domain of Human-Machine Interaction. Indeed, emotion recognition will enable computers to be more responsive to users' emotions, and allow interactions to become more and more realistic. 
 \newline
 
 \noindent Another domain where facial expression recognition is an important issue is robotics. With the advances made in robotics, robots nowadays tend to mimic human emotion and react as as human-like as possible, especially for humanoid robots. However, since robots are being more and more present in our daily lives, they need to understand and recognize human emotions.
 \newline
 
-\noindent A lot of real time applications in the robotics field have already been created. For example, Bartlett et al. have successfully used their face expression recognition system to develop an animated character that mirrors the expressions of the user (called CU Animate) \cite{BAR03}. They have also been successful in deploying the recognition system on Sony's Aibo Robot and ATR's RoboVie \cite{BAR03}. Another interesting application has been demonstrated by Anderson and McOwen, called "EmotiChat" \cite{AND06}. It is a regular chatroom, except the fact that their facial expression recognition system is connected to the chat and convert the users' facial expressions into emoticons. Because facial expression recognition systems' robustness and reliability are constantly increasing, lots of innovative applications will appear.
+\noindent A lot of real time applications in the robotics field have already been created. For example, Bartlett et al. have successfully used their face expression recognition system to develop an character that is animated and that mirrors the expressions of the user (called CU Animate) \cite{BAR03}. They have also been successful in deploying the recognition system on Sony's Aibo Robot and ATR's RoboVie \cite{BAR03}. Another interesting application has been demonstrated by Anderson and McOwen, called "EmotiChat" \cite{AND06}. It is a regular chatroom, except the fact that their facial expression recognition system is connected to the chat and convert the users' facial expressions into emoticons. Because facial expression recognition systems' robustness and reliability are constantly increasing, lots of innovative applications will appear.
 \newline
 
 \noindent There are also various other domains where emotion recognition can be used: Telecommunications, behavioural science, video games, animations, psychiatry, automobile safety, affect-sensitive music jukeboxes and televisions, educational software, etc \cite{BET12}.
 \newline
 
-\noindent Our project focuses on real-time facial expression recognition from a video stream. Indeed, facial expression recognition can be performed \textit{statically} on input images, or \textit{dynamically} on video sequences. Systems can also be \textit{obtrusive}, or \textit{non-obtrusive}, the former based on a device mounted on the user's head or body, therefore following each of his movements and perform facial expression recognition without much losses, while the latter can encounter difficulties if the user is not properly situated. However, non-obtrusive systems allow more natural user interactions. We chose our system to be non-obtrusive, and will detail further its setup in the next section.
+\noindent This project focuses on real-time facial expression recognition from a video stream. Indeed, facial expression recognition can be performed \textit{statically} on input images, or \textit{dynamically} on video sequences. Systems can also be \textit{obtrusive}, or \textit{non-obtrusive}, the former based on a device mounted on the user's head or body, therefore following each of his movements and perform facial expression recognition without much losses, while the latter can encounter difficulties if the user is not properly situated. However, non-obtrusive systems allow more natural user interactions. We chose our system to be non-obtrusive, and will detail further its setup in the next section.
 \newline
 
 \phantomsection
@@ -51,10 +51,10 @@
 \subsection{Japanese Female Facial Expression Database (JAFFE)}
 
 \vspace{\baselineskip}
-\noindent The database contains 213 images of 7 facial expressions (6 basic facial expressions: happy, angry, afraid, disgusted, sad, surprised + 1 neutral) posed by 10 Japanese female models. Each expression has been photographed three or four times. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. The database was planned and assembled by Miyuki Kamachi, Michael Lyons, and Jiro Gyoba \cite{JAFFE}.
+\noindent The database contains 213 images of 7 facial expressions (6 basic facial expressions: happy, angry, afraid, disgusted, sad, surprised and 1 neutral facial expression). All the images are of 10 Japanese female models. Each expression has been photographed three or four times. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. The database was planned and assembled by Miyuki Kamachi, Michael Lyons, and Jiro Gyoba \cite{JAFFE}.
 \newline
 
-\noindent This database contains only posed expressions. The photos have been taken under strict controlled conditions of similar lighting and with the hair tied away from the face \cite{BET12}. 
+\noindent This database contains only posed expressions. The photos have been taken under strict  and controlled conditions: similar lighting and hair tied so that the face is not covered \cite{BET12}. 
 \newline
 
 \noindent An example of images contained in the database is given by the figure~\ref{jaffe_7facialexpressions}. Here the subject is a woman and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised): 
@@ -72,14 +72,13 @@
 \subsection{Karolinska Directed Emotional Faces Database (KDEF)}
 
 \vspace{\baselineskip}
-\noindent The Karolinska Directed Emotional Faces (KDEF) is a set of totally 4900 pictures of human facial expressions of emotion. The material was developed in 1998 by Daniel Lundqvist, Anders Flykt and Professor Arne Ohman at Karolinska Institutet, Department of Clinical Neuroscience, Section of Psychology, Stockholm, Sweden \cite{KDEF}.
+\noindent The Karolinska Directed Emotional Faces (KDEF) contains 4900 pictures of human facial expressions. The material was developed in 1998 by Daniel Lundqvist, Anders Flykt and Professor Arne Ohman at Karolinska Institutet, Department of Clinical Neuroscience, Section of Psychology, Stockholm, Sweden \cite{KDEF}.
 \newline
 
-\noindent The material was originally developed to be used for psychological and medical research purposes. More specifically material was made to be particularly suitable for perception, attention, emotion, memory and backward masking experiments. Hence, particular attention was for instance paid to create a soft, even light, shooting expressions in multiple angles, use of uniform T-shirt colors, and use of a grid to center participants face during shooting, and positioning of eyes and mouths in fixed image coordinates during scanning \cite{KDEF}.
+\noindent The database was at the beginning developed to be used for psychological and medical research purposes. The database was created in particular so that it can be used in perception, attention, emotion, memory and backward masking experiments. The researchers paid attention to the lighting. They tried to create a soft and similar light. They tried also to shoot expressions in multiple angles. They used T-shirt on subject that have the same colors and a grid to center the participants faces while they were shot. This grid was also used to place eyes and mouths at the same position in fixed image coordinates during scanning \cite{KDEF}.
 \newline
 
-\noindent The set contains 70 individuals (35 males and 35 females), ranging from 20 to 30 years, each displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised),
-each expression being photographed (twice) from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
+\noindent The database contains 70 individuals (35 males and 35 females), from 20 to 30 years,  and each displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). Each expression has been photographed (twice) from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
 \newline
 
 \noindent An example of images contained in the database is given by the figure~\ref{kdef_7facialexpressions}. Here the subject is a woman photographed from a straight angle and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised): 
@@ -97,10 +96,10 @@ each expression being photographed (twice) from 5 different angles (-90, -45, 0,
 \subsection{Montreal Set of Facial Displays of Emotion Database (MSFDE)}
 
 \vspace{\baselineskip}
-\noindent The database consists of emotional facial expressions by men and women of European, Asian, and African descent. Each expression was created using a directed facial action task and all expressions were FCAS coded to assure identical expressions across actors \cite{MSFDE}.
+\noindent The database contains facial expressions of men and women from European, Asian, and African type. Each expression was created by asking directly the subject to express this emotion and all expressions were FCAS coded in order to assure identical expressions among the subjects \cite{MSFDE}.
 \newline
 
-\noindent The set contains expressions of happiness, sadness, anger, fear, disgust, and embarrassment as well as a neutral expression for each actor. All expressions have been morphed into 5 different levels of intensity \cite{MSFDE}.
+\noindent The database contains expressions of happiness, sadness, anger, fear, disgust, and embarrassment and 1 neutral facial expression. All expressions have been made into 5 different levels of intensity \cite{MSFDE}.
 \newline
 
 \noindent An example of images contained in the database is given in the figure~\ref{msfde_7facialexpressions}. Here the subject is an african woman and she displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, ashamed): 
