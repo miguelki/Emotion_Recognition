@@ -180,8 +180,39 @@ s(x) = \left\{
 \end{figure}
 
 \phantomsection
+\section{Facial Expression Recognition based on LBP}
+
+\vspace{\baselineskip}
+\noindent The LBP operator can be used to extract features for a Facial Expression Recognition system. The main idea is to obtain a set of features vectors with the LBP operator. The process is first to train models to recognize the 6 basic emotions. The models are trained with the features vectors extracted. Then to recognize an emotion on a sample face image, features vectors are extracted from this sample face image with the LBP operator. And these vectors extracted are then test against the models built in the training phase \cite{GAN08}.
+\newline
+
+\phantomsection
 \section{Histogram computing}
 
 \vspace{\baselineskip}
-\noindent bla
+\noindent To obtain these features vectors mentioned above, the code obtained thanks to the LBP operator are concatenated into an histogram. And this is this histogram that gives the features vectors.
 \newline
+
+\noindent To compute this histogram, first the face is partitioned into regions. Most of the time, the face is partitioned as following: 7 rows and 6 column so in total 42 regions. This way of partitioning is the most used for Facial Expression Recognition systems. It suits well the parts of the face that are important features for emotion recognition. The dimension of the face for all the images tested should be kept constant. Then for all the pixels of the face, the LBP code, $ LBP_{8,2}^{u^2} $, is computed. Then, the codes resulting are grouped region-wise into different bins. Here, because the LBP code is the one with $ P = 8 $ and $ R = 1.0 $, the number of bins in the histogram is of 59 (56 bins for the uniform LBP with 2 bitwise transitions, 2 bins for the uniform LBP with 0 bitwise transition and 1 bin for the non-uniform LBP). All these bins are concatenated column-wise; as it can be seen in the figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows and 1 column (the histogram is computed for each region partitioned on the sample image) \cite{GAN08}.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.5]{figures/lbp_histogram} 
+\newline
+\caption{Example of a vector based on histogram computing}
+\label{lbp_histogram}
+\end{center} 
+\end{figure}
+
+\noindent The regions obtained when the sample image is partitioned have not the same contribution to the emotion expressed. For example, the eyes bring more information about an emotion than the cheeks. So for each region, a weight is assigned. Thus, the histogram of each region is multiply with a corresponding weight. The weights are assigned as in the figure~\ref{lbp_region_weight} \cite{GAN08}.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.5]{figures/lbp_region_weight} 
+\newline
+\caption{Weight assignment for each region}
+\label{lbp_region_weight}
+\end{center} 
+\end{figure}
