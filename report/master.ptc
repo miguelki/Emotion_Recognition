@@ -49,32 +49,39 @@
 \ttl@stoptoc {parts@2}
 \ttl@starttoc {parts@3}
 \contentsline {chapter}{\numberline {5}Feature extraction}{40}{chapter.89}
-\contentsline {section}{\numberline {5.1}Overview}{40}{section.90}
-\contentsline {section}{\numberline {5.2}Appearance-based methods}{40}{section.91}
-\contentsline {section}{\numberline {5.3}Geometry-based methods}{40}{section.92}
-\contentsline {chapter}{\numberline {6}Local Binary Patterns}{41}{chapter.94}
-\contentsline {section}{\numberline {6.1}Overview}{41}{section.96}
-\contentsline {section}{\numberline {6.2}Improvements}{42}{section.100}
-\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{42}{subsection.102}
-\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{46}{subsection.113}
-\contentsline {section}{\numberline {6.3}Facial Expression Recognition based on LBP}{46}{section.116}
-\contentsline {section}{\numberline {6.4}Histogram computing}{47}{section.118}
-\contentsline {chapter}{\numberline {7}Feature classification}{49}{chapter.122}
-\contentsline {section}{\numberline {7.1}Supervised and unsupervised learning}{49}{section.123}
-\contentsline {subsection}{\numberline {7.1.1}Supervised learning}{49}{subsection.124}
-\contentsline {subsection}{\numberline {7.1.2}Unsupervised learning}{49}{subsection.125}
-\contentsline {chapter}{\numberline {8}Support Vector Machine}{50}{chapter.127}
-\contentsline {section}{\numberline {8.1}Overview}{50}{section.128}
-\contentsline {subsection}{\numberline {8.1.1}Margin maximization}{50}{subsection.129}
-\contentsline {subsection}{\numberline {8.1.2}SVM kernels}{50}{subsection.130}
-\contentsline {section}{\numberline {8.2}Combining LBP and SVM}{50}{section.131}
+\contentsline {section}{\numberline {5.1}Appearance-based methods}{40}{section.91}
+\contentsline {section}{\numberline {5.2}Geometry-based methods}{40}{section.93}
+\contentsline {chapter}{\numberline {6}Local Binary Patterns}{41}{chapter.95}
+\contentsline {section}{\numberline {6.1}Overview}{41}{section.97}
+\contentsline {section}{\numberline {6.2}Improvements}{42}{section.101}
+\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{42}{subsection.103}
+\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{46}{subsection.114}
+\contentsline {section}{\numberline {6.3}Facial Expression Recognition based on LBP}{46}{section.117}
+\contentsline {section}{\numberline {6.4}Histogram computing}{47}{section.119}
+\contentsline {chapter}{\numberline {7}Feature classification}{49}{chapter.123}
+\contentsline {section}{\numberline {7.1}Supervised and unsupervised learning}{49}{section.124}
+\contentsline {subsection}{\numberline {7.1.1}Supervised learning}{49}{subsection.125}
+\contentsline {subsection}{\numberline {7.1.2}Unsupervised learning}{49}{subsection.126}
+\contentsline {chapter}{\numberline {8}Support Vector Machine}{50}{chapter.128}
+\contentsline {section}{\numberline {8.1}Overview}{50}{section.129}
+\contentsline {subsection}{\numberline {8.1.1}Margin maximization}{50}{subsection.130}
+\contentsline {subsection}{\numberline {8.1.2}SVM kernels}{50}{subsection.131}
+\contentsline {section}{\numberline {8.2}Combining LBP and SVM}{50}{section.132}
 \ttl@stoptoc {parts@3}
-\contentsline {part}{IV\hspace {1em}Implementation}{51}{part.132}
-\contentsline {part}{V\hspace {1em}Evaluation}{53}{part.134}
+\contentsline {part}{IV\hspace {1em}Implementation}{51}{part.133}
+\contentsline {part}{V\hspace {1em}Evaluation}{53}{part.135}
+\ttl@stoptoc {parts@3}
+\ttl@starttoc {parts@4}
+\contentsline {chapter}{\numberline {9}Results}{55}{chapter.138}
+\contentsline {section}{\numberline {9.1}Section name}{55}{section.140}
+\contentsline {chapter}{\numberline {10}Issues}{56}{chapter.142}
+\contentsline {section}{\numberline {10.1}Feature extraction}{56}{section.144}
+\contentsline {section}{\numberline {10.2}Real-time}{56}{section.146}
+\ttl@stoptoc {parts@4}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{55}{section*.136}
+\contentsline {chapter}{Conclusion}{57}{section*.147}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{57}{section*.137}
+\contentsline {chapter}{Bibliography}{59}{section*.148}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{59}{chapter.139}
+\contentsline {chapter}{\numberline {A}Appendix A name}{61}{chapter.150}
 \contentsfinish 

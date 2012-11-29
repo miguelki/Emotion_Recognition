@@ -5,7 +5,7 @@
 \noindent Some feature extractions are widely used and studied as the Principal Component Analysis (PCA) and the Linear Discriminant Analysis (LDA) to characterize and describe the face. They in fact describe the whole face. But these method are not efficient when the lightning changes or when the pose of the head changes. This is quite a challenge for these method. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterize the parts of the face in function of their importance. The Local Binary Pattern (LBP) feature extraction is a local descriptor and it is widely used \cite{AHO06}.
 \newline
 
-\noindent The LBP operator is one of the best performing texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. It is also one of the most widely used. This operator has a lot of advantages. One of its main advantages is that this operator is highly discriminative. The other advantages are its invariance to gray-level changes and its computation efficiency. Its computation efficiency is suitable for image analysis but it may not be efficient enough for real-time analysis \cite{AHO06}.
+\noindent The LBP operator is known to be an effective texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. It is also one of the most widely used. This operator has a lot of advantages. One of its main advantages is that this operator is highly discriminative. The other advantages are its invariance to gray-level changes and its computation efficiency. Its computation efficiency is suitable for image analysis but it may not be efficient enough for real-time analysis \cite{AHO06}.
 \newline
 
 \noindent LBP is known to be a great operator for texture description but why is it used for face description? Because faces can be seen as a composition of micro-patterns. And describing micro-patterns is what the LBP operator does \cite{AHO06}.
@@ -198,7 +198,7 @@ s(x) = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.5]{figures/lbp_histogram} 
+\noindent \includegraphics[scale=0.4]{figures/lbp_histogram} 
 \newline
 \caption{Example of a vector based on histogram computing}
 \label{lbp_histogram}
@@ -210,10 +210,9 @@ s(x) = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.5]{figures/lbp_region_weight} 
+\noindent \includegraphics[scale=0.4]{figures/lbp_region_weight} 
 \newline
 \caption{Weight assignment for each region}
 \label{lbp_region_weight}
 \end{center} 
 \end{figure}
->>>>>>> ca1454daa127e552c1f71619a58be0019b7cf365
