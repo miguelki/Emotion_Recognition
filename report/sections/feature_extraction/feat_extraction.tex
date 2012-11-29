@@ -11,14 +11,17 @@ This step takes an image as input, and extracts vectors characterizing its main 
 
 \phantomsection
 \section{Appearance-based methods}
-% PCA, LDA, Eigenfaces
+% PCA, LDA, Gabor wavelets, Eigenfaces
 
-\noindent bla
+\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lightning or the pose of the head, the recognition will be less effective.
+\newline
+
+\noindent The most used Appearance-based method is the Gabor wavelets because of their performance. The disadvantage of the Gabor wavelets method is that computing the whole face with the bank of gabor filters is time and memory consuming \cite{SHA09}.
 \newline
 
 \phantomsection
 \section{Geometry-based methods}
-% Gabor wavelets, LBP
+% LBP
 
 \noindent As said in the introduction, the Geometry-based method aims to locate important facial components. The shape and the location of these facial features are extracted from an face image and then are concatenated into a features vector. This features vector represents the geometry of the face \cite{SHA09}.
 \newline
