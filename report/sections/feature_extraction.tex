@@ -1,0 +1,26 @@
+%\newpage
+  \begin{titlepage}
+    \vspace*{\fill}
+      \part{Feature extraction}
+    \vspace*{\fill}
+  \end{titlepage}
+
+\startcontents[parts]
+
+\phantomsection
+\chapter*{Contents}
+
+\textit{This part will focus on the step following face detection, which is feature extraction. Chapter~\ref{chap:extraction} will present the main issues on feature extraction, and usual feature extraction methods, while the following chapter will focus on the Local Binary Patterns algorithm.} 
+
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+\input{sections/feature_extraction/feat_extraction.tex}
+\newpage
+\input{sections/feature_extraction/lbp.tex}
+
+\stopcontents[parts]
+
+

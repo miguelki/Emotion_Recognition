@@ -134,6 +134,12 @@ N~Sebe, M~S Lew, Y~Sun, I~Cohen, T~Gevers, and T~S Huang.
 \newblock Authentic facial expression analysis.
 \newblock {\em Image and Vision Computing}, 25:1856--1863, 2007.
 
+\bibitem{SHA09}
+Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
+\newblock Facial expression recognition based on local binary patterns: A
+  comprehensive study.
+\newblock {\em Image and Vision Computing}, 27:803--816, 2009.
+
 \bibitem{SMY07}
 Padhraic Smyth.
 \newblock Face detection using the viola-jones method, 2007.
@@ -147,6 +153,19 @@ Matthew Turk and Alex Pentland.
 UQUAM.
 \newblock The msfde.
 \newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
+
+\bibitem{VAL06}
+M~F. Valstar and M.~Pantic.
+\newblock Fully automatic facial action unit detection and temporal analysis.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
+  Workshop}, page 149, 2006.
+
+\bibitem{VAL05}
+M~F. Valstar, I.~Patras, and M.~Pantic.
+\newblock Facial action unit detection using probabilistic actively learned
+  support vector machines on tracked facial point data.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
+  Workshop}, 3:76--84, 2005.
 
 \bibitem{VIO01}
 Paul Viola and Michael Jones.

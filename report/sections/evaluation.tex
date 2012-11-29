@@ -5,9 +5,21 @@
     \vspace*{\fill}
   \end{titlepage}
 
-%\chapter{Introduction}\label{ch:introduction}
+\startcontents[parts]
+  
 \phantomsection
 \chapter*{Contents}
 
+\textit{Content}
 
-Bla bla bla
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+
+\input{sections/evaluation/results.tex}
+\newpage
+\input{sections/evaluation/issues.tex}
+
+\stopcontents[parts]

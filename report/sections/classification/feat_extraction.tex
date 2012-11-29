@@ -2,16 +2,25 @@
 \chapter{Feature extraction}
 \label{chap:extraction}
 
-\noindent bla
+\noindent After having detected the face, for example using Viola-Jones algorithm, it is necessary to perform feature extraction in order to process data before classification. 
+This step takes an image as input, and extracts vectors characterizing its main features. In the case of a facial expression recognition system, resulting vectors contain informations about spacial configuration of facial features, but can also encode informations about shape, texture or movement of the image's content \cite{CHI03}.
+\newline
 
-\section{Overview}
+\noindent There are however many kinds of algorithms outputting features vectors, and the choice of an effective one depends on many criteria. These feature extration methods can generally be ranked among 2 categories: they can either be appearance-based or geometry-based, depending on the way they extract feature vectors. The aim of this chapter is to explain the differences between these 2 types of feature extraction methods, and provide some examples from each category.
+\newline
 
+\phantomsection
 \section{Appearance-based methods}
+% PCA, LDA, Eigenfaces
 
 \noindent bla
 \newline
 
+\phantomsection
 \section{Geometry-based methods}
-
+% Gabor wavelets, LBP
 \noindent bla
 \newline
+
+\noindent Conclusion paragraph that opens on LBP
+
