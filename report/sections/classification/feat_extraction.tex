@@ -9,17 +9,56 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \noindent There are however many kinds of algorithms outputting features vectors, and the choice of an effective one depends on many criteria. These feature extration methods can generally be ranked among 2 categories: they can either be appearance-based or geometry-based, depending on the way they extract feature vectors. The aim of this chapter is to explain the differences between these 2 types of feature extraction methods, and provide some examples from each category.
 \newline
 
-\phantomsection
-\section{Appearance-based methods}
-% PCA, LDA, Eigenfaces
-
-\noindent bla
+\vspace{\baselineskip}
+\noindent Before developing a facial expression recognition project, it is important to know what already exists; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a feature extraction system for the project.
 \newline
 
-\phantomsection
-\section{Geometry-based methods}
-% Gabor wavelets, LBP
-\noindent bla
+\noindent Two main categories of feature extraction algorithms can be distinguished : \textit{appearance-based} or \textit{geometry-based}. The first ones are algorithms that try to find basic vectors characterizing the whole picture, usually by a dimensionality reduction method. These algorithms lead to a simplification of the dataset, while retaining the main characteristics of the picture. However, these methods have to be carefully parametrized, so they do not encounter the "curse of dimensionality", which is about processing high-dimensional data.
+\vspace{\baselineskip}
+
+\noindent Examples of appearance-based methods : Principal Component Analysis, Linear Discriminant Analysis, Hidden Markov Models, Eigenfaces.
+\newline
+
+\noindent The second type of feature extraction algorithms are geometry-based algorithms. These methods tend to locate important features, and build the feature vectors depending on those regions of interest. The key point of these methods is that the face is not a global structure anymore. Indeed, it has been summarized in a set of features regions, which are themselves translated into feature vectors.
+\vspace{\baselineskip}
+
+\noindent Examples of geometry-based methods : Gabor Wavelets, Local Binary Patterns.
+\newline
+
+\section{Principal Component Analysis (PCA)}
+
+\vspace{\baselineskip}
+\noindent This is a statistical method; one of the most used in linear algebra. PCA is mainly used to reduce high dimensionality of data and to obtain the most important information out of it. PCA computes a covariance matrix and a set of values called the eigenvalues and eigenvectors from the original data \cite{GAN08}. Its output is a new coordinate system with lower dimensions, obtained from transformed high dimensionality of data, while preserving the most important information.  Since it is a statistical method, it can also be used in the classification step.
+\newline
+
+\section{Linear Discriminant Analysis (LDA)}
+
+\vspace{\baselineskip}
+\noindent Linear Discriminant Analysis is also a statistical method, used to classify a set of objects into groups. It is done by looking at a specific set of features describing the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. LDA uses this relationship to model the differences into classes, while PCA does not take any differences into account in the linear relationship. The idea behind LDA  is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}. Like PCA, LDA can also be used as a classification algorithm.
+\newline
+
+\section{Local Binary Patterns (LBP)}
+
+\vspace{\baselineskip}
+\noindent This is an geometry-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighbourhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighbourhood pixels with the intensity value of the central pixel \cite{GAN08}. This method will be detailed in Chapter \ref{chap:lbp}, and will be used in our facial expression recognition system.
+\newline
+
+\section{Hidden Markov Models (HMM)}
+
+\vspace{\baselineskip}
+\noindent These models are a set of statistical models used to characterize the statistical properties of a signal \cite{RAB93}. It can be used as a classification algorithm, and can also be developed to recognize expressions based on the "maximum likelihood decision criterion" \cite{LIE98}.
+\newline
+
+\section{Eigenfaces}
+
+\vspace{\baselineskip}
+\noindent Eigenfaces are a set of eigenvectors. These eigenvectors are derived from the covariance matrix of a set of images; and this in a high-dimensional vector space. The eigenvectors are ordered and each one represents the different amount of the variation among images. Characterization of the variation between face images is then possible \cite{TUR91}.
+\newline
+
+\section{Gabor Filters}
+
+\vspace{\baselineskip}
+\noindent Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image. These representations of face image display desirable locality and orientation performance \cite{JEM09}. However, the main limitation of the Gabor feature extraction is processing time.This algoritm is very time-consuming, and dimensions of resulting vectors are prohibitively large \cite{PRA09}.
 \newline
 
 \noindent Conclusion paragraph that opens on LBP

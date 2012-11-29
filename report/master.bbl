@@ -28,7 +28,10 @@ Vinay Bettadapura.
 
 \bibitem{CHI03}
 Claude~C. Chibelushi and Fabrice Bourel.
-\newblock Facial expression recognition: A brief tutorial overview, 2003.
+\newblock Facial expression recognition: A brief tutorial overview.
+\newblock
+  \url{http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/CHIBELUSHI1/CCC_FB_FacExprRecCVonline.pdf},
+  2003.
 
 \bibitem{DAR04}
 Charles Darwin.
