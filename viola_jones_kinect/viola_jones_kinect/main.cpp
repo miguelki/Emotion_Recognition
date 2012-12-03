@@ -40,7 +40,7 @@ int main (int argc, char * const argv[]) {
 		detectFaces( img );
 		key = cvWaitKey( 10 ); 
 	}
-
+	
 	cvReleaseCapture( &capture ); 
 	cvDestroyWindow("Window-FT");
 	cvReleaseHaarClassifierCascade( &cascade );

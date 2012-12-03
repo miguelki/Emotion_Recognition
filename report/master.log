@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  29 NOV 2012 18:33
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  3 DEC 2012 14:48
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -1740,7 +1740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--13
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
@@ -1749,76 +1749,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--23
-
- []
-
-[41] <figures/lbp_basic_operator.png, id=589, 792.9625pt x 250.9375pt>
+<figures/lbp_basic_operator.png, id=579, 792.9625pt x 250.9375pt>
 File: figures/lbp_basic_operator.png Graphic file (type png)
 
 <use figures/lbp_basic_operator.png>
-Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 26.
+Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 23.
 (pdftex.def)             Requested size: 396.48027pt x 125.46843pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<figures/lbp_basic_operator_example.png, id=594, 806.01125pt x 458.71375pt>
+[41]
+<figures/lbp_basic_operator_example.png, id=592, 806.01125pt x 458.71375pt>
 File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
 <use figures/lbp_basic_operator_example.png>
 Package pdftex.def Info: figures/lbp_basic_operator_example.png used on input l
-ine 38.
+ine 35.
 (pdftex.def)             Requested size: 403.00464pt x 229.35631pt.
 
-Overfull \hbox (1.82077pt too wide) in paragraph at lines 38--40
+Overfull \hbox (1.82077pt too wide) in paragraph at lines 35--37
  []  
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
 [42 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
-_operator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+_operator.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figure
+s/lbp_basic_operator_example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-<figures/lbp_circular_operator.png, id=612, 812.03375pt x 285.065pt>
+<figures/lbp_circular_operator.png, id=609, 812.03375pt x 285.065pt>
 File: figures/lbp_circular_operator.png Graphic file (type png)
 
 <use figures/lbp_circular_operator.png>
-Package pdftex.def Info: figures/lbp_circular_operator.png used on input line 8
-0.
+Package pdftex.def Info: figures/lbp_circular_operator.png used on input line 7
+7.
 (pdftex.def)             Requested size: 406.01588pt x 142.53215pt.
 
-Overfull \hbox (4.83202pt too wide) in paragraph at lines 80--82
+Overfull \hbox (4.83202pt too wide) in paragraph at lines 77--79
  []  
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
+ []
 
+[43 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
+lar_operator.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-[43 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
-_operator_example.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
@@ -1828,23 +1828,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
-
- []
-
-[44 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
-lar_operator.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 117--119
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--126
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
@@ -1854,12 +1853,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--139
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--150
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
@@ -1868,7 +1867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--157
 
  []
 
-[45]
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
@@ -1878,7 +1877,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
-
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
@@ -1888,59 +1887,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
-
- []
-
-<figures/lbp_structural_features.png, id=653, 480.79625pt x 366.36874pt>
+<figures/lbp_structural_features.png, id=651, 480.79625pt x 366.36874pt>
 File: figures/lbp_structural_features.png Graphic file (type png)
 
 <use figures/lbp_structural_features.png>
 Package pdftex.def Info: figures/lbp_structural_features.png used on input line
- 175.
+ 172.
 (pdftex.def)             Requested size: 288.47997pt x 219.82294pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
-[46]
+[46 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
+tural_features.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--198
-
- []
-
-[47 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
-tural_features.png>]
-<figures/lbp_histogram.png, id=670, 907.39pt x 520.94624pt>
+<figures/lbp_histogram.png, id=661, 907.39pt x 520.94624pt>
 File: figures/lbp_histogram.png Graphic file (type png)
 
 <use figures/lbp_histogram.png>
-Package pdftex.def Info: figures/lbp_histogram.png used on input line 201.
+Package pdftex.def Info: figures/lbp_histogram.png used on input line 198.
 (pdftex.def)             Requested size: 362.94957pt x 208.3748pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--210
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-<figures/lbp_region_weight.png, id=673, 513.92pt x 258.9675pt>
+[47 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_histo
+gram.png>] <figures/lbp_region_weight.png, id=670, 513.92pt x 258.9675pt>
 File: figures/lbp_region_weight.png Graphic file (type png)
 
 <use figures/lbp_region_weight.png>
-Package pdftex.def Info: figures/lbp_region_weight.png used on input line 213.
+Package pdftex.def Info: figures/lbp_region_weight.png used on input line 210.
 (pdftex.def)             Requested size: 205.56435pt x 103.58514pt.
-) [48 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_his
-togram.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/l
-bp_region_weight.png>]
+) [48 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_reg
+ion_weight.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
 on/feat_classification.tex
 Chapter 7.
@@ -2055,11 +2044,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 54.
 Here is how much of TeX's memory you used:
  10388 strings out of 494045
  156876 string characters out of 3145975
- 246969 words of memory out of 3000000
+ 246966 words of memory out of 3000000
  13129 multiletter control sequences out of 15000+200000
  85137 words of font info for 66 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,14n,38p,1253b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1109b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
@@ -2082,9 +2071,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/lm/lmtt10.pfb>
-Output written on master.pdf (68 pages, 3568102 bytes).
+Output written on master.pdf (68 pages, 3565731 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
+ 1035 PDF objects out of 1200 (max. 8388607)
  243 named destinations out of 1000 (max. 500000)
  540 words of extra memory for PDF output out of 10000 (max. 10000000)
 

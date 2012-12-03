@@ -2,42 +2,39 @@
 \chapter{Local Binary Patterns}
 \label{chap:lbp}
 
-\noindent Some feature extractions are widely used and studied as the Principal Component Analysis (PCA) and the Linear Discriminant Analysis (LDA) to characterize and describe the face. They in fact describe the whole face. But these method are not efficient when the lightning changes or when the pose of the head changes. This is quite a challenge for these method. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterize the parts of the face in function of their importance. The Local Binary Pattern (LBP) feature extraction is a local descriptor and it is widely used \cite{AHO06}.
+\noindent Some feature extractions are widely used and studied to characterize and describe the face, such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA). These methods describe the whole image, and are not very efficient if there are changes in lighting or head pose. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterizing parts of the face depending on their importance. The Local Binary Pattern (LBP) feature extraction is a widely used a local descriptor \cite{AHO06}.
 \newline
 
-\noindent The LBP operator is known to be an effective texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. It is also one of the most widely used. This operator has a lot of advantages. One of its main advantages is that this operator is highly discriminative. The other advantages are its invariance to gray-level changes and its computation efficiency. Its computation efficiency is suitable for image analysis but it may not be efficient enough for real-time analysis \cite{AHO06}.
-\newline
-
-\noindent LBP is known to be a great operator for texture description but why is it used for face description? Because faces can be seen as a composition of micro-patterns. And describing micro-patterns is what the LBP operator does \cite{AHO06}.
+\noindent The LBP operator is known to be an effective texture descriptor because it efficiently describes micro-patterns. Since a face can be seen as a composition of micro-patterns, it is logical to use this texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. This operator has a lot of advantages, one of them being its highly discriminative rate. Other advantages are its invariance to gray-level changes and its computation efficiency, which makes it suitable for image analysis but may not be efficient enough for real-time analysis \cite{AHO06}.
 \newline
 
 \phantomsection
 \section{Overview}
 
 \vspace{\baselineskip}
-\noindent Globally, a gray-scale image of a face is divided into small regions. LBP histograms are extracted from each of those small regions. Then these histogram are concatenated into a single feature vector \cite{JUL07}.
+\noindent Globally, a gray-scale image of a face is divided into small regions. LBP histograms are extracted from each of those small regions. These histograms are then concatenated into one feature vector describing the image \cite{JUL07}.
 \newline
 
-\noindent The LBP operator works with one central pixel and its eight neighbor pixels. It is basically a comparison with a threshold between the central pixel and the neighbor pixels. The intensity value of the central pixel sets the threshold. Then for each neighbor pixels, the same method is applied. If a neighbor pixel has a value superior to the one of the central pixel or equal to, a 1 is assigned to this pixel. If the pixel value of the neighbor pixel is inferior to the one of the central pixel, then a 0 is assigned to this pixel. Then, when all the neighbor pixels are done, a LBP code for the central pixel can be obtained by concatenating all the values of the eight neighbor pixels into a binary code. And for a better comprehension for the human, this code can also be transformed from a binary code to a decimal one. The figure~\ref{lbp_basic_operator} shows an example of the LBP process for a central pixel and its eight neighbor pixels \cite{JUL07}.
+\noindent The LBP operator works with one central pixel and its eight neighbour pixels. It is a basic binary thresholding between the central pixel and its neighbours. The threshold is set as the intensity value of the central pixel. Then, for each neighbour pixel, if its value is superior or equal to the threshold, a value of 1 is assigned, otherwise a 0. When all neighbours have been processed, a LBP code for the central pixel can be obtained by concatenating all values of its eight neighbours into a binary code. For a better comprehension, a human readable, decimal value can be computed from the binary one. Figure~\ref{lbp_basic_operator} shows an example of the LBP process for a pixel and its eight neighbor pixels \cite{JUL07}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.5]{figures/lbp_basic_operator} 
 \newline
-\caption{The LBP operator}
+\caption{Basic LBP operator}
 \label{lbp_basic_operator}
 \end{center} 
 \end{figure}
 
-\noindent The LBP operator works with one central pixel and its eight neighbor pixels. It is basically a comparison with a threshold between the central pixel and the neighbor pixels. The intensity value of the central pixel sets the threshold. Then for each neighbor pixels, the same method is applied. If a neighbor pixel has a value superior to the one of the central pixel or equal to, a 1 is assigned to this pixel. If the pixel value of the neighbor pixel is inferior to the one of the central pixel, then a 0 is assigned to this pixel. Then, when all the neighbor pixels are done, a LBP code for the central pixel can be obtained by concatenating all the values of the eight neighbor pixels into a binary code. And for a better comprehension for the human, this code can also be transformed from a binary code to a decimal one. The figure~\ref{lbp_basic_operator} shows an example of the LBP process for a central pixel and its eight neighbor pixels \cite{JUL07}. The figure~\ref{lbp_basic_operator_example} shows an example of the LBP operator applied on a facial image from the JAFFE database \cite{LIU11}.
+\noindent Figure~\ref{lbp_basic_operator_example} shows an example of the LBP operator applied on a facial image from the JAFFE database \cite{LIU11}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.5]{figures/lbp_basic_operator_example} 
 \newline
-\caption{Example of the LBP operator applied on a facial image from the JAFFE database}
+\caption{Example of the LBP operator applied on a image from the JAFFE database}
 \label{lbp_basic_operator_example}
 \end{center} 
 \end{figure}
@@ -49,18 +46,18 @@
 \subsection{Circular LBP}
 
 \vspace{\baselineskip}
-\noindent In order to be able to use the LBP operator at different scales, a new form of the operator was used. This new form is the "Circular LBP Operator". This way, the operator can be extended to other neighborhoods than only eight pixels; it can be extended to neighborhood of various sizes \cite{GAN08}.
+\noindent In order to be able to use the LBP operator at different scales, a new form of the operator has been introduced. This new form is the circular LBP operator. This way, the operator can be extended to other neighbourhoods than only eight pixels. \cite{GAN08}.
 \newline
 
-\noindent This operator still compares the intensity value of the central pixel with the one of its neighbors but the neighbors pixels are now calculating by a circle as follows \cite{GAN08}:
+\noindent This operator still compares the intensity value of the central pixel with its neighbors, but neighbors pixels are now calculated on a circle as follows \cite{GAN08}:
 
 \begin{itemize}
   \item P represents the number of sampling points (neighbor pixels)
-  \item C represents the central pixel and has the coordinates $ (x_c,y_c) $
-  \item R represents the distance between each of the neighbor pixels and the central pixel
+  \item C represents the central pixel with coordinates $ (x_c,y_c) $
+  \item R represents the distance between each neighbor pixel and the central one
 \end{itemize}
 
-\noindent To find the coordinates of each P neighbor pixel, the formula are the following \cite{JUL07}:
+\noindent Coordinates of the p$^{th}$ neighbor pixel are calculated with the following formulas \cite{JUL07}:
 \newline
 
 \begin{equation}
@@ -72,22 +69,22 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The figure~\ref{lbp_circular_operator} shows the circular LBP operator with a different number of neighbor pixels P and with various sizes \cite{JUL07}. For the circular LBP operator, the following notation is used: $ (P,R) $ and for a pixel p, the following notation is used: $ LBP_{P,R}(p) $ \cite{GAN08}.
+\noindent Figure~\ref{lbp_circular_operator} shows the circular LBP operator with different numbers of neighbor pixels P and with various radius sizes \cite{JUL07}. For the circular LBP operator, the following notation is used: $ (P,R) $ and for a pixel p, the following notation is used: $ LBP_{P,R}(p) $ \cite{GAN08}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.5]{figures/lbp_circular_operator} 
 \newline
-\caption{The circular LBP operator with different radius R and different number of neighbor pixels P}
+\caption{Circular LBP operator with different radius sizes R and different number of neighbor pixels P}
 \label{lbp_circular_operator}
 \end{center} 
 \end{figure}
 
-\noindent Most of the time, when a circular LBP operator is used, the coordinates of the neighbor pixels (calculated with the formula given above) may not fall exactly on a pixel. In this case, using a bilinear interpolations of the neighbor pixel intensity values is recommended for the comparison. For example, the circular operator with $ P = 8 $ and $ R = 1.0 $ looks like the basic LBP operator; the only difference is that for the calculation, in case of the neighbor pixels do not fall right into single pixels, these pixel has to be interpolated first \cite{GAN08}.
+\noindent Most of the time, when a circular LBP operator is used, coordinates of the neighbor pixels (calculated with the formulas given above) may not land exactly on a pixel. In this case, using a bilinear interpolation of neighbor pixels intensity values is recommended. For example, the circular operator with $ P = 8 $ and $ R = 1.0 $ is similar to the basic LBP operator; the only difference being during the calculation, if neighbor pixels do not land exactly onto single pixels, these pixels have to be interpolated first \cite{GAN08}.
 \newline
 
-\noindent What is resulting of the LBP operation is the texture. The formula of the texture is the following \cite{GAN08}:
+\noindent The LBP operation outputs a texture, which formula is \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -95,10 +92,10 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent With $ I_C $, the intensity value of the central pixel, $ I_p $ for $ p = 0, 1, ..., P $, the intensity values of the P neighbor pixels, with $ T $, the texture in the local neighborhood of $ C $ \cite{GAN08}.
+\noindent With $ I_C $, the intensity value of central pixel C, $ I_p $ for $ p = 0, 1, ..., P-1 $, the intensity values of the P neighbor pixels, and $ T $, the texture in the local neighborhood of $ C $ \cite{GAN08}.
 \newline
 
-\noindent But this texture can also be calculated in an other way. It consists in subtracting the central pixel intensity value from the pixel values of the computed neighborhood values. This way, the texture $ T $ is the combination of the differences between the intensity values of the neighbor pixels and the central pixel, and of the intensity value of the central pixel $ I_C $. The formula resulting is the following \cite{GAN08}:
+\noindent This texture can also be calculated in an other way. The central pixel intensity value can be substracted from the computed neighbourhood values. Output texture $ T $ becomes the combination of differences between intensity values of the neighbor pixels and central pixel, and of the intensity value of the central pixel $ I_C $, resulting in the following formula \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -106,7 +103,7 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent Based on the work of Ojala et al. \cite{OJA96}, $ t(I_C) $ describes the overall luminance of an image. The overall luminance is not related to the local texture of the image. And by consequent, relevant information for texture analysis are not provided. Even after dropping this element from the formula above, the texture description still contained the most of the texture information with the following formula \cite{GAN08}:
+\noindent Based on the work of Ojala et al. \cite{OJA96}, $ t(I_C) $ describes the overall luminance of an image, which is not related to the local texture of the image. Consequently, relevant information for texture analysis are not provided by this value. It can then be discarded without affecting the texture description \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -114,7 +111,7 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The above formula makes the texture description invariant against shifts in the intensity values. But against scaling of the intensity values, the texture description is not invariant. To obtain a texture description invariant to these scalings, only the signs of the differences are taken into account (and not the difference in itself). The new formula is as follows \cite{GAN08}:
+\noindent The above formula makes the texture description invariant against shifts in intensity values. t however does not make it invariant against scaling of intensity values. To obtain a texture description invariant to these scalings, only the signs of the differences are taken into account, and not the difference in itself. The new formula is as follows \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -134,10 +131,10 @@ s(x) = \left\{
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent For the pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For the pixels with an intensity value inferior to the one of the central pixel, the sign assigned would be 0 \cite{GAN08}.
+\noindent For the pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For the pixels with an intensity value inferior to $I_C$it  would be 0 \cite{GAN08}.
 \newline
 
-\noindent The last step is to assign a binomial weight to each sign, for the LBP operation.These weights are summed and it produces for the central pixel $ C $ of coordinates $ (x_C,y_C) $, the LBP code. The formula is as follows \cite{GAN08}:
+\noindent The last step is to assign a binomial weight to each sign, for the LBP operation. These weights are summed, producing an imporved LBP code for central pixel $ C $ with coordinates $ (x_C,y_C) $ \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -145,29 +142,29 @@ s(x) = \left\{
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The use of the formula above to calculate LBP produce a large number of patterns and it does not help to reduce the size of data. That is why Uniform Local Binary Pattern are used; this way, LBP are used in an efficient way for image processing \cite{GAN08}. This kind of LBP will be explained in the subsection below.
+\noindent The use of the formula above to calculate LBP still outputs a large number of patterns, which does not help reducing the data size. An other improvement to the LBP operator, called uniform LBP, can then be used to efficiently reduce the data size. This kind of LBP will be explained in the subsection below.
 \newline
 
 \phantomsection
 \subsection{Uniform LBP}
 
 \vspace{\baselineskip}
-\noindent A Local Binary Pattern can be called uniform only if it contains 2 or less bitwise transitions. A bitwise transitions can be a transition from 0 to 1 or the opposite: from 1 to 0 \cite{GAN08}. 
+\noindent A Local Binary Pattern can be called uniform only if it contains 2 or less bitwise transitions. A bitwise transition is a transition from 0 to 1 or from 1 to 0 \cite{GAN08}. 
 \newline
 
-\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the LBP is circular so there cannot be only 1 bitwise transition. If at a moment on the circle, one pixel is at 1 and then after two pixel for example, there is a pixel at 0, this is one bitwise transition. But then, going on on the circle, there will be inevitably another bitwise transition from 0 to 1 to go back at the pixel with the value of 1 \cite{GAN08}.
+\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the neighbourhood is circular so there cannot be 1-bitwise transition in the pattern. Indeed, if there is a bitwise transition in the neighbourhood, i.e from 1 to 0, it means that there will be another bitwise transition from 0 to 1 further in the circular pattern \cite{GAN08}.
 \newline
 
-\noindent If a pattern contains 0 bitwise transition, it means that it is composed only of 0s or of 1s \cite{GAN08}.
+\noindent If a pattern contains 0 bitwise transitions, it means that it is composed only of 0s or of 1s \cite{GAN08}.
 \newline
 
-\noindent For a uniform LBP with a bit-length of 8 bits, containing 2 bitwise transitions, with P numbers of neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transition; the patterns with all 1s or all 0s). The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbor pixels and R, the value of the radius \cite{GAN08}.
+\noindent For a uniform LBP with a pattern-length of 8 bits (i.e 8 neighbours), containing 2 bitwise transitions, with P neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transitions. The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbouring pixels and radius size R \cite{GAN08}.
 \newline
 
-\noindent There are 2 main advantages coming along with the uniform LBP. The first one is the reduction in range of possible pattern that the uniform LBP allows. With the uniform LBP operator, there are 58 possible combinations as seen above. With the basic LBP operator, for the same bit-length, there are $ 2^8 = 256 $ possible combinations. More than four times more possible combinations \cite{GAN08}.
+\noindent There are 2 main advantages coming along with the uniform LBP. The first one is the reduction in range of possible patterns. With the uniform LBP operator, there are 58 possible combinations as seen above, whereas with the basic LBP operator, there are $ 2^8 = 256 $ possible combinations for the same bit-length. The use of uniform LBP then leads to less computation \cite{GAN08}.
 \newline
 
-\noindent The second advantages is that even though there is a reduction of dimensionality thanks to the uniform LBP, the patterns are still discriminative between various structural features. These structural features still detected by the uniform LBP are the spot, the spot/flat, the line end, the edge and the corner. These features are shown in the figure~\ref{lbp_structural_features}  \cite{GAN08}.
+\noindent The second advantage is that, even though there is a reduction of dimensionality, the patterns remain discriminative between various structural features. These structural features detected by the uniform LBP are the spot, the spot/flat, the line end, the edge and the corner, as shown in Figure~\ref{lbp_structural_features}  \cite{GAN08}.
 \newline
 
 \begin{figure}[!h]
@@ -183,17 +180,17 @@ s(x) = \left\{
 \section{Facial Expression Recognition based on LBP}
 
 \vspace{\baselineskip}
-\noindent The LBP operator can be used to extract features for a Facial Expression Recognition system. The main idea is to obtain a set of features vectors with the LBP operator. The process is first to train models to recognize the 6 basic emotions. The models are trained with the features vectors extracted. Then to recognize an emotion on a sample face image, features vectors are extracted from this sample face image with the LBP operator. And these vectors extracted are then test against the models built in the training phase \cite{GAN08}.
+\noindent The LBP operator can be used to extract features for a facial expression recognition system. The main idea is to obtain a set of features vectors from the train data, using LBP. After training the classifiers with these feature vectors, test data will then undergo the same LBP feature extraction before classification. 
 \newline
 
 \phantomsection
 \section{Histogram computing}
 
 \vspace{\baselineskip}
-\noindent To obtain these features vectors mentioned above, the code obtained thanks to the LBP operator are concatenated into an histogram. And this is this histogram that gives the features vectors.
+\noindent To obtain these features vectors mentioned above, pixel values obtained with the LBP operator are concatenated into an histogram, which will give feature vectors.
 \newline
 
-\noindent To compute this histogram, first the face is partitioned into regions. Most of the time, the face is partitioned as following: 7 rows and 6 column so in total 42 regions. This way of partitioning is the most used for Facial Expression Recognition systems. It suits well the parts of the face that are important features for emotion recognition. The dimension of the face for all the images tested should be kept constant. Then for all the pixels of the face, the LBP code, $ LBP_{8,2}^{u^2} $, is computed. Then, the codes resulting are grouped region-wise into different bins. Here, because the LBP code is the one with $ P = 8 $ and $ R = 1.0 $, the number of bins in the histogram is of 59 (56 bins for the uniform LBP with 2 bitwise transitions, 2 bins for the uniform LBP with 0 bitwise transition and 1 bin for the non-uniform LBP). All these bins are concatenated column-wise; as it can be seen in the figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows and 1 column (the histogram is computed for each region partitioned on the sample image) \cite{GAN08}.
+\noindent To compute this histogram, the face has to be partitioned into regions first. Most of the time, it is partitioned as following: 42 regions, 7 rows and 6 columns. It matches parts of the face yielding important features for emotion recognition. Face dimensions for all tested images should be kept constant. Then for all pixels of the face, their LBP value is computed using $ LBP_{8,2}^{u^2} $. Then, resulting values are gathered region-wise into different bins. For example, the LBP operator with $ P = 8 $ and $ R = 1.0 $ outputs a histogram with 59 bins: 56 bins for uniform LBP with 2 bitwise transitions, 2 bins for  uniform LBP with 0 bitwise transition and the remaining bin for non-uniform patterns). All these bins are concatenated column-wise; as it can be seen in Figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows, the histogram being computed for each region partitioned on the sample image \cite{GAN08}.
 \newline
 
 \begin{figure}[!h]
@@ -205,7 +202,7 @@ s(x) = \left\{
 \end{center} 
 \end{figure}
 
-\noindent The regions obtained when the sample image is partitioned have not the same contribution to the emotion expressed. For example, the eyes bring more information about an emotion than the cheeks. So for each region, a weight is assigned. Thus, the histogram of each region is multiply with a corresponding weight. The weights are assigned as in the figure~\ref{lbp_region_weight} \cite{GAN08}.
+\noindent The regions obtained when the sample image is partitioned do not have the same contribution to the expressed emotion. For example, eyes bring more information about an emotion than cheeks. For each region, a weight is then assigned as in Figure~\ref{lbp_region_weight} \cite{GAN08}. Thus, the histogram of each region is multiplied with a corresponding weight.
 \newline
 
 \begin{figure}[!h]

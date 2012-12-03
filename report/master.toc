@@ -44,8 +44,8 @@
 \contentsline {chapter}{\numberline {6}Local Binary Patterns}{41}{chapter.89}
 \contentsline {section}{\numberline {6.1}Overview}{41}{section.91}
 \contentsline {section}{\numberline {6.2}Improvements}{42}{section.95}
-\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{42}{subsection.97}
-\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{46}{subsection.108}
+\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{43}{subsection.97}
+\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{45}{subsection.108}
 \contentsline {section}{\numberline {6.3}Facial Expression Recognition based on LBP}{46}{section.111}
 \contentsline {section}{\numberline {6.4}Histogram computing}{47}{section.113}
 \contentsline {chapter}{\numberline {7}Feature classification}{49}{chapter.117}
