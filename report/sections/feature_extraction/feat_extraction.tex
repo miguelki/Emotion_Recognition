@@ -25,41 +25,64 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \noindent Examples of geometry-based methods : Gabor Wavelets, Local Binary Patterns.
 \newline
 
-\section{Principal Component Analysis (PCA)}
+\phantomsection
+\section{Appearance-based methods}
+
+\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lightning or the pose of the head, the recognition will be less effective.
+\newline
+
+\noindent The most used Appearance-based method is the Gabor wavelets because of their performance. The disadvantage of the Gabor wavelets method is that computing the whole face with the bank of gabor filters is time and memory consuming \cite{SHA09}.
+\newline
+
+\subsection{Principal Component Analysis (PCA)}
 
 \vspace{\baselineskip}
 \noindent This is a statistical method; one of the most used in linear algebra. PCA is mainly used to reduce high dimensionality of data and to obtain the most important information out of it. PCA computes a covariance matrix and a set of values called the eigenvalues and eigenvectors from the original data \cite{GAN08}. Its output is a new coordinate system with lower dimensions, obtained from transformed high dimensionality of data, while preserving the most important information.  Since it is a statistical method, it can also be used in the classification step.
 \newline
 
-\section{Linear Discriminant Analysis (LDA)}
+\subsection{Linear Discriminant Analysis (LDA)}
 
 \vspace{\baselineskip}
 \noindent Linear Discriminant Analysis is also a statistical method, used to classify a set of objects into groups. It is done by looking at a specific set of features describing the objects. LDA as PCA are used to establish a linear relationship between the dimensions of the data. LDA uses this relationship to model the differences into classes, while PCA does not take any differences into account in the linear relationship. The idea behind LDA  is to perform a linear transformation on the data to obtain a lower dimensional set of features \cite{GAN08}. Like PCA, LDA can also be used as a classification algorithm.
 \newline
 
-\section{Local Binary Patterns (LBP)}
-
-\vspace{\baselineskip}
-\noindent This is an geometry-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighbourhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighbourhood pixels with the intensity value of the central pixel \cite{GAN08}. This method will be detailed in Chapter \ref{chap:lbp}, and will be used in our facial expression recognition system.
-\newline
-
-\section{Hidden Markov Models (HMM)}
-
-\vspace{\baselineskip}
-\noindent These models are a set of statistical models used to characterize the statistical properties of a signal \cite{RAB93}. It can be used as a classification algorithm, and can also be developed to recognize expressions based on the "maximum likelihood decision criterion" \cite{LIE98}.
-\newline
-
-\section{Eigenfaces}
+\subsection{Eigenfaces}
 
 \vspace{\baselineskip}
 \noindent Eigenfaces are a set of eigenvectors. These eigenvectors are derived from the covariance matrix of a set of images; and this in a high-dimensional vector space. The eigenvectors are ordered and each one represents the different amount of the variation among images. Characterization of the variation between face images is then possible \cite{TUR91}.
 \newline
 
-\section{Gabor Filters}
+\subsection{Hidden Markov Models (HMM)}
+
+\vspace{\baselineskip}
+\noindent These models are a set of statistical models used to characterize the statistical properties of a signal \cite{RAB93}. It can be used as a classification algorithm, and can also be developed to recognize expressions based on the "maximum likelihood decision criterion" \cite{LIE98}.
+\newline
+
+\phantomsection
+\section{Feature-based methods}
+% Gabor wavelets, LBP
+
+\noindent As said in the introduction, the Geometry-based method aims to locate important facial components. The shape and the location of these facial features are extracted from an face image and then are concatenated into a features vector. This features vector represents the geometry of the face \cite{SHA09}.
+\newline
+
+\noindent Compared to Appearance-based method, the Geometry-based method has equal or better results. This was recently tested by Valstar et al. \cite{VAL05} \cite{VAL06}.
+\newline
+
+\noindent The disadvantage of this method is that it needs reliable and accurate feature detection and also tracking if necessary. And this can involves a lot of extra processing and so can be time consuming \cite{SHA09}.
+\newline
+
+\subsection{Local Binary Patterns (LBP)}
+
+\vspace{\baselineskip}
+\noindent This is an geometry-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighbourhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighbourhood pixels with the intensity value of the central pixel \cite{GAN08}. This method will be detailed in Chapter \ref{chap:lbp}, and will be used in our facial expression recognition system.
+\newline
+
+\subsection{Gabor Filters}
 
 \vspace{\baselineskip}
 \noindent Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image. These representations of face image display desirable locality and orientation performance \cite{JEM09}. However, the main limitation of the Gabor feature extraction is processing time.This algoritm is very time-consuming, and dimensions of resulting vectors are prohibitively large \cite{PRA09}.
-\newline
+
+
 
 \noindent Conclusion paragraph that opens on LBP
 

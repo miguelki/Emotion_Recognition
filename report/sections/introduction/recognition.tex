@@ -6,7 +6,11 @@
 \section{General structure}
 
 \vspace{\baselineskip}
+<<<<<<< HEAD
 \noindent Facial expression recognition is a system enabling an automatic recognition of emotions displayed by a human face. Facial expression recognition can be image or video-based; it can also be computed in real-time if needed. Researchers usually try to recognize emotions out of static images. It can also be achieved real-time on video streams : While the person displays his/her emotions, the facial expression recognition system analyses the video, and detect the displayed emotion.
+=======
+\noindent Facial expression recognition is a system enabling an automatic recognition of emotions displayed by a human face. Facial expression recognition can be image or video-based; it can also be computed in real-time if the system needs it. Researchers usually try to recognize emotions out of images of human faces. This can also be achieved real-time on video streams : While the person displays his/her emotions, the facial expression recognition system analyses the video, and detect the displayed emotion.
+>>>>>>> b610ac62028e14055893b066f33d934c6a720cdd
 \newline
 
 \noindent In both cases, facial expression recognition process is structured as in Figure~\ref{facial_expression_recognition_process}
@@ -30,7 +34,11 @@
 \subsection{Face Detection}
 
 \vspace{\baselineskip}
+<<<<<<< HEAD
 \noindent Second step is "Face Detection". Indeed, in a static image and even more in an images sequence, this is an obvious need. Once the face has been detected, all other non-relevant information can be deleted. This step could hence be included in the next step, which is "Pre-processing", but because of its importance it can be considered as a step in itself. If working with image sequences or video streams, the face has to be detected and tracked. One of the most used and famous detection and tracking algorithm is the Viola-Jones algorithm, which will be explained further in Chapter~\ref{chap:vj}. This algorithm can be trained to detect all kind of objects, but is mostly used for face detection.
+=======
+\noindent Second step is "Face Detection". Indeed, in a static image and even more in an images sequence, this is an obvious need. Once the face has been detected, all other non-relevant information can be deleted, since only the face is needed. It could hence be included in the next step, which is "Pre-processing", but because of its importance it represents a step in itself. In facial expression recognition system working with image sequences, the face has to be detected, but also tracked. One of the most used and famous detection and tracking algorithm is the Viola-Jones Algorithm, which we will explain in detail later in this report. This algorithm can be trained to detect all kind of objects, but is mostly used for face detection.
+>>>>>>> b610ac62028e14055893b066f33d934c6a720cdd
 \newline
 
 \subsection{Pre-processing}
@@ -81,10 +89,17 @@
 \subsection{Real-time}
 
 \vspace{\baselineskip}
+<<<<<<< HEAD
 \noindent The primary goal of the facial expression recognition system described in this paper is to perform real-time facial expression recognition. As a real-time application, the processing time should be taken into account. Indeed, if it is too long, the system will not be responsive enough to be labelled as real-time.
 \newline
 
 \noindent This is one of the challenges of this kind of system, because processing is usually really heavy no matter which algorithm is used. Most facial expression recognition applications should be working in real-time conditions, for example in robotics or in surveillance. A solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
+=======
+\noindent The primary goal of the Facial Expression Recognition system describer in this paper is to perform real-time facial expression recognition. As a real-time application, the processing time should be taken into account, since if it is too long the application won't be responsive enough to be labeled as real-time.
+\newline
+
+\noindent This is one of the challenges of this kind of system, because processing is usually really heavy no matter which algorithm is used. Most Facial Expression Recognition applications sould be working in real-time conditions, for example in robotics, or in surveillance. A solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
+>>>>>>> b610ac62028e14055893b066f33d934c6a720cdd
 \newline
 
 \subsection{Conditions}
@@ -160,7 +175,11 @@
 \newline
 
   \item Able to work in real-time : 
+<<<<<<< HEAD
   \noindent This system should be able to recognize facial expressions in real-time. It means that it can recognize expressions based on a video sequences. It also means that the algorithm for the feature extraction has to be carefully optimized so it is able to compute facial features in a decent amount of time. 
+=======
+  \noindent This system should be able to recognize facial expressions in real-time. It means that it can expressions based on a video sequences. It also means that the algorithm for the feature extraction has to be carefully optimized so it is able to compute facial features in a decent amount of time. 
+>>>>>>> b610ac62028e14055893b066f33d934c6a720cdd
 \newline
 
   \item Recognition from straight angle of the face : 
