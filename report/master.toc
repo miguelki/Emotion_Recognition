@@ -61,16 +61,22 @@
 \contentsline {subsection}{\numberline {8.1.2}SVM kernels}{53}{subsection.134}
 \contentsline {section}{\numberline {8.2}Combining LBP and SVM}{53}{section.135}
 \contentsline {part}{V\hspace {1em}Implementation}{54}{part.136}
-\contentsline {part}{VI\hspace {1em}Evaluation}{56}{part.138}
-\contentsline {chapter}{\numberline {9}Results}{58}{chapter.141}
-\contentsline {section}{\numberline {9.1}Section name}{58}{section.143}
-\contentsline {chapter}{\numberline {10}Issues}{59}{chapter.145}
-\contentsline {section}{\numberline {10.1}Feature extraction}{59}{section.147}
-\contentsline {section}{\numberline {10.2}Real-time}{59}{section.149}
+\contentsline {chapter}{\numberline {9}Feature Detection with Viola-Jones}{56}{chapter.139}
+\contentsline {chapter}{\numberline {10}Feature Extraction with Local Binary Patterns}{57}{chapter.141}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{57}{section.143}
+\contentsline {section}{\numberline {10.2}Histogram computing}{58}{section.146}
+\contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{59}{chapter.150}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{60}{chapter.152}
+\contentsline {part}{VI\hspace {1em}Evaluation}{61}{part.153}
+\contentsline {chapter}{\numberline {13}Results}{63}{chapter.156}
+\contentsline {section}{\numberline {13.1}Section name}{63}{section.158}
+\contentsline {chapter}{\numberline {14}Issues}{64}{chapter.160}
+\contentsline {section}{\numberline {14.1}Feature extraction}{64}{section.162}
+\contentsline {section}{\numberline {14.2}Real-time}{64}{section.164}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{61}{section*.150}
+\contentsline {chapter}{Conclusion}{65}{section*.165}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{63}{section*.151}
+\contentsline {chapter}{Bibliography}{67}{section*.166}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{67}{chapter.153}
+\contentsline {chapter}{\numberline {A}Appendix A name}{71}{chapter.168}
 \contentsfinish 
