@@ -178,7 +178,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \section{Classifiers cascade}
 
 \vspace{\baselineskip}
-\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade a hence its name  "Classifiers cascade". This chain is composed for each filter of a separate AdaBoost classifier that has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-regions makes it through the whole cascade, it is classified as "Face". If not it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and to increase significantly the detection performance \cite{VIO01}.
+\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade a hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in Figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
@@ -190,25 +190,25 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent Tests were made to see if the cascade method was feasible. To do that, two simple detectors were trained. One of them was a 200-feature classifier and the other one was a cascade of 10 20-feature classifiers. Figure~\ref{haar_feature_cascade_example_result} gives the ROC curves that compare the performance of the two classifiers. Between the two classifiers, regarding their accuracy, the difference is little and not significant. On the other hand, regarding their speed, the difference is large and significant. The classifier cascade is about 10 times faster. This is because as soon as the first stage, most of the non-faces are discarding so in all the next stage, the classifier never evaluate them again \cite{VIO01}.
+\noindent Tests were conducted to see if the cascade method was feasible. Two simple detectors were trained, one of them being a 200-feature classifier and the other one being a cascade of 10 20-feature classifiers. Figure~\ref{haar_feature_cascade_example_result} gives the ROC curves comparing the two classifiers' performance. Between the two classifiers, regarding their accuracy, the difference is little and not significant. On the other hand, regarding their speed, the difference is large and significant, the classifier cascade being about 10 times faster. This is because as soon as the first stage, most negative samples are discarded, so they will not be evaluated ever again afterwards \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.6]{figures/haar_feature_cascade_example_result} 
 \newline
-\caption{ROC curves of a 200-feature classifier and of a classifier cascade that contains 10 20-feature classifiers}
+\caption{ROC curves of a 200-feature classifier and of a classifier cascade containing 10 20-feature classifiers}
 \label{haar_feature_cascade_example_result}
 \end{center} 
 \end{figure}
 
-\noindent The cascade method has been made in a way that there must not be false negative. That means that a face must not be classified as "Not Face". To do that, the assistance threshold has been set low for each level. This way, in the training set, it is low enough to pass all or almost all face examples. All the training images that passed previous stages are classified by filters trained to do it for each level. A region is immediately classified as "Not Face" if even one of these filters did not succeed to pass this region. If one of these filters succeed to pass a region, then it is up to the next filter in the chain. If a region succeed to pass through all the filters that are present in the chain, then this regions is classified as "Face" \cite{HEW07}.
+\noindent The cascade method has been made in a way that there must not be false negative labeling, meaning that no face should be classified as "Not Face". The assistance threshold has been set low for each level, low enough for the training set to pass all or almost all face examples. All training images that passed previous stages are classified by filters trained to do it for each level. A region is immediately classified as "Not Face" as soon as it failed at one filter. If one of these filters succeeds to pass a region, then it is up to the next filter in the chain. If a region succeed to pass through all the filters present in the chain, then it can be classified as "Face" \cite{HEW07}.
 \newline
 
-\noindent The key of this method is to construct smaller boosted classifier (yet more efficient). This way, they will detect nearly all the positive instances while rejecting a lot of the negative sub-regions. Before to use complex classifiers to achieve low false positive rates, simple classifiers are called to reject most of the sub-regions \cite{VIO01}.
+\noindent The key point of this method is to construct smaller, more efficient, boosted classifiers. They will then detect nearly all positive instances while rejecting a lot of negative sub-regions. Before using complex classifiers to achieve low false positive rates, simple classifiers are called to reject most sub-regions \cite{VIO01}.
 \newline
 
-\noindent The order of the filters in the cascade is not random. The importance weighting that AdaBoost assigns is on what is based the order of the filters. The filters that are the more heavily weighted are called early. This way, they eliminate the sub-regions that are not face as soon as possible. In figure~\ref{haar_feature_first_2_features}, it shows the first 2 features from the Viola-Jones cascade with a face behind. The first feature used is the one with the eye region being darker than the cheek region. The second feature used is the one with the eyes region being darker than the bridge of the nose \cite{HEW07}.
+\noindent The order of the filters in the cascade is not random; it is based on the importance weighting assigned by AdaBoost. Heavily weighed are called early, so they eliminate non-face sub-regions as soon as possible. Figure~\ref{haar_feature_first_2_features} shows the first 2 features from Viola-Jones cascade, applied to a face. The first feature used is the one with the eye region being darker than the cheek region. The second feature used is the one with the eyes region being darker than the bridge of the nose \cite{HEW07}.
 \newline
 
 \begin{figure}[!h]
@@ -220,22 +220,22 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent The structure in itself of the cascade means that within any single image, there is a majority of sub-regions that are negative. This way, since the earliest stage, the cascade tries to reject as many negatives as possible. Because, on the contrary, when a positive instance occurs, it will trigger the evaluation of all the classifiers of the cascade. And this is an really rare event \cite{VIO01}.
+\noindent The structure of the cascade in itself means that within any single image, most sub-regions are negative. The cascade hence tries to reject as many negatives as possible, starting at the first stage. Indeed, when a positive instance occurs, it will trigger the evaluation of all the classifiers of the cascade, which can be time consuming \cite{VIO01}.
 \newline
 
-\noindent Following are the different numbers about cascade classifiers (see figure~\ref{haar_feature_cascade_rate}) \cite{UBC01}:
+\noindent Following are the different numbers about cascade classifiers (see Figure~\ref{haar_feature_cascade_rate}) \cite{UBC01}:
 
 \begin{itemize}
-  \item 100\% detection rate and 50\% false positive rate is achieved by a 1 feature classifier
-  \item 100\% detection rate and 40\% false positive rate is achieved by a 5 feature classifier
-  \item 100\% detection rate and 10\% false positive rate is achieved by a 20 feature classifier
+  \item 1-feature classifier: 100\% detection rate and 50\% false positive rate
+  \item 5-features classifier: 100\% detection rate and 40\% false positive rate 
+  \item 20-features classifier: 100\% detection rate and 10\% false positive rate
 \end{itemize}
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.5]{figures/haar_feature_cascade_rate} 
 \newline
-\caption{Cascade of boosted classifiers rate}
+\caption{Cascade of boosted classifiers positive rate}
 \label{haar_feature_cascade_rate}
 \end{center} 
 \end{figure}
@@ -244,19 +244,19 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \section{Test set and training}
 
 \vspace{\baselineskip}
-\noindent The face training set is composed of about 5000 faces (hand labeled). All the faces are scaled and have the same resolution ($ 24\times24 $ pixels). All the faces come from face images on the internet chosen randomly. Some typical face examples are shown in figure~\ref{haar_feature_training_dataset} \cite{VIO01}.
+\noindent The training set is made of about 5000 hand-labelled images of faces. All faces are scaled and have the same resolution of $ 24\times24 $ pixels. All these faces were chosen randomly on the internet. Some face examples are shown in figure~\ref{haar_feature_training_dataset} \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
 \noindent \includegraphics[scale=0.9]{figures/haar_feature_training_dataset} 
 \newline
-\caption{Example of frontal upright face images used for training}
+\caption{Examples of frontal upright face images used for training}
 \label{haar_feature_training_dataset}
 \end{center} 
 \end{figure}
 
-\noindent To resume, the training set is composed of \cite{UBC01}:
+\noindent To sum up, the training set is composed of \cite{UBC01}:
 
 \begin{itemize}
   \item about 5,000 faces
@@ -267,7 +267,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
   \begin{itemize}
   	\item from 9,400 non-face images
   \end{itemize}
-  \item Face are normalized
+  \item Normalized faces
   \begin{itemize}
   	\item Scale, translation
   \end{itemize}
@@ -280,8 +280,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{itemize}
 
 \vspace{\baselineskip}
-\noindent Usually, there is two parts into a test set: the first part is the training set and the second part is the validation set. 
-Typically, the training set is composed by about 5,000 positives samples (faces) and 10,000 negative samples (non faces: usually it is non face sub-regions chosen from non-face images) \cite{DIN08}. For this kind of training, with a 32 layer classifier the total time is usually of several weeks \cite{VIO01}.
+\noindent There are usually two parts into a test set, first part being training set and second part being validation set. The training set is typically made of about 5,000 positives samples (faces) and 10,000 negative samples (non-faces, usually non-face sub-regions chosen from non-face images) \cite{DIN08}. For this kind of training, and with a 32 layer classifier, the total time usually exceeds several weeks \cite{VIO01}.
 \newline
 
 \noindent Viola-Jones training stage proceeds with the following step \cite{DIN08}:
@@ -298,7 +297,7 @@ Typically, the training set is composed by about 5,000 positives samples (faces)
   \end{itemize}
 \end{itemize}
 
-\noindent As said previously, depending on how good a weak classifier is, a weight is associated to it. The weak classifiers are associated to weights that depends on their classification error. The weak classifiers are combined linearly in function of those weights which represents a huge computational cost \cite{DIN08}.
+\noindent As said previously, depending on the efficiency of a weak classifier, a weight is associated to it, depending on its classification error rate. Weak classifiers are then linearly combined depending on these weights, this operation having a huge computational cost \cite{DIN08}.
 \newline
 
 
