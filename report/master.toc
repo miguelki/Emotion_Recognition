@@ -14,7 +14,7 @@
 \contentsline {subsection}{\numberline {2.1.3}Pre-processing}{11}{subsection.21}
 \contentsline {subsection}{\numberline {2.1.4}Feature Extraction}{11}{subsection.22}
 \contentsline {subsection}{\numberline {2.1.5}Classification}{11}{subsection.23}
-\contentsline {section}{\numberline {2.2}Issues}{11}{section.25}
+\contentsline {section}{\numberline {2.2}Issues}{12}{section.25}
 \contentsline {subsection}{\numberline {2.2.1}Datasets}{12}{subsection.26}
 \contentsline {subsection}{\numberline {2.2.2}Real-time}{13}{subsection.27}
 \contentsline {subsection}{\numberline {2.2.3}Conditions}{13}{subsection.28}
@@ -66,17 +66,19 @@
 \contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{57}{section.143}
 \contentsline {section}{\numberline {10.2}Histogram computing}{58}{section.146}
 \contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{59}{chapter.150}
-\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{60}{chapter.152}
-\contentsline {part}{VI\hspace {1em}Evaluation}{61}{part.153}
-\contentsline {chapter}{\numberline {13}Results}{63}{chapter.156}
-\contentsline {section}{\numberline {13.1}Section name}{63}{section.158}
-\contentsline {chapter}{\numberline {14}Issues}{64}{chapter.160}
-\contentsline {section}{\numberline {14.1}Feature extraction}{64}{section.162}
-\contentsline {section}{\numberline {14.2}Real-time}{64}{section.164}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{59}{section.152}
+\contentsline {section}{\numberline {11.2}Training and Model}{61}{section.155}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{62}{chapter.161}
+\contentsline {part}{VI\hspace {1em}Evaluation}{63}{part.162}
+\contentsline {chapter}{\numberline {13}Results}{65}{chapter.165}
+\contentsline {section}{\numberline {13.1}Section name}{65}{section.167}
+\contentsline {chapter}{\numberline {14}Issues}{66}{chapter.169}
+\contentsline {section}{\numberline {14.1}Feature extraction}{66}{section.171}
+\contentsline {section}{\numberline {14.2}Real-time}{66}{section.173}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{65}{section*.165}
+\contentsline {chapter}{Conclusion}{67}{section*.174}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{67}{section*.166}
+\contentsline {chapter}{Bibliography}{69}{section*.175}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{71}{chapter.168}
+\contentsline {chapter}{\numberline {A}Appendix A name}{73}{chapter.177}
 \contentsfinish 
