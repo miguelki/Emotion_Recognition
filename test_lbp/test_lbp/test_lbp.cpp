@@ -94,7 +94,7 @@ int main (int argc, char* argv[]) {
 		//cvDestroyAllWindows();
 	}
 
-	system("pause");
+	
 	return 0;
 }
 
