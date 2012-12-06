@@ -1,4 +1,18 @@
-#include "stdafx.h"
+//#include "stdafx.h"
+#include <Windows.h>
+#include <fstream>
+#include <vector>
+#include <string>
+#include <cmath>
+#include "C:\Program Files\Microsoft SDKs\Kinect\v1.0 Beta2\inc\MSR_NuiApi.h"
+#include <cv.h>
+#include <cxcore.h>
+#include <highgui.h>
+#include "imgProcessing.h"
+#include "svm\svm.h"
+
+using namespace std;
+using namespace cv;
 #include "KinectController.h"
 
 using namespace std;

@@ -64,7 +64,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>c:\OpenCV2.4.2\build\include;c:\OpenCV2.4.2\build\include\opencv;$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include</IncludePath>
+    <IncludePath>c:\OpenCV2.4.2\build\include;c:\OpenCV2.4.2\build\include\opencv;$(KINECTSDK_DIR)\inc;$(IncludePath);$(DXSDK_DIR)Include;C:\Users\Maxime\Documents\GitHub\Emotion_Recognition\test_kinect\test_kinect\svm</IncludePath>
     <LibraryPath>c:\OpenCV2.4.2\build\x86\vc10\lib;$(KINECTSDK_DIR)\lib\x86;$(LibraryPath);$(DXSDK_DIR)Lib\x86</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -84,7 +84,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WINDOWS;UNICODE;QT_LARGEFILE_SUPPORT;QT_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_HAVE_MMX;QT_HAVE_3DNOW;QT_HAVE_SSE;QT_HAVE_MMXEXT;QT_HAVE_SSE2;QT_THREAD_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -147,13 +147,16 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="FrameWindow.h" />
+    <ClInclude Include="imgProcessing.h" />
     <ClInclude Include="KinectAccess.h" />
     <ClInclude Include="KinectController.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="svm\svm.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FrameWindow.cpp" />
+    <ClCompile Include="imgProcessing.cpp" />
     <ClCompile Include="KinectAccess.cpp" />
     <ClCompile Include="KinectController.cpp" />
     <ClCompile Include="stdafx.cpp">
@@ -163,6 +166,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="svm\svm.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
