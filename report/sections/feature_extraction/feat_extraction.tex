@@ -13,16 +13,16 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \noindent Before developing a facial expression recognition project, it is important to know what already exists; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a feature extraction system for the project.
 \newline
 
-\noindent Two main categories of feature extraction algorithms can be distinguished : \textit{appearance-based} or \textit{geometry-based}. The first ones are algorithms that try to find basic vectors characterizing the whole picture, usually by a dimensionality reduction method. These algorithms lead to a simplification of the dataset, while retaining the main characteristics of the picture. However, these methods have to be carefully parametrized, so they do not encounter the "curse of dimensionality", which is about processing high-dimensional data.
+\noindent Two main categories of feature extraction algorithms can be distinguished : \textit{appearance-based} or \textit{feature-based}. The first ones are algorithms that try to find basic vectors characterizing the whole picture, usually by a dimensionality reduction method. These algorithms lead to a simplification of the dataset, while retaining the main characteristics of the picture. However, these methods have to be carefully parametrized, so they do not encounter the "curse of dimensionality", which is about processing high-dimensional data.
 \vspace{\baselineskip}
 
 \noindent Examples of appearance-based methods : Principal Component Analysis, Linear Discriminant Analysis, Hidden Markov Models, Eigenfaces.
 \newline
 
-\noindent The second type of feature extraction algorithms are geometry-based algorithms. These methods tend to locate important features, and build the feature vectors depending on those regions of interest. The key point of these methods is that the face is not a global structure anymore. Indeed, it has been summarized in a set of features regions, which are themselves translated into feature vectors.
+\noindent The second type of feature extraction algorithms are feature-based algorithms. These methods tend to locate important features, and build the feature vectors depending on those regions of interest. The key point of these methods is that the face is not a global structure anymore. Indeed, it has been summarized in a set of features regions, which are themselves translated into feature vectors.
 \vspace{\baselineskip}
 
-\noindent Examples of geometry-based methods : Gabor Wavelets, Local Binary Patterns.
+\noindent Examples of feature-based methods : Gabor Wavelets, Local Binary Patterns.
 \newline
 
 \phantomsection
@@ -68,31 +68,16 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \section{Feature-based methods}
 % Gabor wavelets, LBP
 
-\noindent As said in the introduction, the Feature-based method aims to locate important facial components. The shape and the location of these facial features are extracted from an face image and then are concatenated into a features vector. This features vector represents the geometry of the face \cite{SHA09}.
+\noindent As said in the introduction, the feature-based method aims to locate important facial components. The shape and the location of these facial features are extracted from an face image and then are concatenated into a features vector. This features vector represents the geometry of the face \cite{SHA09}.
 \newline
 
-\noindent Compared to Appearance-based method, the Feature-based method has equal or better results. This was recently tested by Valstar et al. \cite{VAL05} \cite{VAL06}.
+\noindent Compared to Appearance-based method, the feature-based method has equal or better results. This was recently tested by Valstar et al. \cite{VAL05} \cite{VAL06}.
 \newline
-
-\subsection{Local Binary Patterns (LBP)}
-
-\vspace{\baselineskip}
-\noindent The Local Binary Pattern is a Feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lightning (see figure~\ref{lbp_change_lightning}). This method will be detailed in Chapter \ref{chap:lbp}, and will be used in our facial expression recognition system.
-\newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.6]{figures/lbp_change_lightning} 
-\newline
-\caption{Effect of changes in lightning with LBP method}
-\label{lbp_change_lightning}
-\end{center} 
-\end{figure}
 
 \subsection{Gabor Wavelets}
 
 \vspace{\baselineskip}
-\noindent The most used Feature-based method is the Gabor wavelets because of their performance. Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image (see figure~\ref{gabor_wavelets_example}). These representations of face display locality and orientation performance \cite{JEM09}. The disadvantage of this method is that it needs reliable and accurate feature detection and also tracking if necessary \cite{SHA09}. The main limitation of the Gabor feature extraction is processing time. This algorithm is very time-consuming, and dimensions of resulting vectors are very large \cite{PRA09}.
+\noindent The most used Feature-based method is the Gabor wavelets because of their performance. Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image (see figure~\ref{gabor_wavelets_example}). These representations of face display locality and orientation performance \cite{JEM09}. Indeed, gabor kernels represent features of the face and can be place wherever if fits on the face and with whatever orientation. The disadvantage of this method is that it needs reliable and accurate feature detection and also tracking if necessary \cite{SHA09}. Another disadvantage of the Gabor feature extraction is processing time. This algorithm is very time-consuming, and dimensions of resulting vectors are very large \cite{PRA09}.
 \newline
 
 \begin{figure}[!h]
@@ -104,5 +89,21 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \end{center} 
 \end{figure}
 
-\noindent Conclusion paragraph that opens on LBP
+\subsection{Local Binary Patterns (LBP)}
+
+\vspace{\baselineskip}
+\noindent The Local Binary Pattern is a feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lightning (see figure~\ref{lbp_change_lightning}).
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.6]{figures/lbp_change_lightning} 
+\newline
+\caption{Effect of changes in lightning with LBP method}
+\label{lbp_change_lightning}
+\end{center} 
+\end{figure}
+
+\noindent This method is more detailed in Chapter \ref{chap:lbp}. This is this method that is used in this particular Facial Expression Recognition system. The choice has been made on this method because it is particularly effective and the implementation offers choices. This method was chosen over the Gabor wavelets one because the Gabor wavelets are known to be time consuming. And this Facial Expression Recognition system is wanted to be as close as possible of real-time system.
+\newline
 

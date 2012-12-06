@@ -48,8 +48,8 @@
 \contentsline {subsection}{\numberline {5.1.3}Eigenfaces}{38}{subsection.86}
 \contentsline {subsection}{\numberline {5.1.4}Hidden Markov Models (HMM)}{39}{subsection.88}
 \contentsline {section}{\numberline {5.2}Feature-based methods}{39}{section.90}
-\contentsline {subsection}{\numberline {5.2.1}Local Binary Patterns (LBP)}{40}{subsection.91}
-\contentsline {subsection}{\numberline {5.2.2}Gabor Wavelets}{40}{subsection.93}
+\contentsline {subsection}{\numberline {5.2.1}Gabor Wavelets}{40}{subsection.91}
+\contentsline {subsection}{\numberline {5.2.2}Local Binary Patterns (LBP)}{40}{subsection.93}
 \contentsline {chapter}{\numberline {6}Local Binary Patterns}{42}{chapter.96}
 \contentsline {section}{\numberline {6.1}Overview}{42}{section.98}
 \contentsline {section}{\numberline {6.2}Improvements}{43}{section.102}
@@ -75,27 +75,28 @@
 \ttl@stoptoc {parts@4}
 \ttl@starttoc {parts@5}
 \contentsline {chapter}{\numberline {9}Feature Detection with Viola-Jones}{56}{chapter.139}
-\contentsline {chapter}{\numberline {10}Feature Extraction with Local Binary Patterns}{57}{chapter.141}
-\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{57}{section.143}
-\contentsline {section}{\numberline {10.2}Histogram computing}{58}{section.146}
-\contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{59}{chapter.150}
-\contentsline {section}{\numberline {11.1}Histogram concatenation}{59}{section.152}
-\contentsline {section}{\numberline {11.2}Training and Model}{61}{section.155}
-\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{62}{chapter.161}
+\contentsline {section}{\numberline {9.1}Viola-Jones}{56}{section.141}
+\contentsline {chapter}{\numberline {10}Feature Extraction with Local Binary Patterns}{57}{chapter.144}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{57}{section.146}
+\contentsline {section}{\numberline {10.2}Histogram computing}{58}{section.149}
+\contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{59}{chapter.153}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{59}{section.155}
+\contentsline {section}{\numberline {11.2}Training and Model}{61}{section.158}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{62}{chapter.164}
 \ttl@stoptoc {parts@5}
-\contentsline {part}{VI\hspace {1em}Evaluation}{63}{part.162}
+\contentsline {part}{VI\hspace {1em}Evaluation}{63}{part.165}
 \ttl@stoptoc {parts@5}
 \ttl@starttoc {parts@6}
-\contentsline {chapter}{\numberline {13}Results}{65}{chapter.165}
-\contentsline {section}{\numberline {13.1}Section name}{65}{section.167}
-\contentsline {chapter}{\numberline {14}Issues}{66}{chapter.169}
-\contentsline {section}{\numberline {14.1}Feature extraction}{66}{section.171}
-\contentsline {section}{\numberline {14.2}Real-time}{66}{section.173}
+\contentsline {chapter}{\numberline {13}Results}{65}{chapter.168}
+\contentsline {section}{\numberline {13.1}Section name}{65}{section.170}
+\contentsline {chapter}{\numberline {14}Issues}{66}{chapter.172}
+\contentsline {section}{\numberline {14.1}Feature extraction}{66}{section.174}
+\contentsline {section}{\numberline {14.2}Real-time}{66}{section.176}
 \ttl@stoptoc {parts@6}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{67}{section*.174}
+\contentsline {chapter}{Conclusion}{67}{section*.177}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{69}{section*.175}
+\contentsline {chapter}{Bibliography}{69}{section*.178}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{73}{chapter.177}
+\contentsline {chapter}{\numberline {A}Appendix A name}{73}{chapter.180}
 \contentsfinish 
