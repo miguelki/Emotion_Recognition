@@ -18,8 +18,9 @@ int main()
                 return 1;
         }
 
-	/** Init **/
-	processImg.init("model_kdef_rbf");
+	/** Init with whatever model you want **/
+	processImg.init("model_kdef_sig");
+	//processImg.init("model_kdef_rbf");
 
 	/** Perform LBP + SVM **/
 	cout << "emotion: " << processImg.processImg(img) << endl;

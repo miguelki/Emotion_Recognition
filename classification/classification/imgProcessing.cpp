@@ -88,14 +88,14 @@ svm_node* ImgProcessing::imgProcess(IplImage* src){
 			}
 		}
 	}	
-	
+
 	std::vector<double> scHist = scaleHist(hist);
-	
+
 	return dataProcess(scHist);
 }
 
 Mat ImgProcessing::findFace(IplImage* img){
-	
+
 	cvClearMemStorage(storage);
 
 	// There can be more than one face in an image. So create a growable sequence of faces.
@@ -114,7 +114,7 @@ Mat ImgProcessing::findFace(IplImage* img){
 	CvRect *face = (CvRect*)cvGetSeqElem(faces, 0);
 	cvSetImageROI(img, *face);
 	Mat tmp(img);
-	
+
 	return tmp;
 }
 
@@ -165,7 +165,7 @@ Mat ImgProcessing::processLbp(Mat src){
 }
 
 std::vector<unsigned int> ImgProcessing::histogramProcess(Mat src){
-	
+
 	std::vector<unsigned int> hist (10,0);
 
 	for (int i = 0; i < src.rows; i++) {
@@ -174,12 +174,12 @@ std::vector<unsigned int> ImgProcessing::histogramProcess(Mat src){
 			hist[n] += 1;
 		}
 	}
-	
+
 	return hist;
 }
 
 std::vector<double> ImgProcessing::scaleHist(std::vector<unsigned int> histogram) {
-	
+
 	unsigned int min, max, sz;
 	double sc;
 
@@ -188,7 +188,7 @@ std::vector<double> ImgProcessing::scaleHist(std::vector<unsigned int> histogram
 	min = INT_MAX;
 
 	std::vector<double> scaledH(sz, 0);
-	
+
 	// Go through histogram, find min and max
 
 	for (unsigned int i = 0; i < sz; i++) {
@@ -204,12 +204,12 @@ std::vector<double> ImgProcessing::scaleHist(std::vector<unsigned int> histogram
 	for (unsigned int j = 0; j < sz; j++) {
 		scaledH[j] = (double)(-1 + 2 *((double)histogram[j] - (double)min)/sc);
 	}
-	 
+
 	return scaledH;
 }
 
 svm_node* ImgProcessing::dataProcess(std::vector<double> histogram){
-	
+
 	unsigned int sz = histogram.size();
 	svm_node* node = new svm_node[sz+1];
 
@@ -220,7 +220,7 @@ svm_node* ImgProcessing::dataProcess(std::vector<double> histogram){
 
 	node[sz].index = -1;
 	node[sz].value = -1;
-	
+
 	return node;
 }
 
@@ -233,6 +233,6 @@ string ImgProcessing::classifyImg(svm_node* vector){
 		str = classLbls[(unsigned int) res];
 	else
 		str = "No matching found, there's an error somewhere";
-	
+
 	return str;
 }
