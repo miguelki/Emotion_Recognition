@@ -23,7 +23,7 @@ void KinectController::init() {
 
 	model->init();
 	cascade = ( CvHaarClassifierCascade* )cvLoad("haarcascade_frontalface_alt.xml", 0, 0, 0 );
-	processImg.init("model_kdef_rbf");
+	processImg.init("model_kdef");
 	window->createWindow(title);
 }
 
