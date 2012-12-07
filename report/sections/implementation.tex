@@ -5,9 +5,24 @@
     \vspace*{\fill}
   \end{titlepage}
 
-%\chapter{Introduction}\label{ch:introduction}
+\startcontents[parts]
+
 \phantomsection
 \chapter*{Contents}
 
-Bla bla bla
+\textit{In the previous parts, algorithms of feature detection and feature extraction were studied. Method for feature classification was also examined. In this part, these algorithms and method are implemented and it is explained how it is done.} 
 
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+\input{sections/implementation/feature_detection.tex}
+\newpage
+\input{sections/implementation/feature_extraction.tex}
+\newpage
+\input{sections/implementation/feature_classification.tex}
+\newpage
+\input{sections/implementation/implementation_kinect.tex}
+
+\stopcontents[parts]

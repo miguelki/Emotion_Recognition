@@ -1,0 +1,107 @@
+\phantomsection
+\chapter{Feature Classification with Support Vector Machine}
+\label{chap:implementation_svm}
+
+\noindent The feature classification part for this Facial Expression Recognition system is based on Support Vector Machine (SVM). This chapter describes how SVM is used and implemented
+\newline
+
+\phantomsection
+\section{Histogram concatenation}
+
+\vspace{\baselineskip}
+\noindent The output of the feature extraction part using Local Binary Patterns (LBP) is a feature vector characterizing the whole image, composed of the histogram characterizing each region of the face image. In order to proceed to the classification part, the feature vector has to be concatenated to be readable by the SVM method.
+\newline
+
+\noindent For the training part, the feature vector has to be in the following form:
+\begin{center}
+\noindent $ l $ \hspace{0.7cm} $ i:v $ \hspace{0.2cm} $ i:v $ \hspace{0.2cm} $ ... $ \hspace{0.2cm} $ -1:-1 $
+\end{center} 
+\noindent $ l $ stands for the label of the classes to which belongs the face image. It is represented by a number. The classes are the 6 basic emotions and the neutral one. The emotion are ordered alphabetically and the neutral is the first one. So the number corresponding to the emotions are the following:
+
+\begin{itemize}
+  \item $ 0 $ corresponds to the \textit{Neutral} emotion
+  \item $ 1 $ corresponds to the \textit{Afraid} emotion
+  \item $ 2 $ corresponds to the \textit{Angry} emotion
+  \item $ 3 $ corresponds to the \textit{Disgusted} emotion
+  \item $ 4 $ corresponds to the \textit{Happy} emotion
+  \item $ 5 $ corresponds to the \textit{Sad} emotion
+  \item $ 6 $ corresponds to the \textit{Surprised} emotion
+\end{itemize}
+
+\vspace{\baselineskip}
+\noindent $ i $ stands for the index of a bin in the feature vector. $ i $ is then a number from 1 to 420 (420 bins for the feature vector).
+\newline
+
+\vspace{\baselineskip}
+\noindent $ v $ stands for the value that the bin has at a given index. The values are normalized to be in the interval $ [-1;1] $. To normalize the values, the maximum $ v $ value of the whole feature vector has to be find as well as the minimum $ v $ value. The formula to have the new normalized value is the following:
+\newline
+
+\begin{equation}
+new\_v = -1 + (1 - (-1))\times\frac{v - min}{max - min}
+\end{equation}
+
+\noindent where,
+
+\begin{itemize}
+  \item $ v $, the value that the bin has at a given index
+  \item $ new\_v $, the new normalized value
+  \item $ -1 $, the minimum of the normalized interval
+  \item $ 1 $, the maximum of the normalized interval
+  \item $ min $, the minimum $ v $ value of the whole feature vector
+  \item $ max $, the maximum $ v $ value of the whole feature vector
+\end{itemize}
+
+\vspace{\baselineskip}
+\noindent $ -1:-1 $ is what indicate the end of the feature vector.
+\newline
+
+\vspace{\baselineskip}
+\noindent The feature vector characterizes a face image; so there is only one feature vector by image.
+\newline
+
+\phantomsection
+\section{Training and Model}
+
+\vspace{\baselineskip}
+\noindent The training part uses images from databases. The database used is the Karolinska Directed Emotional Faces Database (KDEF) database. All the face images are sorted by emotions. To train the data, 7 folders have to be browsed. Each folders contain frontal face images of the subjects of the KDEF database for only one emotion.
+\newline
+
+\noindent Each folder is browsed. For the first folder, the images in it are computed with LBP and a feature vector is obtained for each face image. Each feature vector is added to a file that will contain eventually all the features vectors of the face images of the training set. And then it goes to the second folder and it goes on until the last one. Based on this file, the model will be generated.
+\newline
+
+\noindent The model is trained by choosing a kernel. All the four kernels were tested to find the best one. As said previously in \textbf{\color{red}Feature classification part}, the four kernels are the following:
+
+\begin{itemize}
+  \item Linear:
+  \begin{equation}
+K(x_i,x_j) = x_i^Tx
+\end{equation}
+
+  \item Polynomial:
+  \begin{equation}
+K(x_i,x_j) = (\gamma x_i^Tx_j + r)^T, \gamma > 0
+\end{equation}
+
+  \item Radial basis function (RBF)
+  \begin{equation}
+K(x_i,x_j) = \exp(-\gamma \| x_i - x_j \|^2), \gamma > 0
+\end{equation}
+
+  \item Sigmoid:
+  \begin{equation}
+K(x_i,x_j) = \tanh(\gamma x_i^T x_j + r)
+\end{equation}
+\end{itemize}
+
+\vspace{\baselineskip}
+\noindent For the three last kernels, a parameter can be changed and so be optimized. This parameter is the $ \gamma $ parameter. Each of these kernels was tested with the basic $ \gamma $ parameter and then was tested with the optimized $ \gamma $ parameter.
+\newline
+
+\noindent The cross validation method was also used. It is a method that by itself trains and tests the data at the same time to find the best parameters possible. The dataset is divided into $ n $ parts. And one part is used for testing while the other are used for training.
+\newline
+
+
+
+
+
+

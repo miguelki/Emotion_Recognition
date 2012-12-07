@@ -286,14 +286,14 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \noindent Viola-Jones training stage proceeds with the following step \cite{DIN08}:
 
 \begin{itemize}
-  \item "Given the number K of possible features (about 160,000 on a $ 24\times24 $ gray-level image)
-  \item Fix the number L of desired stages in the cascade
-  \item Iterate until L weak classifiers have been selected:
+  \item With a defined number K of features (about 160,000 for a $ 24\times24 $ grayscale image)
+  \item The number L of wanted stages has to be fixed for the cascade
+  \item Then it has to be done over and over again until the number L weak classifiers is reached:
   \begin{itemize}
-  	\item Given reweighed data from the previous stage
-	\item Train all K weak classifiers (find the best threshold to classify the training set)
-	\item Select the best classifier at this stage
-	\item Reweight the data"
+  	\item With the data that has be weighted again in the previous stage
+	\item all the number K of weak classifiers have to be trained (the best threshold has to be find to classify in the best way the training set)
+	\item The best classifier has to be chosen at this stage
+	\item The data is then weighted again
   \end{itemize}
 \end{itemize}
 
