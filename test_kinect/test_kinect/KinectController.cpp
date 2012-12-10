@@ -2,6 +2,7 @@
 #include "KinectController.h"
 
 
+
 KinectController::KinectController(DWORD f) {
 	model = new KinectAccess(f);
 	window = new FrameWindow();
@@ -22,6 +23,8 @@ void KinectController::init() {
 
 	model->init();
 	cascade = ( CvHaarClassifierCascade* )cvLoad("haarcascade_frontalface_alt.xml", 0, 0, 0 );
+	processImg.init("model_kdef");
+	window->createWindow(title);
 }
 
 void KinectController::display() {
@@ -44,10 +47,27 @@ void KinectController::display() {
 
 		detectFaces(img);
 		
-		//cout<< "il y a une image "<<endl;
+
+
+		//IplImage *img2 = cvCreateImage(cvGetSize(img), img->depth, img->nChannels);
+		//cvCopy(img, img2, NULL);
+		//Mat imgMat(img2);
+
+		if(cvWaitKey(5)== 'r') 
+		{
+			std::cout<<"je rentre ici"<<std::endl;
+			IplImage *img2 = cvCreateImage(cvGetSize(img), img->depth, img->nChannels);
+			cvCopy(img, img2, NULL);
+			
+			std::cout<<processImg.processImg(img2)<<std::endl;
+			
+		}
+
+		
+		
+		cvResetImageROI(img);
 
 		window->displayImg(img, title);
-		cvResetImageROI(img);
 
 		key = cvWaitKey( 10 ); 
 		}
@@ -64,9 +84,7 @@ void KinectController::shutdown() {
 	window->destroyWindow(title);
 	delete[] title;
 	delete img;
-	//cvReleaseHaarClassifierCascade( &cascade );
-	//cvReleaseMemStorage( &storage );
-
+	
 }
 
 void KinectController::detectFaces( IplImage *img ){
@@ -78,14 +96,8 @@ void KinectController::detectFaces( IplImage *img ){
 
 	for( i = 0 ; i < ( faces ? faces->total : 0 ) ; i++ ) {        
 		CvRect *r = ( CvRect* )cvGetSeqElem( faces, i );
-
+		cvRectangle( img, cvPoint( r->x, r->y ), cvPoint( r->x + r->width, r->y + r->height ), CV_RGB( 255, 0, 0 ), 2, 8, 0 ); 
 		cvSetImageROI( img, *r);
-
-		cvRectangle( img, cvPoint( r->x, r->y ), cvPoint( r->x + r->width, r->y + r->height ), CV_RGB( 255, 0, 0 ), 1, 8, 0 );        
+		        
 	}
- 
-
-	
-
-
 }

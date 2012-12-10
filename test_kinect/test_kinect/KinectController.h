@@ -14,6 +14,7 @@ private:
 	CvHaarClassifierCascade * cascade; 
 	CvMemStorage *storage;
 	CvSeq *faces;
+	ImgProcessing processImg;
 	
 
 public:

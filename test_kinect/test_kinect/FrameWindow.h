@@ -1,5 +1,7 @@
 #pragma once
 
+
+
 class FrameWindow
 {
 	IplImage* img;
@@ -10,5 +12,8 @@ public:
 
 	void displayImg(IplImage* i, char* title);
 	void destroyWindow(char* title);
+	void createWindow(char* title);
+	
+
 };
 
