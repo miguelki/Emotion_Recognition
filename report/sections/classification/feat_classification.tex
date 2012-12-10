@@ -85,33 +85,24 @@ y(x) = w^Tx + \omega_0
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.1]{figures/one_vs_rest} 
+\noindent \includegraphics[scale=0.2]{figures/one_vs} 
 \newline
-\caption{One-versus-the-rest approach: the discriminant function is used to separate points belonging to a class $C_i$ and points that are not. There are however ambiguous regions, shown in green.From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
+\caption{Attempting to construct a $K$ class discriminant from a set of two class discriminants leads to ambiguous regions, shown in green. On the left is an example of \textit{one-versus-the-rest} approach, the discriminant function designed to separate points belonging to a class $C_i$ and points that are not. On the right is an example of \textit{one-versus-all} approach involving 3 discriminant functions, each one separating a pair of classes classes $C_i$ and $C_j$.From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
 \label{one_vs_rest}
 \end{center} 
 \end{figure}
 
-\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an issue about ambiguous regions, as seen in Figure \ref{one_vs_all} \cite{BIS06}.
+\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an issue about ambiguous regions, as seen in Figure \ref{one_vs} \cite{BIS06}.
 \newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.1]{figures/one_vs_all} 
-\newline
-\caption{One-versus-all approach: the discriminant function is used to separate points between classes $C_i$ and $C_j$. There are however ambiguous regions, shown in green. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
-\label{one_vs_all}
-\end{center} 
-\end{figure}
 
 \noindent A K-class discriminant which does not lead to an ambiguous region problem is to use K linear discriminant functions $g(x)_k$, $k=1..K$, and to assign an input vector $x$ to a class $C_i$ if $g(x)_i = \max\limits_{k} g_k(x)$. Indeed, as shown in Figure \ref{k_discr}, there are no more ambiguous regions \cite{BIS06}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.1]{figures/lda_k_disc} 
+\noindent \includegraphics[scale=0.5]{figures/lda_k_disc} 
 \newline
-\caption{Best approach for a multi-class linear discriminant: no ambiguous regions left. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
+\caption{Decision boundaries produced by a linear machine for a 3-class problem and a 5-class problem. From: Richard O. Duda, Peter E. Hart, and David G. Stork, \textit{Pattern Classification}. Copyright \copyright  2001 by John Wiley \& Sons Inc.}
 \label{k_disc}
 \end{center} 
 \end{figure}
@@ -177,9 +168,9 @@ r_{nk} = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.1]{figures/k-mean_res} 
+\noindent \includegraphics[scale=0.45]{figures/k-mean_res} 
 \newline
-\caption{Example of application of the K-means algorithm for a two-dimensional Euclidean space, from initial dataset (in green) to final convergence of the algorithm. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
+\caption{Example of application of the iterative K-means algorithm.}
 \label{k-mean_res}
 \end{center} 
 \end{figure}
@@ -187,17 +178,8 @@ r_{nk} = \left\{
 \noindent In this algorithm, the denominator $\sum\limits_n r_{nk}$ corresponds to the number of points set to cluster $k$, which sets $\mu_k$ as the mean of the cluster, hence the name \textit{K-means algorithm} \cite{BIS06}.
 \newline
 
-\noindent This algorithm can also be used in \textit{lossy data compression}, where input data can be reconstructed with minor errors, in contrary to \textit{lossless data compression}. If the K-means algorithm is applied, then for each data point $x_n$ the only value stored is the cluster $k$ it belongs to. Apart from the data points, values of cluster centres $\mu_k$ are also stored. Hence, during data reconstruction, each data point is approximated by corresponding vector $\mu_k$, as seen in Figure \ref{k-mean_lossy}. This is called \textit{vector quantization} \cite{BIS06}.
+\noindent This algorithm can also be used in \textit{lossy data compression}, where input data can be reconstructed with minor errors, in contrary to \textit{lossless data compression}. If the K-means algorithm is applied, then for each data point $x_n$ the only value stored is the cluster $k$ it belongs to. Apart from the data points, values of cluster centres $\mu_k$ are also stored. Hence, during data reconstruction, each data point is approximated by corresponding vector $\mu_k$. This approximation is called \textit{vector quantization} \cite{BIS06}.
 \newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.1]{figures/k-mean_lossy} 
-\newline
-\caption{Examples of image segmentation using the K-means clustering algorithm. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
-\label{k-mean_lossy}
-\end{center} 
-\end{figure}
 
 \subsection{Mixture of Gaussians}
 
@@ -230,7 +212,6 @@ r_{nk} = \left\{
 \State Initialize means $\mu_n$, covariances $\Sigma_n$, mixing coefficients $\pi_n$ and compute initial value of the log likelihood
 
 \Repeat
-
 	\State \textbf{Expectation step}: Evaluate the expected value of the latent variable using current parameter values:
 		\State $\gamma(z_{nk}) = 
 		\frac{\pi_k\mathcal{N}(x_n|\mu_k, \Sigma_k)}{\sum\limits_{j=1}\limits^{K}\pi_j\mathcal{N}(x_n|\mu_j, \Sigma_j)}$
@@ -239,16 +220,16 @@ r_{nk} = \left\{
 		\State $\mu^{new}_k = \frac{1}{N_k}\sum\limits_{n=1}\limits{N}\gamma(z_{nk})x_n$
 		\State $\Sigma^{new}_k = \frac{1}{N_k}\sum\limits_{n=1}\limits{N}\gamma(z_{nk}) (x_n - \mu^{new}_k) (x_n - \mu^{new}_k)^T$
 		\State Where $N_k = \sum\limits_{n=1}\limits{N}\gamma(z_{nk})$
-	\State Evaluate log likelihood
-
+	\State Evaluate log likelihood $\mathcal{L}$ 
 \Until {log likelihood $\mathcal{L}$ converges}
 \end{algorithmic}
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.1]{figures/mixture_model} 
+\noindent \includegraphics[scale=0.2]{figures/mixture_model} 
 \newline
 \caption{Illustration of the EM algorithm. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
 \label{mixture_model}
 \end{center} 
 \end{figure}
+\pagebreak

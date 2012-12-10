@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  10 DEC 2012 02:42
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  10 DEC 2012 12:08
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -2133,16 +2133,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<figures/one_vs_rest.jpg, id=761, 1696.3375pt x 1272.755pt>
-File: figures/one_vs_rest.jpg Graphic file (type jpg)
+<figures/one_vs.png, id=761, 1314.41063pt x 632.3625pt>
+File: figures/one_vs.png Graphic file (type png)
 
-<use figures/one_vs_rest.jpg>
-Package pdftex.def Info: figures/one_vs_rest.jpg used on input line 88.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
+<use figures/one_vs.png>
+Package pdftex.def Info: figures/one_vs.png used on input line 88.
+(pdftex.def)             Requested size: 262.87747pt x 126.47026pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 90.
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 90.
+
+
+LaTeX Warning: Reference `one_vs' on page 55 undefined on input line 95.
 
 
 LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 95.
@@ -2152,112 +2155,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-<figures/one_vs_all.jpg, id=763, 1696.3375pt x 1272.755pt>
-File: figures/one_vs_all.jpg Graphic file (type jpg)
+[55 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/one_vs.pn
+g>]
 
-<use figures/one_vs_all.jpg>
-Package pdftex.def Info: figures/one_vs_all.jpg used on input line 100.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
- [55 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/one_vs_r
-est.jpg>]
-
-LaTeX Warning: Reference `k_discr' on page 56 undefined on input line 107.
+LaTeX Warning: Reference `k_discr' on page 56 undefined on input line 98.
 
 
-LaTeX Warning: Citation `BIS06' on page 56 undefined on input line 107.
+LaTeX Warning: Citation `BIS06' on page 56 undefined on input line 98.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--109
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-<figures/lda_k_disc.jpg, id=774, 1696.3375pt x 1272.755pt>
-File: figures/lda_k_disc.jpg Graphic file (type jpg)
+<figures/lda_k_disc.png, id=773, 598.48593pt x 261.97874pt>
+File: figures/lda_k_disc.png Graphic file (type png)
 
-<use figures/lda_k_disc.jpg>
-Package pdftex.def Info: figures/lda_k_disc.jpg used on input line 112.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
+<use figures/lda_k_disc.png>
+Package pdftex.def Info: figures/lda_k_disc.png used on input line 103.
+(pdftex.def)             Requested size: 299.24223pt x 130.98904pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--125
-
- []
-
-[56 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/one_vs_al
-l.jpg> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lda_k_
-disc.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 126--128
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
 
-LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 135.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-[57] <figures/k-mean_res.jpg, id=791, 1696.3375pt x 1272.755pt>
+[56 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lda_k_dis
+c.png>]
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 126.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--147
+
+ []
+
+<figures/k-mean_res.jpg, id=782, 661.2705pt x 401.70074pt>
 File: figures/k-mean_res.jpg Graphic file (type jpg)
 
 <use figures/k-mean_res.jpg>
-Package pdftex.def Info: figures/k-mean_res.jpg used on input line 180.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
-
-
-LaTeX Warning: Citation `BIS06' on page 58 undefined on input line 187.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
-
- []
-
-
-LaTeX Warning: Citation `BIS06' on page 58 undefined on input line 190.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--192
-
- []
-
-<figures/k-mean_lossy.jpg, id=793, 1696.3375pt x 1272.755pt>
-File: figures/k-mean_lossy.jpg Graphic file (type jpg)
-
-<use figures/k-mean_lossy.jpg>
-Package pdftex.def Info: figures/k-mean_lossy.jpg used on input line 195.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
+Package pdftex.def Info: figures/k-mean_res.jpg used on input line 171.
+(pdftex.def)             Requested size: 297.56897pt x 180.76366pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[58 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/k-mean_re
-s.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 223--225
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 178.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
 
 
-LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 226.
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 181.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--228
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[59 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/k-mean_lo
-ssy.jpg>] <figures/mixture_model.jpg, id=808, 1696.3375pt x 1272.755pt>
-File: figures/mixture_model.jpg Graphic file (type jpg)
+[57] [58 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/k-me
+an_res.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
-<use figures/mixture_model.jpg>
-Package pdftex.def Info: figures/mixture_model.jpg used on input line 249.
-(pdftex.def)             Requested size: 169.64368pt x 127.28296pt.
-) [60 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/mixture
-_model.jpg>]
+ []
+
+
+LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 208.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+<figures/mixture_model.png, id=798, 1388.93906pt x 910.15031pt>
+File: figures/mixture_model.png Graphic file (type png)
+
+<use figures/mixture_model.png>
+Package pdftex.def Info: figures/mixture_model.png used on input line 229.
+(pdftex.def)             Requested size: 277.78288pt x 182.02684pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [59] [60 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/mi
+xture_model.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
 on/svm.tex
 Chapter 8.
@@ -2282,13 +2275,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 27--24
+Underfull \hbox (badness 10000) in paragraph at lines 27--25
 
  []
 
 )
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
-on.tex [61] [62]
+on.tex [61
+
+] [62]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [63]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_detection.tex
@@ -2314,7 +2309,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-<figures/violajones_implementation_example.png, id=840, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=835, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
@@ -2341,7 +2336,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=849, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=844, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2366,7 +2361,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=860, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=855, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2383,7 +2378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=862, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=857, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2527,16 +2522,19 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 55.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 11104 strings out of 494045
- 169428 string characters out of 3145975
- 257207 words of memory out of 3000000
- 13715 multiletter control sequences out of 15000+200000
+ 11091 strings out of 494045
+ 169097 string characters out of 3145975
+ 257765 words of memory out of 3000000
+ 13706 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,14n,38p,1109b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1109b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
@@ -2561,9 +2559,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (91 pages, 7561580 bytes).
+Output written on master.pdf (91 pages, 6524410 bytes).
 PDF statistics:
- 1297 PDF objects out of 1440 (max. 8388607)
- 326 named destinations out of 1000 (max. 500000)
- 661 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1290 PDF objects out of 1440 (max. 8388607)
+ 324 named destinations out of 1000 (max. 500000)
+ 651 words of extra memory for PDF output out of 10000 (max. 10000000)
 
