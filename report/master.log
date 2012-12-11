@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 DEC 2012 11:31
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 DEC 2012 13:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,7 +1054,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=246, 403.5075pt x 234.8775pt>
+<figures/jaffe_7facialexpressions.png, id=242, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
@@ -1085,7 +1085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/kdef_7facialexpressions.png, id=259, 401.5pt x 274.02374pt>
+<figures/kdef_7facialexpressions.png, id=255, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
@@ -1117,7 +1117,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
-<figures/msfde_7facialexpressions.png, id=272, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=267, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
@@ -1139,7 +1139,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-<figures/facial_expression_recognition_process.png, id=284, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=277, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1220,14 +1220,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-<figures/arface_example2.png, id=333, 499.8675pt x 127.47626pt>
+<figures/arface_example2.png, id=322, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
 Package pdftex.def Info: figures/arface_example2.png used on input line 104.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=334, 498.86375pt x 127.47626pt>
+<figures/arface_example3.png, id=323, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
@@ -1243,7 +1243,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 123--125
  []
 
 [13 <./figures/arface_example2.png>]
-<figures/arface_example1.png, id=348, 499.8675pt x 127.47626pt>
+<figures/arface_example1.png, id=336, 499.8675pt x 127.47626pt>
 File: figures/arface_example1.png Graphic file (type png)
 
 <use figures/arface_example1.png>
@@ -1254,7 +1254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-<figures/kdef_example_angle.png, id=350, 500.87125pt x 135.50626pt>
+<figures/kdef_example_angle.png, id=338, 500.87125pt x 135.50626pt>
 File: figures/kdef_example_angle.png Graphic file (type png)
 
 <use figures/kdef_example_angle.png>
@@ -1314,7 +1314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
-<figures/output_example_face_detection.png, id=395, 318.18875pt x 288.07625pt>
+<figures/output_example_face_detection.png, id=379, 318.18875pt x 288.07625pt>
 File: figures/output_example_face_detection.png Graphic file (type png)
 
 <use figures/output_example_face_detection.png>
@@ -1331,7 +1331,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
  []
 
 
-<figures/output_example_face_detection_binary_classifier.png, id=399, 581.17125
+<figures/output_example_face_detection_binary_classifier.png, id=383, 581.17125
 pt x 319.1925pt>
 File: figures/output_example_face_detection_binary_classifier.png Graphic file 
 (type png)
@@ -1368,7 +1368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<figures/haar_features_first_2_stage.png, id=441, 423.5825pt x 167.62625pt>
+<figures/haar_features_first_2_stage.png, id=418, 423.5825pt x 167.62625pt>
 File: figures/haar_features_first_2_stage.png Graphic file (type png)
 
 <use figures/haar_features_first_2_stage.png>
@@ -1376,7 +1376,7 @@ Package pdftex.def Info: figures/haar_features_first_2_stage.png used on input
 line 35.
 (pdftex.def)             Requested size: 381.22073pt x 150.86221pt.
 
-<figures/haar_features_extended.png, id=442, 426.59375pt x 315.1775pt>
+<figures/haar_features_extended.png, id=419, 426.59375pt x 315.1775pt>
 File: figures/haar_features_extended.png Graphic file (type png)
 
 <use figures/haar_features_extended.png>
@@ -1387,7 +1387,7 @@ Package pdftex.def Info: figures/haar_features_extended.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/haar_features_early_stage.jpg, id=443, 642.4pt x 642.4pt>
+<figures/haar_features_early_stage.jpg, id=420, 642.4pt x 642.4pt>
 File: figures/haar_features_early_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_features_early_stage.jpg>
@@ -1408,7 +1408,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-<figures/haar_feature_later_stage.jpg, id=449, 321.2pt x 642.4pt>
+<figures/haar_feature_later_stage.jpg, id=426, 321.2pt x 642.4pt>
 File: figures/haar_feature_later_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_feature_later_stage.jpg>
@@ -1439,7 +1439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/haar_feature_description.png, id=465, 353.32pt x 302.12875pt>
+<figures/haar_feature_description.png, id=441, 353.32pt x 302.12875pt>
 File: figures/haar_feature_description.png Graphic file (type png)
 
 <use figures/haar_feature_description.png>
@@ -1470,7 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<figures/integral_image_description.png, id=487, 512.91624pt x 402.50375pt>
+<figures/integral_image_description.png, id=462, 512.91624pt x 402.50375pt>
 File: figures/integral_image_description.png Graphic file (type png)
 
 <use figures/integral_image_description.png>
@@ -1491,7 +1491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-<figures/integral_image_four_array.png, id=490, 432.61626pt x 340.27126pt>
+<figures/integral_image_four_array.png, id=465, 432.61626pt x 340.27126pt>
 File: figures/integral_image_four_array.png Graphic file (type png)
 
 <use figures/integral_image_four_array.png>
@@ -1518,7 +1518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-<figures/haar_feature_adaboost.png, id=517, 680.5425pt x 561.09625pt>
+<figures/haar_feature_adaboost.png, id=489, 680.5425pt x 561.09625pt>
 File: figures/haar_feature_adaboost.png Graphic file (type png)
 
 <use figures/haar_feature_adaboost.png>
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-<figures/haar_feature_example_result.png, id=520, 481.8pt x 389.455pt>
+<figures/haar_feature_example_result.png, id=492, 481.8pt x 389.455pt>
 File: figures/haar_feature_example_result.png Graphic file (type png)
 
 <use figures/haar_feature_example_result.png>
@@ -1559,7 +1559,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[28] <figures/haar_feature_cascade.png, id=534, 887.315pt x 195.73125pt>
+[28] <figures/haar_feature_cascade.png, id=505, 887.315pt x 195.73125pt>
 File: figures/haar_feature_cascade.png Graphic file (type png)
 
 <use figures/haar_feature_cascade.png>
@@ -1580,7 +1580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
  []
 
 [29 <./figures/haar_feature_adaboost.png>]
-<figures/haar_feature_cascade_example_result.png, id=544, 653.44125pt x 546.04p
+<figures/haar_feature_cascade_example_result.png, id=514, 653.44125pt x 546.04p
 t>
 File: figures/haar_feature_cascade_example_result.png Graphic file (type png)
  <use figures/haar_feature_cascade_example_result.png>
@@ -1608,7 +1608,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--213
  []
 
 [31 <./figures/haar_feature_cascade_example_result.png>]
-<figures/haar_feature_first_2_features.png, id=558, 191.71625pt x 164.615pt>
+<figures/haar_feature_first_2_features.png, id=527, 191.71625pt x 164.615pt>
 File: figures/haar_feature_first_2_features.png Graphic file (type png)
 
 <use figures/haar_feature_first_2_features.png>
@@ -1620,7 +1620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-<figures/haar_feature_cascade_rate.png, id=562, 846.16125pt x 184.69pt>
+<figures/haar_feature_cascade_rate.png, id=531, 846.16125pt x 184.69pt>
 File: figures/haar_feature_cascade_rate.png Graphic file (type png)
 
 <use figures/haar_feature_cascade_rate.png>
@@ -1640,7 +1640,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-<figures/haar_feature_training_dataset.png, id=565, 343.5234pt x 343.5234pt>
+<figures/haar_feature_training_dataset.png, id=534, 343.5234pt x 343.5234pt>
 File: figures/haar_feature_training_dataset.png Graphic file (type png)
 
 <use figures/haar_feature_training_dataset.png>
@@ -1749,7 +1749,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<figures/eigenface_example.jpg, id=633, 242.3923pt x 169.48274pt>
+<figures/eigenface_example.jpg, id=597, 242.3923pt x 169.48274pt>
 File: figures/eigenface_example.jpg Graphic file (type jpg)
 
 <use figures/eigenface_example.jpg>
@@ -1779,7 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
 
-<figures/gabor_wavelets_example.jpg, id=657, 352.3962pt x 160.52893pt>
+<figures/gabor_wavelets_example.jpg, id=621, 352.3962pt x 160.52893pt>
 File: figures/gabor_wavelets_example.jpg Graphic file (type jpg)
 
 <use figures/gabor_wavelets_example.jpg>
@@ -1796,7 +1796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
  []
 
 [40 <./figures/eigenface_example.jpg>]
-<figures/lbp_change_lightning.jpg, id=673, 666.49pt x 381.425pt>
+<figures/lbp_change_lightning.jpg, id=635, 666.49pt x 381.425pt>
 File: figures/lbp_change_lightning.jpg Graphic file (type jpg)
 
 <use figures/lbp_change_lightning.jpg>
@@ -1827,7 +1827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<figures/lbp_basic_operator.png, id=688, 792.9625pt x 250.9375pt>
+<figures/lbp_basic_operator.png, id=648, 792.9625pt x 250.9375pt>
 File: figures/lbp_basic_operator.png Graphic file (type png)
 
 <use figures/lbp_basic_operator.png>
@@ -1843,7 +1843,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
  []
 
 [42]
-<figures/lbp_basic_operator_example.png, id=703, 806.01125pt x 458.71375pt>
+<figures/lbp_basic_operator_example.png, id=661, 806.01125pt x 458.71375pt>
 File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
 <use figures/lbp_basic_operator_example.png>
@@ -1866,7 +1866,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-<figures/lbp_circular_operator.png, id=721, 812.03375pt x 285.065pt>
+<figures/lbp_circular_operator.png, id=677, 812.03375pt x 285.065pt>
 File: figures/lbp_circular_operator.png Graphic file (type png)
 
 <use figures/lbp_circular_operator.png>
@@ -1958,7 +1958,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-<figures/lbp_structural_features.png, id=766, 480.79625pt x 366.36874pt>
+<figures/lbp_structural_features.png, id=721, 480.79625pt x 366.36874pt>
 File: figures/lbp_structural_features.png Graphic file (type png)
 
 <use figures/lbp_structural_features.png>
@@ -1980,7 +1980,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-<figures/lbp_histogram.png, id=779, 907.39pt x 520.94624pt>
+<figures/lbp_histogram.png, id=731, 907.39pt x 520.94624pt>
 File: figures/lbp_histogram.png Graphic file (type png)
 
 <use figures/lbp_histogram.png>
@@ -1992,7 +1992,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
  []
 
 [48 <./figures/lbp_histogram.png>]
-<figures/lbp_region_weight.png, id=789, 513.92pt x 258.9675pt>
+<figures/lbp_region_weight.png, id=740, 513.92pt x 258.9675pt>
 File: figures/lbp_region_weight.png Graphic file (type png)
 
 <use figures/lbp_region_weight.png>
@@ -2076,7 +2076,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<figures/one_vs.png, id=833, 1314.41063pt x 632.3625pt>
+<figures/one_vs.png, id=781, 1314.41063pt x 632.3625pt>
 File: figures/one_vs.png Graphic file (type png)
 
 <use figures/one_vs.png>
@@ -2110,7 +2110,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-<figures/lda_k_disc.png, id=846, 598.48593pt x 261.97874pt>
+<figures/lda_k_disc.png, id=793, 598.48593pt x 261.97874pt>
 File: figures/lda_k_disc.png Graphic file (type png)
 
 <use figures/lda_k_disc.png>
@@ -2140,7 +2140,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
-<figures/k-mean_res.jpg, id=855, 661.2705pt x 401.70074pt>
+<figures/k-mean_res.jpg, id=802, 661.2705pt x 401.70074pt>
 File: figures/k-mean_res.jpg Graphic file (type jpg)
 
 <use figures/k-mean_res.jpg>
@@ -2179,7 +2179,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-<figures/mixture_model.png, id=874, 1388.93906pt x 910.15031pt>
+<figures/mixture_model.png, id=819, 1388.93906pt x 910.15031pt>
 File: figures/mixture_model.png Graphic file (type png)
 
 <use figures/mixture_model.png>
@@ -2315,7 +2315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-<figures/violajones_implementation_example.png, id=953, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=887, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
@@ -2340,7 +2340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=965, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=896, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2364,7 +2364,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=978, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=906, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2381,7 +2381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=980, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=908, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2564,7 +2564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-<figures/kdef_no_difference_emotions.png, id=1075, 869.2475pt x 420.57124pt>
+<figures/kdef_no_difference_emotions.png, id=989, 869.2475pt x 420.57124pt>
 File: figures/kdef_no_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_no_difference_emotions.png>
@@ -2577,7 +2577,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--131
  []
 
 [79 <./figures/kdef_no_difference_emotions.png>]
-<figures/kdef_difference_emotions.png, id=1083, 1159.33125pt x 416.55624pt>
+<figures/kdef_difference_emotions.png, id=996, 1159.33125pt x 416.55624pt>
 File: figures/kdef_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_difference_emotions.png>
@@ -2607,8 +2607,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
 )
-Underfull \hbox (badness 10000) in paragraph at lines 16--24
+Underfull \hbox (badness 10000) in paragraph at lines 25--24
 
  []
 
@@ -2650,324 +2665,45 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 57.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
  ) 
 Here is how much of TeX's memory you used:
- 11299 strings out of 493488
- 167743 string characters out of 3141326
- 265030 words of memory out of 3000000
+ 11207 strings out of 493488
+ 166596 string characters out of 3141326
+ 265029 words of memory out of 3000000
  13806 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,14n,38p,1150b,477s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.207} has been referenced but does 
-not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.176} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.172} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.167} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.160} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.155} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.152} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.145} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.144} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.142} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.141} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.123} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.117} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.108} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.101} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.95} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.93} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.88} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.78} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.75} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.69} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.65} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.62} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.59} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.32} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.11} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.219} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.215} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.213} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.211} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.209} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.205} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.203} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{part.200} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{section.199} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.197} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.195} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.193} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.191} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.189} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.183} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.180} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.178} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.174} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.171} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.169} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.166} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.164} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{part.161} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{section.157} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.154} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.151} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.149} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.147} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.139} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.129} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.127} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{part.124} has been referenced but does not exist, r
-eplaced by a fixed one
-
-pdfTeX warning (dest): name{section.121} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.119} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.103} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section.99} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.97} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.91} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.84} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.82} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{part.79} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{section.77} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.71} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.67} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.61} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.54} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.52} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.50} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.48} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.44} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.42} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{part.39} has been referenced but does not exist, re
-placed by a fixed one
-
-pdfTeX warning (dest): name{section.38} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.26} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.18} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.17} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section.9} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{chapter.5} has been referenced but does not exist, 
-replaced by a fixed one
-
-pdfTeX warning (dest): name{part.2} has been referenced but does not exist, rep
-laced by a fixed one
-
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
-xlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/tex
-mf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/fo
-nts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/dv
-ips/lm/lm-mathex.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/
-lmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/public/lm/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
-ic/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmmi9
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmri9
-.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/typ
-e1/public/lm/lmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
-m/lmtt10.pfb>
-Output written on master.pdf (99 pages, 7869528 bytes).
+{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/t
+exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/
+fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/
+dvips/lm/lm-mathex.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
+m/lmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.p
+fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/tex
+mf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
+blic/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmm
+i9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb></us
+r/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/tex
+live/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
+lic/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr
+i9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
+/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2012/texmf-d
+ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/lm/lmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
+/lm/lmtt10.pfb>
+Output written on master.pdf (99 pages, 7869679 bytes).
 PDF statistics:
- 1528 PDF objects out of 1728 (max. 8388607)
- 1344 compressed objects within 14 object streams
- 443 named destinations out of 1000 (max. 500000)
+ 1417 PDF objects out of 1440 (max. 8388607)
+ 1234 compressed objects within 13 object streams
+ 351 named destinations out of 1000 (max. 500000)
  725 words of extra memory for PDF output out of 10000 (max. 10000000)
 
