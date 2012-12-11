@@ -2,17 +2,17 @@
 \chapter{Results}
 \label{chap:eval_results}
 
-\noindent Two kinds of results have been obtained. The first results are obtained by using a test set from the database used for the training set. The LBP operator extract features from each image of the test set, then the classification is done and this is how the first result set is obtained. The second result set is obtained with the Kinect. The Kinect gets video sequences of a subject in front of the Kinect and from these sequences, face images are extracted. Then the same process is applied to these face images and that is where comes from the second result set.
+\noindent Two kinds of results have been obtained. First results have been obtained by using a test set from the database used for the training set. The LBP operator extracts features from each image of the test set, then classification is performed. The second result set is obtained with the Kinect. The Kinect gets video sequences of a subject in front of the Kinect and his or her face is extracted from these sequences. Then the same feature extraction and classification process is applied to these images.
 \newline
 
 \phantomsection
 \section{First result set}
 
 \vspace{\baselineskip}
-\noindent To train the model, 128 face images from the KDEF database have been used for each emotion plus the neutral state. In total, $ 128\times7 = 896 $ face images have been used to train the model. To test the model, 12 face images from the KDEF database have been used for each emotion plus the neutral state. In total, $ 12\times7 = 84 $ faces images has been used to test the model. For each of these 84 images, face detection was used first, then the LBP operator to extract the features and then the classification method was used.
+\noindent To train the model, 128 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 128\times7 = 896 $ face images have been used to train the model. To test the model, 12 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 12\times7 = 84 $ faces images have been used to test the model. For each of these 84 images, face detection was used first, then LBP operator to extract features, and then classification using SVM.
 \newline
 
-\noindent For the classification part, the data has been trained with different kernels and different parameters. The following table resumes the results that have been obtained:
+\noindent For the classification part, the model has been trained with different kernels and different parameters. The results of this process are summed up in the following table:
 \newline
 
 \vspace{\baselineskip}
@@ -35,20 +35,20 @@
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-\noindent Poly1 stands for Polynomial and has this parameter: $ D = 2 $
+\noindent Poly1 stands for Polynomial and has degree parameter: $ D = 2 $
 \newline
-\noindent Poly2 stands for Polynomial and has this parameter: $ D = 3 $
+\noindent Poly2 stands for Polynomial and has degree parameter: $ D = 3 $
 \newline
-\noindent RBF1 has these parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
+\noindent RBF1 has cache and $\gamma$ parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
 \newline
-\noindent RBF2 has these parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $ 
+\noindent RBF2 has cache and $\gamma$ parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $ 
 \newline
-\noindent Sigmoid1 has these parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
+\noindent Sigmoid1 has cache and $\gamma$ parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
 \newline
-\noindent Sigmoid2 has these parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $
+\noindent Sigmoid2 has cache and $\gamma$ parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $
 \newline
 
-\noindent The same data has been trained with the same kernels and parameters but using the cross validation method (as explained in \ref{chap:implementation_svm}). All the results, compared to the one obtained without using cross validation are worse. Following is a table of both results with and without cross validation.
+\noindent The same data has been trained with the same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). All results are inferior or equal to those without cross-validation, except for the linear kernel. Following is a table of both results with and without cross validation.
 \newline
 
 \vspace{\baselineskip}
@@ -70,7 +70,7 @@
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-\noindent The best accuracy percentage is for the Sigmoid2 column. It is obtained with a classification based on the Sigmoid kernel and with the following parameters for this kernel: $ C = 32.0 $ and $ \gamma = 0.001953125 $. These parameters are found by \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the Sigmoid kernel. The overall percentage of accuracy for all the emotions is $ 61.90\% $. Following is the confusion matrix:
+\noindent The best accuracy percentage is for the Sigmoid2 kernel parameters. It is obtained with a classification based on the Sigmoid kernel and with following parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $. These parameters are found by \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the Sigmoid kernel. The overall percentage of accuracy for all the emotions is $ 61.90\% $. Following is the confusion matrix:
 \newline
 
 \vspace{\baselineskip}
@@ -92,7 +92,7 @@
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-\noindent By looking at the confusion matrix, it is easy to notice that 3 facial expressions are harder to recognize than the others with this system. These 3 emotions are: angry, sad and neutral. There is a real gap between these 3 emotions and the 4 other ones (afraid, disgusted, happy and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy higher than $ 70\% $.
+\noindent By looking at the confusion matrix, it is easy to notice that 3 facial expressions are harder to recognize than the others with this system: angry, sad and neutral. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy higher than $ 70\% $. Furthermore, the recognition accuracy for the "Sad" expression is lower than random guess.
 \newline
 
 \vspace{\baselineskip}
@@ -111,10 +111,10 @@
 
 \vspace{\baselineskip}
 \vspace{\baselineskip}
-\noindent The numbers that are in parenthesis represent the number of emotions well recognized over the total number of face images tested.
+\noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
 \newline
 
-\noindent These 6 emotions plus the neutral state can be classified into 2 groups. Indeed, one group containing the 3 emotions hard to recognize and the second group containing the 4 emotions remaining. The 3 facial expressions \textit{angry}, \textit{sad} and \textit{neutral}, are the ones that distort the less the face. Between 3 faces expressing each,  one of these emotions, the differences are not clearly noticeable. The figure~\ref{kdef_no_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 3 facial expressions.
+\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 3 emotions hard to recognize and a second group containing the 4 remaining emotions. The 3 facial expressions \textit{angry}, \textit{sad} and \textit{neutral}, are the ones that distort the less the face. For a same subject expressing these 3 different emotions, as in Figure \ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
 \newline
 
 \begin{figure}[!h]
@@ -126,7 +126,7 @@
 \end{center} 
 \end{figure}
 
-\noindent The second group contains the 4 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy} and \textit{surprised}. These emotions distort significantly the face when they are expressed. This is why it is easier to recognize them. The figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 4 facial expressions. The important features carrying emotion as the mouth or the eyes are changing a lot while these 4 emotions are expressed.
+\noindent The second group contains the 4 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy} and \textit{surprised}. These emotions distort significantly the face when they are expressed. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 4 facial expressions. Important features carrying emotion as the mouth or the eyes are changing a lot while these 4 emotions are expressed.
 \newline
 
 \begin{figure}[!h]
@@ -138,14 +138,14 @@
 \end{center} 
 \end{figure}
 
-\noindent As can be seen in the figure~\ref{kdef_difference_emotions}, for each emotion, the eyebrows are raised, or the eyes are wild opened and most of the the mouth is clearly opened. For the figure~\ref{kdef_no_difference_emotions}, nothing is clearly noticeable, the face is almost the same. All of this can explain the difficulties that the system encounters to differentiate the emotions \textit{angry}, \textit{sad} and \textit{neutral}.
+\noindent As it can be seen in Figure~\ref{kdef_difference_emotions}, for each emotion, eyebrows are raised, eyes are widely opened, and the mouth has a distinct shape, whereas in Figure~\ref{kdef_no_difference_emotions} there are no differences as visible as in Figure~\ref{kdef_difference_emotions}. These variations of intensity might explain twhy the system struggles when trying to differentiate \textit{angry}, \textit{sad} and \textit{neutral} emotional states.
 \newline
 
 \phantomsection
 \section{Second result set}
 
 \vspace{\baselineskip}
-\noindent The second result test is obtained based on the same process than the process that gives the first result set. The only difference is the input. The input is not face image from which the features are extracted; it is a video stream from the Kinect. A subject stands in face of the Kinect, the face is detected, then the features are extracted, and finally the classification is made almost in real time and the output is the name of the emotion expressed.
+\noindent The second result test is obtained based on the same process than the process that gives the first result set, the only difference being the input. Indeed, it is not images from which features are then extracted; it is a video stream from the Kinect. A subject stands in face of the Kinect, face is detected and extracted, then features are computed, and finally classification is performed. It runs almost in real-time, and the output is the name of the emotion expressed.
 \newline
 
 \noindent RESULT OBTAINED

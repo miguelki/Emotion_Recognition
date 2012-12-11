@@ -26,6 +26,11 @@ Vinay Bettadapura.
 \newblock Face expression recognition and analysis: The state of the art.
 \newblock {\em Tech Report}, 2012.
 
+\bibitem{BIS06}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer Science, 2006.
+
 \bibitem{CHI03}
 Claude~C. Chibelushi and Fabrice Bourel.
 \newblock Facial expression recognition: A brief tutorial overview.
