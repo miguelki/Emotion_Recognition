@@ -134,7 +134,7 @@ s(x) = \left\{
 \noindent For the pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For the pixels with an intensity value inferior to $I_C$it  would be 0 \cite{GAN08}.
 \newline
 
-\noindent The last step is to assign a binomial weight to each sign, for the LBP operation. These weights are summed, producing an imporved LBP code for central pixel $ C $ with coordinates $ (x_C,y_C) $ \cite{GAN08}:
+\noindent The last step is to assign a binomial weight to each sign, for the LBP operation. These weights are summed, producing an improved LBP code for central pixel $ C $ with coordinates $ (x_C,y_C) $ \cite{GAN08}:
 \newline
 
 \begin{equation}
@@ -152,13 +152,13 @@ s(x) = \left\{
 \noindent A Local Binary Pattern can be called uniform only if it contains 2 or less bitwise transitions. A bitwise transition is a transition from 0 to 1 or from 1 to 0 \cite{GAN08}. 
 \newline
 
-\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the neighbourhood is circular so there cannot be 1-bitwise transition in the pattern. Indeed, if there is a bitwise transition in the neighbourhood, i.e from 1 to 0, it means that there will be another bitwise transition from 0 to 1 further in the circular pattern \cite{GAN08}.
+\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the neighborhood is circular so there cannot be 1-bitwise transition in the pattern. Indeed, if there is a bitwise transition in the neighborhood, i.e from 1 to 0, it means that there will be another bitwise transition from 0 to 1 further in the circular pattern \cite{GAN08}.
 \newline
 
 \noindent If a pattern contains 0 bitwise transitions, it means that it is composed only of 0s or of 1s \cite{GAN08}.
 \newline
 
-\noindent For a uniform LBP with a pattern-length of 8 bits (i.e 8 neighbours), containing 2 bitwise transitions, with P neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transitions. The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbouring pixels and radius size R \cite{GAN08}.
+\noindent For a uniform LBP with a pattern-length of 8 bits (i.e 8 neighbors), containing 2 bitwise transitions, with P neighbor pixels, there are $ P(P - 1) $ possible combinations. So there are $ 8(8 - 1) + 2 =58 $ possible patterns ("$ + 2 $" is for the 2 patterns with 0 bitwise transitions. The uniform LBP has the following notation: \[ LBP_{P,R}^{u^2} \] with P numbers of neighbouring pixels and radius size R \cite{GAN08}.
 \newline
 
 \noindent There are 2 main advantages coming along with the uniform LBP. The first one is the reduction in range of possible patterns. With the uniform LBP operator, there are 58 possible combinations as seen above, whereas with the basic LBP operator, there are $ 2^8 = 256 $ possible combinations for the same bit-length. The use of uniform LBP then leads to less computation \cite{GAN08}.

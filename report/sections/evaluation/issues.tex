@@ -5,11 +5,28 @@
 \phantomsection
 \section{Feature extraction}
 
-\noindent bla
+\vspace{\baselineskip}
+\noindent The feature extraction method chosen for this Facial Expression Recognition system is the Local Binary Patterns method. As seen in chapter~\ref{chap:lbp}, there are many ways to improve the basic LBP operator. This ways can be using the circular LBP operator, using the uniform LBP operator or applying weights to each region of the face image. The basic LBP operator is quite simple but after improving it at its best, it requires more computation time but gives better result.
+\newline
+
+\noindent The LBP operator used in this system has already some improvements; it is a uniform circular LBP operator. The results obtained with this operator are quite good with an accuracy of $ 61.90\% $. But this percentage of accuracy can be improved. This system has trouble recognizing some of the 7 emotions; more particularly the \textit{sad} emotion. An improvement that can be done is to weight each region of the face. This way the most important features have more weight in the computation of the histograms.
+\newline
+
+\noindent RESULTS WITH WEIGHTS APPLIED
+\newline
+
+\noindent MAYBE BETTER OPTIMIZED METHODS FOR THIS KIND OF SYSTEM
 \newline
 
 \phantomsection
 \section{Real-time}
 
-\noindent bla
+\vspace{\baselineskip}
+\noindent The computation of the LBP operator takes about 1-4 seconds (depending on the computer). It was not expected that it takes so long. it was more expected to obtain a computation time on the order of milliseconds. That is why this Facial Expression Recognition system does not really work in real time an why it needs an interaction with the subject. With the Kinect, 30 frames are received per second. The system should take 33,3 milliseconds maximum ($ \frac{1}{30} = 0,0333 s $) so that it could work in real time and have the time to process each frame. 
+\newline
+
+\noindent The system was adapted so that it can still work with video sequences and almost in real time. The subject stands in front of the Kinect and express an emotion among the 6 basic ones plus the neutral one. When the subject thinks that the emotion that is expressed is good, then he can click on the interface to launch the processing with this exact face he made. Then only one frame is used, the one he chose when he clicked. This frame is processed and classified and the output given to the subject is the name of the emotion that he expressed. The output is given about 2 seconds after the subject's click.
+\newline
+
+\noindent WHAT CAN BE DONE TO IMPROVE THIS PROBLEM ?
 \newline
