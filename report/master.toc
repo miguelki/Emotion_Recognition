@@ -77,17 +77,22 @@
 \contentsline {section}{\numberline {11.1}Histogram concatenation}{70}{section.183}
 \contentsline {section}{\numberline {11.2}Training and Model}{71}{section.186}
 \contentsline {chapter}{\numberline {12}Implementation on the Kinect}{73}{chapter.192}
-\contentsline {part}{VI\hspace {1em}Evaluation}{74}{part.193}
-\contentsline {chapter}{\numberline {13}Results}{76}{chapter.196}
-\contentsline {section}{\numberline {13.1}First result set}{76}{section.198}
-\contentsline {section}{\numberline {13.2}Second result set}{79}{section.202}
-\contentsline {chapter}{\numberline {14}Issues}{80}{chapter.204}
-\contentsline {section}{\numberline {14.1}Feature extraction}{80}{section.206}
-\contentsline {section}{\numberline {14.2}Real-time}{80}{section.208}
+\contentsline {section}{\numberline {12.1}Generalities}{73}{section.194}
+\contentsline {section}{\numberline {12.2}Librairies}{73}{section.196}
+\contentsline {section}{\numberline {12.3}Architecture}{73}{section.198}
+\contentsline {section}{\numberline {12.4}Interactions}{74}{section.200}
+\contentsline {section}{\numberline {12.5}Algorithm}{74}{section.202}
+\contentsline {part}{VI\hspace {1em}Evaluation}{76}{part.203}
+\contentsline {chapter}{\numberline {13}Results}{78}{chapter.206}
+\contentsline {section}{\numberline {13.1}First result set}{78}{section.208}
+\contentsline {section}{\numberline {13.2}Second result set}{81}{section.212}
+\contentsline {chapter}{\numberline {14}Issues}{82}{chapter.214}
+\contentsline {section}{\numberline {14.1}Feature extraction}{82}{section.216}
+\contentsline {section}{\numberline {14.2}Real-time}{82}{section.218}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{81}{section*.209}
+\contentsline {chapter}{Conclusion}{83}{section*.219}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{83}{section*.210}
+\contentsline {chapter}{Bibliography}{85}{section*.220}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{87}{chapter.212}
+\contentsline {chapter}{\numberline {A}Appendix A name}{89}{chapter.222}
 \contentsfinish 
