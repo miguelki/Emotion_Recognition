@@ -75,41 +75,41 @@
 \contentsline {chapter}{\numberline {8}Support Vector Machine}{61}{chapter.150}
 \contentsline {section}{\numberline {8.1}Overview}{61}{section.152}
 \contentsline {section}{\numberline {8.2}Margin maximization}{62}{section.154}
-\contentsline {section}{\numberline {8.3}Kernel function}{62}{section.157}
-\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{63}{section.160}
+\contentsline {section}{\numberline {8.3}Kernel function}{63}{section.161}
+\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{63}{section.164}
 \ttl@stoptoc {parts@4}
-\contentsline {part}{V\hspace {1em}Implementation}{65}{part.164}
+\contentsline {part}{V\hspace {1em}Implementation}{66}{part.168}
 \ttl@stoptoc {parts@4}
 \ttl@starttoc {parts@5}
-\contentsline {chapter}{\numberline {9}Feature Detection with Viola-Jones}{67}{chapter.167}
-\contentsline {section}{\numberline {9.1}Viola-Jones}{67}{section.169}
-\contentsline {chapter}{\numberline {10}Feature Extraction with Local Binary Patterns}{68}{chapter.172}
-\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{68}{section.174}
-\contentsline {section}{\numberline {10.2}Histogram computing}{69}{section.177}
-\contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{71}{chapter.181}
-\contentsline {section}{\numberline {11.1}Histogram concatenation}{71}{section.183}
-\contentsline {section}{\numberline {11.2}Training and Model}{72}{section.186}
-\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{74}{chapter.192}
-\contentsline {section}{\numberline {12.1}Generalities}{74}{section.194}
-\contentsline {section}{\numberline {12.2}Librairies}{74}{section.196}
-\contentsline {section}{\numberline {12.3}Architecture}{74}{section.198}
-\contentsline {section}{\numberline {12.4}Interactions}{75}{section.201}
-\contentsline {section}{\numberline {12.5}Algorithm}{76}{section.203}
+\contentsline {chapter}{\numberline {9}Feature Detection with Viola-Jones}{68}{chapter.171}
+\contentsline {section}{\numberline {9.1}Viola-Jones}{68}{section.173}
+\contentsline {chapter}{\numberline {10}Feature Extraction with Local Binary Patterns}{69}{chapter.176}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{69}{section.178}
+\contentsline {section}{\numberline {10.2}Histogram computing}{70}{section.181}
+\contentsline {chapter}{\numberline {11}Feature Classification with Support Vector Machine}{72}{chapter.185}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{72}{section.187}
+\contentsline {section}{\numberline {11.2}Training and Model}{73}{section.190}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{75}{chapter.196}
+\contentsline {section}{\numberline {12.1}Generalities}{75}{section.198}
+\contentsline {section}{\numberline {12.2}Librairies}{75}{section.200}
+\contentsline {section}{\numberline {12.3}Architecture}{75}{section.202}
+\contentsline {section}{\numberline {12.4}Interactions}{76}{section.205}
+\contentsline {section}{\numberline {12.5}Algorithm}{77}{section.207}
 \ttl@stoptoc {parts@5}
-\contentsline {part}{VI\hspace {1em}Evaluation}{77}{part.204}
+\contentsline {part}{VI\hspace {1em}Evaluation}{78}{part.208}
 \ttl@stoptoc {parts@5}
 \ttl@starttoc {parts@6}
-\contentsline {chapter}{\numberline {13}Results}{79}{chapter.207}
-\contentsline {section}{\numberline {13.1}First result set}{79}{section.209}
-\contentsline {section}{\numberline {13.2}Second result set}{82}{section.213}
-\contentsline {chapter}{\numberline {14}Issues}{83}{chapter.215}
-\contentsline {section}{\numberline {14.1}Feature extraction}{83}{section.217}
-\contentsline {section}{\numberline {14.2}Real-time}{83}{section.219}
+\contentsline {chapter}{\numberline {13}Results}{80}{chapter.211}
+\contentsline {section}{\numberline {13.1}First result set}{80}{section.213}
+\contentsline {section}{\numberline {13.2}Second result set}{83}{section.217}
+\contentsline {chapter}{\numberline {14}Issues}{84}{chapter.219}
+\contentsline {section}{\numberline {14.1}Feature extraction}{84}{section.221}
+\contentsline {section}{\numberline {14.2}Real-time}{85}{section.223}
 \ttl@stoptoc {parts@6}
 \vspace \bigskipamount 
-\contentsline {chapter}{Conclusion}{85}{section*.220}
+\contentsline {chapter}{Conclusion}{87}{section*.224}
 \vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{87}{section*.221}
+\contentsline {chapter}{Bibliography}{89}{section*.225}
 \vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{91}{chapter.223}
+\contentsline {chapter}{\numberline {A}Appendix A name}{93}{chapter.227}
 \contentsfinish 

@@ -19,7 +19,7 @@
 \noindent SVM is also a linear classifier, such as LDA. For a two-class problem, it will linearly separate the train data by finding the optimal hyperplane between these 2 classes. This hyperplane is defined as being as far as possible from both classes. \textit{Margin maximization} is then applied to optimize the distance between the two classes and the hyperplane, as it will be explained in Section \ref{margin_max}.
 \newline
 
-\noindent The name "Support Vector" originates from this margin maximization feature. Indeed, the distance between the classes and the separating hyperplane is computed regarding to the closest data points from both classes. These particular data points, lying on the margins edges, are the support vectors. %Some properties are associated to these vectors, such as non-zero Lagrange multipliers (see Section \ref{margin_max}), which builds the classification algorithm.
+\noindent The name "Support Vector" originates from this margin maximization feature. Indeed, the distance between the classes and the separating hyperplane is computed regarding to the closest data points from both classes. These particular data points, lying on the margins edges, are the support vectors. Some properties are associated to these vectors, such as non-zero Lagrange multipliers (see Section \ref{margin_max}), which builds the classification algorithm.
 \newline
 
 \noindent For a multi-class problem, however, this linear separation is not possible anymore. The dataset has to be mapped into an other space, where it can be linearly separated. This is what \textit{kernel functions} are used for, as described in Section \ref{kernel_fct}.
@@ -44,11 +44,41 @@
 \right.
 \label{margin_max_eq}
 \end{equation}
-
-%\noindent lagrange multipliers
-%\newline
-
 \vspace{\baselineskip}
+
+\noindent In order to solve this problem, positive \textit{Lagrangian coefficients} $\alpha_i$, $i=1..N$ are introduced for each constraint in Equation \ref{margin_max_eq}. It outputs a Lagrangian function of $w$ and $b$:
+
+\begin{equation}
+L_P(w, b,\alpha) = \frac{1}{2}||w||^2 - \sum\limits_{i=1}\limits^{N}\alpha_i\left(y_i(w.x_i + b) -1\right)
+\label{lagrangian}
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent With $\alpha = (\alpha_1..\alpha_N)^T$. When setting $\frac{\delta L}{\delta w} = 0$ and $\frac{\delta L}{\delta b} = 0$ in order to minimize $L_p$ with respect to $w$ and $b$, two conditions can be obtained
+\newline
+
+\begin{equation}
+w = \sum\limits_{i=1}\limits{N} \alpha_i y_i x_i
+\end{equation}
+
+and
+
+\begin{equation}
+\sum\limits_{i=1}\limits{N} \alpha_i y_i = 0.
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent When substituting these conditions into Equation \ref{lagrangian}, parameters $w$ and $b$ disappear. Thus the resulting function is Equation \ref{lagrangian2}
+\newline
+
+\begin{equation}
+L_D = \sum\limits_{i=1}\limits{N} \alpha_i - \frac{1}{2} \sum\limits_{i=1}\limits{N} \sum\limits_{j=1}\limits{N} \alpha_i \alpha_j y_i y_j(x_i.x_j)
+\label{lagrangian2}
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent This function is called \textit{dual representation} of the margin maximization problem. In order to solve this problem, one can either minimize $L_P$ in Equation \ref{lagrangian} or maximize $L_D$ in Equation \ref{lagrangian2}.
+\newline
 
 \phantomsection
 \section{Kernel function}

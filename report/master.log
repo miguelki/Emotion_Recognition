@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  11 DEC 2012 15:45
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  11 DEC 2012 22:49
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -2268,12 +2268,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--60
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Overfull \hbox (8.2074pt too wide) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Overfull \hbox (8.2074pt too wide) in paragraph at lines 91--93
 \T1/lmr/m/n/10.95 In or-der to achieve this map-ping, a \T1/lmr/m/it/10.95 ker-
 nel func-tion \T1/lmr/m/n/10.95 of the form $\OML/lmm/m/it/10.95 K\OT1/lmr/m/n/
 10.95 (\OML/lmm/m/it/10.95 x[]; x[]\OT1/lmr/m/n/10.95 ) = (\OML/lmm/m/it/10.95
@@ -2281,36 +2296,39 @@ nel func-tion \T1/lmr/m/n/10.95 of the form $\OML/lmm/m/it/10.95 K\OT1/lmr/m/n/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
-
- []
-
-[62]
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--101
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--120
+Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
  []
 
-[63] [64]))
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[64] [65]))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
-on.tex [65
+on.tex [66
 
 ]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [66]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [67]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_detection.tex
 Chapter 9.
@@ -2335,14 +2353,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-<figures/violajones_implementation_example.png, id=901, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=915, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
 Package pdftex.def Info: figures/violajones_implementation_example.png used on 
 input line 20.
 (pdftex.def)             Requested size: 197.23338pt x 155.37773pt.
-) [67 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
+) [68 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
 nes_implementation_example.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_extraction.tex
@@ -2362,7 +2380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=910, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=924, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2379,7 +2397,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[68
+[69
 
  <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_implemen
 tation_example.png>]
@@ -2387,7 +2405,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=920, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=934, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2404,7 +2422,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=922, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=936, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2415,8 +2433,8 @@ ne 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [69 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
-lementation_histogram.png>] [70 <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
+) [70 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
+lementation_histogram.png>] [71 <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
 ion/report/figures/lbp_implementation_vector.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_classification.tex
@@ -2436,7 +2454,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[71
+[72
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
@@ -2453,7 +2471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-[72]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
@@ -2463,11 +2481,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-) [73]
+) [74]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/implementation_kinect.tex
 Chapter 12.
-[74
+[75
 
 ]
 Overfull \hbox (1.92746pt too wide) in paragraph at lines 31--32
@@ -2480,17 +2498,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/UML.png, id=966, 1046.91125pt x 612.2875pt>
+<figures/UML.png, id=980, 1046.91125pt x 612.2875pt>
 File: figures/UML.png Graphic file (type png)
  <use figures/UML.png>
 Package pdftex.def Info: figures/UML.png used on input line 40.
 (pdftex.def)             Requested size: 314.0758pt x 183.68767pt.
 
-[75 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
+[76 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
-ex [76] [77]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [78]
+ex [77] [78]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [79]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/r
 esults.tex
 Chapter 13.
@@ -2519,7 +2537,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--50
 
  []
 
-[79]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
@@ -2539,7 +2557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-[80]
+[81]
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
@@ -2549,7 +2567,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-<figures/kdef_no_difference_emotions.png, id=1006, 869.2475pt x 420.57124pt>
+<figures/kdef_no_difference_emotions.png, id=1020, 869.2475pt x 420.57124pt>
 File: figures/kdef_no_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_no_difference_emotions.png>
@@ -2561,9 +2579,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
-[81 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_no_d
+[82 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_no_d
 ifference_emotions.png>]
-<figures/kdef_difference_emotions.png, id=1013, 1159.33125pt x 416.55624pt>
+<figures/kdef_difference_emotions.png, id=1027, 1159.33125pt x 416.55624pt>
 File: figures/kdef_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_difference_emotions.png>
@@ -2585,7 +2603,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
 
-) [82 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_di
+) [83 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_di
 fference_emotions.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/i
 ssues.tex
@@ -2615,21 +2633,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-[83])
+)
 Underfull \hbox (badness 10000) in paragraph at lines 31--24
 
  []
 
-) [84]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
-ex) [85
+) [85] [86
 
-] [86
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/conclusion.t
+ex) [87] [88
 
 ]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl
@@ -2637,13 +2655,13 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [87] [88]
+) [89] [90]
 Underfull \hbox (badness 2103) in paragraph at lines 183--186
 []\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
 tt/m/n/10.95 http : / / en . wikipedia . org / wiki /$
  []
 
-) [89] [90
+) [91] [92
 
 ]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/appAname.tex
@@ -2653,7 +2671,7 @@ Appendix A.
 \tf@ptc=\write5
  
 AED: lastpage setting LastPage
-[91]
+[93]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 55.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 55.
  (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
@@ -2666,10 +2684,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 55.
  ) 
 Here is how much of TeX's memory you used:
- 11183 strings out of 494045
- 170532 string characters out of 3145975
- 261683 words of memory out of 3000000
- 13762 multiletter control sequences out of 15000+200000
+ 11195 strings out of 494045
+ 170668 string characters out of 3145975
+ 260783 words of memory out of 3000000
+ 13768 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,14n,38p,1109b,475s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2697,9 +2715,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (99 pages, 8048091 bytes).
+Output written on master.pdf (101 pages, 8054647 bytes).
 PDF statistics:
- 1430 PDF objects out of 1440 (max. 8388607)
- 357 named destinations out of 1000 (max. 500000)
+ 1450 PDF objects out of 1728 (max. 8388607)
+ 363 named destinations out of 1000 (max. 500000)
  730 words of extra memory for PDF output out of 10000 (max. 10000000)
 
