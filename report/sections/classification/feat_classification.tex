@@ -2,23 +2,234 @@
 \chapter{Feature classification}
 \label{chap:classification}
 
-\noindent bla
-
-\section{Supervised and unsupervised learning}
-
-\noindent bla
+\noindent Classification is done through machine learning algorithms. Machine learning, being a branch of Artificial Intelligence, aims to helps AI systems improve their performances by learning from their environment. Indeed, the knowledge necessary to build a robust and intelligent system can not always be built-in or explained to it. The solution to this problem is to make the system learn this knowledge through examples, and apply it to similar situations so it can perform relevant actions without the need of human intervention. 
 \newline
 
-\subsection{Supervised learning}
+\noindent More specifically, machine learning can be described as a way to develop and implement algorithms taking empirical data as input, and processing these values in order to find links between them. The output will then be used by the system to compute the appropriate action or behaviour. In order to achieve that, the system needs to learn key characteristics from a training dataset given as example or obtained through past experience. It will then study this observable data, and build a model based on it. The system will then use this model to infer actions depending on new data it will get as input.
+\newline
+
+\noindent However, machine learning is not only about computing a database and relying on it for every possible situation. In a changing environment, the system needs to know how to learn from these changes and adapt itself.
+\newline
+
+\noindent There are many kinds of machine learning algorithms, with their own specificities and level of abstraction. In this chapter we will focus on algorithms behaving like functions and performing pattern recognition. Indeed, an image of a face is a set of patterns of different sizes and shapes. Pattern recognition through machine learning can be divided into to main categories of algorithms: supervised learning and unsupervised learning. Those two categories will be described further in this chapter, along with examples.
+\newline
+
+\noindent This chapter serves as an introduction for the next chapter, which is about Support Vector Machines, a specific kind of supervised learning algorithm which will be used in our system.
+\newline
+
+\phantomsection
+\section{Supervised learning}
 
 \vspace{\baselineskip}
-\noindent bla
+\noindent Supervised learning is the task of providing labelled input data to the algorithm, also called \textit{train data}. The main point is that the model is only defined by the observable data it gets for training. It does not make any assumption about underlying, latent variables that could interfere with this observable data. It can then search for patterns and relations between the data points, and build a model fitting these relations before classifying test data.
 \newline
 
-\subsection{Unsupervised learning}
+\noindent Classification can be divided in two steps, first step being training, and second step being prediction. There are many kinds of supervised learning algorithms, the basic one being a naive Bayes classifier, which will be detailed afterwards. An other example of algorithm is linear discriminant analysis (LDA). Furthermore, the next chapter will focus on an other supervised learning algorithm: Support Vector Machine.
+\newline
+
+\subsection{Naive Bayes classifier}
 
 \vspace{\baselineskip}
-\noindent bla
+\noindent The Bayesian classifier is based on Bayes theorem:
 \newline
 
+\begin{equation}
+    \begin{array}{ll}
+        \text{\textbf{sum rule: }} & p(X) = \sum\limits_{Y} p(X,Y) \\
+        \text{\textbf{product rule:}} & p(X,Y) = p(Y|X)p(X)
+    \end{array}
+    \label{bayes}
+\end{equation}
 
+\vspace{\baselineskip}
+\noindent With these rules, it is possible to compute the \textit{posterior probability} of an event $C_i$ given observable data $x$, using formula \ref{posterior}:
+
+\begin{equation}
+	p(C_i|x) = \frac{p(x|C_i \times p(C_i)}{p(x)}
+	\label{posterior}
+\end{equation}
+
+\noindent With:
+\begin{itemize}
+\item $p(x|C_i)$ the probability of observed data $x$ given $C_i$, which can also be called the \textit{likelihood function of $C_i$};
+\item $p(C_i)$ the prior probability of $C_i$;
+\item $p(x)$ the probability of observable data $x$.
+\end{itemize} 
+
+\noindent When combined with Bayes theorem, equation \ref{posterior} becomes:
+
+\begin{equation}
+	p(C_i|x) = \frac{p(x|C_i \times p(C_i)}{\sum\limits_{k=1}\limits^{K} p(C_k) \times p(x|C_k)}
+	\label{posterior_bayes}
+\end{equation}
+
+\noindent The classifier output will then be class $C_i$ which meets condition $p(C_i|x) = \max \limits_{k} p(C_k|x)$ (the likelihood function has to be the highest among all classes $C_k$).
+
+\subsection{Linear Discrimination}
+
+\vspace{\baselineskip}
+\noindent To introduce linear discrimination, it is important to understand what is classification. Classification is the process of assigning the input vector $x$ to one of the classes $C_i$, $i=1, ..., I$, hence learning the decision boundaries that separate the different classes in the input space \cite{BIS06}. If the input dataset is \textit{linearly separable}, decision boundaries can then be described by linear functions of the input vector $x$.
+\newline
+
+\noindent For example, the linear discriminant function for a 2-class problem will look like 
+
+\begin{equation}
+y(x) = w^Tx + \omega_0
+\end{equation}
+
+\noindent With \textit{weight vector} $w^T$ and \textit{bias} $\omega_0$ \cite{BIS06}. The input vector $x$ is then assigned to class $C_1$ if $y(x) = 0$, otherwise it will be classified as belonging to class $C_2$.
+\newline
+
+\noindent Problems with a number of classes K > 2, a \textit{one-versus-the-rest} approach can be used, where K-1 two-way discriminant functions are used: the $k^{th}$ discriminant function will determine if a point belongs to class $C_k$ or not. However, as shown in Figure \ref{one_vs_rest}, this combination of discriminant functions leaves an ambiguous region \cite{BIS06}. 
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.2]{figures/one_vs} 
+\newline
+\caption{Attempting to construct a $K$ class discriminant from a set of two class discriminants leads to ambiguous regions, shown in green. On the left is an example of \textit{one-versus-the-rest} approach, the discriminant function designed to separate points belonging to a class $C_i$ and points that are not. On the right is an example of \textit{one-versus-all} approach involving 3 discriminant functions, each one separating a pair of classes classes $C_i$ and $C_j$.From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
+\label{one_vs_rest}
+\end{center} 
+\end{figure}
+
+\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an issue about ambiguous regions, as seen in Figure \ref{one_vs} \cite{BIS06}.
+\newline
+
+\noindent A K-class discriminant which does not lead to an ambiguous region problem is to use K linear discriminant functions $g(x)_k$, $k=1..K$, and to assign an input vector $x$ to a class $C_i$ if $g(x)_i = \max\limits_{k} g_k(x)$. Indeed, as shown in Figure \ref{k_discr}, there are no more ambiguous regions \cite{BIS06}.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.5]{figures/lda_k_disc} 
+\newline
+\caption{Decision boundaries produced by a linear machine for a 3-class problem and a 5-class problem. From: Richard O. Duda, Peter E. Hart, and David G. Stork, \textit{Pattern Classification}. Copyright \copyright  2001 by John Wiley \& Sons Inc.}
+\label{k_disc}
+\end{center} 
+\end{figure}
+
+\phantomsection
+\section{Unsupervised learning}
+
+\vspace{\baselineskip}
+\noindent Unlike supervised learning, the classification algorithm is not fed with train data in the case of unsupervised learning. It will be given a set of observable data, and its goal is to group data the smartest way possible, and by itself. Furthermore, in unsupervised learning, the concept of \textit{class} is not applicable any more; the term \textit{cluster} being preferred.
+\newline
+
+\noindent The key point of unsupervised algorithms is data clustering. In most common unsupervised algorithms such as K-means, the algorithm can get a hint of the number of clusters it has to find. It then proceeds, usually in an iterative way, to find the latent variables related to the data. Indeed, it is assumed that all observable data is governed by latent variables which can be organized in different levels.
+\newline
+
+\noindent Besides K-means, an other common unsupervised algorithm is the Mixture Models algorithm, which will also be described in the following subsections.
+\newline
+
+\subsection{K-Means}
+
+\vspace{\baselineskip}
+\noindent K-means clustering relies on a set of k reference vectors $\mu_k$, $k=1..K$, also called prototype vectors. These vectors represent the centres of the K clusters. This clustering method has two goals: first, it has to find how the clusters are shaped and which data lies in which cluster; secondly, the set of vectors $\{\mu_k\}$ has to be determined while verifying the following condition: for each data point $x_n$, the sum of squares of the distances between $x_n$ and its closest vector $\mu_k$ is a minimum. In other words, equation \ref{distort_fc}, also called \textit{distortion function} has to be minimized \cite{BIS06}.
+
+\begin{equation}
+J = \sum\limits_{n=1}\limits^{N} \sum\limits_{k=1}\limits^{K} r_{nk} ||x_n - \mu_k||^2
+\label{distort_fc}
+\end{equation}
+
+\noindent With
+
+\begin{equation*}
+r_{nk} = \left\{
+	\begin{array}{ll}
+		1 & \mbox{if }  k = arg \min_j ||x_n - \mu_j||^2 \\
+		0 & \mbox{otherwise}
+	\end{array}
+\right.
+\end{equation*}
+\vspace{\baselineskip}
+
+\noindent This can be achieved through the following iterative algorithm, which result can be seen in Figure \ref{k-mean_res}:
+\newline
+
+\begin{algorithmic}
+\State Initialization of reference vectors $\mu_k$, $k = 1..K$ 
+\Repeat	
+	\ForAll{$x_n \in \chi$}
+		\State \begin{equation*} 
+				r_{nk} \gets \left\{
+				\begin{array}{ll}
+					1 & \mbox{if }  k = arg \min_j ||x_n - \mu_j||^2 \\
+					0 & \mbox{otherwise}
+				\end{array}
+				\right.
+				\end{equation*}
+	\EndFor
+	\ForAll{$\mu_k$, $k = 1..K$ }
+		\State $\mu_k \gets \frac{\sum\limits_n r_{nk}x_n}{\sum\limits_n r_{nk}}$
+	\EndFor
+\Until{$\mu_k$ converge}
+\end{algorithmic}
+
+\vspace{\baselineskip}
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.45]{figures/k-mean_res} 
+\newline
+\caption{Example of application of the iterative K-means algorithm.}
+\label{k-mean_res}
+\end{center} 
+\end{figure}
+
+\noindent In this algorithm, the denominator $\sum\limits_n r_{nk}$ corresponds to the number of points set to cluster $k$, which sets $\mu_k$ as the mean of the cluster, hence the name \textit{K-means algorithm} \cite{BIS06}.
+\newline
+
+\noindent This algorithm can also be used in \textit{lossy data compression}, where input data can be reconstructed with minor errors, in contrary to \textit{lossless data compression}. If the K-means algorithm is applied, then for each data point $x_n$ the only value stored is the cluster $k$ it belongs to. Apart from the data points, values of cluster centres $\mu_k$ are also stored. Hence, during data reconstruction, each data point is approximated by corresponding vector $\mu_k$. This approximation is called \textit{vector quantization} \cite{BIS06}.
+\newline
+
+\subsection{Mixture of Gaussians}
+
+\vspace{\baselineskip}
+\noindent While the K-means algorithm will try to find reference vectors describing the different clusters, the mixture models algorithm will rather model the underlying distribution of the clusters, usually by a Gaussian probability density function. Each cluster is then represented by a Gaussian distribution, and the aim of the algorithm is to find the best parameters for the latent variables governing these distributions. It can be achieved by finding parameters maximizing likelihood $p(x)=p(x|G_i)p(G_i)$, with:
+
+\begin{itemize}
+\item $G_i$: clusters
+\item $p(G_i)$: prior probability (mixture proportion)
+\item $p(x|G_i)$: component density
+\end{itemize}
+
+\noindent Since a Gaussian mixture can be written as $p(x|G_i) \sim \mathcal{N}(\mu_i, \Sigma_i)$, with mean vector $\mu_i$ and covariance matrix $\Sigma_i$, the aim is now to maximize the log likelihood function described in Equation \ref{log_likelihood}.
+
+\begin{equation}
+\begin{array}{ll}
+\mathcal{L}(\Phi|\chi) & = \ln \prod\limits_n p(x^n | \Phi) \\
+ & = \sum\limits_{n=1}\limits^{N} \left\{ \sum \limits_{k=1}\limits^{K} \pi_k \mathcal{N}(x_n|\mu_k, \Sigma_k)\right\}
+\end{array}
+\label{log_likelihood}
+\end{equation}
+
+\noindent with $\Phi$ mixing coefficients including prior probabilities and sufficient statistics of component densities.
+\newline
+
+\noindent The maximum likelihood estimation can then be obtained through the \textit{Expectation-Maximization algorithm} for Gaussian Mixture Models (EM), which converges into a result comparable as the one in Figure \ref{mixture_model} \cite{BIS06}.
+\newline
+
+\begin{algorithmic}
+\State Initialize means $\mu_n$, covariances $\Sigma_n$, mixing coefficients $\pi_n$ and compute initial value of the log likelihood
+
+\Repeat
+	\State \textbf{Expectation step}: Evaluate the expected value of the latent variable using current parameter values:
+		\State $\gamma(z_{nk}) = 
+		\frac{\pi_k\mathcal{N}(x_n|\mu_k, \Sigma_k)}{\sum\limits_{j=1}\limits^{K}\pi_j\mathcal{N}(x_n|\mu_j, \Sigma_j)}$
+	\State \textbf{Maximization step}: Re-estimate the parameters using $\gamma(z_{nk})$:
+		\State $\pi^{new}_k = \frac{N_k}{N}$
+		\State $\mu^{new}_k = \frac{1}{N_k}\sum\limits_{n=1}\limits{N}\gamma(z_{nk})x_n$
+		\State $\Sigma^{new}_k = \frac{1}{N_k}\sum\limits_{n=1}\limits{N}\gamma(z_{nk}) (x_n - \mu^{new}_k) (x_n - \mu^{new}_k)^T$
+		\State Where $N_k = \sum\limits_{n=1}\limits{N}\gamma(z_{nk})$
+	\State Evaluate log likelihood $\mathcal{L}$ 
+\Until {log likelihood $\mathcal{L}$ converges}
+\end{algorithmic}
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.2]{figures/mixture_model} 
+\newline
+\caption{Illustration of the EM algorithm. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
+\label{mixture_model}
+\end{center} 
+\end{figure}
+\pagebreak

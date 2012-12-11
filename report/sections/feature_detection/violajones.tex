@@ -141,13 +141,13 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \section{Weak classifiers and AdaBoost}
 
 \vspace{\baselineskip}
-\noindent Features are extracted from a sub-region of an input image, which size is usually of 24$\times$24 pixels. Each feature type is moved and scaled across the entire input image, which means that there are about 160,000 possible combinations to process in a 24 pixel by 24 pixel sub-region \cite{SMY07}.
+\noindent Features are extracted from a sub-region of an input image, which size is usually of $ 24\times24 $ pixels. Each feature type is moved and scaled across the entire input image, which means that there are about 160,000 possible combinations to process in a 24 pixel by 24 pixel sub-region \cite{SMY07}.
 \newline
 
 \noindent AdaBoost is a machine-learning method used by Viola and Jones in order to select specific Haar features to use. It is also used to set the threshold levels. This method is based on the statement that the combination of many weak classifiers forms a strong one. They are called weak classifiers because their accuracy and efficiency are only a bit above random guessing, which is not particularly good. The purpose of using so many weak classifiers is to get a right answer with a higher rate of success. This algorithm relies on on the verified hypothesis that if each weak classifier pushes the final answer a little bit in the right direction each time, it means the correct answer will be obtained in the end \cite{HEW07}. 
 \newline
 
-\noindent AdaBoost works the following way: it chooses a set of weak classifiers that are going to be combined and assigns a weight to each classifier (see Figure~\ref{haar_feature_adaboost}). The result of this weighted combination is a strong classifier \cite{HEW07}. One of the difficulties and challenges for this learning algorithm is to associate large weights to efficient classifiers, and smaller weights toeach poor classifiers. In order to succeed in selecting a small group of good classifiers but with significant variety, AdaBoos is an aggressive algorithm \cite{VIO01}.
+\noindent AdaBoost works the following way: it chooses a set of weak classifiers that are going to be combined and assigns a weight to each classifier (see Figure~\ref{haar_feature_adaboost}). The result of this weighted combination is a strong classifier \cite{HEW07}. One of the difficulties and challenges for this learning algorithm is to associate large weights to efficient classifiers, and smaller weights toeach poor classifiers. In order to succeed in selecting a small group of good classifiers but with significant variety, AdaBoost is an aggressive algorithm \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
@@ -166,7 +166,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \begin{center}
 \noindent \includegraphics[scale=0.8]{figures/haar_feature_example_result} 
 \newline
-\caption{Receiver operating characteristic (ROC) curve for the 200 feature classifier}
+\caption{Receiver Operating Characteristic (ROC) curve for the 200 feature classifier}
 \label{haar_feature_example_result}
 \end{center} 
 \end{figure}
@@ -178,7 +178,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \section{Classifiers cascade}
 
 \vspace{\baselineskip}
-\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade a hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in Figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
+\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade a hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]

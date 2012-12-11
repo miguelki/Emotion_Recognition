@@ -25,6 +25,22 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \noindent Examples of feature-based methods : Gabor Wavelets, Local Binary Patterns.
 \newline
 
+\vspace{\baselineskip}
+\noindent Before developing a facial expression recognition project, it is important to know what already exists; the state of the art of facial expression recognition system. In this chapter, an overview will be given of the existing systems before to decide on a feature extraction system for the project.
+\newline
+
+\noindent Two main categories of feature extraction algorithms can be distinguished : \textit{appearance-based} or \textit{geometry-based}. The first ones are algorithms that try to find basic vectors characterizing the whole picture, usually by a dimensionality reduction method. These algorithms lead to a simplification of the dataset, while retaining the main characteristics of the picture. However, these methods have to be carefully parametrized, so they do not encounter the "curse of dimensionality", which is about processing high-dimensional data.
+\vspace{\baselineskip}
+
+\noindent Examples of appearance-based methods : Principal Component Analysis, Linear Discriminant Analysis, Hidden Markov Models, Eigenfaces.
+\newline
+
+\noindent The second type of feature extraction algorithms are geometry-based algorithms. These methods tend to locate important features, and build the feature vectors depending on those regions of interest. The key point of these methods is that the face is not a global structure anymore. Indeed, it has been summarized in a set of features regions, which are themselves translated into feature vectors.
+\vspace{\baselineskip}
+
+\noindent Examples of geometry-based methods : Gabor Wavelets, Local Binary Patterns.
+\newline
+
 \phantomsection
 \section{Appearance-based methods}
 
@@ -82,7 +98,7 @@ This step takes an image as input, and extracts vectors characterizing its main 
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=1]{figures/gabor_wavelets_example} 
+\noindent \includegraphics[scale=0.8]{figures/gabor_wavelets_example} 
 \newline
 \caption{Examples of Gabor wavelets and corresponding convoluted images}
 \label{gabor_wavelets_example}
@@ -97,13 +113,13 @@ This step takes an image as input, and extracts vectors characterizing its main 
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.6]{figures/lbp_change_lightning} 
+\noindent \includegraphics[scale=0.3]{figures/lbp_change_lightning} 
 \newline
-\caption{Effect of changes in lightning with LBP method}
+\caption{Effect of changes in lighting with LBP method}
 \label{lbp_change_lightning}
 \end{center} 
 \end{figure}
 
 \noindent This method is more detailed in Chapter \ref{chap:lbp}. This is this method that is used in this particular Facial Expression Recognition system. The choice has been made on this method because it is particularly effective and the implementation offers choices. This method was chosen over the Gabor wavelets one because the Gabor wavelets are known to be time consuming. And this Facial Expression Recognition system is wanted to be as close as possible of real-time system.
-\newline
+%\newline
 

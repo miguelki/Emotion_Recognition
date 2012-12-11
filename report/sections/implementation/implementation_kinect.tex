@@ -2,5 +2,60 @@
 \chapter{Implementation on the Kinect}
 \label{chap:implementation_kinect}
 
-\noindent Blablbala
+\phantomsection
+\section{Generalities}
+\vspace{\baselineskip}
+\noindent The finality of the project is to make a software able to recognize emotions through pictures coming from a Kinect's sensor. The software is designed to run with Microsoft Windows 7 and need an available USB 2.0 port to plug the Kinect device. All of the project have been coded in C++, language enough famous to have various third party's library available for our subject purpose.\newline We used Microsoft Visual Studio 2010 to code and GitHub to allow our team to manage versions of the software.
+
+\phantomsection
+\section{Librairies}
+\vspace{\baselineskip}
+\noindent Several different libraries have been used to perform emotion recognition. One for the communication between the computer and the Kinect's sensors, one for image processing and another one for classification.
+
+
+\begin{itemize}
+  \item The library used for intercommunication with sensors is the Software Development Kit released by Microsoft for their Kinect for XBox in it's version 1.0 Beta 2.
+  \item Opencv is a graphic library under a BSD licence, optimized for realtime processing. It have been released by intel and is actually maintained by Willow garage a robotic company.
+  \item We are using LibSVM, which is an OpenSource library for Support Vector Machine. The version used is the 3.14 released on november 16th 2012.
+\end{itemize}
+
+\phantomsection
+\section{Architecture}
+
+\vspace{\baselineskip}
+\noindent The program follow an Model-View-Controller architecture. This MVC pattern consist in 3 modules:
+
+\begin{itemize}
+  \item The model part contain all the algorithms used.
+  \item The view is the module which the user interact with.
+  \item The controller have in charge to send command in order to manage each others modules.
+\end{itemize}
+
+\noindent Thanks to the language, we have been able to code in an oriented object way which make the use of MVC pattern easier. 5 classes have been created, 3 for the architecture, one for the lbp process and one to classificate datas.
 \newline
+\noindent Following the UML diagram of our classes:
+
+\phantomsection
+\section{Interactions}
+\vspace{\baselineskip}
+\noindent There is two possible interactions coming from the user:
+\begin{itemize}
+  \item The user have to show a facial expression in front of the camera.
+  \item The user have to decide when he wants the program to perform his face and emotion analysis.
+\end{itemize}
+
+\noindent The first one doesn't need an action coming from the user to the interface. Indeed, Kinect sensor can record 30 images per seconds so each expressions can be caught in the image stream. That is why the second interaction need the user to make an action (in our case, to press a button) to "block" the facial expression to make it being analyzed. 
+
+\phantomsection
+\section{Algorithm}
+\vspace{\baselineskip}
+
+\noindent The entry point of the software let the 3 MVC modules to be initialized. Then it runs 3 functions through the controller:
+
+\begin{itemize}
+  \item Initialization which loads models (for face detection and classification through SVM) and begin images capture.
+  \item The main loop of the program which display images and wait for an actions from the user.
+  \item Shutdown process, which delete models, release memory and close the communication with sensors.
+\end{itemize}
+\textbf{Main loop algorithm} \newline \newline
+\noindent \textit{while the button 'q' isn't pressed do:} \newline \newline \textit{We block the program while any elements from the kinect is coming} \newline \newline \textit{We record frames from the stream handle after testing if datas are corrects} \newline \newline \textit{If there was not any problem we stock usefull bits from frames and we release the memory allocated for these raws data} \newline \newline \textit{We create an OpenCv Image type thanks to the bits} \newline \newline \textit{We detect the face on this new image and we define a region of interest} \newline \newline \textit{If button 'r' is pressed do:} \newline \newline \textit{We copy the image which have been recorded and displayed when the button have been pressed and we compute its histogram} \newline \newline \textit{We create a node for SVM thanks to the previous histogram} \newline \newline \textit{We perform the classification} \newline \newline \textit{We display the result, delete the region of interest and begin the loop again} 
