@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 DEC 2012 13:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  11 DEC 2012 13:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2613,23 +2613,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
 )
-Underfull \hbox (badness 10000) in paragraph at lines 25--24
+Underfull \hbox (badness 10000) in paragraph at lines 31--24
 
  []
 
-) [81] [82
+) [82] (./sections/conclusion.tex) [83
 
-] (./sections/conclusion.tex) [83] [84
+] [84
 
 ] (./master.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 33.
@@ -2700,7 +2710,7 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
 ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/lm/lmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on master.pdf (99 pages, 7869679 bytes).
+Output written on master.pdf (99 pages, 7870990 bytes).
 PDF statistics:
  1417 PDF objects out of 1440 (max. 8388607)
  1234 compressed objects within 13 object streams
