@@ -128,11 +128,11 @@ svm-toy:
 Usage: svm-train [options] training_set_file [model_file]
 options:
 -s svm_type : set type of SVM (default 0)
-	0 -- C-SVC
-	1 -- nu-SVC
-	2 -- one-class SVM
-	3 -- epsilon-SVR
-	4 -- nu-SVR
+	0 -- C-SVC		(multi-class classification)
+	1 -- nu-SVC		(multi-class classification)
+	2 -- one-class SVM	
+	3 -- epsilon-SVR	(regression)
+	4 -- nu-SVR		(regression)
 -t kernel_type : set type of kernel function (default 2)
 	0 -- linear: u'*v
 	1 -- polynomial: (gamma*u'*v + coef0)^degree
@@ -217,10 +217,10 @@ stopping tolerance 0.1.
 Solve SVM regression with linear kernel u'v and epsilon=0.1
 in the loss function.
 
-> svm-train -c 10 -w1 1 -w2 5 -w4 2 data_file
+> svm-train -c 10 -w1 1 -w-2 5 -w4 2 data_file
 
 Train a classifier with penalty 10 = 1 * 10 for class 1, penalty 50 =
-5 * 10 for class 2, and penalty 20 = 2 * 10 for class 4.
+5 * 10 for class -2, and penalty 20 = 2 * 10 for class 4.
 
 > svm-train -s 0 -c 100 -g 0.1 -v 5 data_file
 
@@ -334,11 +334,11 @@ to classify new data.
 
     LABEL	ATTR1	ATTR2	ATTR3	ATTR4	ATTR5
     -----	-----	-----	-----	-----	-----
-      1		  0		 0.1	 0.2	  0	  	  0
-      2		  0	 	 0.1	 0.3	 -1.2	  0
-      1		  0.4	  0		  0	  	  0	  	  0
-      2		  0		 0.1	  0	  	 1.4	 0.5
-      3		 -0.1	 -0.2	 0.1	 1.1	 0.1
+      1		  0	  0.1	  0.2	  0	  0
+      2		  0	  0.1	  0.3	 -1.2	  0
+      1		  0.4	  0	  0	  0	  0
+      2		  0	  0.1	  0	  1.4	  0.5
+      3		 -0.1	 -0.2	  0.1	  1.1	  0.1
 
     then the components of svm_problem are:
 
@@ -444,6 +444,7 @@ to classify new data.
 		double *rho;		/* constants in decision functions (rho[k*(k-1)/2]) */
 		double *probA;		/* pairwise probability information */
 		double *probB;
+		int *sv_indices;        /* sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to indicate SVs in the training set */
 
 		/* for classification only */
 
@@ -493,6 +494,9 @@ to classify new data.
     aligned in the order of binary problems:
     1 vs 2, 1 vs 3, ..., 1 vs k, 2 vs 3, ..., 2 vs k, ..., k-1 vs k.
 
+    sv_indices[0,...,nSV-1] are values in [1,...,num_traning_data] to
+    indicate support vectors in the training set.
+
     label contains labels in the training data.
 
     nSV is the number of support vectors in each class.
@@ -541,6 +545,16 @@ to classify new data.
     For a classification model, this function outputs the name of
     labels into an array called label. For regression and one-class
     models, label is unchanged.
+
+- Function: void svm_get_sv_indices(const struct svm_model *model, int *sv_indices)
+
+    This function outputs indices of support vectors into an array called sv_indices. 
+    The size of sv_indices is the number of support vectors and can be obtained by calling svm_get_nr_sv. 
+    Each sv_indices[i] is in the range of [1, ..., num_traning_data].
+
+- Function: int svm_get_nr_sv(const struct svm_model *model) 
+
+    This function gives the number of total support vector.
 
 - Function: double svm_get_svr_probability(const struct svm_model *model);
 
@@ -654,12 +668,14 @@ You may need to increase maximum Java heap size.
 Library usages are similar to the C version. These functions are available:
 
 public class svm {
-	public static final int LIBSVM_VERSION=312; 
+	public static final int LIBSVM_VERSION=314; 
 	public static svm_model svm_train(svm_problem prob, svm_parameter param);
 	public static void svm_cross_validation(svm_problem prob, svm_parameter param, int nr_fold, double[] target);
 	public static int svm_get_svm_type(svm_model model);
 	public static int svm_get_nr_class(svm_model model);
 	public static void svm_get_labels(svm_model model, int[] label);
+	public static void svm_get_sv_indices(svm_model model, int[] indices);
+	public static int svm_get_nr_sv(svm_model model);
 	public static double svm_get_svr_probability(svm_model model);
 	public static double svm_predict_values(svm_model model, svm_node[] x, double[] dec_values);
 	public static double svm_predict(svm_model model, svm_node[] x);
