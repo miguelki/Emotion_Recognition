@@ -15,18 +15,18 @@
 \noindent GIVE RESULTS WITH WEIGHTS APPLIED
 \newline
 
-\noindent The Local Binary Patterns method was chosen because the LBP operator gives good results and because even if the basic LBP operator is simple, it can be improved in many ways. But there are most likely other methods that give equal results to the ones of the LBP operator or even better results. There are also certainly other methods that are more optimized than the LBP operator and that take less computation time. Even if the LBP operator seems to be a good compromise between computation time and results; other methods can be implemented to compare the performance of each algorithm with the same test conditions.
+\noindent The Local Binary Patterns method was chosen because the LBP operator gives good results and has a discriminative power, and because the basic LBP operator is simple (and it can be improved in many ways). But there are most likely other methods that give equal results to the ones of the LBP operator or even better results. There are also certainly other methods that are more optimized than the LBP operator and that take less computation time. Even if the LBP operator seems to be a good compromise between computation time and results; other methods can be implemented to compare the performance of each algorithm with the same test conditions.
 \newline
 
 \phantomsection
 \section{Real-time}
 
 \vspace{\baselineskip}
-\noindent The computation of the LBP operator takes about 1-4 seconds (depending on the computer). It was not expected that it takes so long. it was more expected to obtain a computation time on the order of milliseconds. That is why this Facial Expression Recognition system does not really work in real time an why it needs an interaction with the subject. With the Kinect, 30 frames are received per second. The system should take 33,3 milliseconds maximum ($ \frac{1}{30} = 0,0333 s $) so that it could work in real time and have the time to process each frame. 
+\noindent The computation of the LBP operator takes about 1-4 seconds (depending on the computer). It was not expected that it takes so long. it was more expected to obtain a computation time on the order of milliseconds. That is why this Facial Expression Recognition system does not really work in real-time an why it needs an interaction with the subject. With the Kinect, 30 frames are received per second. The system should take 33,3 milliseconds maximum ($ \frac{1}{30} = 0,0333 s $) so that it could work in real-time and have the time to process each frame. 
 \newline
 
-\noindent The system was adapted so that it can still work with video sequences and almost in real time. The subject stands in front of the Kinect and express an emotion among the 6 basic ones plus the neutral one. When the subject thinks that the emotion that is expressed is good, then he can click on the interface to launch the processing with this exact face he made. Then only one frame is used, the one he chose when he clicked. This frame is processed and classified and the output given to the subject is the name of the emotion that he expressed. The output is given about 2 seconds after the subject's click.
+\noindent The basic LBP operator is quite simple so a system based on this feature extraction method should be able to work in real-time. Using the circular LBP operator adds some computation time; but the use of the uniform LBP allows to reduce the computation time by only considering the uniform LBP and not the non-uniform ones.
 \newline
 
-\noindent WHAT CAN BE DONE TO IMPROVE THIS PROBLEM ?
+\noindent The system was adapted so that it can still work with video sequences and almost in real-time. The subject stands in front of the Kinect and express an emotion among the 6 basic ones plus the neutral one. When the subject thinks that the emotion that is expressed is good, then he can click on the interface to launch the processing with this exact face he made. Then only one frame is used, the one he chose when he clicked. This frame is processed and classified and the output given to the subject is the name of the emotion that he expressed. The output is given about 2 seconds after the subject's click.
 \newline

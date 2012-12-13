@@ -89,6 +89,11 @@ Emotion Lab.
 \newblock Karolinska directed emotional faces (kdef).
 \newblock \url{http://www.emotionlab.se/resources/kdef}.
 
+\bibitem{LIA09}
+S~Liao, Max W.~K. Law, , and Albert C.~S. Chung.
+\newblock Dominant local binary patterns for texture classification.
+\newblock {\em IEEE transactions on image processing}, 18(5):1107--1118, 2009.
+
 \bibitem{LIE98}
 Jenn-Jier~James Lien.
 \newblock Automatic recognition of facial expressions using hidden markov

@@ -1,14 +1,25 @@
+%\newpage
+  \begin{titlepage}
+    \vspace*{\fill}
+      \part{Conclusion}
+    \vspace*{\fill}
+  \end{titlepage}
+
+\startcontents[parts]
+  
 \phantomsection
-\addcontentsline{toc}{chapter}{Conclusion}
-\chapter*{Conclusion} % \label{ch:conclusion}
+\chapter*{Contents}
 
+\textit{blablabla}
 
-In case you have questions, comments, suggestions or have found a bug, please do not hesitate to contact me. You can find my contact details below.
-  \begin{center}
-    Jesper Kjær Nielsen\\
-    \href{mailto: jkn@es.aau.dk}{jkn@es.aau.dk}\\
-    \href{http://kom.aau.dk/~jkn}{http://kom.aau.dk/\textasciitilde jkn}\\
-    Niels Jernes Vej 12, A6-302\\
-    9220 Aalborg Ø
-  \end{center}
- 
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+
+\input{sections/conclusion/results.tex}
+\newpage
+\input{sections/conclusion/improvements.tex}
+
+\stopcontents[parts]
