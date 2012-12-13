@@ -103,21 +103,20 @@
 \contentsline {chapter}{\numberline {13}Results}{80}{chapter.211}
 \contentsline {section}{\numberline {13.1}First result set}{80}{section.213}
 \contentsline {section}{\numberline {13.2}Second result set}{83}{section.217}
-\contentsline {chapter}{\numberline {14}Issues}{84}{chapter.219}
-\contentsline {section}{\numberline {14.1}Feature extraction}{84}{section.221}
-\contentsline {section}{\numberline {14.2}Real-time}{85}{section.223}
+\contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{84}{subsection.218}
+\contentsline {subsection}{\numberline {13.2.2}With subjects}{84}{subsection.219}
+\contentsline {chapter}{\numberline {14}Issues}{85}{chapter.221}
+\contentsline {section}{\numberline {14.1}Feature extraction}{85}{section.223}
+\contentsline {section}{\numberline {14.2}Real-time}{85}{section.225}
+\contentsline {section}{\numberline {14.3}Training dataset}{86}{section.227}
+\contentsline {chapter}{\numberline {15}Conclusion}{87}{chapter.229}
+\contentsline {section}{\numberline {15.1}Theoretical framework}{87}{section.231}
+\contentsline {section}{\numberline {15.2}Results}{87}{section.233}
+\contentsline {section}{\numberline {15.3}Improvements}{87}{section.235}
+\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{87}{subsection.236}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{89}{subsection.239}
 \ttl@stoptoc {parts@6}
+\contentsline {chapter}{Bibliography}{91}{section*.241}
 \vspace \bigskipamount 
-\contentsline {part}{VII\hspace {1em}Conclusion}{87}{part.224}
-\ttl@stoptoc {parts@6}
-\ttl@starttoc {parts@7}
-\contentsline {chapter}{\numberline {15}Results}{89}{chapter.227}
-\contentsline {section}{\numberline {15.1}Section Name}{89}{section.229}
-\contentsline {chapter}{\numberline {16}Improvements}{90}{chapter.231}
-\contentsline {section}{\numberline {16.1}Combination of feature extraction methods}{90}{section.233}
-\ttl@stoptoc {parts@7}
-\vspace \bigskipamount 
-\contentsline {chapter}{Bibliography}{91}{section*.234}
-\vspace \bigskipamount 
-\contentsline {chapter}{\numberline {A}Appendix A name}{95}{chapter.236}
+\contentsline {chapter}{\numberline {A}Appendix A name}{95}{chapter.243}
 \contentsfinish 

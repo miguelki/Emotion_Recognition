@@ -60,12 +60,23 @@ Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression
   recognition, 2008.
 
+\bibitem{GOH11}
+Yi~Zheng Goh, Andrew Beng~Jin Teoh, and Michael Kah~Ong Goh.
+\newblock Wavelet local binary patterns fusion as illuminated facial image
+  preprocessing for face verification.
+\newblock {\em Expert Systems with Applications}, 38(4):3959--3972, 2011.
+
 \bibitem{HAR12}
 Adam Harvey.
 \newblock Adam harvey explains viola-jones face detection.
 \newblock
   \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
   2012.
+
+\bibitem{HEI09}
+Marko Heikkila, Matti Pietikainen, and Cordelia Schmid.
+\newblock Description of interest regions with local binary patterns.
+\newblock {\em Journal Pattern Recognition}, 42(3):425--436, 2009.
 
 \bibitem{HEW07}
 Robin Hewitt.
