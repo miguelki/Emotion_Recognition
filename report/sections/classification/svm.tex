@@ -19,7 +19,7 @@
 \noindent SVM is also a linear classifier, such as LDA. For a two-class problem, it will linearly separate the train data by finding the optimal hyperplane between these 2 classes. This hyperplane is defined as being as far as possible from both classes. \textit{Margin maximization} is then applied to optimize the distance between the two classes and the hyperplane, as it will be explained in Section \ref{margin_max}.
 \newline
 
-\noindent The name "Support Vector" originates from the margin maximization feature. Indeed, the distance between the classes and the separating hyperplane is computed regarding to the closest data points from both classes. These particular data points, lying on the margins edges, are the support vectors. Some properties are associated to these vectors, such as non-zero Lagrange multipliers (see Section \ref{margin_max}), which builds the classification algorithm.
+\noindent The name "Support Vector" originates from this margin maximization feature. Indeed, the distance between the classes and the separating hyperplane is computed regarding to the closest data points from both classes. These particular data points, lying on the margins edges, are the support vectors. Some properties are associated to these vectors, such as non-zero Lagrange multipliers (see Section \ref{margin_max}), which builds the classification algorithm.
 \newline
 
 \noindent For a multi-class problem, however, this linear separation is not possible anymore. The dataset has to be mapped into an other space, where it can be linearly separated. This is what \textit{kernel functions} are used for, as described in Section \ref{kernel_fct}.
@@ -33,7 +33,7 @@
 \noindent As introduced in Section \ref{svm_overview}, margin maximization for a two-class linear problem starts by finding the separating hyperplane between these two classes. A linear classification model of the form $f(x) = w(x) + b$ can be inferred, with $w$ being the normal to the hyperplane and $b$ the bias. The hyperplane can then be characterized by  $w(x) + b = 0$.
 \newline
 
-\noindent Margin is defined as the distance between the closest point of the class to the hyperplane, and that hyperplane, which can also be written as $ d(x) = \frac{|w(x) + b |}{||w||}$. Since a data point $(x_i, y_i)$ is correctly classified if $yf(x) \geq 1$, maximizing the margin is the action of maximizing $||w||^{-1}$, which is consequently equivalent to minimizing $||w||^2$ depending on this constraint. Margin maximization then requires to solve a \textit{quadratic programming} problem under constraints, as seen in Equation \ref{margin_max_eq}.
+\noindent Margin is defined as the distance between the closest point of the class to the hyperplane, and that hyperplane, which can also be written as $ d(x) = \frac{|w(x) + b |}{||w||}$. Since a data point $(x_i, y_i)$ is correctly classified if $y_if(x_i) \geq 1 (1)$, maximizing the margin is the action of maximizing $||w||^{-1}$, which is consequently equivalent to minimizing $||w||^2$ depending on constraint $(1)$. Margin maximization then requires to solve a \textit{quadratic programming} problem under constraints, as seen in Equation \ref{margin_max_eq}.
 
 \begin{equation}
 \left\{
@@ -44,15 +44,48 @@
 \right.
 \label{margin_max_eq}
 \end{equation}
-
 \vspace{\baselineskip}
+
+\noindent In order to solve this problem, positive \textit{Lagrangian coefficients} $\alpha_i$, $i=1..N$ are introduced for each constraint in Equation \ref{margin_max_eq}. It outputs a Lagrangian function of $w$ and $b$:
+
+\begin{equation}
+L_P(w, b,\alpha) = \frac{1}{2}||w||^2 - \sum\limits_{i=1}\limits^{N}\alpha_i\left(y_i(w.x_i + b) -1\right)
+\label{lagrangian}
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent With $\alpha = (\alpha_1..\alpha_N)^T$. When setting $\frac{\delta L}{\delta w} = 0$ and $\frac{\delta L}{\delta b} = 0$ in order to minimize $L_p$ with respect to $w$ and $b$, two conditions can be obtained
+\newline
+
+\begin{equation}
+w = \sum\limits_{i=1}\limits{N} \alpha_i y_i x_i
+\end{equation}
+
+and
+
+\begin{equation}
+\sum\limits_{i=1}\limits{N} \alpha_i y_i = 0.
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent When substituting these conditions into Equation \ref{lagrangian}, parameters $w$ and $b$ disappear. Thus the resulting function is Equation \ref{lagrangian2}
+\newline
+
+\begin{equation}
+L_D = \sum\limits_{i=1}\limits{N} \alpha_i - \frac{1}{2} \sum\limits_{i=1}\limits{N} \sum\limits_{j=1}\limits{N} \alpha_i \alpha_j y_i y_j(x_i.x_j)
+\label{lagrangian2}
+\end{equation}
+\vspace{\baselineskip}
+
+\noindent This function is called \textit{dual representation} of the margin maximization problem. In order to solve this problem, one can either minimize $L_P$ in Equation \ref{lagrangian} or maximize $L_D$ in Equation \ref{lagrangian2}.
+\newline
 
 \phantomsection
 \section{Kernel function}
 \label{kernel_fct}
 
 \vspace{\baselineskip}
-\noindent It might however not be possible to perform this linear separation with more classes. Indeed, data might be overlapping, and thus it will not be a linear problem anymore. The solution to overcome this problem is to map the non-linear dataset from its input space into a higher feature space using a function $\Phi(x)$, and perform margin maximization and classification in this higher space. 
+\noindent It might however not be possible to perform linear separation with more classes. Indeed, data might be overlapping, and thus it will not be a linear problem anymore. The solution to overcome this problem is to map the non-linear dataset from its input space into a higher feature space using a function $\Phi(x)$, and perform margin maximization and classification in this higher space. 
 \newline
 
 \noindent In order to achieve this mapping, a \textit{kernel function} of the form $K(x_i, x_j) = \Phi(x_i)^T \Phi(x_j)$ is applied to the dataset. This kernel represents an inner product in the feature space. There are four kernels available, which are described in Equation \ref{kernels_svm}.
@@ -68,6 +101,8 @@
 \label{kernels_svm}
 \end{equation}
 
+\vspace{\baselineskip}
+
 \noindent The main advantage of using a kernel function is that there is no need to define or calculate $\Phi(x_i)$, only $\Phi(x_i)^T \Phi(x_j)$. We hence do not know the true form of $\Phi(x_i)$. However, simple kernels are usually combined in order to build more complex ones.
 \newline
 
@@ -75,11 +110,10 @@
 \section{Combining LBP and SVM}
 
 \vspace{\baselineskip}
-\noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and comparing the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. They have used images from the Cohn-Kanade database as train data, and the conclusion of their study is that classification using SVM has a high accuracy rate, as seen in Table \ref{accuracy_svm_lbp}. 
+\noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and compared the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. They have used images from the Cohn-Kanade database as train data, and the conclusion of their study is that classification using SVM has a high accuracy rate, as seen in Table \ref{accuracy_svm_lbp}. 
 \newline
 
 \begin{table}[h]
-   \caption{\label{accuracy_svm_lbp} Recognition performance of LBP-based SVM with different kernels}
 \begin{tabular}{|lcc|}
 \hline
  & 6-Class recognition (\%) &  7-Class recognition (\%) \\
@@ -89,43 +123,45 @@
  SVM (RBF) & 92.6 $\pm$ 3.1 & 88.9 $\pm$ 3.5 \\
  \hline
 \end{tabular}
+\caption{\label{accuracy_svm_lbp} Recognition performance of LBP-based SVM with different kernels}
 \end{table}
 
-\noindent Furthermore, as seen in confusion matrices \ref{conf_mtx_6_svm_lbp} and \ref{conf_mtx_7_svm_lbp}, the accuracy for each facial expression is not the same. SVM has some difficulties especially when it comes to distinguish fear and sadness, the two facial expressions which have the lowest accuracy rates. Fear is mistaken with joy, while sadness is mistaken with anger or neutral state. Recognitions rates are however usually better for a 7-class classification, except for fear.
+\noindent However, as seen in confusion matrices \ref{conf_mtx_6_svm_lbp} and \ref{conf_mtx_7_svm_lbp}, the accuracy for each facial expression is not the same. SVM has some difficulties especially when it comes to distinguish fear and sadness, the two facial expressions which have the lowest accuracy rates. Fear is mistaken with joy, while sadness is mistaken with anger or neutral state. Recognitions rates are however usually better for a 7-class classification, except for fear.
 \newline
+
+\begin{table}[h]
+\begin{tabular}{|lcccccc|}
+\hline
+ & Anger & Disgust & Fear & Joy & Sadness & Surprise \\
+\hline
+Anger & 89.7\% & 2.7\% & 0\% & 0\% & 7.6\% & 0\% \\
+Disgust & 0\% & 97.5\% & 2.5\% & 0\% & 0\% & 0\% \\
+Fear & 0\% & 2.0\% & 73.0\% & 22.0\% & 3.0\% & 0\% \\
+Joy & 0\% & 0.4\% & 0.7\% & 97.9\% & 1.0\% & 0\% \\
+Sadness & 10.3\% & 0\% & 0.8\% & 0.8\% & 83.5\% & 4.6\% \\
+Surprise & 0\% & 0\% & 1.3\% & 0\% & 0\% & 98.7\% \\
+\hline
+\end{tabular}
+\caption{\label{conf_mtx_6_svm_lbp} Confusion matrix of 6-class facial expression recognition using SVM (RBF)}
+\end{table}
 
 \noindent Since the accuracy of the system presented in this article is very high, we chose to implement a similar system. Indeed, we are performing facial expression recognition using LBP for feature extraction, and SVM classification. We however did not use the Cohn-Kanade database as train data. We will describe further our implementation and results further in the report. 
 \newline
 
 \begin{table}[h]
-\caption{\label{conf_mtx_6_svm_lbp} Confusion matrix of 6-class facial expression recognition using SVM (RBF)}
-\begin{tabular}{|lcccccc|}
-\hline
- & Anger (\%) & Disgust (\%) & Fear (\%) & Joy (\%) & Sadness (\%) & Surprise (\%) \\
-\hline
-Anger & 89.7 & 2.7 & 0 & 0 & 7.6 & 0 \\
-Disgust & 0 & 97.5 & 2.5 & 0 & 0 & 0 \\
-Fear & 0 & 2.0 & 73.0 & 22.0 & 3.0 & 0 \\
-Joy & 0 & 0.4 & 0.7 & 97.9 & 1.0 & 0 \\
-Sadness & 10.3 & 0 & 0.8 & 0.8 & 83.5 & 4.6 \\
-Surprise & 0 & 0 & 1.3 & 0 & 0 & 98.7 \\
-\hline
-\end{tabular}
-\end{table}
-
-\begin{table}[h]
-\caption{\label{conf_mtx_7_svm_lbp} Confusion matrix of 7-class facial expression recognition using SVM (RBF)}
 \begin{tabular}{|lccccccc|}
 \hline
-& Anger (\%) & Disgust (\%) & Fear (\%) & Joy (\%) & Sadness (\%) & Surprise (\%) & Neutral (\%) \\
+& Anger & Disgust & Fear & Joy & Sadness & Surprise & Neutral \\
 \hline
-Anger & 85.0 & 2.7 & 0 & 0 & 4.8 & 0 & 7.5 \\
-Disgust & 0 & 97.5 & 2.5 & 0 & 0 & 0 & 0 \\
-Fear & 0 & 2.0 & 68.0 & 22.0 & 1.0 & 0 & 7.0 \\
-Joy & 0 & 0 & 0.7 & 94.7  & 1.1 & 0 & 3.5 \\
-Sadness & 8.6 & 0 & 0 & 0 & 69.5 & 2.3 & 19.6 \\
-Surprise & 0 & 0 & 1.3 & 0 & 0 & 98.2 & 0.5 \\
-Neutral & 1.6 & 0.4 & 0 & 1.6 & 6.0 & 0.4 & 90.0 \\
+Anger & 85.0\% & 2.7\% & 0\% & 0\% & 4.8\% & 0\% & 7.5\% \\
+Disgust & 0\% & 97.5\% & 2.5\% & 0\% & 0\% & 0\% & 0\% \\
+Fear & 0\% & 2.0\% & 68.0\% & 22.0\% & 1.0\% & 0\% & 7.0\% \\
+Joy & 0\% & 0\% & 0.7\% & 94.7 \% & 1.1\% & 0\% & 3.5\% \\
+Sadness & 8.6\% & 0\% & 0\% & 0\% & 69.5\% & 2.3\% & 19.6\% \\
+Surprise & 0\% & 0\% & 1.3\% & 0\% & 0\% & 98.2\% & 0.5\% \\
+Neutral & 1.6\% & 0.4\% & 0\% & 1.6\% & 6.0\% & 0.4\% & 90.0\% \\
 \hline
 \end{tabular}
+\caption{\label{conf_mtx_7_svm_lbp} Confusion matrix of 7-class facial expression recognition using SVM (RBF)}
 \end{table}
+\clearpage

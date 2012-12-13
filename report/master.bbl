@@ -26,6 +26,11 @@ Vinay Bettadapura.
 \newblock Face expression recognition and analysis: The state of the art.
 \newblock {\em Tech Report}, 2012.
 
+\bibitem{BIS06}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer Science, 2006.
+
 \bibitem{CHI03}
 Claude~C. Chibelushi and Fabrice Bourel.
 \newblock Facial expression recognition: A brief tutorial overview.
@@ -83,6 +88,11 @@ Bram~K. Julsing.
 Emotion Lab.
 \newblock Karolinska directed emotional faces (kdef).
 \newblock \url{http://www.emotionlab.se/resources/kdef}.
+
+\bibitem{LIA09}
+S~Liao, Max W.~K. Law, , and Albert C.~S. Chung.
+\newblock Dominant local binary patterns for texture classification.
+\newblock {\em IEEE transactions on image processing}, 18(5):1107--1118, 2009.
 
 \bibitem{LIE98}
 Jenn-Jier~James Lien.

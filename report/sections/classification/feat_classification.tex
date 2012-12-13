@@ -2,7 +2,7 @@
 \chapter{Feature classification}
 \label{chap:classification}
 
-\noindent Classification is done through machine learning algorithms. Machine learning, being a branch of Artificial Intelligence, aims to helps AI systems improve their performances by learning from their environment. Indeed, the knowledge necessary to build a robust and intelligent system can not always be built-in or explained to it. The solution to this problem is to make the system learn this knowledge through examples, and apply it to similar situations so it can perform relevant actions without the need of human intervention. 
+\noindent Classification is done through machine learning algorithms. Machine learning, being a branch of Artificial Intelligence, aims to helps AI systems improve their performances by learning from their environment. Indeed, the knowledge necessary to build a robust and intelligent system can not always be built-in or explained to it. The solution to this problem is to make the system learn this knowledge through examples and apply it to similar situations. Thus it will be able to perform relevant actions without the need of human intervention. 
 \newline
 
 \noindent More specifically, machine learning can be described as a way to develop and implement algorithms taking empirical data as input, and processing these values in order to find links between them. The output will then be used by the system to compute the appropriate action or behaviour. In order to achieve that, the system needs to learn key characteristics from a training dataset given as example or obtained through past experience. It will then study this observable data, and build a model based on it. The system will then use this model to infer actions depending on new data it will get as input.
@@ -11,10 +11,10 @@
 \noindent However, machine learning is not only about computing a database and relying on it for every possible situation. In a changing environment, the system needs to know how to learn from these changes and adapt itself.
 \newline
 
-\noindent There are many kinds of machine learning algorithms, with their own specificities and level of abstraction. In this chapter we will focus on algorithms behaving like functions and performing pattern recognition. Indeed, an image of a face is a set of patterns of different sizes and shapes. Pattern recognition through machine learning can be divided into to main categories of algorithms: supervised learning and unsupervised learning. Those two categories will be described further in this chapter, along with examples.
+\noindent There are many kinds of machine learning algorithms, with their own specificities and level of abstraction. In this chapter we will focus on algorithms behaving like functions and performing pattern recognition. Indeed, a facial image is a set of patterns of different sizes and shapes. Pattern recognition through machine learning can be divided into two main categories of algorithms: supervised learning and unsupervised learning. Those two categories will be described further in this chapter, along with examples.
 \newline
 
-\noindent This chapter serves as an introduction for the next chapter, which is about Support Vector Machines, a specific kind of supervised learning algorithm which will be used in our system.
+\noindent This chapter serves as an introduction for Chapter \ref{chap:svm}, which is about Support Vector Machines, a specific kind of supervised learning algorithm which will be used in our system.
 \newline
 
 \phantomsection
@@ -42,7 +42,7 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent With these rules, it is possible to compute the \textit{posterior probability} of an event $C_i$ given observable data $x$, using formula \ref{posterior}:
+\noindent With these rules, it is possible to compute the \textit{posterior probability} of an event $C_i$ given observable data $x$, using formula \ref{posterior}.
 
 \begin{equation}
 	p(C_i|x) = \frac{p(x|C_i \times p(C_i)}{p(x)}
@@ -68,7 +68,7 @@
 \subsection{Linear Discrimination}
 
 \vspace{\baselineskip}
-\noindent To introduce linear discrimination, it is important to understand what is classification. Classification is the process of assigning the input vector $x$ to one of the classes $C_i$, $i=1, ..., I$, hence learning the decision boundaries that separate the different classes in the input space \cite{BIS06}. If the input dataset is \textit{linearly separable}, decision boundaries can then be described by linear functions of the input vector $x$.
+\noindent Since classification is the process of assigning the input vector $x$ to one of the classes $C_i$, $i=1, ..., I$, its key point is about learning the decision boundaries that separate the different classes in the input space \cite{BIS06}. If the input dataset is \textit{linearly separable}, decision boundaries can then be described by linear functions of the input vector $x$.
 \newline
 
 \noindent For example, the linear discriminant function for a 2-class problem will look like 
@@ -80,7 +80,7 @@ y(x) = w^Tx + \omega_0
 \noindent With \textit{weight vector} $w^T$ and \textit{bias} $\omega_0$ \cite{BIS06}. The input vector $x$ is then assigned to class $C_1$ if $y(x) = 0$, otherwise it will be classified as belonging to class $C_2$.
 \newline
 
-\noindent Problems with a number of classes K > 2, a \textit{one-versus-the-rest} approach can be used, where K-1 two-way discriminant functions are used: the $k^{th}$ discriminant function will determine if a point belongs to class $C_k$ or not. However, as shown in Figure \ref{one_vs_rest}, this combination of discriminant functions leaves an ambiguous region \cite{BIS06}. 
+\noindent For problems with a number of classes K > 2, a \textit{one-versus-the-rest} approach can be used, where K-1 two-way discriminant functions are used: the $k^{th}$ discriminant function will determine if a point belongs to class $C_k$ or not. However, as shown in Figure \ref{one_vs_rest}, this combination of discriminant functions leaves an ambiguous region \cite{BIS06}. 
 \newline
 
 \begin{figure}[!h]
@@ -92,7 +92,7 @@ y(x) = w^Tx + \omega_0
 \end{center} 
 \end{figure}
 
-\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an issue about ambiguous regions, as seen in Figure \ref{one_vs} \cite{BIS06}.
+\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an ambiguous region problem, as seen in Figure \ref{one_vs} \cite{BIS06}.
 \newline
 
 \noindent A K-class discriminant which does not lead to an ambiguous region problem is to use K linear discriminant functions $g(x)_k$, $k=1..K$, and to assign an input vector $x$ to a class $C_i$ if $g(x)_i = \max\limits_{k} g_k(x)$. Indeed, as shown in Figure \ref{k_discr}, there are no more ambiguous regions \cite{BIS06}.
@@ -123,7 +123,7 @@ y(x) = w^Tx + \omega_0
 \subsection{K-Means}
 
 \vspace{\baselineskip}
-\noindent K-means clustering relies on a set of k reference vectors $\mu_k$, $k=1..K$, also called prototype vectors. These vectors represent the centres of the K clusters. This clustering method has two goals: first, it has to find how the clusters are shaped and which data lies in which cluster; secondly, the set of vectors $\{\mu_k\}$ has to be determined while verifying the following condition: for each data point $x_n$, the sum of squares of the distances between $x_n$ and its closest vector $\mu_k$ is a minimum. In other words, equation \ref{distort_fc}, also called \textit{distortion function} has to be minimized \cite{BIS06}.
+\noindent K-means clustering relies on a set of k reference vectors $\mu_k$, $k=1..K$, also called \textit{prototype vectors}. These vectors represent the centres of the K clusters. This clustering method has two goals: first, it has to find how the clusters are shaped and which data lies in which cluster; secondly, the set of vectors $\{\mu_k\}$ has to be determined while verifying the following condition: for each data point $x_n$, the sum of squares of the distances between $x_n$ and its closest vector $\mu_k$ is a minimum. In other words, equation \ref{distort_fc}, also called \textit{distortion function} has to be minimized \cite{BIS06}.
 
 \begin{equation}
 J = \sum\limits_{n=1}\limits^{N} \sum\limits_{k=1}\limits^{K} r_{nk} ||x_n - \mu_k||^2
@@ -149,14 +149,14 @@ r_{nk} = \left\{
 \State Initialization of reference vectors $\mu_k$, $k = 1..K$ 
 \Repeat	
 	\ForAll{$x_n \in \chi$}
-		\State \begin{equation*} 
-				r_{nk} \gets \left\{
-				\begin{array}{ll}
-					1 & \mbox{if }  k = arg \min_j ||x_n - \mu_j||^2 \\
-					0 & \mbox{otherwise}
-				\end{array}
-				\right.
-				\end{equation*}
+		\State \begin{math} 
+			r_{nk} \gets \left\{
+			\begin{array}{ll}
+				1 & \mbox{if }  k = arg \min_j ||x_n - \mu_j||^2 \\
+				0 & \mbox{otherwise}
+			\end{array}
+			\right.
+			\end{math}
 	\EndFor
 	\ForAll{$\mu_k$, $k = 1..K$ }
 		\State $\mu_k \gets \frac{\sum\limits_n r_{nk}x_n}{\sum\limits_n r_{nk}}$
@@ -168,14 +168,14 @@ r_{nk} = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.45]{figures/k-mean_res} 
+\noindent \includegraphics[scale=0.5]{figures/k-mean_res} 
 \newline
 \caption{Example of application of the iterative K-means algorithm.}
 \label{k-mean_res}
 \end{center} 
 \end{figure}
 
-\noindent In this algorithm, the denominator $\sum\limits_n r_{nk}$ corresponds to the number of points set to cluster $k$, which sets $\mu_k$ as the mean of the cluster, hence the name \textit{K-means algorithm} \cite{BIS06}.
+\noindent In this algorithm, denominator $\sum\limits_n r_{nk}$ corresponds to the number of points assigned to cluster $k$, which sets $\mu_k$ as the mean of the cluster, hence the name \textit{K-means algorithm} \cite{BIS06}.
 \newline
 
 \noindent This algorithm can also be used in \textit{lossy data compression}, where input data can be reconstructed with minor errors, in contrary to \textit{lossless data compression}. If the K-means algorithm is applied, then for each data point $x_n$ the only value stored is the cluster $k$ it belongs to. Apart from the data points, values of cluster centres $\mu_k$ are also stored. Hence, during data reconstruction, each data point is approximated by corresponding vector $\mu_k$. This approximation is called \textit{vector quantization} \cite{BIS06}.
@@ -192,7 +192,7 @@ r_{nk} = \left\{
 \item $p(x|G_i)$: component density
 \end{itemize}
 
-\noindent Since a Gaussian mixture can be written as $p(x|G_i) \sim \mathcal{N}(\mu_i, \Sigma_i)$, with mean vector $\mu_i$ and covariance matrix $\Sigma_i$, the aim is now to maximize the log likelihood function described in Equation \ref{log_likelihood}.
+\noindent Since a Gaussian mixture is roughly similar to $p(x|G_i) \sim \mathcal{N}(\mu_i, \Sigma_i)$, with mean vector $\mu_i$ and covariance matrix $\Sigma_i$, the goal is now to maximize the log likelihood function described in Equation \ref{log_likelihood}.
 
 \begin{equation}
 \begin{array}{ll}
@@ -202,10 +202,13 @@ r_{nk} = \left\{
 \label{log_likelihood}
 \end{equation}
 
-\noindent with $\Phi$ mixing coefficients including prior probabilities and sufficient statistics of component densities.
+\noindent with $\Phi$ representing mixing coefficients, including prior probabilities and sufficient statistics of component densities.
 \newline
 
 \noindent The maximum likelihood estimation can then be obtained through the \textit{Expectation-Maximization algorithm} for Gaussian Mixture Models (EM), which converges into a result comparable as the one in Figure \ref{mixture_model} \cite{BIS06}.
+\newline
+
+\noindent \textbf{Expectation-Maximization algorithm:}
 \newline
 
 \begin{algorithmic}
@@ -221,7 +224,7 @@ r_{nk} = \left\{
 		\State $\Sigma^{new}_k = \frac{1}{N_k}\sum\limits_{n=1}\limits{N}\gamma(z_{nk}) (x_n - \mu^{new}_k) (x_n - \mu^{new}_k)^T$
 		\State Where $N_k = \sum\limits_{n=1}\limits{N}\gamma(z_{nk})$
 	\State Evaluate log likelihood $\mathcal{L}$ 
-\Until {log likelihood $\mathcal{L}$ converges}
+\Until {$\mathcal{L}$ converges}
 \end{algorithmic}
 
 \begin{figure}[!h]
