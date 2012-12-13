@@ -67,6 +67,11 @@ Adam Harvey.
   \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
   2012.
 
+\bibitem{HEI09}
+Marko Heikkila, Matti Pietikainen, and Cordelia Schmid.
+\newblock Description of interest regions with local binary patterns.
+\newblock {\em Journal Pattern Recognition}, 42(3):425--436, 2009.
+
 \bibitem{HEW07}
 Robin Hewitt.
 \newblock How face detection works.
