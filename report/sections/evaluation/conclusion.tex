@@ -1,16 +1,35 @@
 \phantomsection
-\addcontentsline{toc}{chapter}{Conclusion}
-\chapter{Conclusion} % \label{ch:conclusion}
-
+\chapter{Conclusion}
+\label{chap:ccl}
+  
+\phantomsection
 \section{Theoretical framework}
 
+\vspace{\baselineskip}
+\noindent bla bla bla
+\newline
 
-In case you have questions, comments, suggestions or have found a bug, please do not hesitate to contact me. You can find my contact details below.
-  \begin{center}
-    Jesper Kjær Nielsen\\
-    \href{mailto: jkn@es.aau.dk}{jkn@es.aau.dk}\\
-    \href{http://kom.aau.dk/~jkn}{http://kom.aau.dk/\textasciitilde jkn}\\
-    Niels Jernes Vej 12, A6-302\\
-    9220 Aalborg Ø
-  \end{center}
- 
+\phantomsection
+\section{Results}
+
+\vspace{\baselineskip}
+\noindent bla bla bla
+\newline
+
+\phantomsection
+\section{Improvements}
+
+\subsection{Local Binary Patterns}
+
+\vspace{\baselineskip}
+\noindent weights .... larger scale (but bilinear interpolation)
+\newline
+
+\subsection{Combination of feature extraction methods}
+
+\vspace{\baselineskip}
+\noindent To improve the accuracy of the feature extraction method that is LBP, another method of feature extraction can be used and combined with the one already used. Here, for example, the LBP method has been combined with the Gabor filter one and it gives good results. This new method has been proposed by Liao et al. \cite{LIA09}. It is called the Dominant Local Binary Patterns (DLBP). It is robust against change of lightning, image rotation and about noise in the image.  It works by using the most recurrent patterns of the LBP method to obtain more information of the texture. It uses the Gabor method to add global texture information to the texture information already obtained by the LBP method. It works based on the circularly symmetric Gabor filter responses; this is the additional feature used with the LBP one \cite{LIA09}.
+\newline
+
+\noindent  LBP has also been combined with the Scale Invariant Feature Transform (SIFT). The SIFT descriptor is a descriptor of region of interest. This descriptor is robust against image rotation, image translations, scaling and variations in the lightning. Heikkila et al. introduced a combination of the SIFT descriptor with the LBP operator \cite{HEI09}.
+\newline
