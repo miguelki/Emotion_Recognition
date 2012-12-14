@@ -1,5 +1,5 @@
 \phantomsection
-\chapter{Feature Extraction with Local Binary Patterns}
+\chapter{Feature extraction with Local Binary Patterns}
 \label{chap:implementation_lbp}
 
 \noindent As said previously, the Local Binary Patterns (LBP) method is used as feature extraction method for this Facial Expression Recognition system. This chapter describes how this method is used and implemented.
@@ -24,7 +24,7 @@
 \noindent The face image is divided into regions. As it is commonly done, the face is a grid pattern of $ 7\times6 $ (7 partitions for the rows and 6 partitions for the columns). In total the face image is divided into 42 regions. For each of these regions, the LBP operator, $ LBP_{8,1}^{u^2} $, computes every pixel.
 \newline
 
-\noindent The output of this computation is the number of labelled 1s in the 8-pixels neighourhood. Because a uniform LBP operator is used, values range from 0 to 8. There can also be an output of 9, if this is a non-uniform LBP pattern. To sum up, the output number can have 10 different values (from 0 to 9).
+\noindent The output of this computation is the number of labelled 1s in the 8-pixels neighourhood because invariant uniform circular LBP operator is used. Because a uniform LBP operator is used, values range from 0 to 8. There can also be an output of 9, if this is a non-uniform LBP pattern. To sum up, the output number can have 10 different values (from 0 to 9).
 \newline
 
 \phantomsection
