@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 DEC 2012 17:40
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  15 DEC 2012 18:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1261,19 +1261,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--232
  []
 
 [14 <./figures/arface_example2.png> <./figures/arface_example3.png>]
-<figures/kdef_example_angle.png, id=356, 500.87125pt x 135.50626pt>
-File: figures/kdef_example_angle.png Graphic file (type png)
+<figures/example_angle.png, id=356, 1209.51875pt x 288.07625pt>
+File: figures/example_angle.png Graphic file (type png)
 
-<use figures/kdef_example_angle.png>
-Package pdftex.def Info: figures/kdef_example_angle.png used on input line 235.
-
-(pdftex.def)             Requested size: 400.69753pt x 108.40514pt.
+<use figures/example_angle.png>
+Package pdftex.def Info: figures/example_angle.png used on input line 235.
+(pdftex.def)             Requested size: 362.85843pt x 86.42354pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 246--248
 
  []
 
-[15 <./figures/arface_example1.png> <./figures/kdef_example_angle.png>]
+[15 <./figures/arface_example1.png> <./figures/example_angle.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 250--253
 
  []
@@ -2718,15 +2717,12 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
  11297 strings out of 493488
- 168237 string characters out of 3141326
- 266037 words of memory out of 3000000
+ 168207 string characters out of 3141326
+ 266019 words of memory out of 3000000
  13852 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -2756,7 +2752,7 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
 ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/lm/lmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
 /lm/lmtt10.pfb>
-Output written on master.pdf (107 pages, 7990105 bytes).
+Output written on master.pdf (107 pages, 8465927 bytes).
 PDF statistics:
  1578 PDF objects out of 1728 (max. 8388607)
  1371 compressed objects within 14 object streams

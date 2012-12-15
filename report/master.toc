@@ -22,7 +22,7 @@
 \contentsline {subsubsection}{Occlusion}{13}{subsubsection*.29}
 \contentsline {subsubsection}{Lighting}{14}{subsubsection*.32}
 \contentsline {subsubsection}{Angle}{15}{subsubsection*.34}
-\contentsline {section}{\numberline {2.5}Requirements}{16}{section.37}
+\contentsline {section}{\numberline {2.5}Requirements}{15}{section.37}
 \contentsline {part}{II\hspace {1em}Face detection}{17}{part.38}
 \contentsline {chapter}{\numberline {3}Face detection}{19}{chapter.41}
 \contentsline {section}{\numberline {3.1}Detection}{19}{section.43}
