@@ -1,26 +1,22 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  14 DEC 2012 10:04
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  15 DEC 2012 15:45
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
 **master.tex
-(./master.tex
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
-(./setup/preamble.tex
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/report.cls
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/preamble.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -36,19 +32,19 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/inputenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/utf8.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -198,7 +194,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ot1enc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -229,7 +225,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/omsenc.dfu
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -253,26 +249,32 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/danish.ldf
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\danish.ldf"
 Language: danish 2009/09/19 v1.3r Danish support from the babel system
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/babel.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count88
 \U@D=\dimen103
 )
 Package babel Info: Making " an active character on input line 82.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/babel/english.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/lmodern.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
@@ -307,28 +309,28 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/fontenc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/t1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/xcolor/xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count89
@@ -343,31 +345,31 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
 Package: caption 2012/02/19 v3.2f Customizing captions (AR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
 Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 \captionmargin=\dimen106
 \captionmargin@=\dimen107
@@ -378,7 +380,7 @@ Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count90
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/array.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
@@ -386,7 +388,7 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \extratabsurround=\skip43
 \backup@length=\skip44
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -406,7 +408,7 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count94
 \@thisrulewidth=\dimen126
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/framed/framed.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip45
 \fb@frw=\dimen127
@@ -414,24 +416,24 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen129
 \FrameSep=\dimen130
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen131
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen132
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
@@ -472,20 +474,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2009/06/22 v3.00
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/ntheorem/ntheorem.sty
-Style `ntheorem', Version 1.31 <2011/02/16>
-Package: ntheorem 2011/02/16 1.31
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ntheorem\ntheorem.sty"
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \theorem@style=\toks23
@@ -496,122 +498,152 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 \theorempostskipamount=\skip50
 \theoremframepreskipamount=\skip51
 \theoremframepostskipamount=\skip52
+\theoreminframepreskipamount=\skip53
+\theoreminframepostskipamount=\skip54
+\theorem@preskip=\toks27
+\theorem@postskip=\toks28
+\theorem@framepreskip=\toks29
+\theorem@framepostskip=\toks30
+\theorem@inframepreskip=\toks31
+\theorem@inframepostskip=\toks32
 \theoremindent=\dimen140
 \theorem@indent=\dimen141
-\theoremheaderfont=\toks27
-\theoremseparator=\toks28
-\theoremprework=\toks29
-\theorempostwork=\toks30
-\theoremsymbol=\toks31
-\qedsymbol=\toks32
-\theoremkeyword=\toks33
-\qedsymbol=\toks34
-\thm@topsepadd=\skip53
-Package ntheorem Info: Option `thmmarks' loaded on input line 1066.
+\theoremrightindent=\dimen142
+\theorem@rightindent=\dimen143
+\theoremheaderfont=\toks33
+\theoremseparator=\toks34
+\theoremprework=\toks35
+\theorempostwork=\toks36
+\theoremsymbol=\toks37
+\qedsymbol=\toks38
+\theoremkeyword=\toks39
+\qedsymbol=\toks40
+\thm@topsep=\skip55
+\thm@topsepadd=\skip56
+Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
 \c@endNonectr=\count107
 \c@currNonectr=\count108
-\mysavskip=\skip54
+\mysavskip=\skip57
 Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
- line 1066.
-\thm@amstmpdepth=\dimen142
-\tagwidth=\dimen143
-\shadecolor=\toks35
+ line 1175.
+\thm@amstmpdepth=\dimen144
+\tagwidth=\dimen145
+\shadecolor=\toks41
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
 Package: algpseudocode 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \c@ALG@line=\count109
 \c@ALG@rem=\count110
 \c@ALG@nested=\count111
-\ALG@tlm=\skip55
-\ALG@thistlm=\skip56
+\ALG@tlm=\skip58
+\ALG@thistlm=\skip59
 \c@ALG@Lnr=\count112
 \c@ALG@blocknr=\count113
 \c@ALG@storecount=\count114
 \c@ALG@tmpcounter=\count115
-\ALG@tmplength=\skip57
+\ALG@tmplength=\skip60
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/geometry/geometry.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count116
 \Gm@cntv=\count117
 \c@Gm@tempcnt=\count118
-\Gm@bindingoffset=\dimen144
-\Gm@wd@mp=\dimen145
-\Gm@odd@mp=\dimen146
-\Gm@even@mp=\dimen147
-\Gm@layoutwidth=\dimen148
-\Gm@layoutheight=\dimen149
-\Gm@layouthoffset=\dimen150
-\Gm@layoutvoffset=\dimen151
-\Gm@dimlist=\toks36
-)
-(/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titlesec.sty
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks42
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box28
-\beforetitleunit=\skip58
-\aftertitleunit=\skip59
-\ttl@plus=\dimen152
-\ttl@minus=\dimen153
-\ttl@toksa=\toks37
-\titlewidth=\dimen154
-\titlewidthlast=\dimen155
-\titlewidthfirst=\dimen156
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks43
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/titlesec/titletoc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
 Package: titletoc 2011/12/15 v1.6 TOC entries
-\ttl@leftsep=\dimen157
+\ttl@leftsep=\dimen159
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count119
 \calc@Bcount=\count120
-\calc@Adimen=\dimen158
-\calc@Bdimen=\dimen159
-\calc@Askip=\skip60
-\calc@Bskip=\skip61
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count121
-\calc@Cskip=\skip62
+\calc@Cskip=\skip65
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wallpaper\wallpaper.sty"
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+\wpXoffset=\skip66
+\wpYoffset=\skip67
+\tileXoffset=\skip68
+\tileYoffset=\skip69
+\tilewidth=\skip70
+\tileheight=\skip71
+\tileX=\skip72
+\tileY=\skip73
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
 
 
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/lastpage/lastpage.sty
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
 Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hyperref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
 Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
@@ -640,29 +672,29 @@ Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
 Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
 Package: xcolor-patch 2011/01/30 xcolor patch
 Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
-\@linkdim=\dimen160
+\@linkdim=\dimen162
 \Hy@linkcounter=\count122
 \Hy@pagecounter=\count123
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/pd1enc.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count124
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `hypertexnames' set `false' on input line 3941.
@@ -675,14 +707,14 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4300.
 \c@Hy@tempcnt=\count125
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/url/url.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4653.
 \Fld@menulength=\count126
-\Field@Width=\dimen161
-\Fld@charsize=\dimen162
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
 Package hyperref Info: Hyper figures OFF on input line 5773.
 Package hyperref Info: Link nesting OFF on input line 5778.
 Package hyperref Info: Hyper index ON on input line 5781.
@@ -699,36 +731,35 @@ LaTeX Info: Redefining \pageref on input line 5847.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/hpdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
 \Fld@listcount=\count130
 \c@bookmark@seq@number=\count131
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip63
+\Hy@SectionHShift=\skip74
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 173.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 173.
+Package hyperref Info: Option `plainpages' set `false' on input line 176.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 176.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 173.
+Package hyperref Info: Option `colorlinks' set `true' on input line 176.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/bookmark.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/auxhook.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
 File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
 \BKM@id=\count132
 ))
-(./setup/macros.tex) (./master.aux)
-\openout1 = `master.aux'.
-
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/macros.tex)
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
@@ -745,37 +776,23 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
 LaTeX Font Info:    ... okay on input line 20.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count133
-\scratchdimen=\dimen163
+\scratchdimen=\dimen165
 \scratchbox=\box29
 \nofMPsegments=\count134
 \nofMParguments=\count135
-\everyMPshowfont=\toks38
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count136
-\MPscratchDim=\dimen164
+\MPscratchDim=\dimen166
 \MPnumerator=\count137
 \makeMPintoPDFobject=\count138
-\everyMPtoPDFconversion=\toks39
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+\everyMPtoPDFconversion=\toks45
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -814,6 +831,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\AtBeginShipoutBox=\box30
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             macros/latex/contrib/pageslts/ 
@@ -821,12 +839,11 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
 (lastpage)             ! on input line 20.
-\AtBeginShipoutBox=\box30
 Package hyperref Info: Link coloring ON on input line 20.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/hyperref/nameref.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count139
@@ -835,83 +852,91 @@ LaTeX Info: Redefining \ref on input line 20.
 LaTeX Info: Redefining \pageref on input line 20.
 LaTeX Info: Redefining \nameref on input line 20.
 
-(./sections/frontpage.tex
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 21.
-
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/ot1lmr.fd
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/frontpage.te
+x
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 36.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 21.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 36.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omllmm.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 21.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 36.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmsy.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 21.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 36.
 
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omxlmex.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 21.
+(Font)              <10.95> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 21.
+(Font)              <8> on input line 36.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 21.
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+(Font)              <6> on input line 36.
+LaTeX Font Info:    Try loading font information for U+msa on input line 36.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 36.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-<figures/aau_logo_en.pdf, id=4, 203.76125pt x 36.135pt>
-File: figures/aau_logo_en.pdf Graphic file (type pdf)
-
-<use figures/aau_logo_en.pdf>
-Package pdftex.def Info: figures/aau_logo_en.pdf used on input line 50.
-(pdftex.def)             Requested size: 203.76074pt x 36.13489pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 54.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 54.
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--55
-
+Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+[][][][][][] 
  []
 
-[1
+<figures/aau_new_logo.png, id=3, 141.1674pt x 83.3514pt>
+File: figures/aau_new_logo.png Graphic file (type png)
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figur
-es/aau_logo_en.pdf>]) [2
+<use figures/aau_new_logo.png>
+Package pdftex.def Info: figures/aau_new_logo.png used on input line 47.
+(pdftex.def)             Requested size: 141.16704pt x 83.35117pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 47.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 47.
+
+<figures/aau_page_garde.png, id=5, 597.432pt x 845.0772pt>
+File: figures/aau_page_garde.png Graphic file (type png)
+
+<use figures/aau_page_garde.png>
+Package pdftex.def Info: figures/aau_page_garde.png used on input line 61.
+(pdftex.def)             Requested size: 597.55817pt x 845.04933pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Pin/Documents/Gi
+tHub/Emotion_Recognition/report/figures/aau_page_garde.png> <C:/Users/Pin/Docum
+ents/GitHub/Emotion_Recognition/report/figures/aau_new_logo.png>]) [2
 
 
-] (./sections/titlepages.tex
-\titlepageleftcolumnwidth=\skip64
-\titlepagerightcolumnwidth=\skip65
-File: figures/aau_logo_en.pdf Graphic file (type pdf)
-
-<use figures/aau_logo_en.pdf>
-Package pdftex.def Info: figures/aau_logo_en.pdf used on input line 41.
-(pdftex.def)             Requested size: 194.59193pt x 34.51053pt.
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/titlepages.t
+ex
+\titlepageleftcolumnwidth=\skip75
+\titlepagerightcolumnwidth=\skip76
+File: figures/aau_new_logo.png Graphic file (type png)
+ <use figures/aau_new_logo.png>
+Package pdftex.def Info: figures/aau_new_logo.png used on input line 41.
+(pdftex.def)             Requested size: 194.59193pt x 114.90419pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 41.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmss.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
@@ -921,7 +946,8 @@ Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
 [3]) [4
 
 
-] (./sections/preface.tex
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/preface.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
@@ -942,7 +968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
  []
 
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 22.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/omslmr.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
@@ -950,22 +976,38 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 ) [5] [6
 
 ]
-(./sections/abbreviations.tex) [7] [8
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/abbreviation
+s.tex) [7] [8
 
-] (./master.toc [9] [10])
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc [9]
+[10])
 \tf@toc=\write3
-\openout3 = `master.toc'.
 
-
-(./sections/introduction.tex [1] [2]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+.tex [1] [2]
 \c@ttl@toc@parts=\count140
- (./master.ptc) [3]
-(./sections/introduction/motivations.tex
+
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [3]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+/motivations.tex
 Chapter 1.
+
+LaTeX Warning: Citation `DON99' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `PAN00' on page 4 undefined on input line 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
+
+
+LaTeX Warning: Citation `BET12' on page 4 undefined on input line 8.
+
+
+LaTeX Warning: Citation `DAR04' on page 4 undefined on input line 8.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
@@ -983,11 +1025,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
+LaTeX Warning: Citation `BAR03' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation `BAR03' on page 4 undefined on input line 17.
+
+
+LaTeX Warning: Citation `AND06' on page 4 undefined on input line 17.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
 [4]
+
+LaTeX Warning: Citation `BET12' on page 5 undefined on input line 20.
+
+
 Overfull \hbox (3.47784pt too wide) in paragraph at lines 20--22
 \T1/lmr/m/n/10.95 There are also var-i-ous other do-mains where emo-tion recog-
 ni-tion can be used: Telecom-
@@ -1030,6 +1085,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--45
  []
 
 
+LaTeX Warning: Citation `BET12' on page 5 undefined on input line 46.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
@@ -1040,9 +1098,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
  []
 
 
+LaTeX Warning: Citation `JAFFE' on page 6 undefined on input line 55.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
+
+
+LaTeX Warning: Citation `BET12' on page 6 undefined on input line 58.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 58--60
@@ -1054,7 +1118,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=250, 403.5075pt x 234.8775pt>
+<figures/jaffe_7facialexpressions.png, id=231, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
@@ -1066,14 +1130,24 @@ e 66.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `KDEF' on page 6 undefined on input line 76.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 76--78
 
  []
 
 [6]
+
+LaTeX Warning: Citation `KDEF' on page 7 undefined on input line 79.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
+
+
+LaTeX Warning: Citation `KDEF' on page 7 undefined on input line 82.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 82--84
@@ -1085,7 +1159,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-<figures/kdef_7facialexpressions.png, id=263, 401.5pt x 274.02374pt>
+<figures/kdef_7facialexpressions.png, id=240, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
@@ -1103,11 +1177,19 @@ DE)|
  []
 
 
+LaTeX Warning: Citation `MSFDE' on page 7 undefined on input line 100.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 100--102
 
  []
 
-[7 <./figures/jaffe_7facialexpressions.png>]
+[7 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/jaffe_7fac
+ialexpressions.png>]
+
+LaTeX Warning: Citation `MSFDE' on page 8 undefined on input line 103.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
@@ -1117,16 +1199,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<figures/msfde_7facialexpressions.png, id=275, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=249, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
 Package pdftex.def Info: figures/msfde_7facialexpressions.png used on input lin
 e 111.
 (pdftex.def)             Requested size: 321.20042pt x 141.32819pt.
-) [8 <./figures/kdef_7facialexpressions.png> <./figures/msfde_7facialexpression
-s.png>]
-(./sections/introduction/recognition.tex
+) [8 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_7fa
+cialexpressions.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
+figures/msfde_7facialexpressions.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+/recognition.tex
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -1139,7 +1223,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-<figures/facial_expression_recognition_process.png, id=285, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=258, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1156,6 +1240,9 @@ Overfull \hbox (12.56506pt too wide) in paragraph at lines 17--19
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `CHI03' on page 9 undefined on input line 27.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
@@ -1166,19 +1253,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 [9]
+
+LaTeX Warning: Citation `CHI03' on page 10 undefined on input line 39.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
+
+
+LaTeX Warning: Citation `CHI03' on page 10 undefined on input line 45.
+
+
+LaTeX Warning: Citation `CHI03' on page 10 undefined on input line 45.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-[10 <./figures/facial_expression_recognition_process.png>]
+[10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_ex
+pression_recognition_process.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
+
+
+LaTeX Warning: Citation `SEB07' on page 11 undefined on input line 63.
+
+
+LaTeX Warning: Citation `BET12' on page 11 undefined on input line 63.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--65
@@ -1186,9 +1290,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
  []
 
 [11]
+
+LaTeX Warning: Citation `SEB07' on page 12 undefined on input line 72.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
+
+
+LaTeX Warning: Citation `SEB07' on page 12 undefined on input line 75.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
@@ -1216,18 +1327,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--95
  []
 
 [12]
+
+LaTeX Warning: Citation `ARFACE' on page 13 undefined on input line 99.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
-<figures/arface_example2.png, id=330, 499.8675pt x 127.47626pt>
+<figures/arface_example2.png, id=291, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
 Package pdftex.def Info: figures/arface_example2.png used on input line 104.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=331, 498.86375pt x 127.47626pt>
+<figures/arface_example3.png, id=292, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
@@ -1238,12 +1353,15 @@ Package pdftex.def Info: figures/arface_example3.png used on input line 113.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `ARFACE' on page 13 undefined on input line 123.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--125
 
  []
 
-[13 <./figures/arface_example2.png>]
-<figures/arface_example1.png, id=344, 499.8675pt x 127.47626pt>
+[13 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
+ample2.png>] <figures/arface_example1.png, id=303, 499.8675pt x 127.47626pt>
 File: figures/arface_example1.png Graphic file (type png)
 
 <use figures/arface_example1.png>
@@ -1254,7 +1372,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--140
 
  []
 
-<figures/kdef_example_angle.png, id=346, 500.87125pt x 135.50626pt>
+<figures/kdef_example_angle.png, id=305, 500.87125pt x 135.50626pt>
 File: figures/kdef_example_angle.png Graphic file (type png)
 
 <use figures/kdef_example_angle.png>
@@ -1270,7 +1388,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
-[14 <./figures/arface_example3.png> <./figures/arface_example1.png>]
+[14 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
+ample3.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/a
+rface_example1.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 158--161
 
  []
@@ -1290,13 +1410,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--173
 
  []
 
-[15 <./figures/kdef_example_angle.png>]
+[15 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_exam
+ple_angle.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
-)) (./sections/feature_detection.tex [16] [17] (./master.ptc) [18]
-(./sections/feature_detection/face_detection.tex
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
+ction.tex [16] [17]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [18]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
+ction/face_detection.tex
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
@@ -1304,9 +1429,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
+LaTeX Warning: Citation `DIN08' on page 19 undefined on input line 11.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 19 undefined on input line 14.
+
+
+LaTeX Warning: Citation `DIN08' on page 19 undefined on input line 14.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
@@ -1314,7 +1448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
-<figures/output_example_face_detection.png, id=387, 318.18875pt x 288.07625pt>
+<figures/output_example_face_detection.png, id=343, 318.18875pt x 288.07625pt>
 File: figures/output_example_face_detection.png Graphic file (type png)
 
 <use figures/output_example_face_detection.png>
@@ -1326,12 +1460,18 @@ t line 19.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `DIN08' on page 19 undefined on input line 26.
+
+
+LaTeX Warning: Citation `DIN08' on page 19 undefined on input line 26.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
 
 
-<figures/output_example_face_detection_binary_classifier.png, id=391, 581.17125
+<figures/output_example_face_detection_binary_classifier.png, id=345, 581.17125
 pt x 319.1925pt>
 File: figures/output_example_face_detection_binary_classifier.png Graphic file 
 (type png)
@@ -1345,18 +1485,32 @@ r.png used on input line 31.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `CLASS' on page 19 undefined on input line 42.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-[19]) [20 <./figures/output_example_face_detection.png> <./figures/output_examp
-le_face_detection_binary_classifier.png>]
-(./sections/feature_detection/violajones.tex
+[19]) [20 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/out
+put_example_face_detection.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
+ion/report/figures/output_example_face_detection_binary_classifier.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_dete
+ction/violajones.tex
 Chapter 4.
+
+LaTeX Warning: Citation `VIO01' on page 21 undefined on input line 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 21 undefined on input line 12.
+
+
+LaTeX Warning: Citation `HEW07' on page 21 undefined on input line 27.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
@@ -1364,11 +1518,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
  []
 
 [21]
+
+LaTeX Warning: Citation `HEW07' on page 22 undefined on input line 30.
+
+
+LaTeX Warning: Citation `DIN08' on page 22 undefined on input line 30.
+
+
+LaTeX Warning: Citation `HAR12' on page 22 undefined on input line 30.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<figures/haar_features_first_2_stage.png, id=426, 423.5825pt x 167.62625pt>
+<figures/haar_features_first_2_stage.png, id=370, 423.5825pt x 167.62625pt>
 File: figures/haar_features_first_2_stage.png Graphic file (type png)
 
 <use figures/haar_features_first_2_stage.png>
@@ -1376,7 +1540,7 @@ Package pdftex.def Info: figures/haar_features_first_2_stage.png used on input
 line 35.
 (pdftex.def)             Requested size: 381.22073pt x 150.86221pt.
 
-<figures/haar_features_extended.png, id=427, 426.59375pt x 315.1775pt>
+<figures/haar_features_extended.png, id=371, 426.59375pt x 315.1775pt>
 File: figures/haar_features_extended.png Graphic file (type png)
 
 <use figures/haar_features_extended.png>
@@ -1387,7 +1551,7 @@ Package pdftex.def Info: figures/haar_features_extended.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/haar_features_early_stage.jpg, id=428, 642.4pt x 642.4pt>
+<figures/haar_features_early_stage.jpg, id=372, 642.4pt x 642.4pt>
 File: figures/haar_features_early_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_features_early_stage.jpg>
@@ -1399,16 +1563,25 @@ ne 53.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `HEW07' on page 22 undefined on input line 60.
+
+
+LaTeX Warning: Citation `HAR12' on page 22 undefined on input line 60.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
+
+
+LaTeX Warning: Citation `HAR12' on page 22 undefined on input line 63.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-<figures/haar_feature_later_stage.jpg, id=434, 321.2pt x 642.4pt>
+<figures/haar_feature_later_stage.jpg, id=375, 321.2pt x 642.4pt>
 File: figures/haar_feature_later_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_feature_later_stage.jpg>
@@ -1420,11 +1593,15 @@ e 68.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 22 undefined on input line 75.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[22 <./figures/haar_features_first_2_stage.png>]
+[22 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ures_first_2_stage.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
@@ -1435,11 +1612,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--83
  []
 
 
+LaTeX Warning: Citation `VIO01' on page 23 undefined on input line 84.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/haar_feature_description.png, id=450, 353.32pt x 302.12875pt>
+<figures/haar_feature_description.png, id=386, 353.32pt x 302.12875pt>
 File: figures/haar_feature_description.png Graphic file (type png)
 
 <use figures/haar_feature_description.png>
@@ -1451,26 +1631,41 @@ e 89.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 23 undefined on input line 96.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
+
+
+LaTeX Warning: Citation `VIO01' on page 23 undefined on input line 103.
+
+
+LaTeX Warning: Citation `HEW07' on page 23 undefined on input line 103.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-[23 <./figures/haar_features_extended.png>] [24 <./figures/haar_features_early_
-stage.jpg>]
+[23 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ures_extended.png>] [24 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repo
+rt/figures/haar_features_early_stage.jpg>]
 
 LaTeX Warning: Text page 25 contains only floats.
 
-[25 <./figures/haar_feature_later_stage.jpg>]
+[25 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_later_stage.jpg>]
+
+LaTeX Warning: Citation `VIO01' on page 26 undefined on input line 106.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<figures/integral_image_description.png, id=470, 512.91624pt x 402.50375pt>
+<figures/integral_image_description.png, id=402, 512.91624pt x 402.50375pt>
 File: figures/integral_image_description.png Graphic file (type png)
 
 <use figures/integral_image_description.png>
@@ -1487,11 +1682,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--127
  []
 
 
+LaTeX Warning: Citation `VIO01' on page 26 undefined on input line 128.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-<figures/integral_image_four_array.png, id=473, 432.61626pt x 340.27126pt>
+<figures/integral_image_four_array.png, id=404, 432.61626pt x 340.27126pt>
 File: figures/integral_image_four_array.png Graphic file (type png)
 
 <use figures/integral_image_four_array.png>
@@ -1503,22 +1701,38 @@ ne 133.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `SMY07' on page 26 undefined on input line 144.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
-[26 <./figures/haar_feature_description.png>] [27 <./figures/integral_image_des
-cription.png> <./figures/integral_image_four_array.png>]
+[26 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_description.png>]
+
+LaTeX Warning: Citation `HEW07' on page 27 undefined on input line 147.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
+
+[27 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/integral_
+image_description.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repor
+t/figures/integral_image_four_array.png>]
+
+LaTeX Warning: Citation `HEW07' on page 28 undefined on input line 150.
+
+
+LaTeX Warning: Citation `VIO01' on page 28 undefined on input line 150.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-<figures/haar_feature_adaboost.png, id=497, 680.5425pt x 561.09625pt>
+<figures/haar_feature_adaboost.png, id=424, 680.5425pt x 561.09625pt>
 File: figures/haar_feature_adaboost.png Graphic file (type png)
 
 <use figures/haar_feature_adaboost.png>
@@ -1534,11 +1748,14 @@ Overfull \hbox (7.14478pt too wide) in paragraph at lines 155--157
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 28 undefined on input line 162.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-<figures/haar_feature_example_result.png, id=500, 481.8pt x 389.455pt>
+<figures/haar_feature_example_result.png, id=426, 481.8pt x 389.455pt>
 File: figures/haar_feature_example_result.png Graphic file (type png)
 
 <use figures/haar_feature_example_result.png>
@@ -1550,16 +1767,25 @@ line 167.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 28 undefined on input line 174.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
+
+
+LaTeX Warning: Citation `HEW07' on page 28 undefined on input line 181.
+
+
+LaTeX Warning: Citation `VIO01' on page 28 undefined on input line 181.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[28] <figures/haar_feature_cascade.png, id=513, 887.315pt x 195.73125pt>
+[28] <figures/haar_feature_cascade.png, id=436, 887.315pt x 195.73125pt>
 File: figures/haar_feature_cascade.png Graphic file (type png)
 
 <use figures/haar_feature_cascade.png>
@@ -1575,12 +1801,15 @@ Overfull \hbox (42.47255pt too wide) in paragraph at lines 186--188
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 29 undefined on input line 193.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-[29 <./figures/haar_feature_adaboost.png>]
-<figures/haar_feature_cascade_example_result.png, id=522, 653.44125pt x 546.04p
+
+<figures/haar_feature_cascade_example_result.png, id=438, 653.44125pt x 546.04p
 t>
 File: figures/haar_feature_cascade_example_result.png Graphic file (type png)
  <use figures/haar_feature_cascade_example_result.png>
@@ -1592,23 +1821,36 @@ n input line 198.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `HEW07' on page 29 undefined on input line 205.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-[30 <./figures/haar_feature_example_result.png> <./figures/haar_feature_cascade
-.png>]
+[29 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_adaboost.png>] [30 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repor
+t/figures/haar_feature_example_result.png> <C:/Users/Pin/Documents/GitHub/Emoti
+on_Recognition/report/figures/haar_feature_cascade.png>]
+
+LaTeX Warning: Citation `VIO01' on page 31 undefined on input line 208.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
+
+
+LaTeX Warning: Citation `HEW07' on page 31 undefined on input line 211.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
-[31 <./figures/haar_feature_cascade_example_result.png>]
-<figures/haar_feature_first_2_features.png, id=535, 191.71625pt x 164.615pt>
+[31 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_cascade_example_result.png>]
+<figures/haar_feature_first_2_features.png, id=454, 191.71625pt x 164.615pt>
 File: figures/haar_feature_first_2_features.png Graphic file (type png)
 
 <use figures/haar_feature_first_2_features.png>
@@ -1616,11 +1858,18 @@ Package pdftex.def Info: figures/haar_feature_first_2_features.png used on inpu
 t line 216.
 (pdftex.def)             Requested size: 191.71577pt x 164.6146pt.
 
+
+LaTeX Warning: Citation `VIO01' on page 32 undefined on input line 223.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-<figures/haar_feature_cascade_rate.png, id=539, 846.16125pt x 184.69pt>
+
+LaTeX Warning: Citation `UBC01' on page 32 undefined on input line 226.
+
+<figures/haar_feature_cascade_rate.png, id=456, 846.16125pt x 184.69pt>
 File: figures/haar_feature_cascade_rate.png Graphic file (type png)
 
 <use figures/haar_feature_cascade_rate.png>
@@ -1636,11 +1885,14 @@ Overfull \hbox (21.89572pt too wide) in paragraph at lines 236--238
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 32 undefined on input line 247.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-<figures/haar_feature_training_dataset.png, id=542, 343.5234pt x 343.5234pt>
+<figures/haar_feature_training_dataset.png, id=458, 343.5234pt x 343.5234pt>
 File: figures/haar_feature_training_dataset.png Graphic file (type png)
 
 <use figures/haar_feature_training_dataset.png>
@@ -1651,20 +1903,45 @@ t line 252.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32 <./figures/haar_feature_first_2_features.png>] [33 <./figures/haar_feature_
-cascade_rate.png> <./figures/haar_feature_training_dataset.png>]
+
+LaTeX Warning: Citation `UBC01' on page 32 undefined on input line 259.
+
+[32 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_first_2_features.png>] [33 <C:/Users/Pin/Documents/GitHub/Emotion_Recogniti
+on/report/figures/haar_feature_cascade_rate.png> <C:/Users/Pin/Documents/GitHub
+/Emotion_Recognition/report/figures/haar_feature_training_dataset.png>]
+
+LaTeX Warning: Citation `DIN08' on page 34 undefined on input line 283.
+
+
+LaTeX Warning: Citation `VIO01' on page 34 undefined on input line 283.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 34 undefined on input line 286.
+
+
+LaTeX Warning: Citation `DIN08' on page 34 undefined on input line 300.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
-)) (./sections/feature_extraction.tex [34] [35] (./master.ptc) [36]
-(./sections/feature_extraction/feat_extraction.tex
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action.tex [34] [35]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [36]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action/feat_extraction.tex
 Chapter 5.
+
+LaTeX Warning: Citation `CHI03' on page 37 undefined on input line 6.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
@@ -1730,9 +2007,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 
+LaTeX Warning: Citation `SHA09' on page 38 undefined on input line 47.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 38 undefined on input line 53.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
@@ -1740,16 +2023,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
  []
 
 [38]
+
+LaTeX Warning: Citation `GAN08' on page 39 undefined on input line 59.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
+
+
+LaTeX Warning: Citation `TUR91' on page 39 undefined on input line 65.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<figures/eigenface_example.jpg, id=605, 242.3923pt x 169.48274pt>
+<figures/eigenface_example.jpg, id=506, 242.3923pt x 169.48274pt>
 File: figures/eigenface_example.jpg Graphic file (type jpg)
 
 <use figures/eigenface_example.jpg>
@@ -1760,9 +2050,18 @@ Package pdftex.def Info: figures/eigenface_example.jpg used on input line 70.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `RAB93' on page 39 undefined on input line 80.
+
+
+LaTeX Warning: Citation `LIE98' on page 39 undefined on input line 80.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 39 undefined on input line 86.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
@@ -1770,19 +2069,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--88
  []
 
 [39]
+
+LaTeX Warning: Citation `GAN08' on page 40 undefined on input line 92.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
+
+
+LaTeX Warning: Citation `TUR91' on page 40 undefined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-[40 <./figures/eigenface_example.jpg>]
+[40 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/eigenface
+_example.jpg>]
+
+LaTeX Warning: Citation `RAB93' on page 41 undefined on input line 104.
+
+
+LaTeX Warning: Citation `LIE98' on page 41 undefined on input line 104.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
+
+
+LaTeX Warning: Citation `SHA09' on page 41 undefined on input line 111.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
@@ -1790,16 +2107,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
  []
 
 
+LaTeX Warning: Citation `VAL05' on page 41 undefined on input line 114.
+
+
+LaTeX Warning: Citation `VAL06' on page 41 undefined on input line 114.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
+
+
+LaTeX Warning: Citation `JEM09' on page 41 undefined on input line 120.
+
+
+LaTeX Warning: Citation `SHA09' on page 41 undefined on input line 120.
+
+
+LaTeX Warning: Citation `PRA09' on page 41 undefined on input line 120.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<figures/gabor_wavelets_example.jpg, id=640, 352.3962pt x 160.52893pt>
+<figures/gabor_wavelets_example.jpg, id=524, 352.3962pt x 160.52893pt>
 File: figures/gabor_wavelets_example.jpg Graphic file (type jpg)
 
 <use figures/gabor_wavelets_example.jpg>
@@ -1811,25 +2143,40 @@ Package pdftex.def Info: figures/gabor_wavelets_example.jpg used on input line
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [41]
+
+LaTeX Warning: Citation `GAN08' on page 42 undefined on input line 135.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-<figures/lbp_change_lightning.jpg, id=655, 666.49pt x 381.425pt>
+<figures/lbp_change_lightning.jpg, id=534, 666.49pt x 381.425pt>
 File: figures/lbp_change_lightning.jpg Graphic file (type jpg)
 
 <use figures/lbp_change_lightning.jpg>
 Package pdftex.def Info: figures/lbp_change_lightning.jpg used on input line 14
 0.
 (pdftex.def)             Requested size: 199.94853pt x 114.42838pt.
-) [42 <./figures/gabor_wavelets_example.jpg> <./figures/lbp_change_lightning.jp
-g>]
-(./sections/feature_extraction/lbp.tex
+) [42 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/gabor_w
+avelets_example.jpg> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
+figures/lbp_change_lightning.jpg>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action/lbp.tex
 Chapter 6.
+
+LaTeX Warning: Citation `AHO06' on page 43 undefined on input line 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
+
+
+LaTeX Warning: Citation `OJA96' on page 43 undefined on input line 8.
+
+
+LaTeX Warning: Citation `AHO06' on page 43 undefined on input line 8.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
@@ -1837,16 +2184,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
  []
 
 
+LaTeX Warning: Citation `JUL07' on page 43 undefined on input line 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
+
+
+LaTeX Warning: Citation `JUL07' on page 43 undefined on input line 18.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<figures/lbp_basic_operator.png, id=669, 792.9625pt x 250.9375pt>
+<figures/lbp_basic_operator.png, id=543, 792.9625pt x 250.9375pt>
 File: figures/lbp_basic_operator.png Graphic file (type png)
 
 <use figures/lbp_basic_operator.png>
@@ -1857,12 +2210,15 @@ Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 23.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `LIU11' on page 43 undefined on input line 30.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
 [43]
-<figures/lbp_basic_operator_example.png, id=682, 806.01125pt x 458.71375pt>
+<figures/lbp_basic_operator_example.png, id=552, 806.01125pt x 458.71375pt>
 File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
 <use figures/lbp_basic_operator_example.png>
@@ -1870,22 +2226,40 @@ Package pdftex.def Info: figures/lbp_basic_operator_example.png used on input l
 ine 35.
 (pdftex.def)             Requested size: 322.39879pt x 183.48224pt.
 
+
+LaTeX Warning: Citation `GAN08' on page 44 undefined on input line 49.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[44 <./figures/lbp_basic_operator.png> <./figures/lbp_basic_operator_example.pn
-g>]
+[44 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
+_operator.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figure
+s/lbp_basic_operator_example.png>]
+
+LaTeX Warning: Citation `GAN08' on page 45 undefined on input line 52.
+
+
+LaTeX Warning: Citation `JUL07' on page 45 undefined on input line 60.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
+
+
+LaTeX Warning: Citation `JUL07' on page 45 undefined on input line 72.
+
+
+LaTeX Warning: Citation `GAN08' on page 45 undefined on input line 72.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-<figures/lbp_circular_operator.png, id=699, 812.03375pt x 285.065pt>
+<figures/lbp_circular_operator.png, id=562, 812.03375pt x 285.065pt>
 File: figures/lbp_circular_operator.png Graphic file (type png)
 
 <use figures/lbp_circular_operator.png>
@@ -1898,14 +2272,25 @@ Overfull \hbox (4.83202pt too wide) in paragraph at lines 77--79
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 45 undefined on input line 84.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-[45 <./figures/lbp_circular_operator.png>]
+[45 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
+lar_operator.png>]
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 87.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 95.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
@@ -1913,14 +2298,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 98.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
 
+LaTeX Warning: Citation `OJA96' on page 46 undefined on input line 106.
+
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 106.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 114.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
@@ -1932,10 +2329,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
-[46]
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 134.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
+
+[46]
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 137.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 137--139
@@ -1948,9 +2352,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--147
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 152.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 155.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 155--157
@@ -1958,26 +2368,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--157
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 158.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 158--160
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 161.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
-[47]
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 164.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
+
+[47]
+
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 167.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-<figures/lbp_structural_features.png, id=742, 480.79625pt x 366.36874pt>
+<figures/lbp_structural_features.png, id=590, 480.79625pt x 366.36874pt>
 File: figures/lbp_structural_features.png Graphic file (type png)
 
 <use figures/lbp_structural_features.png>
@@ -1989,37 +2412,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
-[48 <./figures/lbp_structural_features.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 190--192
 
  []
+
+[48 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
+tural_features.png>]
+
+LaTeX Warning: Citation `GAN08' on page 49 undefined on input line 193.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-<figures/lbp_histogram.png, id=752, 907.39pt x 520.94624pt>
+<figures/lbp_histogram.png, id=599, 907.39pt x 520.94624pt>
 File: figures/lbp_histogram.png Graphic file (type png)
 
 <use figures/lbp_histogram.png>
 Package pdftex.def Info: figures/lbp_histogram.png used on input line 198.
 (pdftex.def)             Requested size: 362.94957pt x 208.3748pt.
 
+
+LaTeX Warning: Citation `GAN08' on page 49 undefined on input line 205.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-[49 <./figures/lbp_histogram.png>]
-<figures/lbp_region_weight.png, id=761, 513.92pt x 258.9675pt>
+[49 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_histo
+gram.png>] <figures/lbp_region_weight.png, id=607, 513.92pt x 258.9675pt>
 File: figures/lbp_region_weight.png Graphic file (type png)
 
 <use figures/lbp_region_weight.png>
 Package pdftex.def Info: figures/lbp_region_weight.png used on input line 210.
 (pdftex.def)             Requested size: 205.56435pt x 103.58514pt.
- [50 <./figures/lbp_region_weight.png>]))
-(./sections/feature_classification.tex [51] (./master.ptc) [52]
-(./sections/classification/feat_classification.tex
+ [50 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_regi
+on_weight.png>]))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
+sification.tex [51]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [52]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/feat_classification.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -2071,9 +2507,16 @@ t/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$
  []
 
 [54]
+
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 71.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 80.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
@@ -2081,11 +2524,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
  []
 
 
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 83.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
-<figures/one_vs.png, id=806, 1314.41063pt x 632.3625pt>
+<figures/one_vs.png, id=649, 1314.41063pt x 632.3625pt>
 File: figures/one_vs.png Graphic file (type png)
 
 <use figures/one_vs.png>
@@ -2100,20 +2546,27 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
 LaTeX Warning: Reference `one_vs' on page 55 undefined on input line 95.
 
 
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 95.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-[55 <./figures/one_vs.png>]
+[55 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/one_vs.pn
+g>]
 
 LaTeX Warning: Reference `k_discr' on page 56 undefined on input line 98.
+
+
+LaTeX Warning: Citation `BIS06' on page 56 undefined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-<figures/lda_k_disc.png, id=822, 598.48593pt x 261.97874pt>
+<figures/lda_k_disc.png, id=661, 598.48593pt x 261.97874pt>
 File: figures/lda_k_disc.png Graphic file (type png)
 
 <use figures/lda_k_disc.png>
@@ -2134,12 +2587,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-[56 <./figures/lda_k_disc.png>]
+[56 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lda_k_dis
+c.png>]
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 126.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
 
-<figures/k-mean_res.jpg, id=832, 661.2705pt x 401.70074pt>
+<figures/k-mean_res.jpg, id=670, 661.2705pt x 401.70074pt>
 File: figures/k-mean_res.jpg Graphic file (type jpg)
 
 <use figures/k-mean_res.jpg>
@@ -2150,19 +2608,29 @@ Package pdftex.def Info: figures/k-mean_res.jpg used on input line 171.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 178.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 178--180
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 181.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[57] [58 <./figures/k-mean_res.jpg>]
+[57] [58 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/k-me
+an_res.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 208.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
@@ -2174,7 +2642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
  []
 
-<figures/mixture_model.png, id=851, 1388.93906pt x 910.15031pt>
+<figures/mixture_model.png, id=687, 1388.93906pt x 910.15031pt>
 File: figures/mixture_model.png Graphic file (type png)
 
 <use figures/mixture_model.png>
@@ -2184,8 +2652,14 @@ Package pdftex.def Info: figures/mixture_model.png used on input line 232.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [59] [60 <./figures/mixture_model.png>] (./sections/classification/svm.tex
+) [59] [60 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/mi
+xture_model.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/svm.tex
 Chapter 8.
+
+LaTeX Warning: Citation `BIS06' on page 61 undefined on input line 5.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
@@ -2195,6 +2669,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 61 undefined on input line 16.
+
+
+LaTeX Warning: Citation `BIS06' on page 61 undefined on input line 16.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
@@ -2247,8 +2727,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--90
 Overfull \hbox (8.2074pt too wide) in paragraph at lines 91--93
 \T1/lmr/m/n/10.95 In or-der to achieve this map-ping, a \T1/lmr/m/it/10.95 ker-
 nel func-tion \T1/lmr/m/n/10.95 of the form $\OML/lmm/m/it/10.95 K\OT1/lmr/m/n/
-10.95 (\OML/lmm/m/it/10.95 x[]; x[]\OT1/lmr/m/n/10.95 ) = ^^H(\OML/lmm/m/it/10.
-95 x[]\OT1/lmr/m/n/10.95 )[]^^H(\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 )$
+10.95 (\OML/lmm/m/it/10.95 x[]; x[]\OT1/lmr/m/n/10.95 ) = (\OML/lmm/m/it/10.95
+ x[]\OT1/lmr/m/n/10.95 )[](\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 )$
  []
 
 
@@ -2260,6 +2740,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
+
+
+LaTeX Warning: Citation `SHA09' on page 63 undefined on input line 113.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
@@ -2279,10 +2762,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--150
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64] [65])) (./sections/implementation.tex [66
+[64] [65]))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on.tex [66
 
-] (./master.ptc) [67]
-(./sections/implementation/feature_detection.tex
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [67]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_detection.tex
 Chapter 9.
 
 Overfull \hbox (24.13545pt too wide) in paragraph at lines 2--2
@@ -2305,15 +2792,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-<figures/violajones_implementation_example.png, id=940, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=770, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
 Package pdftex.def Info: figures/violajones_implementation_example.png used on 
 input line 20.
 (pdftex.def)             Requested size: 197.23338pt x 155.37773pt.
-) [68 <./figures/violajones_implementation_example.png>]
-(./sections/implementation/feature_extraction.tex
+) [68 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
+nes_implementation_example.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_extraction.tex
 Chapter 10.
 
 Overfull \hbox (2.52611pt too wide) in paragraph at lines 2--2
@@ -2330,7 +2819,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=949, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=779, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2349,12 +2838,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
 [69
 
- <./figures/lbp_implementation_example.png>]
+ <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_implemen
+tation_example.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=960, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=790, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2371,7 +2861,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=962, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=792, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2382,8 +2872,11 @@ ne 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [70 <./figures/lbp_implementation_histogram.png>] [71 <./figures/lbp_implemen
-tation_vector.png>] (./sections/implementation/feature_classification.tex
+) [70 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
+lementation_histogram.png>] [71 <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
+ion/report/figures/lbp_implementation_vector.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_classification.tex
 Chapter 11.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -2427,7 +2920,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-) [74] (./sections/implementation/implementation_kinect.tex
+) [74]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/implementation_kinect.tex
 Chapter 12.
 [75
 
@@ -2442,20 +2937,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/UML.png, id=1006, 1046.91125pt x 612.2875pt>
+<figures/UML.png, id=836, 1046.91125pt x 612.2875pt>
 File: figures/UML.png Graphic file (type png)
  <use figures/UML.png>
 Package pdftex.def Info: figures/UML.png used on input line 40.
 (pdftex.def)             Requested size: 314.0758pt x 183.68767pt.
 
-[76 <./figures/UML.png>]
+[76 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 102--102
 [] \T1/lmr/m/n/10.95 greyscIm-age $\OMS/lmsy/m/n/10.95  $ \T1/lmr/m/n/10.95 con
 -vert-
  []
 
-)) (./sections/evaluation.tex [77] [78] (./master.ptc) [79]
-(./sections/evaluation/results.tex
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
+ex [77] [78]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [79]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/r
+esults.tex
 Chapter 13.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
@@ -2512,7 +3012,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 117--119
 
  []
 
-<figures/kdef_no_difference_emotions.png, id=1054, 869.2475pt x 420.57124pt>
+<figures/kdef_no_difference_emotions.png, id=883, 869.2475pt x 420.57124pt>
 File: figures/kdef_no_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_no_difference_emotions.png>
@@ -2524,8 +3024,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--131
 
  []
 
-[82 <./figures/kdef_no_difference_emotions.png>]
-<figures/kdef_difference_emotions.png, id=1061, 1159.33125pt x 416.55624pt>
+[82 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_no_d
+ifference_emotions.png>]
+<figures/kdef_difference_emotions.png, id=890, 1159.33125pt x 416.55624pt>
 File: figures/kdef_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_difference_emotions.png>
@@ -2547,7 +3048,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
-[83 <./figures/kdef_difference_emotions.png>]
+[83 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_diff
+erence_emotions.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
@@ -2557,7 +3059,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-) [84] (./sections/evaluation/issues.tex
+) [84]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/i
+ssues.tex
 Chapter 14.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -2594,7 +3098,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--24
 
  []
 
-[86] (./sections/evaluation/conclusion.tex
+[86]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/c
+onclusion.tex
 Chapter 15.
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
@@ -2616,7 +3122,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-<figures/implementation_weight_example.png, id=1095, 734.745pt x 236.885pt>
+<figures/implementation_weight_example.png, id=924, 734.745pt x 236.885pt>
 File: figures/implementation_weight_example.png Graphic file (type png)
 
 <use figures/implementation_weight_example.png>
@@ -2632,7 +3138,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--42
 
  []
 
-[87] <figures/implementation_lbp_weight.png, id=1111, 180.675pt x 184.43906pt>
+[87] <figures/implementation_lbp_weight.png, id=940, 180.675pt x 184.43906pt>
 File: figures/implementation_lbp_weight.png Graphic file (type png)
 
 <use figures/implementation_lbp_weight.png>
@@ -2649,105 +3155,102 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
-[88 <./figures/implementation_weight_example.png> <./figures/implementation_lbp
-_weight.png>]
+[88 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/implement
+ation_weight_example.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/re
+port/figures/implementation_lbp_weight.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
+
+
+LaTeX Warning: Citation `LIA09' on page 89 undefined on input line 64.
+
+
+LaTeX Warning: Citation `LIA09' on page 89 undefined on input line 64.
+
+
+LaTeX Warning: Citation `GOH11' on page 89 undefined on input line 64.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-<figures/combination_lbp_gabor.jpg, id=1123, 241.75275pt x 139.42354pt>
+<figures/combination_lbp_gabor.jpg, id=949, 241.75275pt x 139.42354pt>
 File: figures/combination_lbp_gabor.jpg Graphic file (type jpg)
 
 <use figures/combination_lbp_gabor.jpg>
 Package pdftex.def Info: figures/combination_lbp_gabor.jpg used on input line 6
 9.
 (pdftex.def)             Requested size: 241.75215pt x 139.42319pt.
+
+
+LaTeX Warning: Citation `HEI09' on page 89 undefined on input line 76.
+
 )
 Underfull \hbox (badness 10000) in paragraph at lines 76--26
 
  []
 
-[89 <./figures/combination_lbp_gabor.jpg>]) [90] (./master.bbl
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
+[89 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/combinati
+on_lbp_gabor.jpg>]) [90]
+No file master.bbl.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [91
-
-] [92]
-Underfull \hbox (badness 2103) in paragraph at lines 199--202
-[]\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
-tt/m/n/10.95 http : / / en . wikipedia . org / wiki /
- []
-
-) [93] [94
-
-] (./sections/source_code.tex)
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/source_code.
+tex)
 \tf@thm=\write4
-\openout4 = `master.thm'.
-
 \tf@ptc=\write5
-\openout5 = `master.ptc'.
-
  
 AED: lastpage setting LastPage
-[95]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 61.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 61.
- (./master.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 61.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 61.
+[91
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 52.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 52.
+ (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 52.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 52.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 61.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 52.
  ) 
 Here is how much of TeX's memory you used:
- 11287 strings out of 493488
- 168064 string characters out of 3141326
- 264669 words of memory out of 3000000
- 13848 multiletter control sequences out of 15000+200000
- 101117 words of font info for 75 fonts, out of 3000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,14n,38p,1236b,485s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/local/texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2012/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2012/t
-exmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2012/texmf-dist/
-fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2012/texmf-dist/fonts/enc/
-dvips/lm/lm-mathex.enc}</usr/local/texlive/2012/texmf-dist/fonts/type1/public/l
-m/lmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx12.p
-fb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2012/tex
-mf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
-blic/lm/lmmi8.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmm
-i9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr10.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/public/lm/lmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pub
-lic/lm/lmri10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmr
-i9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmss10.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2012/texmf-d
-ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/lm/lmsy9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public
-/lm/lmtt10.pfb>
-Output written on master.pdf (105 pages, 8082816 bytes).
+ 11292 strings out of 494045
+ 172961 string characters out of 3145975
+ 264005 words of memory out of 3000000
+ 13871 multiletter control sequences out of 15000+200000
+ 100798 words of font info for 74 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 38i,14n,38p,1236b,472s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/
+MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/
+fonts/enc/dvips/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
+10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
+e1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
+lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy9.pfb>
+Output written on master.pdf (101 pages, 8750638 bytes).
 PDF statistics:
- 1545 PDF objects out of 1728 (max. 8388607)
- 1350 compressed objects within 14 object streams
- 385 named destinations out of 1000 (max. 500000)
- 777 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1313 PDF objects out of 1440 (max. 8388607)
+ 345 named destinations out of 1000 (max. 500000)
+ 774 words of extra memory for PDF output out of 10000 (max. 10000000)
 

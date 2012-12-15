@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {4.1}Overview}{21}{section.51}
 \contentsline {section}{\numberline {4.2}Haar features}{21}{section.53}
 \contentsline {section}{\numberline {4.3}Integral image}{24}{section.60}
-\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{27}{section.66}
+\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{26}{section.66}
 \contentsline {section}{\numberline {4.5}Classifiers cascade}{28}{section.70}
 \contentsline {section}{\numberline {4.6}Test set and training}{32}{section.76}
 \contentsline {part}{III\hspace {1em}Feature extraction}{35}{part.78}
@@ -99,7 +99,6 @@
 \contentsline {section}{\numberline {15.3}Improvements}{87}{section.235}
 \contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{87}{subsection.236}
 \contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{89}{subsection.239}
-\contentsline {chapter}{Bibliography}{91}{section*.241}
 \vspace \bigskipamount 
-\contentsline {chapter}{Appendix: Source Code}{95}{section*.242}
+\contentsline {chapter}{Appendix: Source Code}{91}{section*.242}
 \contentsfinish 

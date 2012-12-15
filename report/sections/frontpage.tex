@@ -16,13 +16,14 @@
 %
 %\pdfbookmark[0]{Front page}{label:frontpage}%
 \begin{titlepage}
-  \addtolength{\hoffset}{0.5\evensidemargin-0.5\oddsidemargin} %set equal margins on the frontpage - remove this line if you want default margins
-  \noindent%
-  \begin{tabular}{@{}p{\textwidth}@{}}
-  %  \toprule[2pt]
-  %  \midrule
-    \vspace{0.2cm}
-    \begin{center}
+%  \addtolength{\hoffset}{0.5\evensidemargin-0.5\oddsidemargin} %set equal margins on the frontpage - remove this line if you want default margins
+  \ThisTileWallPaper{\paperwidth}{\paperheight}{figures/aau_page_garde.png}
+
+   \vspace*{\fill}
+
+   \noindent \colorbox{aaublue}{\parbox{\textwidth}{%
+   \color{white}%
+       \begin{center}
     \Huge{\textbf{
       Facial Expression Recognition using Local Binary Patterns% insert your title here
     }}
@@ -32,26 +33,30 @@
         with classification based on Support Vector Machines% insert your subtitle here
       }
     \end{center}
-    \vspace{0.2cm}\\
-  %  \midrule
-  %  \toprule[2pt]
-  \end{tabular}
-  \vspace{4 cm}
- % \begin{center}
-%    {\large
-%      Project Report%Insert document type (e.g., Project Report)
-%    }\\
-%    \vspace{0.2cm}
-%    {\Large
-%      Group Name/Number%Insert your group name or real names here
-%    }
-%  \end{center}
-  \vfill
-  \noindent \includegraphics{figures/aau_logo_en} \hfill {\large Autumn 2012} \\
-  % Ecrit en plus petit
-  \noindent  {\small Department of Electronic Systems  \hfill  Maxime Coupez\\
-  \noindent  Vision, Graphics and Interactive Systems \hfill  Kim-Adeline Miguel\\
-  \noindent  $9^{th}$ Semester project \hfill  Julia Alexandra Vigo}\\
+}}
+
+    \vfill
+    
+	    \noindent \colorbox{white}{
+ \begin{minipage}[b]{6.5cm}
+	  \includegraphics{figures/aau_new_logo} \\
+	    \small { Department of Electronic Systems} \\
+ {\small Vision, Graphics and Interactive Systems}  \\
+ {\small $9^{th}$ Semester project}
+	  \end{minipage}
+	  } 
+	  \hfill  
+	\colorbox{white}{ 
+	 \begin{minipage}[b]{3.5cm}	 
+\flushright
+	  {\large Autumn 2012} \\
+	     {\small Maxime Coupez}\\
+   {\small Kim-Adeline Miguel}\\
+   {\small Julia Alexandra Vigo}
+\end{minipage}
+}
+
+  
 	
 \end{titlepage}
 \clearpage
