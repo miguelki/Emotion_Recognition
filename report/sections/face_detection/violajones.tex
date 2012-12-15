@@ -103,7 +103,7 @@
 \noindent Viola and Jones used an intermediate representation of an image called "integral image". This integral image allows a very fast computation of rectangle features \cite{VIO01}, which then influences the determination of the presence or absence of hundreds of Haar features. In general, adding small units together is similar to integrating them; here, the small units are pixel intensity values. The integral value of a pixel can hence be computed by summing values from pixels above it and on its left. Integration of an entire image consequently starts at the top left corner and goes through all the image to the down right corner \cite{HEW07}.
 \newline
 
-\noindent For a pixel P with coordinates ($x,y$), its value in the integral image is computer as follows: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the input image intensity value function. In Figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is represented as the sum of all pixels above and on its left \cite{VIO01}. 
+\noindent For a pixel P with coordinates ($x,y$), its value in the integral image is computer as follows: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the input image intensity value function \cite{VIO01}. In Figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is represented as the sum of all pixels above and on its left. 
 \newline
 	
 \begin{figure}[!h]
@@ -125,7 +125,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 (where $ s(x,y) $ is the cumulative row sum, $ s(x,-1) = 0 $, and $ ii(-1,y) = 0 $) the integral image can be computed in only one pass over the original image. 
 \newline
 
-\noindent In Figure~\ref{integral_image_four_array}, the sum of the pixels in rectangle D can be calculated with four array references, thanks to the integral image. Value of the integral image at point 1 is the sum of pixels in rectangle $ A $. Value at point 2 is $ A + B $, at point 3 is $ A + C $, and at  point 4 is $ A + B + C + D $. The sum in D can then be computed as $ 4 + 1 - (2 + 3) $ \cite{VIO01}. 
+\noindent In Figure~\ref{integral_image_four_array}, the sum of the pixels in rectangle D can be calculated with four array references, thanks to the integral image. Value of the integral image at point 1 is the sum of pixels in rectangle $ A $. Value at point 2 is $ A + B $, at point 3 is $ A + C $, and at  point 4 is $ A + B + C + D $. The sum in D can then be computed as $ 4 + 1 - (2 + 3) $. 
 \newline
 
 \begin{figure}[!h]
@@ -152,7 +152,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.6]{figures/haar_feature_adaboost} 
+\noindent \includegraphics[scale=0.5]{figures/haar_feature_adaboost} 
 \newline
 \caption{AdaBoost method}
 \label{haar_feature_adaboost}

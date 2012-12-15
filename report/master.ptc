@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {4.1}Overview}{21}{section.51}
 \contentsline {section}{\numberline {4.2}Haar features}{21}{section.53}
 \contentsline {section}{\numberline {4.3}Integral image}{24}{section.60}
-\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{28}{section.66}
+\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{27}{section.66}
 \contentsline {section}{\numberline {4.5}Classifiers cascade}{29}{section.70}
-\contentsline {section}{\numberline {4.6}Test set and training}{33}{section.76}
+\contentsline {section}{\numberline {4.6}Test set and training}{32}{section.76}
 \ttl@stoptoc {parts@2}
 \contentsline {part}{III\hspace {1em}Feature extraction}{36}{part.78}
 \ttl@stoptoc {parts@2}
@@ -87,7 +87,7 @@
 \contentsline {chapter}{\numberline {10}Feature extraction with Local Binary Patterns}{70}{chapter.176}
 \contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{70}{section.178}
 \contentsline {section}{\numberline {10.2}Histogram computing}{71}{section.181}
-\contentsline {chapter}{\numberline {11}Classification with Support Vector Machine}{73}{chapter.185}
+\contentsline {chapter}{\numberline {11}Classification with Support Vector Machines}{73}{chapter.185}
 \contentsline {section}{\numberline {11.1}Histogram concatenation}{73}{section.187}
 \contentsline {section}{\numberline {11.2}Training and Model}{74}{section.190}
 \contentsline {chapter}{\numberline {12}Implementation on the Kinect}{76}{chapter.196}
