@@ -16,7 +16,7 @@
 \begin{center}
 \noindent \includegraphics[scale=0.6]{figures/facial_expression_recognition_process} 
 \newline
-\caption{Facial Expression Recognition process}
+\caption{Facial expression recognition process}
 \label{facial_expression_recognition_process}
 \end{center} 
 \end{figure}
@@ -49,6 +49,98 @@
 
 \noindent The classification step is the culminating point of the facial expression recognition process. There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as it will be detailed in Part ~\ref{chap:extraction}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
 %\vspace{\baselineskip}
+
+\phantomsection
+\section{Environment Setup}
+
+\vspace{\baselineskip}
+\noindent Our system will use the camera embedded into a Microsoft Kinect to record the user's video input. We will consider a casual use of the camera, the user sitting in front of the computer, the camera being next to it, as seen in \textbf{\color{red} Insert picture of the setting \& ref to figure}. This camera provides a 640$\times$480 pixels frame resolution, while recording at 30 FPS.
+\newline
+
+\noindent For development and training purposes we will use some pre-existing emotion datasets, in order to validate the efficiency of the system before testing it in real conditions.
+\newline
+
+\phantomsection
+\section{Facial Expression Datasets}
+
+\vspace{\baselineskip}
+\noindent Databases are very important for facial expression recognition system.
+\newline
+
+\noindent Using the same databases as in previous studies allows performance and accuracy comparisons between new implementations and previously obtained results. Since most studies draw their results on the same databases, it is then relatively easy to compare them and choose a database suitable for our system.
+\newline
+
+\noindent Databases are however difficult to build. Indeed, it has to be obtained following a meticulous procedure while being exhaustive so it can be considered as representative. The majority of actual databases use posed expressions rather than spontaneous ones, this choice having a major influence on facial expression recognition systems. This explains why some databases are updated, and now integrate spontaneous expressions. Even with this transition from posed expressions to spontaneous expressions, there are other requirements that should be met to have a standardized database.Its content should be of different resolutions and scales, and should also contain exposition under different conditions, i.e changes in lightning, occlusions or different head angles \cite{BET12}.  
+\newline
+
+\noindent Constructing a database is then a tedious task because of all these requirements to meet. Consequently, most studies are based on already existing datasets. The 3 datasets described afterwards are popular and freely available facial expression datasets which have been used a numerous amount of times in the past few years. Our system will then be trained and tested with one or several of these databases.
+\newline
+
+\subsection{Japanese Female Facial Expression Database (JAFFE)}
+
+\vspace{\baselineskip}
+\noindent This database contains 213 images of 7 facial expressions (6 basic facial expressions: happy, angry, afraid, disgusted, sad, surprised, and 1 neutral facial expression). Each expression has been photographed three or four times. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. All images come from 10 Japanese female models.  The database was planned and assembled by Miyuki Kamachi, Michael Lyons, and Jiro Gyoba \cite{JAFFE}.
+\newline
+
+\noindent This database contains only posed expressions. The photos have been taken under strict  and controlled conditions: similar lighting and hair tied so there is no facial occlusion \cite{BET12}. 
+\newline
+
+\noindent An example of images contained in the database is given by Figure~\ref{jaffe_7facialexpressions}. In this figure, this is a female subject displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). 
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.75]{figures/jaffe_7facialexpressions} 
+\newline
+\caption{Example of images from JAFFE database}
+\label{jaffe_7facialexpressions}
+\end{center} 
+\end{figure}
+
+\subsection{Karolinska Directed Emotional Faces Database (KDEF)}
+
+\vspace{\baselineskip}
+\noindent The Karolinska Directed Emotional Faces (KDEF) contains 4900 pictures of human facial expressions. The material was developed in 1998 by Daniel Lundqvist, Anders Flykt and Professor Arne Ohman at Karolinska Institutet, Department of Clinical Neuroscience, Section of Psychology, Stockholm, Sweden \cite{KDEF}.
+\newline
+
+\noindent The database was first developed for psychological and medical research purposes. It was created so it could used in perception, attention, emotion, memory and backward masking experiments. This database has also been built under controlled conditions. Indeed, researchers tried to maintain constant and soft lighting for each subject. Furthermore, they made their subjects wear the same grey T-shirts, and used a grid to center the participants faces while they were shot. This grid was also used to place eyes and mouths at the same position in fixed image coordinates during scanning \cite{KDEF}.
+\newline
+
+\noindent The database contains 70 individuals (35 males and 35 females), from 20 to 30 years, each one displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). Each expression has been photographed (twice) from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
+\newline
+
+\noindent An example of images contained in the database is given in Figure~\ref{kdef_7facialexpressions}which represents a female subject photographed from a straight angle and displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised).
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.65]{figures/kdef_7facialexpressions} 
+\newline
+\caption{Example of images from KDEF database}
+\label{kdef_7facialexpressions}
+\end{center} 
+\end{figure}
+
+\subsection{Montreal Set of Facial Displays of Emotion Database (MSFDE)}
+
+\vspace{\baselineskip}
+\noindent This database contains facial expressions of European, Asian, and African subjects, from both genders. Each expression was created by directly asking the subject to express this emotion \cite{MSFDE}.
+\newline
+
+\noindent The database contains expressions of happiness, sadness, anger, fear, disgust, and embarrassment, along with a neutral facial expression. All expressions have been photographed at 5 different levels of intensity \cite{MSFDE}.
+\newline
+
+\noindent An example of images contained in the database is given in Figure~\ref{msfde_7facialexpressions}, where an African female subject displays 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, ashamed).
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.8]{figures/msfde_7facialexpressions} 
+\newline
+\caption{Example of images from MSDFE database}
+\label{msfde_7facialexpressions}
+\end{center} 
+\end{figure}
 
 \phantomsection
 \section{Issues}
@@ -84,7 +176,7 @@
 \noindent The primary goal of the facial expression recognition system described in this paper is to perform real-time facial expression recognition. As a real-time application, the processing time should be taken into account. Indeed, if it is too long, the system will not be responsive enough to be labelled as real-time.
 \newline
 
-\noindent This is one of the challenges of this kind of system, because processing is usually really heavy no matter which algorithm is used. Most facial expression recognition applications should be working in real-time conditions, for example in robotics or in surveillance. A solution could be to find new algorithms for Facial Expression Recognition or to improve and lighten already existing algorithms.
+\noindent This is one of the challenges of this kind of system, because processing is usually really heavy no matter which algorithm is used. Most facial expression recognition applications should be working in real-time conditions, for example in robotics or in surveillance. A solution could be to find new algorithms for facial expression recognition or to improve and lighten already existing algorithms.
 \newline
 
 \subsection{Conditions}
@@ -135,15 +227,15 @@
 \subsubsection{Angle}
 
 \vspace{\baselineskip}
-\noindent Head angle is one of the most impacting conditions during recognition. Indeed, some features can be occluded or disappear if the head does not properly face the camera. This issue also rises if the system is not tuned to work with head angles other than straight profile. For example, with a profile angle, one eye, half of the nose and of the mouth disappear. If the database does not contain samples with profile faces, the recognition will fail. However, if the database contains images from straight angle as well as from different profile angles, recognition will be possible. An example of different images taken from different angles for one emotion, "Fear", from the KDEF database is given in Figure~\ref{kdef_example_angle}:
+\noindent Head angle is one of the most impacting conditions during recognition. Indeed, some features can be occluded or disappear if the head does not properly face the camera. This issue also rises if the system is not tuned to work with head angles other than straight profile. For example, with a profile angle, one eye, half of the nose and of the mouth disappear. If the database does not contain samples with profile faces, the recognition will fail. However, if the database contains images from straight angle as well as from different profile angles, recognition will be possible. An example of different images taken from different angles for one emotion \textit{neutral} is given in Figure~\ref{example_angle}:
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.8]{figures/kdef_example_angle} 
+\noindent \includegraphics[scale=0.3]{figures/example_angle} 
 \newline
-\caption{Example of different angles for the "Fear" emotion (from left to right: full left profile, half left profile, straight, half right profile, full right profile) in the KDEF database}
-\label{kdef_example_angle}
+\caption{Example of different angles for the \textit{neutral} state (from left to right: full left profile, half left profile, straight, half right profile, full right profile)}
+\label{example_angle}
 \end{center} 
 \end{figure}
 

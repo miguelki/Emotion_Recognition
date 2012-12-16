@@ -34,13 +34,19 @@
 \tableofcontents
 \pagenumbering{arabic} %use arabic page numbering in the mainmatter
 \input{sections/introduction.tex}
-\input{sections/feature_detection.tex}
+\input{sections/face_detection.tex}
 \input{sections/feature_extraction.tex}
 \input{sections/feature_classification.tex}
 \input{sections/implementation.tex}
 \input{sections/evaluation.tex}
 \hypersetup{bookmarksdepth=0} 
 \bookmarksetup{startatroot} % faire en sorte que la suite ne soit pas incluse dans la partie précédente
+% \hypersetup{bookmarksdepth=0} 
+% \bookmarksetup{startatroot}% faire en sorte que la conclusion ne soit pas incluse dans la partie précédente
+% \addtocontents{toc}{\bigskip}
+% \cleardoublepage
+% \input{sections/conclusion.tex}
+% \addtocontents{toc}{\bigskip}
 \cleardoublepage
 \phantomsection
 \bibliography{bib/mybib}

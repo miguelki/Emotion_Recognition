@@ -44,7 +44,7 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \phantomsection
 \section{Appearance-based methods}
 
-\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lightning or the pose of the head, the recognition will be less effective.
+\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lighting or the pose of the head, the recognition will be less effective.
 \newline
 
 \subsection{Principal Component Analysis (PCA)}
@@ -132,18 +132,18 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \subsection{Local Binary Patterns (LBP)}
 
 \vspace{\baselineskip}
-\noindent The Local Binary Pattern is a feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. This information is the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lightning (see figure~\ref{lbp_change_lightning}).
+\noindent The Local Binary Pattern is a feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. This information is the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lighting (see figure~\ref{lbp_change_lighting}).
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.6]{figures/lbp_change_lightning} 
+\noindent \includegraphics[scale=0.6]{figures/lbp_change_lighting} 
 \newline
 \caption{Effect of changes in lighting with LBP method}
-\label{lbp_change_lightning}
+\label{lbp_change_lighting}
 \end{center} 
 \end{figure}
 
-\noindent This method is more detailed in Chapter \ref{chap:lbp}. The facial expression recognition system presented in this report uses this method. Indeed, it is very effective and the implementation offers many possibilities for improvements. This method was chosen over Gabor wavelets one because the latter is known to be time consuming, while this facial expression recognition system is wanted to be as close as possible to a real-time system.
+\noindent This method is more detailed in Chapter \ref{chap:lbp}. The facial expression recognition system presented in this report uses this method. Indeed, it is very effective and the implementation offers many possibilities for improvements. This method was chosen over Gabor wavelets because the latter is known to be time consuming, while this facial expression recognition system is wanted to be as close as possible to a real-time system.
 %\newline
 

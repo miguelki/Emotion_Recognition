@@ -1,0 +1,26 @@
+%\newpage
+  \begin{titlepage}
+    \vspace*{\fill}
+      \part{Face detection}
+    \vspace*{\fill}
+  \end{titlepage}
+  
+\startcontents[parts]
+
+\phantomsection
+\chapter*{Contents}
+
+\textit{Before getting to the main part of this project which is Feature extraction, there is a mandatory step that is Face detection. In order to avoid as much computation and processing as possible, only parts containing regions of interest for a facial expression recognition system have to be processed. It consequently means that detection of interesting features has to be performed beforehand, which is the goal of face detection. This part will explain how face detection works in general. Then the Viola-Jones algorithm, a performant and cost-effective method for face detection and tracking, will be introduced.}
+
+\vspace{\baselineskip}
+
+\printcontents[parts]{}{-1}{\setcounter{tocdepth}{1}}
+
+\pagebreak
+
+\input{sections/face_detection/face_detection.tex}
+\newpage
+\input{sections/face_detection/violajones.tex}
+
+\stopcontents[parts]
+
