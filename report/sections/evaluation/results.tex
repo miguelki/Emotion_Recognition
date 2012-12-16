@@ -17,7 +17,6 @@
 
 \begin{table}[h]
    \caption{\label{table_results_kernels} Results with different kernels and different parameters}
-   \begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
     & Linear & Poly1 & Poly2 & RBF1 & RBF2 & Sigmoid1 & Sigmoid2 \\
@@ -32,7 +31,6 @@
   overall & 52.38\% & 60.71\% & 57.14\% & 57.14\% & 57.14\% & 60.71\% & 61.90\% \\
   \hline
 \end{tabular}
-\end {center}
 \end{table}
 
 \noindent Poly1 stands for Polynomial and has degree parameter: $ D = 2 $
@@ -53,7 +51,6 @@
 
 \begin{table}[h]
    \caption{\label{table_results_crossvalidation} Results with and without cross validation}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
     & with cross validation & without cross validation \\
@@ -67,7 +64,6 @@
   Sigmoid2 & 61.90\% & 61.90\% \\
   \hline
 \end{tabular}
-\end {center}
 \end{table}
 
 \noindent The best accuracy percentage is for the Sigmoid2 kernel parameters. It is obtained with a classification based on the Sigmoid kernel and with following parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $. These parameters are found by \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the Sigmoid kernel. The overall percentage of accuracy for all the emotions is $ 61.90\% $. The table~\ref{table_results_confusion_matrix} represents the confusion matrix.
@@ -75,7 +71,6 @@
 
 \begin{table}[h]
    \caption{\label{table_results_confusion_matrix} Confusion matrix}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
@@ -89,7 +84,6 @@
   surprised & 2 & 1 & 0 & 0 & 0 & 0 & 9 & 75.00\%\\
   \hline
 \end{tabular}
-\end {center}
 \end{table}
 
 \noindent By looking at the confusion matrix, it is easy to notice that 3 facial expressions are harder to recognize than the others with this system: angry, sad and neutral. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy higher than $ 70\% $. Furthermore, the recognition accuracy for the "Sad" expression is lower than random guess. The table~\ref{table_results_accuracy} shows the recognition accuracy of the six basic emotions and of the neutral state.
@@ -97,7 +91,6 @@
 
 \begin{table}[h]
    \caption{\label{table_results_accuracy} Recognition accuracy of the six basic emotions and of the neutral state}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    $ < 50\% $ & > 75\% \\
@@ -108,7 +101,6 @@
    & surprised ($ 9/12 $) \\
   \hline
 \end{tabular}
-\end {center}
 \end{table}
 
 \noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
@@ -119,7 +111,7 @@
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.4]{figures/kdef_no_difference_emotions} 
+\noindent \includegraphics[scale=0.3]{figures/kdef_no_difference_emotions} 
 \newline
 \caption{Face images from the KDEF database used in the test set}
 \label{kdef_no_difference_emotions}
