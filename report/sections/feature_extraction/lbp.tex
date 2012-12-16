@@ -15,26 +15,26 @@
 \noindent Globally, a gray-scale image of a face is divided into small regions. LBP histograms are extracted from each of those small regions. These histograms are then concatenated into one feature vector describing the image \cite{JUL07}.
 \newline
 
-\noindent The LBP operator works with one central pixel and its eight neighbour pixels. It is a basic binary thresholding between the central pixel and its neighbours. The threshold is set as the intensity value of the central pixel. Then, for each neighbour pixel, if its value is superior or equal to the threshold, a value of 1 is assigned, otherwise a 0. When all neighbours have been processed, a LBP code for the central pixel can be obtained by concatenating all values of its eight neighbours into a binary code. For a better comprehension, a human readable, decimal value can be computed from the binary one. Figure~\ref{lbp_basic_operator} shows an example of the LBP process for a pixel and its eight neighbor pixels \cite{JUL07}.
+\noindent The LBP operator works with one central pixel and its eight neighbour pixels. It is a basic binary thresholding between the central pixel and its neighbours. The threshold is set as the intensity value of the central pixel. Then, for each neighbour pixel, if its value is superior or equal to the threshold, a value of 1 is assigned, otherwise a 0. When all neighbours have been processed, a LBP code for the central pixel can be obtained by concatenating all values of its eight neighbours into a binary code. For a better comprehension, a human readable, decimal value can be computed from the binary one. Figure~\ref{lbp_basic_operator} shows an example of the LBP process for a pixel and its eight neighbor pixels.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.5]{figures/lbp_basic_operator} 
+\noindent \includegraphics[scale=0.7]{figures/lbp_basic_operator} 
 \newline
 \caption{Basic LBP operator}
 \label{lbp_basic_operator}
 \end{center} 
 \end{figure}
 
-\noindent Figure~\ref{lbp_basic_operator_example} shows an example of the LBP operator applied on a facial image from the JAFFE database \cite{LIU11}.
+\noindent Figure~\ref{lbp_basic_operator_example} shows an example of the LBP operator applied on a facial image from the KDEF database.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.4]{figures/lbp_basic_operator_example} 
+\noindent \includegraphics[scale=0.8]{figures/lbp_basic_operator_example} 
 \newline
-\caption{Example of the LBP operator applied on a image from the JAFFE database}
+\caption{Example of the LBP operator applied on a image from the KDEF database}
 \label{lbp_basic_operator_example}
 \end{center} 
 \end{figure}
@@ -164,7 +164,7 @@ s(x) = \left\{
 \noindent There are 2 main advantages coming along with the uniform LBP. The first one is the reduction in range of possible patterns. With the uniform LBP operator, there are 58 possible combinations as seen above, whereas with the basic LBP operator, there are $ 2^8 = 256 $ possible combinations for the same bit-length. The use of uniform LBP then leads to less computation \cite{GAN08}.
 \newline
 
-\noindent The second advantage is that, even though there is a reduction of dimensionality, the patterns remain discriminative between various structural features. These structural features detected by the uniform LBP are the spot, the spot/flat, the line end, the edge and the corner, as shown in Figure~\ref{lbp_structural_features}  \cite{GAN08}.
+\noindent The second advantage is that, even though there is a reduction of dimensionality, the patterns remain discriminative between various structural features. These structural features detected by the uniform LBP are the spot, the spot/flat, the line end, the edge and the corner, as shown in Figure~\ref{lbp_structural_features}.
 \newline
 
 \begin{figure}[!h]
@@ -190,19 +190,19 @@ s(x) = \left\{
 \noindent To obtain these features vectors mentioned above, pixel values obtained with the LBP operator are concatenated into an histogram, which will give feature vectors.
 \newline
 
-\noindent To compute this histogram, the face has to be partitioned into regions first. Most of the time, it is partitioned as following: 42 regions, 7 rows and 6 columns. It matches parts of the face yielding important features for emotion recognition. Face dimensions for all tested images should be kept constant. Then for all pixels of the face, their LBP value is computed using $ LBP_{8,2}^{u^2} $. Then, resulting values are gathered region-wise into different bins. For example, the LBP operator with $ P = 8 $ and $ R = 1.0 $ outputs a histogram with 59 bins: 56 bins for uniform LBP with 2 bitwise transitions, 2 bins for  uniform LBP with 0 bitwise transition and the remaining bin for non-uniform patterns). All these bins are concatenated column-wise; as it can be seen in Figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows, the histogram being computed for each region partitioned on the sample image \cite{GAN08}.
+\noindent To compute this histogram, the face has to be partitioned into regions first. Most of the time, it is partitioned as following: 42 regions, 7 rows and 6 columns. It matches parts of the face yielding important features for emotion recognition. Face dimensions for all tested images should be kept constant. Then for all pixels of the face, their LBP value is computed using $ LBP_{8,2}^{u^2} $. Then, resulting values are gathered region-wise into different bins. For example, the LBP operator with $ P = 8 $ and $ R = 1.0 $ outputs a histogram with 59 bins: 56 bins for uniform LBP with 2 bitwise transitions, 2 bins for  uniform LBP with 0 bitwise transition and the remaining bin for non-uniform patterns). All these bins are concatenated column-wise; as it can be seen in Figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows, the histogram being computed for each region partitioned on the sample image.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.4]{figures/lbp_histogram} 
+\noindent \includegraphics[scale=0.7]{figures/lbp_histogram} 
 \newline
 \caption{Example of a vector based on histogram computing}
 \label{lbp_histogram}
 \end{center} 
 \end{figure}
 
-\noindent The regions obtained when the sample image is partitioned do not have the same contribution to the expressed emotion. For example, eyes bring more information about an emotion than cheeks. For each region, a weight is then assigned as in Figure~\ref{lbp_region_weight} \cite{GAN08}. Thus, the histogram of each region is multiplied with a corresponding weight.
+\noindent The regions obtained when the sample image is partitioned do not have the same contribution to the expressed emotion. For example, eyes bring more information about an emotion than cheeks. For each region, a weight is then assigned as in Figure~\ref{lbp_region_weight}. Thus, the histogram of each region is multiplied with a corresponding weight.
 \newline
 
 \begin{figure}[!h]

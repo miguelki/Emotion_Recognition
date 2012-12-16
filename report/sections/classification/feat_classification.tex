@@ -80,32 +80,16 @@ y(x) = w^Tx + \omega_0
 \noindent With \textit{weight vector} $w^T$ and \textit{bias} $\omega_0$ \cite{BIS06}. The input vector $x$ is then assigned to class $C_1$ if $y(x) = 0$, otherwise it will be classified as belonging to class $C_2$.
 \newline
 
-\noindent For problems with a number of classes K > 2, a \textit{one-versus-the-rest} approach can be used, where K-1 two-way discriminant functions are used: the $k^{th}$ discriminant function will determine if a point belongs to class $C_k$ or not. However, as shown in Figure \ref{one_vs_rest}, this combination of discriminant functions leaves an ambiguous region \cite{BIS06}. 
+\noindent For problems with a number of classes K > 2, a \textit{one-versus-the-rest} approach can be used, where K-1 two-way discriminant functions are used: the $k^{th}$ discriminant function will determine if a point belongs to class $C_k$ or not. However, this combination of discriminant functions leaves an ambiguous region \cite{BIS06}. 
 \newline
 
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.2]{figures/one_vs} 
-\newline
-\caption{Attempting to construct a $K$ class discriminant from a set of two class discriminants leads to ambiguous regions, shown in green. On the left is an example of \textit{one-versus-the-rest} approach, the discriminant function designed to separate points belonging to a class $C_i$ and points that are not. On the right is an example of \textit{one-versus-all} approach involving 3 discriminant functions, each one separating a pair of classes classes $C_i$ and $C_j$.From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
-\label{one_vs_rest}
-\end{center} 
-\end{figure}
 
-\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has an ambiguous region problem, as seen in Figure \ref{one_vs} \cite{BIS06}.
+\noindent An other way to solve a multi-class problem could be to use $\frac{K(K-1)}{2}$ discriminant functions, which is the \textit{one-versus-all} approach. However, the resulting K-class discriminant also has the same ambiguous region problem as the one-versus-the-rest approach \cite{BIS06}.
 \newline
 
-\noindent A K-class discriminant which does not lead to an ambiguous region problem is to use K linear discriminant functions $g(x)_k$, $k=1..K$, and to assign an input vector $x$ to a class $C_i$ if $g(x)_i = \max\limits_{k} g_k(x)$. Indeed, as shown in Figure \ref{k_discr}, there are no more ambiguous regions \cite{BIS06}.
+\noindent A K-class discriminant which does not lead to an ambiguous region problem is to use K linear discriminant functions $g(x)_k$, $k=1..K$, and to assign an input vector $x$ to a class $C_i$ if $g(x)_i = \max\limits_{k} g_k(x)$ \cite{BIS06}.
 \newline
 
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.5]{figures/lda_k_disc} 
-\newline
-\caption{Decision boundaries produced by a linear machine for a 3-class problem and a 5-class problem. From: Richard O. Duda, Peter E. Hart, and David G. Stork, \textit{Pattern Classification}. Copyright \copyright  2001 by John Wiley \& Sons Inc.}
-\label{k_disc}
-\end{center} 
-\end{figure}
 
 \phantomsection
 \section{Unsupervised learning}
@@ -142,7 +126,7 @@ r_{nk} = \left\{
 \end{equation*}
 \vspace{\baselineskip}
 
-\noindent This can be achieved through the following iterative algorithm, which result can be seen in Figure \ref{k-mean_res}:
+\noindent This can be achieved through the following iterative algorithm:
 \newline
 
 \begin{algorithmic}
@@ -165,15 +149,6 @@ r_{nk} = \left\{
 \end{algorithmic}
 
 \vspace{\baselineskip}
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.5]{figures/k-mean_res} 
-\newline
-\caption{Example of application of the iterative K-means algorithm.}
-\label{k-mean_res}
-\end{center} 
-\end{figure}
 
 \noindent In this algorithm, denominator $\sum\limits_n r_{nk}$ corresponds to the number of points assigned to cluster $k$, which sets $\mu_k$ as the mean of the cluster, hence the name \textit{K-means algorithm} \cite{BIS06}.
 \newline
@@ -205,9 +180,10 @@ r_{nk} = \left\{
 \noindent with $\Phi$ representing mixing coefficients, including prior probabilities and sufficient statistics of component densities.
 \newline
 
-\noindent The maximum likelihood estimation can then be obtained through the \textit{Expectation-Maximization algorithm} for Gaussian Mixture Models (EM), which converges into a result comparable as the one in Figure \ref{mixture_model} \cite{BIS06}.
+\noindent The maximum likelihood estimation can then be obtained through the \textit{Expectation-Maximization algorithm} for Gaussian Mixture Models (EM), which converges and fits a mixture model onto each cluster \cite{BIS06}.
 \newline
 
+\pagebreak
 \noindent \textbf{Expectation-Maximization algorithm:}
 \newline
 
@@ -227,12 +203,4 @@ r_{nk} = \left\{
 \Until {$\mathcal{L}$ converges}
 \end{algorithmic}
 
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.2]{figures/mixture_model} 
-\newline
-\caption{Illustration of the EM algorithm. From: Christopher M. Bishop, \textit{Pattern Recognition and Machine Learning}. Copyright \copyright  2006 by Springer Science.}
-\label{mixture_model}
-\end{center} 
-\end{figure}
 \pagebreak
