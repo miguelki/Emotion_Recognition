@@ -92,6 +92,12 @@ K(x_i,x_j) = \tanh(\gamma x_i^T x_j + r)
 \noindent For the three last kernels, the $\gamma$ parameter can be changed and optimized. Each of these kernels was tested with the default $\gamma$ parameter, and then with an optimized one. The optimized $\gamma$ parameter has been computed using an optimization tool.
 \newline
 
+\noindent For the polynomial kernel, the $D$ parameter represents the dimension of the polynomial. It has to be chosen. Once it is chosen the $ \gamma $ is found automatically.
+\newline
+
+\noindent For the RBF and the sigmoid kernel, two parameters has to be chosen: the cache parameter and the $\gamma$ parameter. These parameters can be found by using \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the sigmoid kernel.
+\newline
+
 \noindent The cross validation method was also used. It is a method that trains and tests the data at the same time by itself in order to find the best parameters possible. It starts by dividing the dataset into $ n $ parts, and one part is used for testing while the other are used for training. The cross validation method has $n$ training/testing cycles, each cycle using a different testing set.  
 \newline
 

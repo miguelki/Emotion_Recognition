@@ -168,6 +168,12 @@ Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
 Padhraic Smyth.
 \newblock Face detection using the viola-jones method, 2007.
 
+\bibitem{TSA09}
+Pohsiang Tsai, Longbing Cao, Tom Hintz, and Tony Jan.
+\newblock A bi-modal face recognition framework integrating facial expression
+  with facial appearance.
+\newblock {\em Pattern Recognition Letters}, 30(12):1096--1109, 2009.
+
 \bibitem{TUR91}
 Matthew Turk and Alex Pentland.
 \newblock Eigenfaces for recognition.
@@ -199,5 +205,11 @@ Paul Viola and Michael Jones.
 Wikipedia.
 \newblock Statistical classification.
 \newblock \url{http://en.wikipedia.org/wiki/Classifier_(mathematics)}.
+
+\bibitem{WON09}
+Jia-Jun Wong and Siu-Yeung Cho.
+\newblock A local experts organization model with application to face emotion
+  recognition.
+\newblock {\em Expert Systems with Applications}, 36(1):804--819, 2009.
 
 \end{thebibliography}

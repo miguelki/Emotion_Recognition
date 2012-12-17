@@ -110,6 +110,7 @@ L_D = \sum\limits_{i=1}\limits{N} \alpha_i - \frac{1}{2} \sum\limits_{i=1}\limit
 \section{Combining LBP and SVM}
 
 \vspace{\baselineskip}
+<<<<<<< HEAD
 \noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and compared the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. The template-matching classifier is a nearest-neighbour classifier based on \textit{Chi square statistic} ($\chi^2$) dissimilarity measure. Secondly, train data for LDA was first mapped into a PCA subspace. Even though the dimensionality of the data was reduced, 98\% of the information was kept \cite{SHA09}. It was then combined with a Neural Network (NN) classifier. About SVM, since it is a binary classifier, multi-class classification was achieved through a \textit{one-versus-the-rest} approach. It is the same as for K-means, as presented in Chapter \ref{chap:classification}, Section \ref{unsup_learning}. They also used 10-fold cross-validation, and performed grid search to find optimized parameters. Images from the Cohn-Kanade database were used as train and test data.
 \newline
 
@@ -126,5 +127,20 @@ L_D = \sum\limits_{i=1}\limits{N} \alpha_i - \frac{1}{2} \sum\limits_{i=1}\limit
 \newline
 
 \noindent Since the accuracy of the system presented in this article is very high, we chose to implement a similar system. Indeed, we are performing facial expression recognition using LBP for feature extraction, and SVM classification. We however did not use the Cohn-Kanade database as train data because we did not get it on time. We will describe our implementation and results further in the report. 
+=======
+\noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and compared the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. They have used images from the Cohn-Kanade database as train data, and the conclusion of their study is that classification using SVM has a higher accuracy rate than the two other methods. Template matching 
+\newline
+
+\noindent Gabor wavelets \& lbp
+\newline
+
+\noindent The accuracy for each facial expression is however not the same. SVM has some difficulties especially when it comes to distinguish fear and sadness, the two facial expressions which have the lowest accuracy rates. Fear is mistaken with joy, while sadness is mistaken with anger or neutral state. Recognitions rates are however usually better for a 7-class classification, except for fear.
+\newline
+
+\noindent BLA BLA BLA
+\newline
+
+\noindent Since the accuracy of the system presented in this article is very high, we chose to implement a similar system. Indeed, we are performing facial expression recognition using LBP for feature extraction, and SVM classification. We however did not use the Cohn-Kanade database as train data. We will describe further our implementation and results further in the report. 
+>>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \newline
 
