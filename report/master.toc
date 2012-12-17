@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.4.2}Real-time}{13}{subsection.28}
 \contentsline {subsection}{\numberline {2.4.3}Conditions}{14}{subsection.29}
 \contentsline {subsubsection}{Occlusion}{14}{subsubsection*.30}
-\contentsline {subsubsection}{Lighting}{15}{subsubsection*.33}
+\contentsline {subsubsection}{Lighting}{14}{subsubsection*.33}
 \contentsline {subsubsection}{Angle}{15}{subsubsection*.35}
 \contentsline {section}{\numberline {2.5}Requirements}{16}{section.38}
 \contentsline {part}{II\hspace {1em}Face detection}{18}{part.39}
