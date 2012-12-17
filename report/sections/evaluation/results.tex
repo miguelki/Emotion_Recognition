@@ -32,10 +32,7 @@
   \textbf{overall} & \textbf{57.14\%} & \textbf{66.67\%} & \textbf{61.90\%} & \textbf{59.52\%} & \textbf{57.14\%} & \textbf{29,76\%} & \textbf{57.14\%} \\
   \hline
 \end{tabular}
-<<<<<<< HEAD
-=======
 \end{center} 
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \end{table}
 
 \noindent \textit{Poly1} stands for Polynomial and has degree parameter: $ D = 2 $
@@ -51,14 +48,10 @@
 \noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-<<<<<<< HEAD
-\noindent A model has also been trained with same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). Results obtained with a model using cross-validation are compared to those with a model trained normally, this comparison being shown in  Table~\ref{table_results_crossvalidation}. All results are inferior or equal to those without cross-validation, except for linear and sigmoid kernels, with the latter tuned with the second set of parameters. 
-=======
-\noindent As said in Chapter \ref{chap:implementation_svm}, the parameters for the RBF and sigmoid kernel are find by the \textit{gridsearch} script of the SVM library. For the polynomial kernel, as said in Chapter \ref{chap:implementation_svm}, the $D$ parameter has to be chosen. By default, the $D$ parameter has the value 3. \textit{Poly2} has this value as parameter. For \textit{Poly1}, the $D$ parameter is $2$. It has been chosen because if the dimension is superior to $3$ then there is the problem of \textit{over-fitting}. It means that the model has good results but it is of use for this kind of data only. It has become to precise. And the gain in accuracy of adding one dimension does not worth it.
+\noindent As said in Chapter \ref{chap:implementation_svm}, parameters for RBF and sigmoid kernels are found by the \textit{gridsearch} script of LIBSVM. For the polynomial kernel, as said in Chapter \ref{chap:implementation_svm}, the degree parameter $D$ has to be chosen, otherwise the default value is $D=3$. \textit{Poly2} has default $D$ value, while \textit{Poly1} has $D = 2$. It has been chosen because if the dimension is superior to $3$ then there an \textit{overfitting} issue. It means that the model yields good results, not because it has been trained with suitable parameters, but because it fits the test data too much, and will have erroneous results if given other data.
 \newline
 
-\noindent The same data has been trained with the same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). All results are inferior or equal to those without cross-validation, except for the sigmoid kernel with cache and $\gamma$ parameters equals to $ C = 8192 $ and $ \gamma = 0.00048828125 $. The table~\ref{table_results_crossvalidation} represents both results with and without cross validation.
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
+\noindent A model has also been trained with same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). Results obtained with a model using cross-validation are compared to those with a model trained normally, this comparison being shown in  Table~\ref{table_results_crossvalidation}. All results are inferior or equal to those without cross-validation, except for the sigmoid kernel tuned with parameters cache and $\gamma$ equals to $ C = 8192 $ and $ \gamma = 0.00048828125 $.
 \newline
 
 \begin{table}[h]
@@ -77,19 +70,11 @@
   Sigmoid2 & 63.10\% & 57.14\% \\
   \hline
 \end{tabular}
-<<<<<<< HEAD
-\end{table}
-
-\noindent \textbf{\color{red} BLA BLA poly kernel et confusion matrix}
-\newline 
-
-=======
 \end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for the Poly1 kernel parameters. It is obtained with a classification based on the polynomial kernel and with the following parameter: $ D = 2 $. This parameters is the default parameter for this kernel. The overall percentage of accuracy for all the emotions is $ 66.67\% $. The table~\ref{table_results_confusion_matrix} represents the confusion matrix.
+\noindent The best accuracy percentage is for a model trained with Poly1 kernel parameters, with an overall accuracy rate of$ 66.67\% $. It is obtained with a classification based on the polynomial kernel and with following parameter: $ D = 2 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
 \newline
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 
 \begin{table}[h]
 \begin{center}
@@ -107,13 +92,10 @@
   surprised & 0 & 3 & 0 & 0 & 0 & 0 & \textbf{9} & 75.00\%\\
   \hline
 \end{tabular}
-<<<<<<< HEAD
-=======
 \end{center}
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \end{table}
 
-\noindent By looking at the confusion matrix, it is easy to notice that 2 facial expressions are harder to recognize than the others with this system: angry and sad. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy, neutral and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy equal or higher than $ 75\% $, as summed up in Table~\ref{table_results_accuracy}. Furthermore, the recognition accuracy for the \textit{sad} expression is much lower than random guess, which really contrasts with the \textit{happy} facial expression, the latter reaching a $100\%$ accuracy.
+\noindent By looking at the confusion matrix, it is easy to notice that 2 facial expressions are harder to recognize than others with this system: \textit{angry} and \textit{sad}. There is a great difference between these 2 emotions and the 5 other ones (afraid, disgusted, happy, neutral and surprised). Indeed, these 2 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy equal or higher than $ 75\% $, as summed up in Table~\ref{table_results_accuracy}. Furthermore, the recognition accuracy for the \textit{sad} expression is much lower than random guess, which really contrasts with the \textit{happy} facial expression, the latter reaching a $100\%$ accuracy.
 \newline
 
 \begin{table}[h]
@@ -130,32 +112,21 @@
    & neutral ($ 10/12 $) \\
   \hline
 \end{tabular}
-<<<<<<< HEAD
-=======
 \end{center} 
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \end{table}
 
 \noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
 \newline
 
-<<<<<<< HEAD
-\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and a second group containing the 2 remaining emotions. The 2 facial expressions \textit{angry}, \textit{sad}, are the ones that distort the less the face. For a same subject expressing these 3 different emotions, as in Figure \ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
-=======
 \noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and another group containing the 5 remaining emotions.
 \newline
 
 \noindent The first group contains the 5 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy}, \textit{surprised} and the \textit{neutral} state. These emotions distort significantly the face when they are expressed except for the neutral state that is the basic face of the subject when he does not express an emotion. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 5 facial expressions. Important features carrying emotion as the mouth or the eyes are changing a lot while these 5 emotions are expressed.
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-<<<<<<< HEAD
-\noindent \includegraphics[scale=0.3]{figures/kdef_no_difference_emotions} 
-=======
 \noindent \includegraphics[scale=0.4]{figures/kdef_difference_emotions} 
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \newline
 \caption{Face images from the KDEF database used in the test set}
 \label{kdef_difference_emotions}

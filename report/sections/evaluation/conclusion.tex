@@ -39,11 +39,7 @@
 \vspace{\baselineskip}
 \noindent One of the way to improve the LBP operator of this system is to add weights for each of the 42 regions of the face, as seen in Chapter~\ref{chap:lbp}. The LBP operator used in this system is already far from the basic LBP operator; it is a uniform circular LBP operator. Even though the results obtained with this operator are quite good with an accuracy of $ 66.67\% $, there is still room for improvement. Weighting the regions of the face will have an impact on the computed histogram, hence on the resulting feature vector ready for classification. \newline
 
-<<<<<<< HEAD
-\noindent The face image is divided in 42 regions ($ 7 $ rows $\times$ $ 6 $ columns), as seen in Chapter~\ref{chap:lbp}, and mentioned in \ref{GAN08}. The weights are however not applied in the same way as in \ref{GAN08}. Figure~\ref{lbp_region_weight} given in the chapter~\ref{chap:lbp} shows a face image cropped in a specific way. Face images extracted from the KDEF database with Viola-Jones algorithm, on which this system is based, are not the same. Indeed, they still have some background around them, and the algorithm extracts faces with surrounding hair. Thus, border regions are less important than those containing the ROI of the face (eyes, nose, mouth). Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database used by this system.
-=======
-\noindent The face image is divided in 42 regions ($ 6 $ columns $ \times $ $ 7 $ rows) as seen in chapter~\ref{chap:lbp}. The weights are applied in the same way as the Figure~\ref{lbp_region_weight} given in the chapter~\ref{chap:lbp}. The Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses. The weights are assigned as in the Figure~\ref{lbp_region_weight}.
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
+\noindent The face image is divided in 42 regions ($ 7 $ rows $\times$ $ 6 $ columns), as seen in Chapter~\ref{chap:lbp}, and mentioned in \ref{GAN08}. The weights are however not applied in the same way as in \ref{GAN08}, but rather as in Figure~\ref{lbp_region_weight}. Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses. Thus, border regions are less important than those containing the ROI of the face (eyes, nose, mouth). Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database used by this system.
 \newline
 
 \begin{figure}[!h]
@@ -55,28 +51,10 @@
 \end{center} 
 \end{figure}
 
-<<<<<<< HEAD
-\noindent Assigned weights are thus adapted to extracted faces, so they do not match those in Figure~\ref{lbp_region_weight} anymore. Updated weights are assigned as in Figure~\ref{implementation_lbp_weight}. As it is shown in Figure~\ref{implementation_lbp_weight}, borderline weights all have a value of 1. It is because these regions are considered as background and are not important when performing facial expression recognition. All weights of regions characterizing the face are at least equal to 2, while weights for regions containing ROI are equal to 4. The regions that have highest weights hence are the region of the eyes and of the mouth.
-\newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.5]{figures/implementation_lbp_weight} 
-\newline
-\caption{Weights assignment used in this system}
-\label{implementation_lbp_weight}
-\end{center} 
-\end{figure}
-
-=======
-\noindent The weights are assigned as in the Figure~\ref{lbp_region_weight}. 
-\newline
-
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
 \noindent GIVE RESULTS WITH WEIGHTS APPLIED
 \newline
 
-\noindent Another way to improve the LBP operator would be to use one with larger scale hence modify the radius of the circular operator; for example, $ LBP_{12,2.5}^{u^2} $ or $ LBP_{16,4.0}^{u^2} $ (with $ P = 12 $ and $ R = 2.5 $ or with $ P = 16 $ and $ R = 4.0 $). This implies to use the bilinear interpolation because sampling points do not fall exactly on pixels, as seen in Chapter~\ref{chap:lbp}. However, using bilinear interpolation is more computationally expensive. A good compromise has to be found between computation time and accuracy rate.
+\noindent Another way to improve the LBP operator would be to use one with larger scale, hence modify the radius of the circular operator; for example, $ LBP_{12,2.5}^{u^2} $ or $ LBP_{16,4.0}^{u^2} $ (with $ P = 12 $ and $ R = 2.5 $ or with $ P = 16 $ and $ R = 4.0 $). This implies to use the bilinear interpolation because sampling points do not fall exactly on pixels, as seen in Chapter~\ref{chap:lbp}. However, using bilinear interpolation is more computationally expensive. A good compromise has to be found between computation time and accuracy rate.
 \newline
 
 \subsection{Combination of feature extraction methods}
@@ -92,11 +70,8 @@
 \begin{center}
 \noindent \includegraphics[scale=1]{figures/combination_lbp_gabor} 
 \newline
-<<<<<<< HEAD
-\caption{2 face images of the YaleB face database (a) when processed with Gabor wavelets (b), LBP (c), and Gabor wavelets+LBP (d)}
-=======
-\caption{2 face images of the YaleB face database \cite{GOH11}}
->>>>>>> f3a1177041b834dbad80cc320be587f28fef16e6
+
+\caption{2 face images of the YaleB face database (a) when processed with Gabor wavelets (b), LBP (c), and Gabor wavelets+LBP (d)\cite{GOH11}}
 \label{combination_lbp_gabor}
 \end{center} 
 \end{figure}
