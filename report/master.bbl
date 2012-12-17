@@ -55,6 +55,12 @@ Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
 \newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
   21(10):974--989, 1999.
 
+\bibitem{FEN05}
+Xiao Feng, Matti Pietikainen, and Abdenour Hadid.
+\newblock Facial expression recognition with local binary patterns and linear
+  programming.
+\newblock {\em Pattern Recognition and Image Analysis}, 15(2):546--548, 2005.
+
 \bibitem{GAN08}
 Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression

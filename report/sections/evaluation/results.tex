@@ -2,17 +2,17 @@
 \chapter{Results}
 \label{chap:eval_results}
 
-\noindent Two kinds of results have been obtained. First results have been obtained by using a test set from the database used for the training set. The LBP operator extracts features from each image of the test set, then classification is performed. The second result set is obtained with the Kinect. The Kinect gets video sequences of a subject in front of the Kinect and his or her face is extracted from these sequences. Then the same feature extraction and classification process is applied to these images.
+\noindent Two kinds of results have been obtained. First results have been obtained by extracting a test set from the KDEF database, and test it against other subjects from the database. Feature extraction is done by LBP, followed by classification using SVM. The second set of results is obtained with the Kinect in real-time conditions, while the entire KDEF database is used for training. The Kinect gets video sequences of a subject in front of it, his or her face being extracted from these sequences using Viola-Jones algorithm. Then the same feature extraction and classification process is applied to these images.
 \newline
 
 \phantomsection
 \section{First result set}
 
 \vspace{\baselineskip}
-\noindent To train the model, 128 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 128\times7 = 896 $ face images have been used to train the model. To test the model, 12 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 12\times7 = 84 $ faces images have been used to test the model. For each of these 84 images, face detection was used first, then LBP operator to extract features, and then classification using SVM.
+\noindent To train the model, 128 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 128\times7 = 896 $ face images have been used as train data. To test the system, 12 face images from the KDEF database have been used for each emotion, plus neutral state. In total, $ 12\times7 = 84 $ faces images have been used as test data. For each of these 84 images, face detection was performed first, then the uniform LBP operator extract its features, and then classification is performed using SVM.
 \newline
 
-\noindent For the classification part, the model has been trained with different kernels and different parameters. The results of this process are summed up in the table~\ref{table_results_kernels}.
+\noindent The model has been trained with different kernels and different parameters. The outcome of these different processes are summed up in Table~\ref{table_results_kernels}. \textbf{\color{red} BLA BLA quel est le meilleur kernel, quelles différences et tout et tout}
 \newline
 
 \begin{table}[h]
@@ -46,7 +46,7 @@
 \noindent Sigmoid2 has cache and $\gamma$ parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $
 \newline
 
-\noindent The same data has been trained with the same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). All results are inferior or equal to those without cross-validation, except for the linear kernel. The table~\ref{table_results_crossvalidation} represents both results with and without cross validation.
+\noindent A model has also been trained with same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). Results obtained with a model using cross-validation are compared to those with a model trained normally, this comparison being shown in  Table~\ref{table_results_crossvalidation}. All results are inferior or equal to those without cross-validation, except for linear and sigmoid kernels, with the latter tuned with the second set of parameters. 
 \newline
 
 \begin{table}[h]
@@ -66,8 +66,9 @@
 \end{tabular}
 \end{table}
 
-\noindent The best accuracy percentage is for the Sigmoid2 kernel parameters. It is obtained with a classification based on the Sigmoid kernel and with following parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $. These parameters are found by \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the Sigmoid kernel. The overall percentage of accuracy for all the emotions is $ 61.90\% $. The table~\ref{table_results_confusion_matrix} represents the confusion matrix.
-\newline
+\noindent \textbf{\color{red} BLA BLA poly kernel et confusion matrix}
+\newline 
+
 
 \begin{table}[h]
    \caption{\label{table_results_confusion_matrix} Confusion matrix}
@@ -86,7 +87,7 @@
 \end{tabular}
 \end{table}
 
-\noindent By looking at the confusion matrix, it is easy to notice that 3 facial expressions are harder to recognize than the others with this system: angry, sad and neutral. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy higher than $ 70\% $. Furthermore, the recognition accuracy for the "Sad" expression is lower than random guess. The table~\ref{table_results_accuracy} shows the recognition accuracy of the six basic emotions and of the neutral state.
+\noindent By looking at the confusion matrix, it is easy to notice that 2 facial expressions are harder to recognize than the others with this system: angry and sad. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy, neutral and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy equal or higher than $ 75\% $, as summed up in Table~\ref{table_results_accuracy}. Furthermore, the recognition accuracy for the \textit{sad} expression is much lower than random guess, which really contrasts with the \textit{happy} facial expression, the latter reaching a $100\%$ accuracy.
 \newline
 
 \begin{table}[h]
@@ -106,7 +107,7 @@
 \noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
 \newline
 
-\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 3 emotions hard to recognize and a second group containing the 4 remaining emotions. The 3 facial expressions \textit{angry}, \textit{sad} and \textit{neutral}, are the ones that distort the less the face. For a same subject expressing these 3 different emotions, as in Figure \ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
+\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and a second group containing the 2 remaining emotions. The 2 facial expressions \textit{angry}, \textit{sad}, are the ones that distort the less the face. For a same subject expressing these 3 different emotions, as in Figure \ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
 \newline
 
 \begin{figure}[!h]
@@ -137,7 +138,7 @@
 \section{Second result set}
 
 \vspace{\baselineskip}
-\noindent The second result test is obtained based on the same process than the process that gives the first result set, the only difference being the input. Indeed, it is not images from which features are then extracted; it is a video stream from the Kinect. A subject stands in face of the Kinect, face is detected and extracted, then features are computed, and finally classification is performed. It runs almost in real-time, and the output is the name of the emotion expressed.
+\noindent The second result test is processed in the same way as the first data set, the only difference being the input. Indeed, it is not performed on static images extracted from the KDEF database anymore; images used for texting are extracted from the video stream coming from the Kinect. A subject stands in front of the Kinect, his or her face is detected and extracted, then features are computed, and finally classification is performed. It runs almost in real-time, and the process outputs the name of the emotion expressed.
 \newline
 
 \subsection{With face images from the KDEF database}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  16 DEC 2012 21:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  17 DEC 2012 14:34
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -1053,7 +1053,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-<figures/facial_expression_recognition_process.png, id=249, 689.57625pt x 294.0
+<figures/facial_expression_recognition_process.png, id=251, 689.57625pt x 294.0
 9875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
@@ -1095,34 +1095,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
+<figures/system_setup.png, id=277, 641.39626pt x 397.485pt>
+File: figures/system_setup.png Graphic file (type png)
 
-Overfull \hbox (3.44818pt too wide) in paragraph at lines 60--62
+<use figures/system_setup.png>
+Package pdftex.def Info: figures/system_setup.png used on input line 62.
+(pdftex.def)             Requested size: 384.84071pt x 238.49283pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.44818pt too wide) in paragraph at lines 69--71
 \T1/lmr/m/n/10.95 For de-vel-op-ment and train-ing pur-poses we will use some p
 re-existing emo-tion datasets,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--72
-
- []
-
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
 
  []
 
@@ -1136,110 +1136,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--90
+[9 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/system_set
+up.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=285, 403.5075pt x 234.8775pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+<figures/jaffe_7facialexpressions.png, id=295, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
 Package pdftex.def Info: figures/jaffe_7facialexpressions.png used on input lin
-e 93.
+e 102.
 (pdftex.def)             Requested size: 302.62988pt x 176.15768pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--105
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
-<figures/kdef_7facialexpressions.png, id=299, 401.5pt x 274.02374pt>
+[10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/jaffe_7fa
+cialexpressions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+<figures/kdef_7facialexpressions.png, id=307, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
 Package pdftex.def Info: figures/kdef_7facialexpressions.png used on input line
- 117.
+ 126.
 (pdftex.def)             Requested size: 260.9719pt x 178.11331pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/jaffe_7fa
+ [11 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_7fa
 cialexpressions.png>]
-Overfull \hbox (4.81941pt too wide) in paragraph at lines 124--124
+Overfull \hbox (4.81941pt too wide) in paragraph at lines 133--133
  |[]\T1/lmr/bx/n/12 Montreal Set of Fa-cial Dis-plays of Emo-tion Database (MSF
 DE)| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--132
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
-<figures/msfde_7facialexpressions.png, id=309, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=318, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
 Package pdftex.def Info: figures/msfde_7facialexpressions.png used on input lin
-e 138.
+e 147.
 (pdftex.def)             Requested size: 321.20042pt x 141.32819pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
-
- []
-
-[11 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_7fac
-ialexpressions.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 164--166
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
 [12 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/msfde_7fa
 cialexpressions.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
 
@@ -1259,88 +1248,98 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--187
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--193
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
-[13] <figures/arface_example2.png, id=338, 499.8675pt x 127.47626pt>
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+<figures/arface_example2.png, id=341, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
-Package pdftex.def Info: figures/arface_example2.png used on input line 196.
+Package pdftex.def Info: figures/arface_example2.png used on input line 205.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=339, 498.86375pt x 127.47626pt>
+<figures/arface_example3.png, id=342, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
-Package pdftex.def Info: figures/arface_example3.png used on input line 205.
+Package pdftex.def Info: figures/arface_example3.png used on input line 214.
 (pdftex.def)             Requested size: 349.20224pt x 89.23276pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--217
-
- []
-
-<figures/arface_example1.png, id=342, 499.8675pt x 127.47626pt>
-File: figures/arface_example1.png Graphic file (type png)
-
-<use figures/arface_example1.png>
-Package pdftex.def Info: figures/arface_example1.png used on input line 220.
-(pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--232
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
 
  []
 
 [14 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
-ample2.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/a
-rface_example3.png>]
-<figures/example_angle.png, id=354, 1209.51875pt x 288.07625pt>
-File: figures/example_angle.png Graphic file (type png)
+ample2.png>] <figures/arface_example1.png, id=355, 499.8675pt x 127.47626pt>
+File: figures/arface_example1.png Graphic file (type png)
 
-<use figures/example_angle.png>
-Package pdftex.def Info: figures/example_angle.png used on input line 235.
-(pdftex.def)             Requested size: 362.85843pt x 86.42354pt.
+<use figures/arface_example1.png>
+Package pdftex.def Info: figures/arface_example1.png used on input line 229.
+(pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 246--248
+Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
  []
 
 [15 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
-ample1.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/e
-xample_angle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 250--253
+ample3.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/a
+rface_example1.png>]
+<figures/example_angle.png, id=364, 1209.51875pt x 288.07625pt>
+File: figures/example_angle.png Graphic file (type png)
+
+<use figures/example_angle.png>
+Package pdftex.def Info: figures/example_angle.png used on input line 244.
+(pdftex.def)             Requested size: 362.85843pt x 86.42354pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--257
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 258--261
+Underfull \hbox (badness 10000) in paragraph at lines 263--266
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--265
+Underfull \hbox (badness 10000) in paragraph at lines 267--270
+
+ []
+
+[16 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/example_a
+ngle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 271--274
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--269
+Underfull \hbox (badness 10000) in paragraph at lines 275--278
 
  []
 
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
-on.tex [16] [17]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [18]
+on.tex [17] [18]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [19]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
 on/face_detection.tex
 Chapter 3.
@@ -1360,7 +1359,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
-<figures/output_example_face_detection.png, id=389, 318.18875pt x 288.07625pt>
+<figures/output_example_face_detection.png, id=398, 318.18875pt x 288.07625pt>
 File: figures/output_example_face_detection.png Graphic file (type png)
 
 <use figures/output_example_face_detection.png>
@@ -1377,7 +1376,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
  []
 
 
-<figures/output_example_face_detection_binary_classifier.png, id=395, 581.17125
+<figures/output_example_face_detection_binary_classifier.png, id=404, 581.17125
 pt x 319.1925pt>
 File: figures/output_example_face_detection_binary_classifier.png Graphic file 
 (type png)
@@ -1395,7 +1394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-[19]) [20 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/out
+[20]) [21 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/out
 put_example_face_detection.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
 ion/report/figures/output_example_face_detection_binary_classifier.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
@@ -1411,12 +1410,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[21]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<figures/haar_features_first_2_stage.png, id=430, 500.87125pt x 185.69376pt>
+<figures/haar_features_first_2_stage.png, id=439, 500.87125pt x 185.69376pt>
 File: figures/haar_features_first_2_stage.png Graphic file (type png)
 
 <use figures/haar_features_first_2_stage.png>
@@ -1424,7 +1423,7 @@ Package pdftex.def Info: figures/haar_features_first_2_stage.png used on input
 line 35.
 (pdftex.def)             Requested size: 400.69753pt x 148.55519pt.
 
-<figures/haar_features_extended.png, id=431, 426.59375pt x 315.1775pt>
+<figures/haar_features_extended.png, id=440, 426.59375pt x 315.1775pt>
 File: figures/haar_features_extended.png Graphic file (type png)
 
 <use figures/haar_features_extended.png>
@@ -1435,7 +1434,7 @@ Package pdftex.def Info: figures/haar_features_extended.png used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/haar_features_early_stage.jpg, id=434, 642.4pt x 642.4pt>
+<figures/haar_features_early_stage.jpg, id=443, 642.4pt x 642.4pt>
 File: figures/haar_features_early_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_features_early_stage.jpg>
@@ -1456,7 +1455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-<figures/haar_feature_later_stage.jpg, id=442, 321.2pt x 642.4pt>
+<figures/haar_feature_later_stage.jpg, id=451, 321.2pt x 642.4pt>
 File: figures/haar_feature_later_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_feature_later_stage.jpg>
@@ -1472,7 +1471,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--77
 
  []
 
-[22 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[23 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ures_first_2_stage.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
@@ -1488,7 +1487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/haar_feature_description.png, id=459, 452.69125pt x 465.74pt>
+<figures/haar_feature_description.png, id=468, 452.69125pt x 465.74pt>
 File: figures/haar_feature_description.png Graphic file (type png)
 
 <use figures/haar_feature_description.png>
@@ -1509,19 +1508,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
-[23 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
-ures_extended.png>] [24 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repo
+[24 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ures_extended.png>] [25 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repo
 rt/figures/haar_features_early_stage.jpg>]
 
-LaTeX Warning: Text page 25 contains only floats.
+LaTeX Warning: Text page 26 contains only floats.
 
-[25 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[26 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_later_stage.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<figures/integral_image_description.png, id=479, 588.1975pt x 470.75874pt>
+<figures/integral_image_description.png, id=488, 588.1975pt x 470.75874pt>
 File: figures/integral_image_description.png Graphic file (type png)
 
 <use figures/integral_image_description.png>
@@ -1542,15 +1541,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-<figures/integral_image_four_array.png, id=481, 588.1975pt x 470.75874pt>
+<figures/integral_image_four_array.png, id=490, 588.1975pt x 470.75874pt>
 File: figures/integral_image_four_array.png Graphic file (type png)
 
 <use figures/integral_image_four_array.png>
 Package pdftex.def Info: figures/integral_image_four_array.png used on input li
 ne 133.
 (pdftex.def)             Requested size: 294.09802pt x 235.3788pt.
- [26 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_fea
-ture_description.png>] [27 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/r
+ [27 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_fea
+ture_description.png>] [28 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/r
 eport/figures/integral_image_description.png> <C:/Users/Pin/Documents/GitHub/Em
 otion_Recognition/report/figures/integral_image_four_array.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
@@ -1567,7 +1566,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-<figures/haar_feature_adaboost.png, id=507, 868.24374pt x 643.40375pt>
+<figures/haar_feature_adaboost.png, id=516, 868.24374pt x 643.40375pt>
 File: figures/haar_feature_adaboost.png Graphic file (type png)
 
 <use figures/haar_feature_adaboost.png>
@@ -1587,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-<figures/haar_feature_example_result.png, id=510, 481.8pt x 389.455pt>
+<figures/haar_feature_example_result.png, id=519, 481.8pt x 389.455pt>
 File: figures/haar_feature_example_result.png Graphic file (type png)
 
 <use figures/haar_feature_example_result.png>
@@ -1608,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[28] <figures/haar_feature_cascade.png, id=525, 921.4425pt x 288.07625pt>
+[29] <figures/haar_feature_cascade.png, id=534, 921.4425pt x 288.07625pt>
 File: figures/haar_feature_cascade.png Graphic file (type png)
 
 <use figures/haar_feature_cascade.png>
@@ -1628,15 +1627,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-[29 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[30 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_adaboost.png>]
 
-LaTeX Warning: Text page 30 contains only floats.
+LaTeX Warning: Text page 31 contains only floats.
 
-[30 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[31 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_example_result.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repo
 rt/figures/haar_feature_cascade.png>]
-<figures/haar_feature_cascade_example_result.png, id=538, 653.44125pt x 546.04p
+<figures/haar_feature_cascade_example_result.png, id=547, 653.44125pt x 546.04p
 t>
 File: figures/haar_feature_cascade_example_result.png Graphic file (type png)
  <use figures/haar_feature_cascade_example_result.png>
@@ -1648,7 +1647,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-[31 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[32 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_cascade_example_result.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
@@ -1660,7 +1659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--213
  []
 
 
-<figures/haar_feature_first_2_features.png, id=550, 241.90375pt x 183.68625pt>
+<figures/haar_feature_first_2_features.png, id=559, 241.90375pt x 183.68625pt>
 File: figures/haar_feature_first_2_features.png Graphic file (type png)
 
 <use figures/haar_feature_first_2_features.png>
@@ -1672,7 +1671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-<figures/haar_feature_cascade_rate.png, id=554, 901.3675pt x 214.8025pt>
+<figures/haar_feature_cascade_rate.png, id=563, 901.3675pt x 214.8025pt>
 File: figures/haar_feature_cascade_rate.png Graphic file (type png)
 
 <use figures/haar_feature_cascade_rate.png>
@@ -1687,13 +1686,13 @@ Overfull \hbox (49.49876pt too wide) in paragraph at lines 236--238
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[32 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[33 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_first_2_features.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-<figures/haar_feature_training_dataset.png, id=565, 343.5234pt x 343.5234pt>
+<figures/haar_feature_training_dataset.png, id=575, 343.5234pt x 343.5234pt>
 File: figures/haar_feature_training_dataset.png Graphic file (type png)
 
 <use figures/haar_feature_training_dataset.png>
@@ -1709,17 +1708,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
 
-[33 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[34 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_cascade_rate.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 300--302
 
  []
 
-[34 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+[35 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_training_dataset.png>]))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
-action.tex [35] [36]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [37]
+action.tex [36] [37]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [38]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
 action/feat_extraction.tex
 Chapter 5.
@@ -1755,7 +1754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[38]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
@@ -1797,7 +1796,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
 
  []
 
-[39]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
@@ -1807,7 +1806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<figures/eigenface_example.jpg, id=623, 242.3923pt x 169.48274pt>
+<figures/eigenface_example.jpg, id=632, 242.3923pt x 169.48274pt>
 File: figures/eigenface_example.jpg Graphic file (type jpg)
 
 <use figures/eigenface_example.jpg>
@@ -1827,7 +1826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
-[40]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
@@ -1837,7 +1836,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
 
-[41 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/eigenface
+[42 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/eigenface
 _example.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
@@ -1858,7 +1857,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<figures/gabor_wavelets_example.jpg, id=657, 352.3962pt x 160.52893pt>
+<figures/gabor_wavelets_example.jpg, id=666, 352.3962pt x 160.52893pt>
 File: figures/gabor_wavelets_example.jpg Graphic file (type jpg)
 
 <use figures/gabor_wavelets_example.jpg>
@@ -1869,19 +1868,19 @@ Package pdftex.def Info: figures/gabor_wavelets_example.jpg used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[42]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-<figures/lbp_change_lighting.png, id=672, 408.02437pt x 225.09094pt>
+<figures/lbp_change_lighting.png, id=681, 408.02437pt x 225.09094pt>
 File: figures/lbp_change_lighting.png Graphic file (type png)
 
 <use figures/lbp_change_lighting.png>
 Package pdftex.def Info: figures/lbp_change_lighting.png used on input line 140
 .
 (pdftex.def)             Requested size: 244.81651pt x 135.05559pt.
-) [43 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/gabor_w
+) [44 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/gabor_w
 avelets_example.jpg> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
 figures/lbp_change_lighting.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
@@ -1907,12 +1906,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<figures/lbp_basic_operator.png, id=685, 331.99031pt x 106.89937pt>
+<figures/lbp_basic_operator.png, id=694, 331.99031pt x 106.89937pt>
 File: figures/lbp_basic_operator.png Graphic file (type png)
 
 <use figures/lbp_basic_operator.png>
 Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 23.
-(pdftex.def)             Requested size: 232.39162pt x 74.82903pt.
+(pdftex.def)             Requested size: 331.98949pt x 106.8991pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1922,8 +1921,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-[44]
-<figures/lbp_basic_operator_example.png, id=697, 314.67563pt x 152.82094pt>
+[45]
+<figures/lbp_basic_operator_example.png, id=707, 314.67563pt x 152.82094pt>
 File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
 <use figures/lbp_basic_operator_example.png>
@@ -1935,7 +1934,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-[45 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
+[46 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
 _operator.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figure
 s/lbp_basic_operator_example.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
@@ -1947,18 +1946,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
-<figures/lbp_circular_operator.png, id=714, 812.03375pt x 285.065pt>
-File: figures/lbp_circular_operator.png Graphic file (type png)
+<figures/lbp_circular_operator.jpg, id=723, 513.41812pt x 208.52907pt>
+File: figures/lbp_circular_operator.jpg Graphic file (type jpg)
 
-<use figures/lbp_circular_operator.png>
-Package pdftex.def Info: figures/lbp_circular_operator.png used on input line 7
+<use figures/lbp_circular_operator.jpg>
+Package pdftex.def Info: figures/lbp_circular_operator.jpg used on input line 7
 7.
-(pdftex.def)             Requested size: 406.01588pt x 142.53215pt.
-
-Overfull \hbox (4.83202pt too wide) in paragraph at lines 77--79
- []  
- []
-
+(pdftex.def)             Requested size: 308.05324pt x 125.1184pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
@@ -1969,13 +1963,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
 
-
+[47 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
+lar_operator.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-[46 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
-lar_operator.png>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
  []
@@ -2005,7 +1999,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--139
 
  []
 
-[47]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 145--147
 
  []
@@ -2040,18 +2034,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-<figures/lbp_structural_features.png, id=746, 480.79625pt x 366.36874pt>
-File: figures/lbp_structural_features.png Graphic file (type png)
+[49] <figures/lbp_structural_features.jpg, id=763, 321.45094pt x 245.41687pt>
+File: figures/lbp_structural_features.jpg Graphic file (type jpg)
 
-<use figures/lbp_structural_features.png>
-Package pdftex.def Info: figures/lbp_structural_features.png used on input line
+<use figures/lbp_structural_features.jpg>
+Package pdftex.def Info: figures/lbp_structural_features.jpg used on input line
  172.
-(pdftex.def)             Requested size: 288.47997pt x 219.82294pt.
+(pdftex.def)             Requested size: 257.16109pt x 196.33376pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[48]
 Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
@@ -2066,36 +2056,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
-[49 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
-tural_features.png>]
-<figures/lbp_histogram.png, id=763, 592.2125pt x 295.1025pt>
+[50 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
+tural_features.jpg>]
+<figures/lbp_histogram.png, id=772, 592.2125pt x 295.1025pt>
 File: figures/lbp_histogram.png Graphic file (type png)
 
 <use figures/lbp_histogram.png>
 Package pdftex.def Info: figures/lbp_histogram.png used on input line 198.
-(pdftex.def)             Requested size: 414.54591pt x 206.57033pt.
-
-Overfull \hbox (13.36205pt too wide) in paragraph at lines 198--200
- []  
- []
-
+(pdftex.def)             Requested size: 355.33023pt x 177.06285pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
 
-<figures/lbp_region_weight.png, id=765, 346.29375pt x 172.645pt>
+<figures/lbp_region_weight.png, id=774, 346.29375pt x 172.645pt>
 File: figures/lbp_region_weight.png Graphic file (type png)
 
 <use figures/lbp_region_weight.png>
 Package pdftex.def Info: figures/lbp_region_weight.png used on input line 210.
 (pdftex.def)             Requested size: 138.51503pt x 69.05676pt.
- [50 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_hist
+ [51 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_hist
 ogram.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lb
 p_region_weight.png>]))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
-sification.tex [51]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [52]
+sification.tex [52]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [53]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
 on/feat_classification.tex
 Chapter 7.
@@ -2129,7 +2114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-[53]
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
@@ -2148,7 +2133,7 @@ mr/m/n/10.95 (\OML/lmm/m/it/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x
 t/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$
  []
 
-[54]
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
@@ -2174,51 +2159,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--92
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--103
-
- []
-
-[55]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--131
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--155
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
 
  []
 
 [56]
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--182
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--185
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
 
 [57]
-Underfull \hbox (badness 10000) in paragraph at lines 187--189
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
-) [58]
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+[58]
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+) [59]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
 on/svm.tex
 Chapter 8.
@@ -2252,7 +2237,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
 
-[59
+[60
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
@@ -2269,7 +2254,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-[60]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -2302,7 +2287,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
-[61]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
@@ -2317,15 +2302,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
-on.tex [62] [63]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [64]
+on.tex [64] [65]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [66]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_detection.tex
 Chapter 9.
@@ -2345,14 +2335,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
  []
 
 
-<figures/violajones_implementation_example.png, id=912, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=934, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
 Package pdftex.def Info: figures/violajones_implementation_example.png used on 
 input line 20.
 (pdftex.def)             Requested size: 197.23338pt x 155.37773pt.
-) [65 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
+) [67 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
 nes_implementation_example.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_extraction.tex
@@ -2372,7 +2362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=921, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=943, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2391,7 +2381,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
 
-[66
+[68
 
  <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_implemen
 tation_example.png>]
@@ -2399,7 +2389,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=932, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=954, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2411,7 +2401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=934, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=956, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2422,8 +2412,8 @@ ne 51.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [67 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
-lementation_histogram.png>] [68 <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
+) [69 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
+lementation_histogram.png>] [70 <C:/Users/Pin/Documents/GitHub/Emotion_Recognit
 ion/report/figures/lbp_implementation_vector.png>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/feature_classification.tex
@@ -2448,7 +2438,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--34
 
  []
 
-[69
+[71
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 36--38
@@ -2465,7 +2455,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
-[70]
+[72]
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
@@ -2475,11 +2465,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--97
 
  []
 
-) [71]
+) [73]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
 on/implementation_kinect.tex
 Chapter 12.
-[72
+[74
 
 ]
 Overfull \hbox (1.92746pt too wide) in paragraph at lines 31--32
@@ -2492,7 +2482,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/UML.png, id=978, 1046.91125pt x 612.2875pt>
+<figures/UML.png, id=1000, 1046.91125pt x 612.2875pt>
 File: figures/UML.png Graphic file (type png)
  <use figures/UML.png>
 Package pdftex.def Info: figures/UML.png used on input line 40.
@@ -2502,7 +2492,7 @@ Overfull \hbox (17.57321pt too wide) in paragraph at lines 40--42
  []  
  []
 
-[73 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
+[75 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--100
 [] \T1/lmr/m/n/10.95 greyscIm-age $\OMS/lmsy/m/n/10.95  $ \T1/lmr/m/n/10.95 con
@@ -2511,8 +2501,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--100
 
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
-ex [74] [75] [76]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [77]
+ex [76] [77] [78]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [79]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/r
 esults.tex
 Chapter 13.
@@ -2537,87 +2527,90 @@ Overfull \hbox (6.35094pt too wide) in paragraph at lines 20--34
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 36--48
 
  []
 
-[78]
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
-
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 69--71
 
  []
 
 
-Overfull \hbox (18.93692pt too wide) in paragraph at lines 74--87
+Overfull \hbox (18.93692pt too wide) in paragraph at lines 75--88
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--91
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 106--108
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
 
  []
 
-<figures/kdef_no_difference_emotions.png, id=1036, 869.2475pt x 420.57124pt>
+<figures/kdef_no_difference_emotions.png, id=1058, 869.2475pt x 420.57124pt>
 File: figures/kdef_no_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_no_difference_emotions.png>
 Package pdftex.def Info: figures/kdef_no_difference_emotions.png used on input 
-line 114.
+line 115.
 (pdftex.def)             Requested size: 260.77626pt x 126.17235pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 
  []
 
-<figures/kdef_difference_emotions.png, id=1038, 1159.33125pt x 416.55624pt>
+<figures/kdef_difference_emotions.png, id=1060, 1159.33125pt x 416.55624pt>
 File: figures/kdef_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_difference_emotions.png>
 Package pdftex.def Info: figures/kdef_difference_emotions.png used on input lin
-e 126.
+e 127.
 (pdftex.def)             Requested size: 347.80206pt x 124.96783pt.
- [80 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_no_
+ [82 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_no_
 difference_emotions.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--135
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 140--142
+Underfull \hbox (badness 10000) in paragraph at lines 141--143
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--148
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--151
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+[83 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_diff
+erence_emotions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 156--158
 
  []
 
-) [81 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_di
-fference_emotions.png>] [82]
+) [84]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/i
 ssues.tex
 Chapter 14.
@@ -2641,7 +2634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-[83]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
 
  []
@@ -2651,12 +2644,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
 
  []
 
-)
-Underfull \hbox (badness 10000) in paragraph at lines 36--24
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-[84]
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 52--24
+
+ []
+
+[87]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/c
 onclusion.tex
 Chapter 15.
@@ -2666,93 +2679,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--11
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
 
-<figures/implementation_weight_example.png, id=1079, 734.745pt x 236.885pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+LaTeX Warning: Reference `GAN08' on page 88 undefined on input line 33.
+
+
+LaTeX Warning: Reference `GAN08' on page 88 undefined on input line 33.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+[88]
+<figures/implementation_weight_example.png, id=1115, 734.745pt x 236.885pt>
 File: figures/implementation_weight_example.png Graphic file (type png)
 
 <use figures/implementation_weight_example.png>
 Package pdftex.def Info: figures/implementation_weight_example.png used on inpu
-t line 33.
+t line 38.
 (pdftex.def)             Requested size: 220.42519pt x 71.06604pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 40--42
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
-[85] <figures/implementation_lbp_weight.png, id=1094, 180.675pt x 184.43906pt>
+<figures/implementation_lbp_weight.png, id=1119, 180.675pt x 184.43906pt>
 File: figures/implementation_lbp_weight.png Graphic file (type png)
 
 <use figures/implementation_lbp_weight.png>
 Package pdftex.def Info: figures/implementation_lbp_weight.png used on input li
-ne 45.
-(pdftex.def)             Requested size: 126.47162pt x 129.10645pt.
+ne 50.
+(pdftex.def)             Requested size: 90.33727pt x 92.2193pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--54
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--63
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
-[86 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/implement
+[89 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/implement
 ation_weight_example.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/re
 port/figures/implementation_lbp_weight.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 64--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-<figures/combination_lbp_gabor.jpg, id=1107, 241.75275pt x 139.42354pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+<figures/combination_lbp_gabor.jpg, id=1132, 241.75275pt x 139.42354pt>
 File: figures/combination_lbp_gabor.jpg Graphic file (type jpg)
 
 <use figures/combination_lbp_gabor.jpg>
-Package pdftex.def Info: figures/combination_lbp_gabor.jpg used on input line 6
-9.
+Package pdftex.def Info: figures/combination_lbp_gabor.jpg used on input line 7
+4.
 (pdftex.def)             Requested size: 241.75215pt x 139.42319pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 76--26
+Underfull \hbox (badness 10000) in paragraph at lines 81--26
 
  []
 
-) [87 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/combina
-tion_lbp_gabor.jpg>] [88
-
-]
+) [90 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/combina
+tion_lbp_gabor.jpg>]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 38.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [89] [90]
-Underfull \hbox (badness 2103) in paragraph at lines 193--196
+) [91
+
+] [92]
+Underfull \hbox (badness 2103) in paragraph at lines 199--202
 []\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
 tt/m/n/10.95 http : / / en . wikipedia . org / wiki /$
  []
 
-) [91] [92
+) [93] [94
 
 ]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/source_code.
@@ -2761,19 +2787,23 @@ tex)
 \tf@ptc=\write5
  
 AED: lastpage setting LastPage
-[93]
+[95]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
+
+
+LaTeX Warning: There were undefined references.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 11336 strings out of 494045
- 173410 string characters out of 3145975
- 264876 words of memory out of 3000000
- 13879 multiletter control sequences out of 15000+200000
+ 11352 strings out of 494045
+ 173658 string characters out of 3145975
+ 269095 words of memory out of 3000000
+ 13888 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
  38i,14n,41p,1528b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2800,9 +2830,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9
 /fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (103 pages, 6493145 bytes).
+Output written on master.pdf (105 pages, 7454576 bytes).
 PDF statistics:
- 1519 PDF objects out of 1728 (max. 8388607)
- 379 named destinations out of 1000 (max. 500000)
- 762 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1544 PDF objects out of 1728 (max. 8388607)
+ 385 named destinations out of 1000 (max. 500000)
+ 775 words of extra memory for PDF output out of 10000 (max. 10000000)
 

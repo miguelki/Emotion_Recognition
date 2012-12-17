@@ -6,26 +6,39 @@
 \section{Feature extraction}
 
 \vspace{\baselineskip}
-\noindent The feature extraction method chosen for this facial expression recognition system is the Local Binary Patterns method. As seen in chapter~\ref{chap:lbp}, there are many ways to improve the basic LBP operator. This ways can be using the circular LBP operator, using the uniform LBP operator or applying weights to each region of the face image. The basic LBP operator is quite simple but after improving it at its best, it requires more computation time but gives better result.
+\noindent As seen in chapter~\ref{chap:lbp}, there are many ways to improve the basic LBP operator. Indeed, using a circular LBP, detecting uniform patterns or assigning weights to different regions of the image can improve facial expression recognition and yield better results than the basic LBP operator. These improvements however need more computation time, which can lead to a slow system.
+ \newline
+
+\noindent The LBP operator used in this system already has some improvements; it is a uniform circular LBP operator, with a radius $R = 1$, which is equivalent to a regular LBP operator. Results obtained with this operator are quite good, with an accuracy of $ 66.67\% $. This accuracy rate can be improved by weighting each region of the face, or applying a different radius in order to detect other kinds of patterns. This system has trouble recognizing some of the 7 emotions, especially the \textit{sad} one.
 \newline
 
-\noindent The LBP operator used in this system has already some improvements; it is a uniform circular LBP operator. The results obtained with this operator are quite good with an accuracy of $ 61.90\% $. But this percentage of accuracy can be improved by weighting each region of the face for example. This system has trouble recognizing some of the 7 emotions; more particularly the \textit{sad} emotion.
-\newline
-
-\noindent The Local Binary Patterns method was chosen because the LBP operator gives good results and has a discriminative power, and because the basic LBP operator is simple (and it can be improved in many ways). But there are most likely other methods that give equal results to the ones of the LBP operator or even better results. There are also certainly other methods that are more optimized than the LBP operator and that take less computation time. Even if the LBP operator seems to be a good compromise between computation time and results; other methods can be implemented to compare the performance of each algorithm with the same test conditions.
+\noindent This feature extraction method was chosen because the LBP operator gives good results and has a high discriminative power. Moreover, the basic LBP operator is rather easy to implement, and can be improved in many ways afterwards. But there are most likely other methods that can output equal or higher accuracy rates than LBP.  There are also certainly other more optimized methods, than use less computation time than LBP. Even if the LBP operator seems to be a good compromise between computation time and results, other methods can be implemented to compare the performance of each algorithm with the same test conditions.
 \newline
 
 \phantomsection
 \section{Real-time}
 
 \vspace{\baselineskip}
-\noindent The computation of the LBP operator takes about 1-4 seconds (depending on the computer). It was not expected that it takes so long. it was more expected to obtain a computation time on the order of milliseconds. That is why this facial expression recognition system does not really work in real-time an why it needs an interaction with the subject. With the Kinect, 30 frames are received per second. The system should take 33,3 milliseconds maximum ($ \frac{1}{30} = 0,0333 s $) so that it could work in real-time and have the time to process each frame. 
+\noindent Computation of feature vector for an image using LBP takes about 1-4 seconds, depending on the computer, which as not expected. Indeed, the computation time was expected to be a matter of milliseconds. This time consuming process can explain why this facial expression recognition system does not really work in real-time, and also why the subject has to trigger the system. With the Kinect, 30 frames are received per second. The system should hence need 33.3 milliseconds maximum ($ \frac{1}{30} = 0.0333 s $) to be able to work in real-time and have the time to process each frame. 
 \newline
 
-\noindent The basic LBP operator is quite simple so a system based on this feature extraction method should be able to work in real-time. Using the circular LBP operator adds some computation time; but the use of the uniform LBP allows to reduce the computation time by only considering the uniform LBP and not the non-uniform ones.
+\noindent The basic LBP operator is quite simple, so a system based on this feature extraction method should be able to work in real-time. Using the circular LBP operator adds some computation time; but the use of the uniform LBP allows reducing the computation time by only considering uniform patterns and not non-uniform ones.
 \newline
 
-\noindent The system was adapted so that it can still work with video sequences and almost in real-time. The subject stands in front of the Kinect and express an emotion among the 6 basic ones plus the neutral one. When the subject thinks that the emotion that is expressed is good, then he can click on the interface to launch the processing with this exact face he made. Then only one frame is used, the one he chose when he clicked. This frame is processed and classified and the output given to the subject is the name of the emotion that he expressed. The output is given about 2 seconds after the subject's click.
+\noindent Because all frames cannot be processed, the system was adapted to work with video sequences and almost in real-time. The subject stands in front of the Kinect and express an emotion among all recognized ones (6 basics plus neutral one). When the subject thinks the expressed emotion is recognizable, he or she can click on the interface to trigger the process with a screenshot of the facial expression he or she had at that time. This frame is processed and classified and the output given to the subject is the name of the emotion that he expressed. When working in real-time conditions, the output is given about 2 seconds after the subject's click.
+\newline
+
+\phantomsection
+\section{Issues with the implementation on the Kinect}
+\vspace{\baselineskip}
+
+\noindent At the beginning of the project the system was designed to work in real-time. First versions or the system were implemented with a linear structure, which fetches all images from the Kinect video stream. Since the implementation of LBP feature extraction into the system, the system needed a few minutes to process the video stream. The Kinect's camera sends 30 images per second, but the following LBP processing was slowing down the whole system to a critical point. The main architecture of the system then had to be changed, the main issue at this point being to retain the key points of our implementation while allowing a smoother processing. 
+\newline
+
+\noindent This was done by modifying the way images are chosen and processed. Indeed, image retrieval from the Kinect is made through blocking functions, in order to wait for data coming from the camera sensor. This synchronous approach is not compatible with a simple thread management, which is the way our system is implemented. A solution to bypass problem was to introduce more user interaction, which is materialized by the triggering of a key to start the facial expression recognition process.
+ \newline 
+
+\noindent The second issue with the Kinect is directly linked to the previous one. Indeed, since a key has to be triggered to start the process, a graphical user interface was contemplated, using GTK or Qt. However, it involved a lot of third-party libraries with their own event loops, which conflicted with the Kinect image retrieval event loop. The system consequently has no GUI, and the output is displayed in the console. It might be possible to provide the system with a more user-friendly interface, but it is not implemented in this facial expression recognition system. 
 \newline
 
 \phantomsection
@@ -33,5 +46,8 @@
 
 \vspace{\baselineskip}
 
-\noindent bla bla bla
+\noindent The KDEF database is a large database, with many different subjects photographed in many different positions. It is indeed sufficient for most facial expression recognition systems. However, some issues can be raised concerning this database. First, its subjects are all Caucasian, which can lead to erroneous results when testing the system with people from non-Causasian origins.
+\newline
+
+\noindent A second point about spontaneous can be mentioned. Indeed, this database contains subjects displaying posed expressions, which binds the system to recognize posed expressions. If this facial expression recognition system is intended to be used with spontaneous expressions, it will have to be trained with a more appropriate dataset.
 \newline
