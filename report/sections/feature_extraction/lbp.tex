@@ -70,7 +70,6 @@
 
 \vspace{\baselineskip}
 \noindent Figure~\ref{lbp_circular_operator} shows the circular LBP operator with different numbers of neighbor pixels P and with various radius sizes \cite{JUL07}. For the circular LBP operator, the following notation is used: $ (P,R) $ and for a pixel p, the following notation is used: $ LBP_{P,R}(p) $ \cite{GAN08}.
-\newline
 
 \begin{figure}[!h]
 \begin{center}
@@ -190,7 +189,6 @@ s(x) = \left\{
 \newline
 
 \noindent To compute this histogram, the face has to be partitioned into regions first. Most of the time, it is partitioned as following: 42 regions, 7 rows and 6 columns. It matches parts of the face yielding important features for emotion recognition. Face dimensions for all tested images should be kept constant. Then for all pixels of the face, their LBP value is computed using $ LBP_{8,2}^{u^2} $. Then, resulting values are gathered region-wise into different bins. For example, the LBP operator with $ P = 8 $ and $ R = 1.0 $ outputs a histogram with 59 bins: 56 bins for uniform LBP with 2 bitwise transitions, 2 bins for  uniform LBP with 0 bitwise transition and the remaining bin for non-uniform patterns). All these bins are concatenated column-wise; as it can be seen in Figure~\ref{lbp_histogram}. The final vector obtained with this histogram is a vector of $ 42\times59 = 2478 $ rows, the histogram being computed for each region partitioned on the sample image.
-\newline
 
 \begin{figure}[!h]
 \begin{center}
@@ -202,11 +200,10 @@ s(x) = \left\{
 \end{figure}
 
 \noindent For example, eyes bring more information about an emotion than cheeks. As it is shown in Figure~\ref{lbp_region_weight}, borderline weights all have a value of 1. It is because these regions are considered as background and are not important when performing facial expression recognition. All weights of regions characterizing the face are at least equal to 2, while weights for regions containing ROI are equal to 4. The regions that have highest weights hence are the region of the eyes and of the mouth.
-\newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.7]{figures/lbp_region_weight} 
+\noindent \includegraphics[scale=0.6]{figures/lbp_region_weight} 
 \newline
 \caption{Weight assignment for each region}
 \label{lbp_region_weight}
