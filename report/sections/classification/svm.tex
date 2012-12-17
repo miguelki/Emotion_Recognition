@@ -46,7 +46,7 @@
 \end{equation}
 \vspace{\baselineskip}
 
-\noindent In order to solve this problem, positive \textit{Lagrangian coefficients} $\alpha_i$, $i=1..N$ are introduced for each constraint in Equation \ref{margin_max_eq}. It outputs a Lagrangian function of $w$ and $b$:
+\noindent In order to solve this problem, positive \textit{Lagrangian coefficients} $\alpha_i$, $i=1..N$ are introduced for each constraint present in Equation \ref{margin_max_eq}. It outputs a Lagrangian function of $w$ and $b$:
 
 \begin{equation}
 L_P(w, b,\alpha) = \frac{1}{2}||w||^2 - \sum\limits_{i=1}\limits^{N}\alpha_i\left(y_i(w.x_i + b) -1\right)
@@ -103,25 +103,28 @@ L_D = \sum\limits_{i=1}\limits{N} \alpha_i - \frac{1}{2} \sum\limits_{i=1}\limit
 
 \vspace{\baselineskip}
 
-\noindent The main advantage of using a kernel function is that there is no need to define or calculate $\Phi(x_i)$, only $\Phi(x_i)^T \Phi(x_j)$. We hence do not know the true form of $\Phi(x_i)$. However, simple kernels are usually combined in order to build more complex ones.
+\noindent The main advantage of using a kernel function is that there is no need to define or calculate $\Phi(x_i)$, only $\Phi(x_i)^T \Phi(x_j)$. We hence do not know the true form of $\Phi(x_i)$. Despite having an incomplete knowledge of $K(x_i,x_j)$, the four kernels described above can be used as they are, or be combined in order to build more complex kernels.
 \newline
 
 \phantomsection
 \section{Combining LBP and SVM}
 
 \vspace{\baselineskip}
-\noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and compared the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. They have used images from the Cohn-Kanade database as train data, and the conclusion of their study is that classification using SVM has a higher accuracy rate than the two other methods. Template matching 
+\noindent In a 2009 article, Shang and al \cite{SHA09} have performed facial expression recognition while using Local Binary Patterns for feature extraction, and compared the accuracy of different kinds of classifiers:  template matching,  LDA and SVM. The template-matching classifier is a nearest-neighbour classifier based on \textit{Chi square statistic} ($\chi^2$) dissimilarity measure. Secondly, train data for LDA was first mapped into a PCA subspace. Even though the dimensionality of the data was reduced, 98\% of the information was kept \cite{SHA09}. It was then combined with a Neural Network (NN) classifier. About SVM, since it is a binary classifier, multi-class classification was achieved through a \textit{one-versus-the-rest} approach. It is the same as for K-means, as presented in Chapter \ref{chap:classification}, Section \ref{unsup_learning}. They also used 10-fold cross-validation, and performed grid search to find optimized parameters. Images from the Cohn-Kanade database were used as train and test data.
 \newline
 
-\noindent Gabor wavelets \& lbp
+\noindent The output of their study is that classification using SVM has a higher accuracy rate than the two other methods. Template matching yields 84.5\% of accuracy when performing 6-class recognition, and 79.1\% for 7-class recognition. SVM outperforms largely this method by having an accuracy rate between 91.6\% and 92.5\% for 6-class recognition depending on the kernel used, and between 88.1\% and 88.9\% for 7-class recognition \cite{SHA09}. When comparing LDA and SVM, since LDA was trained on data mapped into another subspace, SVM classification was also performed on the same subspace. The combination of LDA and NN has accuracy rates of 79.2\% and 73.4\%, respectively for 6-class and 7-class recognition. It can already be inferred that LDA+NN perform worse than template matching when provided with appropriate parameters and data. Then, with SVM trained on the same subspace and with the linear kernel, the accuracy rate is 87.7\% (6-class) and 80.2\% (7-class) \cite{SHA09}.
 \newline
 
-\noindent The accuracy for each facial expression is however not the same. SVM has some difficulties especially when it comes to distinguish fear and sadness, the two facial expressions which have the lowest accuracy rates. Fear is mistaken with joy, while sadness is mistaken with anger or neutral state. Recognitions rates are however usually better for a 7-class classification, except for fear.
+\noindent They also used a linear programming classification method which was presented in 2005 \cite{FEN05}, but it will not be detailed in this report. The general outcome is that SVM outperforms other classification methods, which makes it very efficient for facial expression recognition.
 \newline
 
-\noindent BLA BLA BLA
+\noindent This study also compares the efficiency of Local Binary Patterns and Gabor wavelets, when combined with SVM. Gabor wavelets yield accuracy rates generally 2\% lower than LBP-based feature extraction, no matter which SVM kernel is used. Indeed, LBP feature extraction has an accuracy rate between 91.5\% and 92.6\% for 6-class recognition, while Gabor wavelets feature extraction results in accuracy rates ranging from 89.4\% to 89.8\% \cite{SHA09}. For 7-class recognition, Gabor wavelets accuracy ranges between 86.6\% and 86.8\%, while LBP-based feature extraction has an accuracy rate between 88.1\% and 88.9\% \cite{SHA09}. The conclusion is that the combination of LBP and SVM, when provided with suitable parameters, has a very high accuracy rate for facial expression recognition.
 \newline
 
-\noindent Since the accuracy of the system presented in this article is very high, we chose to implement a similar system. Indeed, we are performing facial expression recognition using LBP for feature extraction, and SVM classification. We however did not use the Cohn-Kanade database as train data. We will describe further our implementation and results further in the report. 
+\noindent However, the accuracy for each facial expression varies a lot. When used with RBF kernel, SVM has some difficulties especially when it comes to distinguish fear and sadness, the two facial expressions which have the lowest accuracy rates (6-class recognition: 73.0\% and 83.5\% respectively; 7-class recognition: 68.0\% and 69.5\% respectively). Indeed, expression recognition accuracy range from 88.9\% (anger) to 98.7\% (surprise) in 6-class recognition, and from 85.0\% (anger) to 98.2\% (surprise) for 7-class recognition.
+\newline
+
+\noindent Since the accuracy of the system presented in this article is very high, we chose to implement a similar system. Indeed, we are performing facial expression recognition using LBP for feature extraction, and SVM classification. We however did not use the Cohn-Kanade database as train data because we did not get it on time. We will describe our implementation and results further in the report. 
 \newline
 

@@ -47,15 +47,24 @@
 
 \subsection{Classification}
 
-\noindent The classification step is the culminating point of the facial expression recognition process. There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as it will be detailed in Part ~\ref{chap:extraction}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
+\noindent The classification step is the culminating point of the facial expression recognition process. There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as it will be detailed in Part~\ref{chap:extraction}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
 %\vspace{\baselineskip}
 
 \phantomsection
 \section{Environment Setup}
 
 \vspace{\baselineskip}
-\noindent Our system will use the camera embedded into a Microsoft Kinect to record the user's video input. We will consider a casual use of the camera, the user sitting in front of the computer, the camera being next to it, as seen in \textbf{\color{red} Insert picture of the setting \& ref to figure}. This camera provides a 640$\times$480 pixels frame resolution, while recording at 30 FPS.
+\noindent Our system will use the camera embedded into a Microsoft Kinect to record the user's video input. We will consider a casual use of the camera, the user sitting in front of the computer, the camera being next to him or her, as seen in \ref{system_setup}. The distance between the user and the camera sensor should be around 30-40 cm to match the data used for training. This camera provides a 640$\times$480 pixels frame resolution, while recording at 30 FPS.
 \newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.6]{figures/system_setup} 
+\newline
+\caption{Facial expression recognition system setup}
+\label{system_setup}
+\end{center} 
+\end{figure}
 
 \noindent For development and training purposes we will use some pre-existing emotion datasets, in order to validate the efficiency of the system before testing it in real conditions.
 \newline

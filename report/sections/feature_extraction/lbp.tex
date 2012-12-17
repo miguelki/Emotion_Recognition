@@ -74,7 +74,7 @@
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.5]{figures/lbp_circular_operator} 
+\noindent \includegraphics[scale=0.6]{figures/lbp_circular_operator} 
 \newline
 \caption{Circular LBP operator with different radius sizes R and different number of neighbor pixels P}
 \label{lbp_circular_operator}
@@ -169,9 +169,9 @@ s(x) = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.6]{figures/lbp_structural_features} 
+\noindent \includegraphics[scale=0.8]{figures/lbp_structural_features} 
 \newline
-\caption{Patterns that can be detected with uniform LBP}
+\caption{Patterns detected with uniform LBP}
 \label{lbp_structural_features}
 \end{center} 
 \end{figure}
@@ -195,17 +195,14 @@ s(x) = \left\{
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.7]{figures/lbp_histogram} 
+\noindent \includegraphics[scale=0.6]{figures/lbp_histogram} 
 \newline
 \caption{Example of a vector based on histogram computing}
 \label{lbp_histogram}
 \end{center} 
 \end{figure}
 
-\noindent The regions obtained when the sample image is partitioned do not have the same contribution to the expressed emotion. For each region, a weight is then assigned as in Figure~\ref{lbp_region_weight}. Thus, the histogram of each region is multiplied with a corresponding weight. 
-\newline
-
-\noindent For example, eyes bring more information about an emotion than cheeks. The face image contains also some background around the face and the regions that are at the border of the image and that represent the background have less weight than the one containing the face. As it is shown in the Figure~\ref{lbp_region_weight}, the borderline weights are all of 1. It is because these regions are the background and do not have importance into the facial expression recognition system. All the weights of the regions characterizing the face are superior or equal to 2. The regions that have the highest weights are the region of the eyes and of the mouth. 
+\noindent For example, eyes bring more information about an emotion than cheeks. As it is shown in Figure~\ref{lbp_region_weight}, borderline weights all have a value of 1. It is because these regions are considered as background and are not important when performing facial expression recognition. All weights of regions characterizing the face are at least equal to 2, while weights for regions containing ROI are equal to 4. The regions that have highest weights hence are the region of the eyes and of the mouth.
 \newline
 
 \begin{figure}[!h]
