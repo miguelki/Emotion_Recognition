@@ -16,129 +16,142 @@
 \newline
 
 \begin{table}[h]
+\begin{center}
    \caption{\label{table_results_kernels} Results with different kernels and different parameters}
-   \begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
-    & Linear & Poly1 & Poly2 & RBF1 & RBF2 & Sigmoid1 & Sigmoid2 \\
+    & Linear & \textbf{Poly1} & Poly2 & RBF1 & RBF2 & Sigmoid1 & Sigmoid2 \\
   \hline
-  neutral & 33.33\% & 33.33\% & 25.00\% & 33.33\% & 33.33\% & 58,33\% & 41.67\% \\
-  afraid & 66.67\% & 91.67\% & 100.00\% & 75.00\% & 83.33\% & 75.00\% & 75.00\% \\
-  angry & 50.00\% & 50.00\% & 41.67\% & 50.00\% & 50.00\% & 66.67\% & 50.00\% \\
-  disgusted & 75.00\% & 83.33\% & 83.33\% & 75.00\% & 75.00\% & 75.00\% & 83.33\% \\
-  happy & 91.67\% & 91.67\% & 91.67\% & 91.67\% & 91.67\% & 91.67\% & 91.67\% \\
-  sad & 16.67\% & 16.67\% & 8.33\% & 8.33\% & 8.33\% & 8.33\% & 16.67\% \\
-  surprised & 33.33\% & 58.33\% & 50.00\% & 66.67\% & 58.33\% & 50.00\% & 75.00\% \\
-  overall & 52.38\% & 60.71\% & 57.14\% & 57.14\% & 57.14\% & 60.71\% & 61.90\% \\
+  neutral & 66.00\% & \textbf{83.33\%} & 83.33\% & 83.33\% & 66.67\% & 8.33\% & 66.67\% \\
+  afraid & 58.33\% & \textbf{83.33\%} & 75.00\% & 66.67\% & 66.67\% & 66.67\% & 58.33\% \\
+  angry & 41.67\% & \textbf{41.67\%} & 33.33\% & 50.00\% & 41.67\% & 16.67\% & 41.67\% \\
+  disgusted & 58.33\% & \textbf{75.00\%} & 75.00\% & 50.00\% & 50.00\% & 16.67\% & 58.33\% \\
+  happy & 100.00\% & \textbf{100.00\%} & 91.67\% & 91.67\% & 100.00\% & 66.67\% & 100.00\% \\
+  sad & 8.33\% & \textbf{8.33\%} & 0.00\% & 8.33\% & 8.33\% & 8.33\% & 8.33\% \\
+  surprised & 66.67\% & \textbf{75.00\%} & 75.00\% & 66.67\% & 66.67\% & 25.00\% & 66.67\% \\
+  \textbf{overall} & \textbf{57.14\%} & \textbf{66.67\%} & \textbf{61.90\%} & \textbf{59.52\%} & \textbf{57.14\%} & \textbf{29,76\%} & \textbf{57.14\%} \\
   \hline
 \end{tabular}
-\end {center}
+\end{center} 
 \end{table}
 
-\noindent Poly1 stands for Polynomial and has degree parameter: $ D = 2 $
+\noindent \textit{Poly1} stands for Polynomial and has degree parameter: $ D = 2 $
 \newline
-\noindent Poly2 stands for Polynomial and has degree parameter: $ D = 3 $
+\noindent \textit{Poly2} stands for Polynomial and has degree parameter: $ D = 3 $
 \newline
-\noindent RBF1 has cache and $\gamma$ parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
+\noindent \textit{RBF1} has cache and $\gamma$ parameters: $ C = 128 $ and $ \gamma = 0.0078125 $
 \newline
-\noindent RBF2 has cache and $\gamma$ parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $ 
+\noindent \textit{RBF2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $ 
 \newline
-\noindent Sigmoid1 has cache and $\gamma$ parameters: $ C = 8.0 $ and $ \gamma = 0.0078125 $
+\noindent \textit{Sigmoid1} has cache and $\gamma$ parameters: $ C = 128 $ and $ \gamma = 0.0078125 $
 \newline
-\noindent Sigmoid2 has cache and $\gamma$ parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $
+\noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-\noindent The same data has been trained with the same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). All results are inferior or equal to those without cross-validation, except for the linear kernel. The table~\ref{table_results_crossvalidation} represents both results with and without cross validation.
+\noindent As said in Chapter \ref{chap:implementation_svm}, the parameters for the RBF and sigmoid kernel are find by the \textit{gridsearch} script of the SVM library. For the polynomial kernel, as said in Chapter \ref{chap:implementation_svm}, the $D$ parameter has to be chosen. By default, the $D$ parameter has the value 3. \textit{Poly2} has this value as parameter. For \textit{Poly1}, the $D$ parameter is $2$. It has been chosen because if the dimension is superior to $3$ then there is the problem of \textit{over-fitting}. It means that the model has good results but it is of use for this kind of data only. It has become to precise. And the gain in accuracy of adding one dimension does not worth it.
+\newline
+
+\noindent The same data has been trained with the same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). All results are inferior or equal to those without cross-validation, except for the sigmoid kernel with cache and $\gamma$ parameters equals to $ C = 8192 $ and $ \gamma = 0.00048828125 $. The table~\ref{table_results_crossvalidation} represents both results with and without cross validation.
 \newline
 
 \begin{table}[h]
+\begin{center}
    \caption{\label{table_results_crossvalidation} Results with and without cross validation}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
     & with cross validation & without cross validation \\
   \hline
-  Linear & 53.57\% & 52.38\% \\
-  Poly1 & 54.76\% & 60.71\% \\
-  Poly2 & 44.05\% & 57.14\% \\
-  RBF1 & 55.95\% & 57.14\% \\
-  RBF2 & 50.00\% & 57.14\% \\
-  Sigmoid1 & 55.95\% & 60.71\% \\
-  Sigmoid2 & 61.90\% & 61.90\% \\
+  Linear & 57.14\% & 57.14\% \\
+  Poly1 & 55.95\% & 66.67\% \\
+  Poly2 & 47.62\% & 61.90\% \\
+  RBF1 & 52.52\% & 59.52\% \\
+  RBF2 & 55.95\% & 57.14\% \\
+  Sigmoid1 & 16.67\% & 29,76\% \\
+  Sigmoid2 & 63.10\% & 57.14\% \\
   \hline
 \end{tabular}
-\end {center}
+\end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for the Sigmoid2 kernel parameters. It is obtained with a classification based on the Sigmoid kernel and with following parameters: $ C = 32.0 $ and $ \gamma = 0.001953125 $. These parameters are found by \textit{gridsearch}, a script of the SVM library. They are the most optimized for the RBF kernel and for the Sigmoid kernel. The overall percentage of accuracy for all the emotions is $ 61.90\% $. The table~\ref{table_results_confusion_matrix} represents the confusion matrix.
+\noindent The best accuracy percentage is for the Poly1 kernel parameters. It is obtained with a classification based on the polynomial kernel and with the following parameter: $ D = 2 $. This parameters is the default parameter for this kernel. The overall percentage of accuracy for all the emotions is $ 66.67\% $. The table~\ref{table_results_confusion_matrix} represents the confusion matrix.
 \newline
 
 \begin{table}[h]
+\begin{center}
    \caption{\label{table_results_confusion_matrix} Confusion matrix}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
   \hline
-  neutral & 5 & 4 & 2 & 0 & 1 & 0 & 0 & 41.67\% \\
-  afraid & 0 & 9 & 0 & 0 & 0 & 2 & 1 & 75.00\% \\
-  angry & 2 & 3 & 6 & 0 & 0 & 1 & 0 & 50.00\% \\
-  disgusted & 0 & 1 & 0 & 10 & 0 & 1 & 0 & 83.33\% \\
-  happy & 0 & 0 & 0 & 1 & 11 & 0 & 0 & 91.67\% \\
-  sad & 0 & 4 & 3 & 1 & 2 & 2 & 0 & 16.67\% \\
-  surprised & 2 & 1 & 0 & 0 & 0 & 0 & 9 & 75.00\%\\
+  neutral & \textbf{10} & 0 & 0 & 0 & 0 & 2 & 0 & 83.33\% \\
+  afraid & 0 & \textbf{10} & 1 & 0 & 0 & 0 & 1 & 83.33\% \\
+  angry & 4 & 0 & \textbf{5} & 0 & 0 & 3 & 0 & 41.67\% \\
+  disgusted & 1 & 0 & 0 & \textbf{9} & 1 & 1 & 0 & 75.00\% \\
+  happy & 0 & 0 & 0 & 0 & \textbf{12} & 0 & 0 & 100.00\% \\
+  sad & 5 & 1 & 2 & 2 & 1 & \textbf{1} & 0 & 8.33\% \\
+  surprised & 0 & 3 & 0 & 0 & 0 & 0 & \textbf{9} & 75.00\%\\
   \hline
 \end{tabular}
-\end {center}
+\end{center}
 \end{table}
 
 \noindent By looking at the confusion matrix, it is easy to notice that 3 facial expressions are harder to recognize than the others with this system: angry, sad and neutral. There is a great difference between these 3 emotions and the 4 other ones (afraid, disgusted, happy and surprised). Indeed, these 3 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy higher than $ 70\% $. Furthermore, the recognition accuracy for the "Sad" expression is lower than random guess. The table~\ref{table_results_accuracy} shows the recognition accuracy of the six basic emotions and of the neutral state.
 \newline
 
 \begin{table}[h]
+\begin{center}
    \caption{\label{table_results_accuracy} Recognition accuracy of the six basic emotions and of the neutral state}
-\begin {center}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    $ < 50\% $ & > 75\% \\
   \hline
-  neutral ($ 5/12 $) & afraid ($ 9/12 $) \\
-  angry ($ 6/12 $) & disgusted ($ 10/12 $) \\
-  sad ($ 2/12 $) & happy ($ 11/12 $) \\
+  angry ($ 5/12 $) & afraid ($ 10/12 $) \\
+  sad ($ 1/12 $) & disgusted ($ 9/12 $) \\
+   & happy ($ 12/12 $) \\
    & surprised ($ 9/12 $) \\
+   & neutral ($ 10/12 $) \\
   \hline
 \end{tabular}
-\end {center}
+\end{center} 
 \end{table}
 
 \noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
 \newline
 
-\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 3 emotions hard to recognize and a second group containing the 4 remaining emotions. The 3 facial expressions \textit{angry}, \textit{sad} and \textit{neutral}, are the ones that distort the less the face. For a same subject expressing these 3 different emotions, as in Figure \ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
+\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and another group containing the 5 remaining emotions.
+\newline
+
+\noindent The first group contains the 5 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy}, \textit{surprised} and the \textit{neutral} state. These emotions distort significantly the face when they are expressed except for the neutral state that is the basic face of the subject when he does not express an emotion. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 5 facial expressions. Important features carrying emotion as the mouth or the eyes are changing a lot while these 5 emotions are expressed.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.4]{figures/kdef_no_difference_emotions} 
-\newline
-\caption{Face images from the KDEF database used in the test set}
-\label{kdef_no_difference_emotions}
-\end{center} 
-\end{figure}
-
-\noindent The second group contains the 4 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy} and \textit{surprised}. These emotions distort significantly the face when they are expressed. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 4 facial expressions. Important features carrying emotion as the mouth or the eyes are changing a lot while these 4 emotions are expressed.
-\newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=0.3]{figures/kdef_difference_emotions} 
+\noindent \includegraphics[scale=0.4]{figures/kdef_difference_emotions} 
 \newline
 \caption{Face images from the KDEF database used in the test set}
 \label{kdef_difference_emotions}
 \end{center} 
 \end{figure}
 
-\noindent As it can be seen in Figure~\ref{kdef_difference_emotions}, for each emotion, eyebrows are raised, eyes are widely opened, and the mouth has a distinct shape, whereas in Figure~\ref{kdef_no_difference_emotions} there are no differences as visible as in Figure~\ref{kdef_difference_emotions}. These variations of intensity might explain twhy the system struggles when trying to differentiate \textit{angry}, \textit{sad} and \textit{neutral} emotional states.
+\noindent As it can be seen in Figure~\ref{kdef_difference_emotions}, for each emotion, eyebrows are raised, eyes are widely opened, and the mouth has a distinct shape, whereas in Figure~\ref{kdef_no_difference_emotions} there are no differences as visible as in Figure~\ref{kdef_difference_emotions}. These variations of intensity might explain why the system struggles when trying to differentiate \textit{angry} and \textit{sad} emotional states.
+\newline
+
+\noindent The second group contains the 2 remaining facial expressions. The 2 facial expressions \textit{angry} and \textit{sad}, are the ones that distort the less the face. For a same subject expressing these 2 different emotions, as in Figure~\ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.5]{figures/kdef_no_difference_emotions} 
+\newline
+\caption{Face images from the KDEF database used in the test set}
+\label{kdef_no_difference_emotions}
+\end{center} 
+\end{figure}
+
+\noindent The \textit{sad} emotion is the one that is the hardest to recognize. On 12 times, it has been well recognized only once. It is mostly taken for the \textit{neutral} state. As it can be seen in the Figure~\ref{kdef_no_difference_emotions}, there is not clear change between the \textit{neutral} state and the \textit{sad} emotion. Only the eyebrows are lightly frowned.
+\newline
+
+\noindent The \textit{angry} emotion is also hard to recognize. On 12 times, it has been well recognized only 5 times. It is mostly taken for the \textit{neutral} state and for the \textit{angry} emotion. As it can be seen in the Figure~\ref{kdef_no_difference_emotions}, there is not clear change between the \textit{neutral} state, the \textit{sad} emotion and the \textit{angry} emotion. Only the eyebrows slightly change as the eyes. The mouth is almost identical between the three face images in the Figure~\ref{kdef_no_difference_emotions}
 \newline
 
 \phantomsection

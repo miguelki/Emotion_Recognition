@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {4.1}Overview}{21}{section.51}
 \contentsline {section}{\numberline {4.2}Haar features}{21}{section.53}
 \contentsline {section}{\numberline {4.3}Integral image}{24}{section.60}
-\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{27}{section.66}
+\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{28}{section.66}
 \contentsline {section}{\numberline {4.5}Classifiers cascade}{29}{section.70}
-\contentsline {section}{\numberline {4.6}Test set and training}{32}{section.76}
+\contentsline {section}{\numberline {4.6}Test set and training}{33}{section.76}
 \ttl@stoptoc {parts@2}
 \contentsline {part}{III\hspace {1em}Feature extraction}{36}{part.78}
 \ttl@stoptoc {parts@2}
@@ -61,7 +61,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Circular LBP}{45}{subsection.108}
 \contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{48}{subsection.119}
 \contentsline {section}{\numberline {6.3}Facial expression recognition based on LBP}{49}{section.122}
-\contentsline {section}{\numberline {6.4}Histogram computing}{50}{section.124}
+\contentsline {section}{\numberline {6.4}Histogram computing}{49}{section.124}
 \ttl@stoptoc {parts@3}
 \contentsline {part}{IV\hspace {1em}Classification}{52}{part.127}
 \ttl@stoptoc {parts@3}
@@ -70,53 +70,53 @@
 \contentsline {section}{\numberline {7.1}Supervised learning}{55}{section.132}
 \contentsline {subsection}{\numberline {7.1.1}Naive Bayes classifier}{55}{subsection.133}
 \contentsline {subsection}{\numberline {7.1.2}Linear Discrimination}{56}{subsection.137}
-\contentsline {section}{\numberline {7.2}Unsupervised learning}{57}{section.142}
-\contentsline {subsection}{\numberline {7.2.1}K-Means}{58}{subsection.143}
-\contentsline {subsection}{\numberline {7.2.2}Mixture of Gaussians}{59}{subsection.146}
-\contentsline {chapter}{\numberline {8}Support Vector Machines}{62}{chapter.150}
-\contentsline {section}{\numberline {8.1}Overview}{62}{section.152}
-\contentsline {section}{\numberline {8.2}Margin maximization}{63}{section.154}
-\contentsline {section}{\numberline {8.3}Kernel function}{64}{section.161}
-\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{64}{section.164}
+\contentsline {section}{\numberline {7.2}Unsupervised learning}{56}{section.140}
+\contentsline {subsection}{\numberline {7.2.1}K-Means}{57}{subsection.141}
+\contentsline {subsection}{\numberline {7.2.2}Mixture of Gaussians}{58}{subsection.143}
+\contentsline {chapter}{\numberline {8}Support Vector Machines}{60}{chapter.146}
+\contentsline {section}{\numberline {8.1}Overview}{60}{section.148}
+\contentsline {section}{\numberline {8.2}Margin maximization}{61}{section.150}
+\contentsline {section}{\numberline {8.3}Kernel function}{62}{section.157}
+\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{62}{section.160}
 \ttl@stoptoc {parts@4}
-\contentsline {part}{V\hspace {1em}Implementation}{67}{part.168}
+\contentsline {part}{V\hspace {1em}Implementation}{64}{part.161}
 \ttl@stoptoc {parts@4}
 \ttl@starttoc {parts@5}
-\contentsline {chapter}{\numberline {9}Face detection with Viola-Jones}{69}{chapter.171}
-\contentsline {section}{\numberline {9.1}Viola-Jones}{69}{section.173}
-\contentsline {chapter}{\numberline {10}Feature extraction with Local Binary Patterns}{70}{chapter.176}
-\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{70}{section.178}
-\contentsline {section}{\numberline {10.2}Histogram computing}{71}{section.181}
-\contentsline {chapter}{\numberline {11}Classification with Support Vector Machines}{73}{chapter.185}
-\contentsline {section}{\numberline {11.1}Histogram concatenation}{73}{section.187}
-\contentsline {section}{\numberline {11.2}Training and Model}{74}{section.190}
-\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{76}{chapter.196}
-\contentsline {section}{\numberline {12.1}Generalities}{76}{section.198}
-\contentsline {section}{\numberline {12.2}Librairies}{76}{section.200}
-\contentsline {section}{\numberline {12.3}Architecture}{76}{section.202}
-\contentsline {section}{\numberline {12.4}Interactions}{77}{section.205}
-\contentsline {section}{\numberline {12.5}Algorithm}{78}{section.207}
+\contentsline {chapter}{\numberline {9}Face detection with Viola-Jones}{66}{chapter.164}
+\contentsline {section}{\numberline {9.1}Viola-Jones}{66}{section.166}
+\contentsline {chapter}{\numberline {10}Feature extraction with Local Bi~nary Patterns}{68}{chapter.169}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{68}{section.171}
+\contentsline {section}{\numberline {10.2}Histogram computing}{69}{section.174}
+\contentsline {chapter}{\numberline {11}Classification with Support Vec~tor Machines}{71}{chapter.178}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{71}{section.180}
+\contentsline {section}{\numberline {11.2}Training and Model}{72}{section.183}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{74}{chapter.189}
+\contentsline {section}{\numberline {12.1}Generalities}{74}{section.191}
+\contentsline {section}{\numberline {12.2}Librairies}{74}{section.193}
+\contentsline {section}{\numberline {12.3}Architecture}{74}{section.195}
+\contentsline {section}{\numberline {12.4}Interactions}{75}{section.198}
+\contentsline {section}{\numberline {12.5}Algorithm}{76}{section.200}
 \ttl@stoptoc {parts@5}
-\contentsline {part}{VI\hspace {1em}Evaluation}{79}{part.208}
+\contentsline {part}{VI\hspace {1em}Evaluation}{78}{part.201}
 \ttl@stoptoc {parts@5}
 \ttl@starttoc {parts@6}
-\contentsline {chapter}{\numberline {13}Results}{81}{chapter.211}
-\contentsline {section}{\numberline {13.1}First result set}{81}{section.213}
-\contentsline {section}{\numberline {13.2}Second result set}{84}{section.221}
-\contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{85}{subsection.222}
-\contentsline {subsection}{\numberline {13.2.2}With subjects}{85}{subsection.223}
-\contentsline {chapter}{\numberline {14}Issues}{86}{chapter.225}
-\contentsline {section}{\numberline {14.1}Feature extraction}{86}{section.227}
-\contentsline {section}{\numberline {14.2}Real-time}{86}{section.229}
-\contentsline {section}{\numberline {14.3}Training dataset}{87}{section.231}
-\contentsline {chapter}{\numberline {15}Conclusion}{88}{chapter.233}
-\contentsline {section}{\numberline {15.1}Theoretical framework}{88}{section.235}
-\contentsline {section}{\numberline {15.2}Results}{88}{section.237}
-\contentsline {section}{\numberline {15.3}Improvements}{88}{section.239}
-\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{88}{subsection.240}
-\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{90}{subsection.243}
+\contentsline {chapter}{\numberline {13}Results}{80}{chapter.204}
+\contentsline {section}{\numberline {13.1}First result set}{80}{section.206}
+\contentsline {section}{\numberline {13.2}Second result set}{84}{section.214}
+\contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{84}{subsection.215}
+\contentsline {subsection}{\numberline {13.2.2}With subjects}{84}{subsection.216}
+\contentsline {chapter}{\numberline {14}Issues}{85}{chapter.218}
+\contentsline {section}{\numberline {14.1}Feature extraction}{85}{section.220}
+\contentsline {section}{\numberline {14.2}Real-time}{85}{section.222}
+\contentsline {section}{\numberline {14.3}Training dataset}{86}{section.224}
+\contentsline {chapter}{\numberline {15}Conclusion}{87}{chapter.226}
+\contentsline {section}{\numberline {15.1}Theoretical framework}{87}{section.228}
+\contentsline {section}{\numberline {15.2}Results}{87}{section.230}
+\contentsline {section}{\numberline {15.3}Improvements}{87}{section.232}
+\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{87}{subsection.233}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{88}{subsection.235}
 \ttl@stoptoc {parts@6}
-\contentsline {chapter}{Bibliography}{93}{section*.245}
+\contentsline {chapter}{Bibliography}{91}{section*.237}
 \vspace \bigskipamount 
-\contentsline {chapter}{Appendix: Source Code}{97}{section*.246}
+\contentsline {chapter}{Appendix: Source Code}{95}{section*.238}
 \contentsfinish 

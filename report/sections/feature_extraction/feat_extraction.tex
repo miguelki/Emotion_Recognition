@@ -44,7 +44,7 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \phantomsection
 \section{Appearance-based methods}
 
-\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lightning or the pose of the head, the recognition will be less effective.
+\noindent As said in the introduction, the Appearance-based method aims to extract the appearance changes of the face. In order to do that the method uses image filters that are applied to the whole face or that are applied to specific parts of the face \cite{SHA09}. With this kind of method, if there is any change in the lighting or the pose of the head, the recognition will be less effective.
 \newline
 
 \subsection{Principal Component Analysis (PCA)}
@@ -62,14 +62,14 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \subsection{Eigenfaces}
 
 \vspace{\baselineskip}
-\noindent Eigenfaces are a set of eigenvectors. These eigenvectors are derived from the covariance matrix of a set of images; and this in a high-dimensional vector space. The eigenvectors are ordered and each one represents the different amount of the variation among images. Characterization of the variation between face images is then possible \cite{TUR91}. Figure~\ref{eigenface_example} shows of the first 28 basis vectors of Eigenfaces of the face images.
+\noindent Eigenfaces are a set of eigenvectors. These eigenvectors are derived from the covariance matrix of a set of images; and this in a high-dimensional vector space. The eigenvectors are ordered and each one represents the different amount of the variation among images. Characterization of the variation between face images is then possible \cite{TUR91}. Figure~\ref{eigenface_example} shows of the first 28 basis vectors of Eigenfaces of the face images \cite{TSA09}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=1]{figures/eigenface_example} 
+\noindent \includegraphics[scale=0.9]{figures/eigenface_example} 
 \newline
-\caption{First 28 basis vectors of Eigenfaces of the face images}
+\caption{First 28 basis vectors of Eigenfaces of the face images \cite{TSA09}}
 \label{eigenface_example}
 \end{center} 
 \end{figure}
@@ -117,14 +117,14 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \subsection{Gabor Wavelets}
 
 \vspace{\baselineskip}
-\noindent The most used Feature-based method is the Gabor wavelets because of their performance. Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image (see figure~\ref{gabor_wavelets_example}). These representations of face display locality and orientation performance \cite{JEM09}. Indeed, gabor kernels represent features of the face and can be place wherever if fits on the face and with whatever orientation. The disadvantage of this method is that it needs reliable and accurate feature detection and also tracking if necessary \cite{SHA09}. Another disadvantage of the Gabor feature extraction is processing time. This algorithm is very time-consuming, and dimensions of resulting vectors are very large \cite{PRA09}.
+\noindent The most used Feature-based method is the Gabor wavelets because of their performance. Gabor filters are applied in order to extract a set of Gabor wavelet coefficients. Filter responses are obtained when Gabor filters are convolved with face image (see figure~\ref{gabor_wavelets_example} \cite{WON09}). These representations of face display locality and orientation performance \cite{JEM09}. Indeed, gabor kernels represent features of the face and can be place wherever if fits on the face and with whatever orientation. The disadvantage of this method is that it needs reliable and accurate feature detection and also tracking if necessary \cite{SHA09}. Another disadvantage of the Gabor feature extraction is processing time. This algorithm is very time-consuming, and dimensions of resulting vectors are very large \cite{PRA09}.
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.8]{figures/gabor_wavelets_example} 
+\noindent \includegraphics[scale=0.7]{figures/gabor_wavelets_example} 
 \newline
-\caption{Examples of Gabor wavelets and corresponding convoluted images}
+\caption{Examples of Gabor wavelets and corresponding convoluted images \cite{WON09}}
 \label{gabor_wavelets_example}
 \end{center} 
 \end{figure}
@@ -132,18 +132,18 @@ This step takes an image as input, and extracts vectors characterizing its main 
 \subsection{Local Binary Patterns (LBP)}
 
 \vspace{\baselineskip}
-\noindent The Local Binary Pattern is a feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. These informations are the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lightning (see figure~\ref{lbp_change_lightning}).
+\noindent The Local Binary Pattern is a feature-based method. Its first application was to describe texture and shape of an image by extracting informations from the neighborhood of a central pixel. This information is the output of the thresholding of intensity values from the neighborhood pixels with the intensity value of the central pixel \cite{GAN08}. One of the advantages of this method is that it is effective even when there is change in lighting (see figure~\ref{lbp_change_lighting}).
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.3]{figures/lbp_change_lightning} 
+\noindent \includegraphics[scale=0.6]{figures/lbp_change_lighting} 
 \newline
 \caption{Effect of changes in lighting with LBP method}
-\label{lbp_change_lightning}
+\label{lbp_change_lighting}
 \end{center} 
 \end{figure}
 
-\noindent This method is more detailed in Chapter \ref{chap:lbp}. This is this method that is used in this particular facial expression recognition system. The choice has been made on this method because it is particularly effective and the implementation offers choices. This method was chosen over the Gabor wavelets one because the Gabor wavelets are known to be time consuming. And this facial expression recognition system is wanted to be as close as possible of real-time system.
+\noindent This method is more detailed in Chapter \ref{chap:lbp}. The facial expression recognition system presented in this report uses this method. Indeed, it is very effective and the implementation offers many possibilities for improvements. This method was chosen over Gabor wavelets because the latter is known to be time consuming, while this facial expression recognition system is wanted to be as close as possible to a real-time system.
 %\newline
 

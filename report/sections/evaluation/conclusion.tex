@@ -25,7 +25,7 @@
 \noindent One of the way to improve the LBP operator of this system is to add weights for each of the 42 regions of the face as seen in chapter~\ref{chap:lbp}. The LBP operator used in this system has already some improvements; it is a uniform circular LBP operator. The results obtained with this operator are quite good with an accuracy of $ 61.90\% $. But this percentage of accuracy can be improved. Weighting the regions of the face is to have the most important features have more weight in the computation of the histograms.
 \newline
 
-\noindent The face image is divided in 42 regions ($ 6 $ columns $ \times $ $ 7 $ rows) as seen in chapter~\ref{chap:lbp}. The weights are however not applied in the same way. The Figure~\ref{lbp_region_weight} given in the chapter~\ref{chap:lbp} shows a face image containing only the face. The face images from the KDEF database on which this system is based are not the same. The face image contains also some background around the face. Thus, the regions that are at the border of the image and that represent the background have less weight than the one containing the face. The Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses.
+\noindent The face image is divided in 42 regions ($ 6 $ columns $ \times $ $ 7 $ rows) as seen in chapter~\ref{chap:lbp}. The weights are applied in the same way as the Figure~\ref{lbp_region_weight} given in the chapter~\ref{chap:lbp}. The Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses. The weights are assigned as in the Figure~\ref{lbp_region_weight}.
 \newline
 
 \begin{figure}[!h]
@@ -37,17 +37,8 @@
 \end{center} 
 \end{figure}
 
-\noindent The weights assigned to this division of face are thus adapted. The weights are not the same that in the Figure~\ref{lbp_region_weight} given in the chapter~\ref{chap:lbp}. The weights are assigned as in the Figure~\ref{implementation_lbp_weight}. As it is shown in the Figure~\ref{implementation_lbp_weight}, the borderline weights are all of 1. It is because these regions are the background and do not have importance into the facial expression recognition system. All the weights of the regions characterizing the face are superior or equal to 2. The regions that have the highest weights are the region of the eyes and of the mouth.
+\noindent The weights are assigned as in the Figure~\ref{lbp_region_weight}. 
 \newline
-
-\begin{figure}[!h]
-\begin{center}
-\noindent \includegraphics[scale=1]{figures/implementation_lbp_weight} 
-\newline
-\caption{Weights assignment used in this system}
-\label{implementation_lbp_weight}
-\end{center} 
-\end{figure}
 
 \noindent GIVE RESULTS WITH WEIGHTS APPLIED
 \newline
@@ -68,7 +59,7 @@
 \begin{center}
 \noindent \includegraphics[scale=1]{figures/combination_lbp_gabor} 
 \newline
-\caption{2 face images of the YaleB face database}
+\caption{2 face images of the YaleB face database \cite{GOH11}}
 \label{combination_lbp_gabor}
 \end{center} 
 \end{figure}

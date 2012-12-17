@@ -110,12 +110,6 @@ Jenn-Jier~James Lien.
 \newblock Automatic recognition of facial expressions using hidden markov
   models and estimation of expression intensity, 1998.
 
-\bibitem{LIU11}
-Weifeng Liu, Yanjiang Wang, and Shujuan Li.
-\newblock Lbp feature extraction for facial expression recognition.
-\newblock {\em Journal of Information and Computational Science},
-  8(3):412--421, 2011.
-
 \bibitem{JAFFE}
 Michael Lyons.
 \newblock The japanese female facial expression (jaffe) database.
@@ -168,6 +162,12 @@ Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
 Padhraic Smyth.
 \newblock Face detection using the viola-jones method, 2007.
 
+\bibitem{TSA09}
+Pohsiang Tsai, Longbing Cao, Tom Hintz, and Tony Jan.
+\newblock A bi-modal face recognition framework integrating facial expression
+  with facial appearance.
+\newblock {\em Pattern Recognition Letters}, 30(12):1096--1109, 2009.
+
 \bibitem{TUR91}
 Matthew Turk and Alex Pentland.
 \newblock Eigenfaces for recognition.
@@ -199,5 +199,11 @@ Paul Viola and Michael Jones.
 Wikipedia.
 \newblock Statistical classification.
 \newblock \url{http://en.wikipedia.org/wiki/Classifier_(mathematics)}.
+
+\bibitem{WON09}
+Jia-Jun Wong and Siu-Yeung Cho.
+\newblock A local experts organization model with application to face emotion
+  recognition.
+\newblock {\em Expert Systems with Applications}, 36(1):804--819, 2009.
 
 \end{thebibliography}
