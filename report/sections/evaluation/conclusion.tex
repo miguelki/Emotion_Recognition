@@ -6,13 +6,13 @@
 \section{Theoretical framework}
 
 \vspace{\baselineskip}
-\noindent viola jones
+\noindent The theoretical framework on which this system is based relies on three major points: face detection, feature extraction and classification. Face detection is achieved through Viola-Jones face detection algorithm. This cascade of AdaBoost classifiers based on Haar-like features results in a strong binary classifier, composed of a chain of small weak ones. Moreover, the use of integral images enables real-time detection.
 \newline
 
-\noindent lbp
+\noindent Feature extraction is performed using Local Binary Patterns, a simple but efficient texture descriptor encoding changes in micro-patterns. It outputs histograms which bin indexes are intensity values of the pixels, and bin sizes the number of pixels having this value. This texture descriptor can be used for facial feature extraction, and can be modified in order to detect patterns of various sizes and shapes, but also to reduce histogram size, hence improving computation time.
 \newline
 
-\noindent svm
+\noindent Thirdly, Support Vector Machine is used as classifier. This binary linear classifier, belonging to the supervised learning category, is based on \textit{margin maximization} and \textit{kernel functions}. Indeed, since it is a linear classifier, data has to be mapped into a higher space for the classifier to perform correctly. Four classic kernels can be used, and even combined if needed. When compared to other classification methods, SVM yields better results, which makes it a suitable choice for facial expression recognition using Local Binary Patterns.
 \newline
 
 \phantomsection
@@ -22,13 +22,13 @@
 \noindent Different results are obtained based on the use of the Kinect or not.
 \newline
 
-\noindent The results obtained by using face images of the KDEF database as test set are quite good. The percentage of accuracy is of $ 66.67\% $. There is nevertheless one emotion that stands out because of its bad recognition accuracy. It is the \textit{sad} emotion. This emotion is mistaken mostly for the \textit{neutral} state. Indeed this two emotions are quite similar; almost identical. That is why the \textit{sad} emotion has this low accuracy.
+\noindent Results obtained by using face images of the KDEF database as test set are quite good, with an accuracy rate of $ 66.67\% $. There is nevertheless an issue with the \textit{sad} emotion, which stands out because of its bad recognition accuracy. This emotion is mostly misclassified as \textit{neutral} state. Indeed these two emotions are quite similar, almost identical when it comes to feature extraction, hence the low accuracy rate.
 \newline
 
-\noindent The \textit{angry} emotion has also a bad recognition accuracy but it is not as significant as for the \textit{sad} emotion. The reason why is the same that for the \textit{sad} emotion. The \textit{angry} face distorts slightly more than the \textit{sad} face. The percentage of accuracy is thus of $ 41.67\% $ instead of $ 8.33\% $ for the \textit{sad} emotion.
+\noindent The \textit{angry} emotion also has a below average recognition accuracy, but it is not as significant as for the \textit{sad} emotion. The reason behind this result is the same as for the \textit{sad} emotion. Since an \textit{angry} face is more distorted than a \textit{sad} face it is more easily classified correctly. The accuracy rate is thus of $ 41.67\% $ for the \textit{angry} expression,  instead of $ 8.33\% $ for \textit{sad}.
 \newline
 
-\noindent Concerning the result obtained with the Kinect, the accuracy percentage is significantly lower.
+\noindent Concerning results obtained with the Kinect, the accuracy rate is significantly lower.
 \newline
 
 \phantomsection
