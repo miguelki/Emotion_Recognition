@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  17 DEC 2012 16:23
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  17 DEC 2012 21:38
 entering extended mode
 **master.tex
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
@@ -316,6 +316,13 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\uarial.sty"
+Package: uarial 2006/03/21 1.0 (WaS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
@@ -348,10 +355,6 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks16
-)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -743,10 +746,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip74
 )
-Package hyperref Info: Option `plainpages' set `false' on input line 176.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 176.
+Package hyperref Info: Option `plainpages' set `false' on input line 179.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 179.
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 176.
+Package hyperref Info: Option `colorlinks' set `true' on input line 179.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
 Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
@@ -854,65 +857,70 @@ LaTeX Info: Redefining \nameref on input line 20.
 
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/frontpage.te
 x
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 36.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 23.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
+)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 34.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 36.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 36.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 34.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 36.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 34.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 36.
+(Font)              <10.95> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 36.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 36.
-LaTeX Font Info:    Try loading font information for U+msa on input line 36.
+(Font)              <6> on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 36.
+LaTeX Font Info:    Try loading font information for U+msb on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-Overfull \hbox (6.0pt too wide) in paragraph at lines 24--37
+Overfull \hbox (9.04408pt too wide) in paragraph at lines 25--35
 [][][][][][] 
  []
 
-<figures/aau_new_logo.png, id=3, 141.1674pt x 83.3514pt>
+<figures/aau_new_logo.png, id=3, 135.1449pt x 95.1555pt>
 File: figures/aau_new_logo.png Graphic file (type png)
 
 <use figures/aau_new_logo.png>
-Package pdftex.def Info: figures/aau_new_logo.png used on input line 47.
-(pdftex.def)             Requested size: 141.16704pt x 83.35117pt.
+Package pdftex.def Info: figures/aau_new_logo.png used on input line 45.
+(pdftex.def)             Requested size: 135.14456pt x 95.15524pt.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 47.
+(Font)              <10> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 45.
 
 <figures/aau_page_garde.png, id=5, 597.432pt x 845.0772pt>
 File: figures/aau_page_garde.png Graphic file (type png)
 
 <use figures/aau_page_garde.png>
-Package pdftex.def Info: figures/aau_page_garde.png used on input line 61.
+Package pdftex.def Info: figures/aau_page_garde.png used on input line 57.
 (pdftex.def)             Requested size: 597.55817pt x 845.04933pt.
  [1
 
@@ -929,16 +937,18 @@ ex
 File: figures/aau_new_logo.png Graphic file (type png)
  <use figures/aau_new_logo.png>
 Package pdftex.def Info: figures/aau_new_logo.png used on input line 41.
-(pdftex.def)             Requested size: 194.59193pt x 114.90419pt.
+(pdftex.def)             Requested size: 194.59193pt x 137.01506pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 41--41
 
  []
 
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 41.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
-File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 41.
+
+LaTeX Warning: Reference `LastPage' on page iii undefined on input line 41.
+
+
 Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
 [] 
  []
@@ -980,8 +990,9 @@ LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 s.tex) [7] [8
 
 ]
-(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc [9]
-[10])
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
 \tf@toc=\write3
 
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
@@ -993,14 +1004,29 @@ s.tex) [7] [8
 /motivations.tex
 Chapter 1.
 
+LaTeX Warning: Citation `DON99' on page 4 undefined on input line 5.
+
+
+LaTeX Warning: Citation `PAN00' on page 4 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
 
+LaTeX Warning: Citation `PAN00' on page 4 undefined on input line 8.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
 
  []
+
+
+LaTeX Warning: Citation `BET12' on page 4 undefined on input line 11.
+
+
+LaTeX Warning: Citation `DAR04' on page 4 undefined on input line 11.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
@@ -1018,9 +1044,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--19
  []
 
 
+LaTeX Warning: Citation `BAR03' on page 5 undefined on input line 20.
+
+
+LaTeX Warning: Citation `BAR03' on page 5 undefined on input line 20.
+
+
+LaTeX Warning: Citation `AND06' on page 5 undefined on input line 20.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
+
+
+LaTeX Warning: Citation `BET12' on page 5 undefined on input line 23.
 
 
 Overfull \hbox (3.47784pt too wide) in paragraph at lines 23--25
@@ -1043,9 +1081,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--22
 /recognition.tex
 Chapter 2.
 
+LaTeX Warning: Reference `chap:extraction' on page 6 undefined on input line 4.
+
+
+
+LaTeX Warning: Reference `chap:classification' on page 6 undefined on input lin
+e 4.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
+
+
+LaTeX Warning: Reference `facial_expression_recognition_process' on page 6 unde
+fined on input line 12.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
@@ -1053,8 +1103,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
-<figures/facial_expression_recognition_process.png, id=251, 689.57625pt x 294.0
-9875pt>
+<figures/facial_expression_recognition_process.png, id=94, 689.57625pt x 294.09
+875pt>
 File: figures/facial_expression_recognition_process.png Graphic file (type png)
 
  <use figures/facial_expression_recognition_process.png>
@@ -1070,9 +1120,15 @@ Overfull \hbox (12.56506pt too wide) in paragraph at lines 17--19
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `CHI03' on page 6 undefined on input line 27.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  []
+
+
+LaTeX Warning: Reference `chap:vj' on page 6 undefined on input line 33.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
@@ -1080,9 +1136,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 [6]
+
+LaTeX Warning: Citation `CHI03' on page 7 undefined on input line 39.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 39--41
 
  []
+
+
+LaTeX Warning: Citation `CHI03' on page 7 undefined on input line 45.
+
+
+LaTeX Warning: Citation `CHI03' on page 7 undefined on input line 45.
+
+
+LaTeX Warning: Reference `chap:extraction' on page 7 undefined on input line 45
+.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 45--47
@@ -1091,11 +1161,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
 [7 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_exp
 ression_recognition_process.png>]
+
+LaTeX Warning: Reference `chap:extraction' on page 8 undefined on input line 50
+.
+
+
+LaTeX Warning: Reference `system_setup' on page 8 undefined on input line 57.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-<figures/system_setup.png, id=277, 641.39626pt x 397.485pt>
+<figures/system_setup.png, id=111, 641.39626pt x 397.485pt>
 File: figures/system_setup.png Graphic file (type png)
 
 <use figures/system_setup.png>
@@ -1127,6 +1205,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--81
  []
 
 
+LaTeX Warning: Citation `BET12' on page 9 undefined on input line 82.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
@@ -1138,9 +1219,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--87
 
 [9 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/system_set
 up.png>]
+
+LaTeX Warning: Citation `JAFFE' on page 10 undefined on input line 91.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
+
+
+LaTeX Warning: Citation `BET12' on page 10 undefined on input line 94.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 94--96
@@ -1148,11 +1236,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--96
  []
 
 
+LaTeX Warning: Reference `jaffe_7facialexpressions' on page 10 undefined on inp
+ut line 97.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
-<figures/jaffe_7facialexpressions.png, id=295, 403.5075pt x 234.8775pt>
+<figures/jaffe_7facialexpressions.png, id=124, 403.5075pt x 234.8775pt>
 File: figures/jaffe_7facialexpressions.png Graphic file (type png)
 
 <use figures/jaffe_7facialexpressions.png>
@@ -1160,15 +1252,26 @@ Package pdftex.def Info: figures/jaffe_7facialexpressions.png used on input lin
 e 102.
 (pdftex.def)             Requested size: 302.62988pt x 176.15768pt.
 
+
+LaTeX Warning: Citation `KDEF' on page 10 undefined on input line 112.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 112--114
 
  []
 
 [10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/jaffe_7fa
 cialexpressions.png>]
+
+LaTeX Warning: Citation `KDEF' on page 11 undefined on input line 115.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 115--117
 
  []
+
+
+LaTeX Warning: Citation `KDEF' on page 11 undefined on input line 118.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--120
@@ -1176,11 +1279,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--120
  []
 
 
+LaTeX Warning: Reference `kdef_7facialexpressions' on page 11 undefined on inpu
+t line 121.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 121--123
 
  []
 
-<figures/kdef_7facialexpressions.png, id=307, 401.5pt x 274.02374pt>
+<figures/kdef_7facialexpressions.png, id=131, 401.5pt x 274.02374pt>
 File: figures/kdef_7facialexpressions.png Graphic file (type png)
 
 <use figures/kdef_7facialexpressions.png>
@@ -1195,9 +1302,15 @@ DE)|
  []
 
 
+LaTeX Warning: Citation `MSFDE' on page 12 undefined on input line 136.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
+
+
+LaTeX Warning: Citation `MSFDE' on page 12 undefined on input line 139.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--141
@@ -1205,11 +1318,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--141
  []
 
 
+LaTeX Warning: Reference `msfde_7facialexpressions' on page 12 undefined on inp
+ut line 142.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 142--144
 
  []
 
-<figures/msfde_7facialexpressions.png, id=318, 401.5pt x 176.66pt>
+<figures/msfde_7facialexpressions.png, id=139, 401.5pt x 176.66pt>
 File: figures/msfde_7facialexpressions.png Graphic file (type png)
 
 <use figures/msfde_7facialexpressions.png>
@@ -1222,15 +1339,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--163
  []
 
 
+LaTeX Warning: Citation `SEB07' on page 12 undefined on input line 164.
+
+
+LaTeX Warning: Citation `BET12' on page 12 undefined on input line 164.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 164--166
 
  []
 
 [12 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/msfde_7fa
 cialexpressions.png>]
+
+LaTeX Warning: Citation `SEB07' on page 13 undefined on input line 173.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 173--175
 
  []
+
+
+LaTeX Warning: Citation `SEB07' on page 13 undefined on input line 176.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 176--178
@@ -1258,18 +1388,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--196
  []
 
 
+LaTeX Warning: Reference `arface_example2' on page 14 undefined on input line 2
+00.
+
+
+LaTeX Warning: Reference `arface_example3' on page 14 undefined on input line 2
+00.
+
+
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 200.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 200--202
 
  []
 
-<figures/arface_example2.png, id=341, 499.8675pt x 127.47626pt>
+<figures/arface_example2.png, id=153, 499.8675pt x 127.47626pt>
 File: figures/arface_example2.png Graphic file (type png)
 
 <use figures/arface_example2.png>
 Package pdftex.def Info: figures/arface_example2.png used on input line 205.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
 
-<figures/arface_example3.png, id=344, 498.86375pt x 127.47626pt>
+
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 207.
+
+
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 207.
+
+<figures/arface_example3.png, id=154, 498.86375pt x 127.47626pt>
 File: figures/arface_example3.png Graphic file (type png)
 
 <use figures/arface_example3.png>
@@ -1277,7 +1424,20 @@ Package pdftex.def Info: figures/arface_example3.png used on input line 214.
 (pdftex.def)             Requested size: 349.20224pt x 89.23276pt.
 
 
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 216.
+
+
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 216.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `arface_example1' on page 14 undefined on input line 2
+24.
+
+
+LaTeX Warning: Citation `ARFACE' on page 14 undefined on input line 224.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 224--226
@@ -1285,12 +1445,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--226
  []
 
 [14 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
-ample2.png>] <figures/arface_example1.png, id=359, 499.8675pt x 127.47626pt>
+ample2.png>] <figures/arface_example1.png, id=163, 499.8675pt x 127.47626pt>
 File: figures/arface_example1.png Graphic file (type png)
 
 <use figures/arface_example1.png>
 Package pdftex.def Info: figures/arface_example1.png used on input line 229.
 (pdftex.def)             Requested size: 349.90486pt x 89.23276pt.
+
+
+LaTeX Warning: Citation `ARFACE' on page 15 undefined on input line 231.
+
+
+LaTeX Warning: Citation `ARFACE' on page 15 undefined on input line 231.
+
+
+LaTeX Warning: Reference `example_angle' on page 15 undefined on input line 239
+.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 239--241
 
@@ -1299,7 +1470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 239--241
 [15 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
 ample3.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/a
 rface_example1.png>]
-<figures/example_angle.png, id=370, 1209.51875pt x 288.07625pt>
+<figures/example_angle.png, id=171, 1209.51875pt x 288.07625pt>
 File: figures/example_angle.png Graphic file (type png)
 
 <use figures/example_angle.png>
@@ -1349,9 +1520,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--6
  []
 
 
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 11.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 14.
+
+
+LaTeX Warning: Reference `output_example_face_detection' on page 20 undefined o
+n input line 14.
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 14.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 14--16
@@ -1359,7 +1543,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
-<figures/output_example_face_detection.png, id=404, 318.18875pt x 288.07625pt>
+<figures/output_example_face_detection.png, id=213, 318.18875pt x 288.07625pt>
 File: figures/output_example_face_detection.png Graphic file (type png)
 
 <use figures/output_example_face_detection.png>
@@ -1368,7 +1552,23 @@ t line 19.
 (pdftex.def)             Requested size: 222.73059pt x 201.65198pt.
 
 
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 21.
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 21.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 26.
+
+
+LaTeX Warning: Reference `output_example_face_detection_binary_classifier' on p
+age 20 undefined on input line 26.
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 26.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
@@ -1376,7 +1576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--28
  []
 
 
-<figures/output_example_face_detection_binary_classifier.png, id=410, 581.17125
+<figures/output_example_face_detection_binary_classifier.png, id=214, 581.17125
 pt x 319.1925pt>
 File: figures/output_example_face_detection_binary_classifier.png Graphic file 
 (type png)
@@ -1387,7 +1587,16 @@ r.png used on input line 31.
 (pdftex.def)             Requested size: 290.58492pt x 159.59586pt.
 
 
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 33.
+
+
+LaTeX Warning: Citation `DIN08' on page 20 undefined on input line 33.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `CLASS' on page 20 undefined on input line 42.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
@@ -1401,9 +1610,18 @@ ion/report/figures/output_example_face_detection_binary_classifier.png>]
 on/violajones.tex
 Chapter 4.
 
+LaTeX Warning: Citation `VIO01' on page 22 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 22 undefined on input line 12.
+
+
+LaTeX Warning: Citation `HEW07' on page 22 undefined on input line 27.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 27--29
@@ -1411,11 +1629,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
  []
 
 [22]
+
+LaTeX Warning: Reference `haar_features_first_2_stage' on page 23 undefined on 
+input line 30.
+
+
+LaTeX Warning: Citation `HEW07' on page 23 undefined on input line 30.
+
+
+LaTeX Warning: Reference `haar_features_extended' on page 23 undefined on input
+ line 30.
+
+
+LaTeX Warning: Citation `DIN08' on page 23 undefined on input line 30.
+
+
+LaTeX Warning: Reference `haar_features_early_stage' on page 23 undefined on in
+put line 30.
+
+
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 30.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
-<figures/haar_features_first_2_stage.png, id=447, 500.87125pt x 185.69376pt>
+<figures/haar_features_first_2_stage.png, id=235, 500.87125pt x 185.69376pt>
 File: figures/haar_features_first_2_stage.png Graphic file (type png)
 
 <use figures/haar_features_first_2_stage.png>
@@ -1423,7 +1663,7 @@ Package pdftex.def Info: figures/haar_features_first_2_stage.png used on input
 line 35.
 (pdftex.def)             Requested size: 400.69753pt x 148.55519pt.
 
-<figures/haar_features_extended.png, id=448, 426.59375pt x 315.1775pt>
+<figures/haar_features_extended.png, id=236, 426.59375pt x 315.1775pt>
 File: figures/haar_features_extended.png Graphic file (type png)
 
 <use figures/haar_features_extended.png>
@@ -1432,9 +1672,15 @@ Package pdftex.def Info: figures/haar_features_extended.png used on input line
 (pdftex.def)             Requested size: 255.95822pt x 189.10796pt.
 
 
+LaTeX Warning: Citation `DIN08' on page 23 undefined on input line 46.
+
+
+LaTeX Warning: Citation `DIN08' on page 23 undefined on input line 46.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/haar_features_early_stage.jpg, id=451, 642.4pt x 642.4pt>
+<figures/haar_features_early_stage.jpg, id=237, 642.4pt x 642.4pt>
 File: figures/haar_features_early_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_features_early_stage.jpg>
@@ -1443,7 +1689,19 @@ ne 53.
 (pdftex.def)             Requested size: 321.19922pt x 321.19922pt.
 
 
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 55.
+
+
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 55.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `HEW07' on page 23 undefined on input line 60.
+
+
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 60.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
@@ -1451,11 +1709,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--62
  []
 
 
+LaTeX Warning: Reference `haar_feature_later_stage' on page 23 undefined on inp
+ut line 63.
+
+
+LaTeX Warning: Reference `haar_features_early_stage' on page 23 undefined on in
+put line 63.
+
+
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 63.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
-<figures/haar_feature_later_stage.jpg, id=459, 321.2pt x 642.4pt>
+<figures/haar_feature_later_stage.jpg, id=238, 321.2pt x 642.4pt>
 File: figures/haar_feature_later_stage.jpg Graphic file (type jpg)
 
 <use figures/haar_feature_later_stage.jpg>
@@ -1464,7 +1733,20 @@ e 68.
 (pdftex.def)             Requested size: 256.96034pt x 513.9207pt.
 
 
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 70.
+
+
+LaTeX Warning: Citation `HAR12' on page 23 undefined on input line 70.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `haar_feature_description' on page 23 undefined on inp
+ut line 75.
+
+
+LaTeX Warning: Citation `VIO01' on page 23 undefined on input line 75.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 75--77
@@ -1483,11 +1765,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--83
  []
 
 
+LaTeX Warning: Citation `VIO01' on page 24 undefined on input line 84.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
  []
 
-<figures/haar_feature_description.png, id=476, 452.69125pt x 465.74pt>
+<figures/haar_feature_description.png, id=245, 452.69125pt x 465.74pt>
 File: figures/haar_feature_description.png Graphic file (type png)
 
 <use figures/haar_feature_description.png>
@@ -1499,9 +1784,18 @@ e 89.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `VIO01' on page 24 undefined on input line 96.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 96--98
 
  []
+
+
+LaTeX Warning: Citation `VIO01' on page 24 undefined on input line 103.
+
+
+LaTeX Warning: Citation `HEW07' on page 24 undefined on input line 103.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 103--105
@@ -1516,11 +1810,19 @@ LaTeX Warning: Text page 26 contains only floats.
 
 [26 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_later_stage.jpg>]
+
+LaTeX Warning: Citation `VIO01' on page 27 undefined on input line 106.
+
+
+LaTeX Warning: Reference `integral_image_description' on page 27 undefined on i
+nput line 106.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
-<figures/integral_image_description.png, id=496, 588.1975pt x 470.75874pt>
+<figures/integral_image_description.png, id=263, 588.1975pt x 470.75874pt>
 File: figures/integral_image_description.png Graphic file (type png)
 
 <use figures/integral_image_description.png>
@@ -1537,11 +1839,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--127
  []
 
 
+LaTeX Warning: Reference `integral_image_four_array' on page 27 undefined on in
+put line 128.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 128--130
 
  []
 
-<figures/integral_image_four_array.png, id=498, 588.1975pt x 470.75874pt>
+<figures/integral_image_four_array.png, id=264, 588.1975pt x 470.75874pt>
 File: figures/integral_image_four_array.png Graphic file (type png)
 
 <use figures/integral_image_four_array.png>
@@ -1553,12 +1859,19 @@ ne 133.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Citation `SMY07' on page 27 undefined on input line 144.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 144--146
 
  []
 
 [27 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_description.png>]
+
+LaTeX Warning: Citation `HEW07' on page 28 undefined on input line 147.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 147--149
 
  []
@@ -1566,11 +1879,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 [28 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/integral_
 image_description.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repor
 t/figures/integral_image_four_array.png>]
+
+LaTeX Warning: Reference `haar_feature_adaboost' on page 29 undefined on input 
+line 150.
+
+
+LaTeX Warning: Citation `HEW07' on page 29 undefined on input line 150.
+
+
+LaTeX Warning: Citation `VIO01' on page 29 undefined on input line 150.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-<figures/haar_feature_adaboost.png, id=525, 868.24374pt x 643.40375pt>
+<figures/haar_feature_adaboost.png, id=285, 868.24374pt x 643.40375pt>
 File: figures/haar_feature_adaboost.png Graphic file (type png)
 
 <use figures/haar_feature_adaboost.png>
@@ -1578,22 +1902,51 @@ Package pdftex.def Info: figures/haar_feature_adaboost.png used on input line 1
 55.
 (pdftex.def)             Requested size: 347.29134pt x 257.35693pt.
 
+
+LaTeX Warning: Reference `haar_feature_example_result' on page 29 undefined on 
+input line 162.
+
+
+LaTeX Warning: Citation `VIO01' on page 29 undefined on input line 162.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 162--164
 
  []
 
-<figures/haar_feature_example_result.png, id=528, 481.8pt x 389.455pt>
+<figures/haar_feature_example_result.png, id=286, 481.8pt x 389.455pt>
 File: figures/haar_feature_example_result.png Graphic file (type png)
 
 <use figures/haar_feature_example_result.png>
 Package pdftex.def Info: figures/haar_feature_example_result.png used on input 
 line 167.
 (pdftex.def)             Requested size: 385.4405pt x 311.5644pt.
- [29 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_fea
-ture_adaboost.png>]
+
+
+LaTeX Warning: Citation `VIO01' on page 29 undefined on input line 169.
+
+
+LaTeX Warning: Citation `VIO01' on page 29 undefined on input line 169.
+
+[29 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_adaboost.png>]
+
+LaTeX Warning: Citation `VIO01' on page 30 undefined on input line 174.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
+
+
+LaTeX Warning: Reference `haar_feature_cascade' on page 30 undefined on input l
+ine 181.
+
+
+LaTeX Warning: Citation `HEW07' on page 30 undefined on input line 181.
+
+
+LaTeX Warning: Citation `VIO01' on page 30 undefined on input line 181.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
@@ -1602,7 +1955,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
 [30 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_example_result.png>]
-<figures/haar_feature_cascade.png, id=547, 921.4425pt x 288.07625pt>
+<figures/haar_feature_cascade.png, id=300, 921.4425pt x 288.07625pt>
 File: figures/haar_feature_cascade.png Graphic file (type png)
 
 <use figures/haar_feature_cascade.png>
@@ -1615,12 +1968,19 @@ Overfull \hbox (59.53625pt too wide) in paragraph at lines 186--188
  []
 
 
+LaTeX Warning: Reference `haar_feature_cascade_example_result' on page 31 undef
+ined on input line 193.
+
+
+LaTeX Warning: Citation `VIO01' on page 31 undefined on input line 193.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
 
 
-<figures/haar_feature_cascade_example_result.png, id=550, 653.44125pt x 546.04p
+<figures/haar_feature_cascade_example_result.png, id=301, 653.44125pt x 546.04p
 t>
 File: figures/haar_feature_cascade_example_result.png Graphic file (type png)
  <use figures/haar_feature_cascade_example_result.png>
@@ -1629,7 +1989,16 @@ n input line 198.
 (pdftex.def)             Requested size: 392.06776pt x 327.62653pt.
 
 
+LaTeX Warning: Citation `VIO01' on page 31 undefined on input line 200.
+
+
+LaTeX Warning: Citation `VIO01' on page 31 undefined on input line 200.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `HEW07' on page 31 undefined on input line 205.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
@@ -1638,9 +2007,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
 [31 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_cascade.png>]
+
+LaTeX Warning: Citation `VIO01' on page 32 undefined on input line 208.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
+
+
+LaTeX Warning: Reference `haar_feature_first_2_features' on page 32 undefined o
+n input line 211.
+
+
+LaTeX Warning: Citation `HEW07' on page 32 undefined on input line 211.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 211--213
@@ -1649,7 +2029,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--213
 
 [32 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_cascade_example_result.png>]
-<figures/haar_feature_first_2_features.png, id=568, 241.90375pt x 183.68625pt>
+<figures/haar_feature_first_2_features.png, id=312, 241.90375pt x 183.68625pt>
 File: figures/haar_feature_first_2_features.png Graphic file (type png)
 
 <use figures/haar_feature_first_2_features.png>
@@ -1657,11 +2037,22 @@ Package pdftex.def Info: figures/haar_feature_first_2_features.png used on inpu
 t line 216.
 (pdftex.def)             Requested size: 217.71135pt x 165.31607pt.
 
+
+LaTeX Warning: Citation `VIO01' on page 33 undefined on input line 223.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 223--225
 
  []
 
-<figures/haar_feature_cascade_rate.png, id=572, 901.3675pt x 214.8025pt>
+
+LaTeX Warning: Reference `haar_feature_cascade_rate' on page 33 undefined on in
+put line 226.
+
+
+LaTeX Warning: Citation `UBC01' on page 33 undefined on input line 226.
+
+<figures/haar_feature_cascade_rate.png, id=313, 901.3675pt x 214.8025pt>
 File: figures/haar_feature_cascade_rate.png Graphic file (type png)
 
 <use figures/haar_feature_cascade_rate.png>
@@ -1677,11 +2068,18 @@ Overfull \hbox (49.49876pt too wide) in paragraph at lines 236--238
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `haar_feature_training_dataset' on page 33 undefined o
+n input line 247.
+
+
+LaTeX Warning: Citation `VIO01' on page 33 undefined on input line 247.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 247--249
 
  []
 
-<figures/haar_feature_training_dataset.png, id=575, 343.5234pt x 343.5234pt>
+<figures/haar_feature_training_dataset.png, id=314, 343.5234pt x 343.5234pt>
 File: figures/haar_feature_training_dataset.png Graphic file (type png)
 
 <use figures/haar_feature_training_dataset.png>
@@ -1690,15 +2088,37 @@ t line 252.
 (pdftex.def)             Requested size: 309.1682pt x 309.1682pt.
 
 
+LaTeX Warning: Citation `VIO01' on page 33 undefined on input line 254.
+
+
+LaTeX Warning: Citation `VIO01' on page 33 undefined on input line 254.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `UBC01' on page 33 undefined on input line 259.
 
 [33 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
 ure_first_2_features.png>] [34 <C:/Users/Pin/Documents/GitHub/Emotion_Recogniti
 on/report/figures/haar_feature_cascade_rate.png> <C:/Users/Pin/Documents/GitHub
 /Emotion_Recognition/report/figures/haar_feature_training_dataset.png>]
+
+LaTeX Warning: Citation `DIN08' on page 35 undefined on input line 283.
+
+
+LaTeX Warning: Citation `VIO01' on page 35 undefined on input line 283.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 283--285
 
  []
+
+
+LaTeX Warning: Citation `DIN08' on page 35 undefined on input line 286.
+
+
+LaTeX Warning: Citation `DIN08' on page 35 undefined on input line 300.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 300--302
@@ -1708,10 +2128,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--302
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
 action.tex [35] [36]
+
+LaTeX Warning: Reference `chap:extraction' on page 37 undefined on input line 1
+3.
+
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [37]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
 action/feat_extraction.tex
 Chapter 5.
+
+LaTeX Warning: Citation `CHI03' on page 38 undefined on input line 6.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
@@ -1777,9 +2204,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--43
  []
 
 
+LaTeX Warning: Citation `SHA09' on page 39 undefined on input line 47.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 39 undefined on input line 53.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 53--55
@@ -1787,16 +2220,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--55
  []
 
 [39]
+
+LaTeX Warning: Citation `GAN08' on page 40 undefined on input line 59.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
+
+
+LaTeX Warning: Citation `TUR91' on page 40 undefined on input line 65.
+
+
+LaTeX Warning: Reference `eigenface_example' on page 40 undefined on input line
+ 65.
+
+
+LaTeX Warning: Citation `TSA09' on page 40 undefined on input line 65.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 65--67
 
  []
 
-<figures/eigenface_example.jpg, id=639, 242.3923pt x 169.48274pt>
+<figures/eigenface_example.jpg, id=370, 242.3923pt x 169.48274pt>
 File: figures/eigenface_example.jpg Graphic file (type jpg)
 
 <use figures/eigenface_example.jpg>
@@ -1804,7 +2251,19 @@ Package pdftex.def Info: figures/eigenface_example.jpg used on input line 70.
 (pdftex.def)             Requested size: 218.15103pt x 152.53304pt.
 
 
+LaTeX Warning: Citation `TSA09' on page 40 undefined on input line 72.
+
+
+LaTeX Warning: Citation `TSA09' on page 40 undefined on input line 72.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `RAB93' on page 40 undefined on input line 80.
+
+
+LaTeX Warning: Citation `LIE98' on page 40 undefined on input line 80.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
@@ -1812,14 +2271,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 40 undefined on input line 86.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
 
 [40]
+
+LaTeX Warning: Citation `GAN08' on page 41 undefined on input line 92.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
+
+
+LaTeX Warning: Citation `TUR91' on page 41 undefined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
@@ -1828,9 +2297,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--100
 
 [41 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/eigenface
 _example.jpg>]
+
+LaTeX Warning: Citation `RAB93' on page 42 undefined on input line 104.
+
+
+LaTeX Warning: Citation `LIE98' on page 42 undefined on input line 104.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 104--106
 
  []
+
+
+LaTeX Warning: Citation `SHA09' on page 42 undefined on input line 111.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
@@ -1838,16 +2317,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--113
  []
 
 
+LaTeX Warning: Citation `VAL05' on page 42 undefined on input line 114.
+
+
+LaTeX Warning: Citation `VAL06' on page 42 undefined on input line 114.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
+
+
+LaTeX Warning: Reference `gabor_wavelets_example' on page 42 undefined on input
+ line 120.
+
+
+LaTeX Warning: Citation `WON09' on page 42 undefined on input line 120.
+
+
+LaTeX Warning: Citation `JEM09' on page 42 undefined on input line 120.
+
+
+LaTeX Warning: Citation `SHA09' on page 42 undefined on input line 120.
+
+
+LaTeX Warning: Citation `PRA09' on page 42 undefined on input line 120.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 120--122
 
  []
 
-<figures/gabor_wavelets_example.jpg, id=677, 352.3962pt x 160.52893pt>
+<figures/gabor_wavelets_example.jpg, id=387, 352.3962pt x 160.52893pt>
 File: figures/gabor_wavelets_example.jpg Graphic file (type jpg)
 
 <use figures/gabor_wavelets_example.jpg>
@@ -1856,20 +2357,38 @@ Package pdftex.def Info: figures/gabor_wavelets_example.jpg used on input line
 (pdftex.def)             Requested size: 246.67564pt x 112.36948pt.
 
 
+LaTeX Warning: Citation `WON09' on page 42 undefined on input line 127.
+
+
+LaTeX Warning: Citation `WON09' on page 42 undefined on input line 127.
+
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [42]
+
+LaTeX Warning: Citation `GAN08' on page 43 undefined on input line 135.
+
+
+LaTeX Warning: Reference `lbp_change_lighting' on page 43 undefined on input li
+ne 135.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 135--137
 
  []
 
-<figures/lbp_change_lighting.png, id=695, 408.02437pt x 225.09094pt>
+<figures/lbp_change_lighting.png, id=395, 408.02437pt x 225.09094pt>
 File: figures/lbp_change_lighting.png Graphic file (type png)
 
 <use figures/lbp_change_lighting.png>
 Package pdftex.def Info: figures/lbp_change_lighting.png used on input line 140
 .
 (pdftex.def)             Requested size: 244.81651pt x 135.05559pt.
+
+
+LaTeX Warning: Reference `chap:lbp' on page 43 undefined on input line 147.
+
 ) [43 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/gabor_w
 avelets_example.jpg> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
 figures/lbp_change_lighting.png>]
@@ -1877,9 +2396,18 @@ figures/lbp_change_lighting.png>]
 action/lbp.tex
 Chapter 6.
 
+LaTeX Warning: Citation `AHO06' on page 44 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
+
+
+LaTeX Warning: Citation `OJA96' on page 44 undefined on input line 8.
+
+
+LaTeX Warning: Citation `AHO06' on page 44 undefined on input line 8.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 8--10
@@ -1887,16 +2415,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
  []
 
 
+LaTeX Warning: Citation `JUL07' on page 44 undefined on input line 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
+
+
+LaTeX Warning: Reference `lbp_basic_operator' on page 44 undefined on input lin
+e 18.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-<figures/lbp_basic_operator.png, id=708, 331.99031pt x 106.89937pt>
+<figures/lbp_basic_operator.png, id=403, 331.99031pt x 106.89937pt>
 File: figures/lbp_basic_operator.png Graphic file (type png)
 
 <use figures/lbp_basic_operator.png>
@@ -1907,12 +2442,16 @@ Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 23.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `lbp_basic_operator_example' on page 44 undefined on i
+nput line 30.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
 
 [44]
-<figures/lbp_basic_operator_example.png, id=720, 314.67563pt x 152.82094pt>
+<figures/lbp_basic_operator_example.png, id=410, 314.67563pt x 152.82094pt>
 File: figures/lbp_basic_operator_example.png Graphic file (type png)
 
 <use figures/lbp_basic_operator_example.png>
@@ -1920,18 +2459,39 @@ Package pdftex.def Info: figures/lbp_basic_operator_example.png used on input l
 ine 35.
 (pdftex.def)             Requested size: 251.74083pt x 122.2569pt.
 
+
+LaTeX Warning: Citation `GAN08' on page 45 undefined on input line 49.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 49--51
 
  []
 
+
+LaTeX Warning: Citation `GAN08' on page 45 undefined on input line 52.
+
 [45 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
 _operator.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figure
 s/lbp_basic_operator_example.png>]
+
+LaTeX Warning: Citation `JUL07' on page 46 undefined on input line 60.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 60--62
 
  []
 
-<figures/lbp_circular_operator.jpg, id=737, 513.41812pt x 208.52907pt>
+
+LaTeX Warning: Reference `lbp_circular_operator' on page 46 undefined on input 
+line 72.
+
+
+LaTeX Warning: Citation `JUL07' on page 46 undefined on input line 72.
+
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 72.
+
+<figures/lbp_circular_operator.jpg, id=421, 513.41812pt x 208.52907pt>
 File: figures/lbp_circular_operator.jpg Graphic file (type jpg)
 
 <use figures/lbp_circular_operator.jpg>
@@ -1939,14 +2499,24 @@ Package pdftex.def Info: figures/lbp_circular_operator.jpg used on input line 7
 6.
 (pdftex.def)             Requested size: 308.05324pt x 125.1184pt.
 
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 83.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 86.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 86--88
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 46 undefined on input line 94.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 94--96
@@ -1955,14 +2525,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--96
 
 [46 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
 lar_operator.jpg>]
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 97.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
 
+LaTeX Warning: Citation `OJA96' on page 47 undefined on input line 105.
+
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 105.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 105--107
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 113.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
@@ -1975,9 +2558,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 120--122
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 133.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 133--135
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 47 undefined on input line 136.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
@@ -1990,9 +2579,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--146
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 151.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 154.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
@@ -2000,9 +2595,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 157.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
+
+
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 160.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 160--162
@@ -2010,11 +2611,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--162
  []
 
 
+LaTeX Warning: Citation `GAN08' on page 48 undefined on input line 163.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 163--165
 
  []
 
-<figures/lbp_structural_features.jpg, id=769, 321.45094pt x 245.41687pt>
+
+LaTeX Warning: Reference `lbp_structural_features' on page 48 undefined on inpu
+t line 166.
+
+<figures/lbp_structural_features.jpg, id=439, 321.45094pt x 245.41687pt>
 File: figures/lbp_structural_features.jpg Graphic file (type jpg)
 
 <use figures/lbp_structural_features.jpg>
@@ -2025,26 +2633,34 @@ Package pdftex.def Info: figures/lbp_structural_features.jpg used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
 
-[48]
+
 Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
+
+LaTeX Warning: Reference `lbp_histogram' on page 49 undefined on input line 191
+.
+
 [49 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
 tural_features.jpg>]
-<figures/lbp_histogram.png, id=787, 592.2125pt x 295.1025pt>
+<figures/lbp_histogram.png, id=455, 592.2125pt x 295.1025pt>
 File: figures/lbp_histogram.png Graphic file (type png)
 
 <use figures/lbp_histogram.png>
 Package pdftex.def Info: figures/lbp_histogram.png used on input line 195.
 (pdftex.def)             Requested size: 355.33023pt x 177.06285pt.
 
-<figures/lbp_region_weight.png, id=789, 346.29375pt x 172.645pt>
+
+LaTeX Warning: Reference `lbp_region_weight' on page 50 undefined on input line
+ 202.
+
+<figures/lbp_region_weight.png, id=456, 346.29375pt x 172.645pt>
 File: figures/lbp_region_weight.png Graphic file (type png)
 
 <use figures/lbp_region_weight.png>
@@ -2055,6 +2671,10 @@ ogram.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lb
 p_region_weight.png>]))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
 sification.tex [51]
+
+LaTeX Warning: Reference `chap:classification' on page 52 undefined on input li
+ne 13.
+
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [52]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
 on/feat_classification.tex
@@ -2080,6 +2700,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--16
  []
 
 
+LaTeX Warning: Reference `chap:svm' on page 53 undefined on input line 17.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
@@ -2100,6 +2723,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
  []
 
 
+LaTeX Warning: Reference `posterior' on page 54 undefined on input line 45.
+
+
+LaTeX Warning: Reference `posterior' on page 54 undefined on input line 59.
+
+
 Overfull \hbox (7.14478pt too wide) in paragraph at lines 66--67
 \T1/lmr/m/n/10.95 The clas-si-fier out-put will then be class $\OML/lmm/m/it/10
 .95 C[]$ \T1/lmr/m/n/10.95 which meets con-di-tion $\OML/lmm/m/it/10.95 p\OT1/l
@@ -2109,9 +2738,16 @@ t/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$
  []
 
 [54]
+
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 71.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 80.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
@@ -2119,14 +2755,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
  []
 
 
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 83.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 83--85
 
  []
 
 
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 87.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 87--89
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 55 undefined on input line 90.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
@@ -2149,9 +2794,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--107
  []
 
 
+LaTeX Warning: Reference `distort_fc' on page 56 undefined on input line 111.
+
+
+LaTeX Warning: Citation `BIS06' on page 56 undefined on input line 111.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 130--132
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 56 undefined on input line 154.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
@@ -2159,14 +2813,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--156
  []
 
 [56]
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 157.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
 
 
+LaTeX Warning: Reference `log_likelihood' on page 57 undefined on input line 17
+1.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 181--183
 
  []
+
+
+LaTeX Warning: Citation `BIS06' on page 57 undefined on input line 184.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 184--186
@@ -2183,6 +2848,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--190
 on/svm.tex
 Chapter 8.
 
+LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 5.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
@@ -2193,9 +2861,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--10
  []
 
 
+LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 16.
+
+
+LaTeX Warning: Citation `BIS06' on page 59 undefined on input line 16.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--18
 
  []
+
+
+LaTeX Warning: Reference `margin_max' on page 59 undefined on input line 19.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 19--21
@@ -2203,9 +2880,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
  []
 
 
+LaTeX Warning: Reference `margin_max' on page 59 undefined on input line 22.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 22--24
 
  []
+
+
+LaTeX Warning: Reference `kernel_fct' on page 59 undefined on input line 25.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 25--27
@@ -2215,9 +2898,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--27
 [59
 
 ]
+
+LaTeX Warning: Reference `svm_overview' on page 60 undefined on input line 33.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
+
+
+LaTeX Warning: Reference `margin_max_eq' on page 60 undefined on input line 36.
+
+
+
+LaTeX Warning: Reference `margin_max_eq' on page 60 undefined on input line 49.
+
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 57--59
@@ -2225,11 +2920,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
  []
 
 
+LaTeX Warning: Reference `lagrangian' on page 60 undefined on input line 71.
+
+
+LaTeX Warning: Reference `lagrangian2' on page 60 undefined on input line 71.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
 [60]
+
+LaTeX Warning: Reference `lagrangian' on page 61 undefined on input line 80.
+
+
+LaTeX Warning: Reference `lagrangian2' on page 61 undefined on input line 80.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -2238,6 +2946,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 80--82
 Underfull \hbox (badness 10000) in paragraph at lines 88--90
 
  []
+
+
+LaTeX Warning: Reference `kernels_svm' on page 61 undefined on input line 91.
 
 
 Overfull \hbox (8.2074pt too wide) in paragraph at lines 91--93
@@ -2258,19 +2969,49 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--108
  []
 
 
+LaTeX Warning: Citation `SHA09' on page 61 undefined on input line 113.
+
+
+LaTeX Warning: Citation `SHA09' on page 61 undefined on input line 113.
+
+
+LaTeX Warning: Reference `chap:classification' on page 61 undefined on input li
+ne 113.
+
+
+LaTeX Warning: Reference `unsup_learning' on page 61 undefined on input line 11
+3.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
 
 [61]
+
+LaTeX Warning: Citation `SHA09' on page 62 undefined on input line 116.
+
+
+LaTeX Warning: Citation `SHA09' on page 62 undefined on input line 116.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 116--118
 
  []
 
 
+LaTeX Warning: Citation `FEN05' on page 62 undefined on input line 119.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 119--121
 
  []
+
+
+LaTeX Warning: Citation `SHA09' on page 62 undefined on input line 122.
+
+
+LaTeX Warning: Citation `SHA09' on page 62 undefined on input line 122.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--124
@@ -2305,12 +3046,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--14
  []
 
 
+LaTeX Warning: Reference `violajones_implementation_example' on page 66 undefin
+ed on input line 15.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
 
-<figures/violajones_implementation_example.png, id=948, 493.0922pt x 388.45125p
+<figures/violajones_implementation_example.png, id=599, 493.0922pt x 388.45125p
 t>
 File: figures/violajones_implementation_example.png Graphic file (type png)
  <use figures/violajones_implementation_example.png>
@@ -2337,11 +3082,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
  []
 
 
+LaTeX Warning: Reference `lbp_implementation_example' on page 68 undefined on i
+nput line 12.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
 
-<figures/lbp_implementation_example.png, id=961, 357.335pt x 178.6675pt>
+<figures/lbp_implementation_example.png, id=611, 357.335pt x 178.6675pt>
 File: figures/lbp_implementation_example.png Graphic file (type png)
 
 <use figures/lbp_implementation_example.png>
@@ -2364,11 +3113,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--29
 
  <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_implemen
 tation_example.png>]
+
+LaTeX Warning: Reference `lbp_implementation_histogram' on page 69 undefined on
+ input line 34.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-<figures/lbp_implementation_histogram.png, id=972, 722.7pt x 238.8925pt>
+<figures/lbp_implementation_histogram.png, id=621, 722.7pt x 238.8925pt>
 File: figures/lbp_implementation_histogram.png Graphic file (type png)
 
 <use figures/lbp_implementation_histogram.png>
@@ -2376,11 +3130,16 @@ Package pdftex.def Info: figures/lbp_implementation_histogram.png used on input
  line 39.
 (pdftex.def)             Requested size: 361.3491pt x 119.44595pt.
 
+
+LaTeX Warning: Reference `lbp_implementation_vector' on page 69 undefined on in
+put line 46.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 46--48
 
  []
 
-<figures/lbp_implementation_vector.png, id=974, 978.65625pt x 165.61874pt>
+<figures/lbp_implementation_vector.png, id=622, 978.65625pt x 165.61874pt>
 File: figures/lbp_implementation_vector.png Graphic file (type png)
 
 <use figures/lbp_implementation_vector.png>
@@ -2420,6 +3179,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--38
  []
 
 
+LaTeX Warning: Reference `ch:motivations' on page 72 undefined on input line 61
+.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 61--63
 
  []
@@ -2428,6 +3191,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--63
 Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
+
+
+LaTeX Warning: Reference `kernels_svm' on page 72 undefined on input line 67.
 
 [72]
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
@@ -2462,11 +3228,14 @@ is-play-ing human-readable
  []
 
 
+LaTeX Warning: Reference `uml' on page 75 undefined on input line 35.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
-<figures/UML.png, id=1018, 1046.91125pt x 612.2875pt>
+<figures/UML.png, id=663, 1046.91125pt x 612.2875pt>
 File: figures/UML.png Graphic file (type png)
  <use figures/UML.png>
 Package pdftex.def Info: figures/UML.png used on input line 40.
@@ -2486,6 +3255,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--100
 ))
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
 ex [76] [77] [78]
+
+LaTeX Warning: Reference `chap:eval_issues' on page 79 undefined on input line 
+13.
+
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [79]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/r
 esults.tex
@@ -2499,6 +3272,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 Underfull \hbox (badness 10000) in paragraph at lines 12--14
 
  []
+
+
+LaTeX Warning: Reference `table_results_kernels' on page 80 undefined on input 
+line 15.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 15--17
@@ -2519,14 +3296,35 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--50
  []
 
 
+LaTeX Warning: Reference `chap:implementation_svm' on page 80 undefined on inpu
+t line 51.
+
+
+LaTeX Warning: Reference `chap:implementation_svm' on page 80 undefined on inpu
+t line 51.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 51--53
 
  []
 
 [80]
+
+LaTeX Warning: Reference `chap:implementation_svm' on page 81 undefined on inpu
+t line 54.
+
+
+LaTeX Warning: Reference `table_results_crossvalidation' on page 81 undefined o
+n input line 54.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
  []
+
+
+LaTeX Warning: Reference `table_results_confusion_matrix' on page 81 undefined 
+on input line 76.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 76--78
@@ -2540,6 +3338,10 @@ Overfull \hbox (18.93692pt too wide) in paragraph at lines 82--95
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `table_results_accuracy' on page 81 undefined on input
+ line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 98--100
@@ -2557,11 +3359,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--123
  []
 
 
+LaTeX Warning: Reference `kdef_difference_emotions' on page 82 undefined on inp
+ut line 124.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 124--126
 
  []
 
-<figures/kdef_difference_emotions.png, id=1079, 1157.32375pt x 335.2525pt>
+<figures/kdef_difference_emotions.png, id=726, 1157.32375pt x 335.2525pt>
 File: figures/kdef_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_difference_emotions.png>
@@ -2569,22 +3375,44 @@ Package pdftex.def Info: figures/kdef_difference_emotions.png used on input lin
 e 129.
 (pdftex.def)             Requested size: 347.1998pt x 100.57652pt.
  [82]
+
+LaTeX Warning: Reference `kdef_difference_emotions' on page 83 undefined on inp
+ut line 136.
+
+
+LaTeX Warning: Reference `kdef_no_difference_emotions' on page 83 undefined on 
+input line 136.
+
+
+LaTeX Warning: Reference `kdef_difference_emotions' on page 83 undefined on inp
+ut line 136.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 136--138
 
  []
+
+
+LaTeX Warning: Reference `kdef_no_difference_emotions' on page 83 undefined on 
+input line 139.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 139--141
 
  []
 
-<figures/kdef_no_difference_emotions.png, id=1090, 694.595pt x 336.25626pt>
+<figures/kdef_no_difference_emotions.png, id=733, 694.595pt x 336.25626pt>
 File: figures/kdef_no_difference_emotions.png Graphic file (type png)
 
 <use figures/kdef_no_difference_emotions.png>
 Package pdftex.def Info: figures/kdef_no_difference_emotions.png used on input 
 line 144.
 (pdftex.def)             Requested size: 347.29665pt x 168.12772pt.
+
+
+LaTeX Warning: Reference `kdef_no_difference_emotions' on page 83 undefined on 
+input line 151.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 151--153
 
@@ -2593,6 +3421,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--153
 [83 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_diff
 erence_emotions.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
 figures/kdef_no_difference_emotions.png>]
+
+LaTeX Warning: Reference `kdef_no_difference_emotions' on page 84 undefined on 
+input line 154.
+
+
+LaTeX Warning: Reference `kdef_no_difference_emotions' on page 84 undefined on 
+input line 154.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 154--156
 
  []
@@ -2621,6 +3458,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--178
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/i
 ssues.tex
 Chapter 14.
+
+LaTeX Warning: Reference `chap:lbp' on page 85 undefined on input line 9.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
@@ -2722,16 +3562,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
  []
 
 
+LaTeX Warning: Reference `chap:lbp' on page 89 undefined on input line 40.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
+
+
+LaTeX Warning: Reference `chap:lbp' on page 89 undefined on input line 42.
+
+
+LaTeX Warning: Citation `GAN08' on page 89 undefined on input line 42.
+
+
+LaTeX Warning: Citation `GAN08' on page 89 undefined on input line 42.
+
+
+LaTeX Warning: Reference `lbp_region_weight' on page 89 undefined on input line
+ 42.
+
+
+LaTeX Warning: Reference `implementation_weight_example' on page 89 undefined o
+n input line 42.
+
+
+LaTeX Warning: Reference `implementation_weight_example' on page 89 undefined o
+n input line 42.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-<figures/implementation_weight_example.png, id=1140, 734.745pt x 236.885pt>
+<figures/implementation_weight_example.png, id=773, 734.745pt x 236.885pt>
 File: figures/implementation_weight_example.png Graphic file (type png)
 
 <use figures/implementation_weight_example.png>
@@ -2745,6 +3609,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--56
 
 [89 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/implement
 ation_weight_example.png>]
+
+LaTeX Warning: Reference `chap:lbp' on page 90 undefined on input line 57.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
@@ -2755,24 +3623,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--65
  []
 
 
+LaTeX Warning: Citation `LIA09' on page 90 undefined on input line 66.
+
+
+LaTeX Warning: Citation `LIA09' on page 90 undefined on input line 66.
+
+
+LaTeX Warning: Reference `combination_lbp_gabor' on page 90 undefined on input 
+line 66.
+
+
+LaTeX Warning: Citation `GOH11' on page 90 undefined on input line 66.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-<figures/combination_lbp_gabor.jpg, id=1153, 241.75275pt x 139.42354pt>
+<figures/combination_lbp_gabor.jpg, id=782, 241.75275pt x 139.42354pt>
 File: figures/combination_lbp_gabor.jpg Graphic file (type jpg)
 
 <use figures/combination_lbp_gabor.jpg>
 Package pdftex.def Info: figures/combination_lbp_gabor.jpg used on input line 7
 1.
 (pdftex.def)             Requested size: 241.75215pt x 139.42319pt.
+
+
+LaTeX Warning: Citation `GOH11' on page 90 undefined on input line 74.
+
+
+LaTeX Warning: Citation `GOH11' on page 90 undefined on input line 74.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `HEI09' on page 90 undefined on input line 79.
+
 )
 Underfull \hbox (badness 10000) in paragraph at lines 79--26
 
  []
 
-[90 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/combinati
-on_lbp_gabor.jpg>]) [91] [92
+) [90] [91 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/co
+mbination_lbp_gabor.jpg>] [92
 
 ]
 (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl
@@ -2793,7 +3687,11 @@ tt/m/n/10.95 http : / / en . wikipedia . org / wiki /$
 tex)
 \tf@thm=\write4
 \tf@ptc=\write5
- 
+
+
+Package lastpage Warning: Rerun to get the references right on input line 58.
+
+
 AED: lastpage setting LastPage
 [97]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
@@ -2803,44 +3701,47 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 11354 strings out of 494045
- 173506 string characters out of 3145975
- 269149 words of memory out of 3000000
- 13888 multiletter control sequences out of 15000+200000
- 101117 words of font info for 75 fonts, out of 3000000 for 9000
+ 11365 strings out of 494045
+ 173450 string characters out of 3145975
+ 262112 words of memory out of 3000000
+ 13894 multiletter control sequences out of 15000+200000
+ 121690 words of font info for 81 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 38i,14n,41p,1528b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 38i,14n,38p,1527b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKT
 eX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/MiKTeX 2.9/font
 s/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathex.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8
-.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Pro
-gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (
-x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (x86)/MiKTeX 
+/lm/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8
+r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pub
+lic/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x86)/MiKTeX 
 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/M
-iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9
-/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
-lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on master.pdf (107 pages, 7087240 bytes).
+les (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1
+b8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on master.pdf (105 pages, 6974132 bytes).
 PDF statistics:
- 1575 PDF objects out of 1728 (max. 8388607)
- 388 named destinations out of 1000 (max. 500000)
+ 1237 PDF objects out of 1440 (max. 8388607)
+ 386 named destinations out of 1000 (max. 500000)
  770 words of extra memory for PDF output out of 10000 (max. 10000000)
 
