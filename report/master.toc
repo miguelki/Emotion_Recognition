@@ -99,7 +99,7 @@
 \contentsline {section}{\numberline {15.2}Results}{89}{section.233}
 \contentsline {section}{\numberline {15.3}Improvements}{89}{section.235}
 \contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{90}{subsection.236}
-\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{90}{subsection.238}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{91}{subsection.238}
 \contentsline {chapter}{Bibliography}{93}{section*.240}
 \vspace \bigskipamount 
 \contentsline {chapter}{Appendix: Source Code}{97}{section*.241}
