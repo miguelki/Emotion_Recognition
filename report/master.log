@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 DEC 2012 15:54
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  17 DEC 2012 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2678,18 +2678,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 [89]
-
-LaTeX Warning: Reference `GAN08' on page 90 undefined on input line 42.
-
-
-LaTeX Warning: Reference `GAN08' on page 90 undefined on input line 42.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-<figures/implementation_weight_example.png, id=1153, 734.745pt x 236.885pt>
+<figures/implementation_weight_example.png, id=1155, 734.745pt x 236.885pt>
 File: figures/implementation_weight_example.png Graphic file (type png)
 
 <use figures/implementation_weight_example.png>
@@ -2716,7 +2709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-<figures/combination_lbp_gabor.jpg, id=1166, 241.75275pt x 139.42354pt>
+<figures/combination_lbp_gabor.jpg, id=1168, 241.75275pt x 139.42354pt>
 File: figures/combination_lbp_gabor.jpg Graphic file (type jpg)
 
 <use figures/combination_lbp_gabor.jpg>
@@ -2758,20 +2751,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./master.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 58.
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 11398 strings out of 493488
- 169747 string characters out of 3141326
- 272713 words of memory out of 3000000
- 13948 multiletter control sequences out of 15000+200000
+ 11397 strings out of 493488
+ 169740 string characters out of 3141326
+ 272714 words of memory out of 3000000
+ 13947 multiletter control sequences out of 15000+200000
  101117 words of font info for 75 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,14n,41p,1528b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2799,10 +2785,10 @@ sr/local/texlive/2012/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local
 012/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2012/texmf-d
 ist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
 ype1/public/lm/lmtt10.pfb>
-Output written on master.pdf (107 pages, 6927058 bytes).
+Output written on master.pdf (107 pages, 6926936 bytes).
 PDF statistics:
- 1588 PDF objects out of 1728 (max. 8388607)
- 1375 compressed objects within 14 object streams
+ 1590 PDF objects out of 1728 (max. 8388607)
+ 1377 compressed objects within 14 object streams
  388 named destinations out of 1000 (max. 500000)
  770 words of extra memory for PDF output out of 10000 (max. 10000000)
 
