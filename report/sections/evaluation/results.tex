@@ -29,15 +29,15 @@
   happy & 100.00\% & \textbf{100.00\%} & 91.67\% & 91.67\% & 100.00\% & 66.67\% & 100.00\% \\
   sad & 8.33\% & \textbf{8.33\%} & 0.00\% & 8.33\% & 8.33\% & 8.33\% & 8.33\% \\
   surprised & 66.67\% & \textbf{75.00\%} & 75.00\% & 66.67\% & 66.67\% & 25.00\% & 66.67\% \\
-  \textbf{overall} & \textbf{57.14\%} & \textbf{66.67\%} & \textbf{61.90\%} & \textbf{59.52\%} & \textbf{57.14\%} & \textbf{29,76\%} & \textbf{57.14\%} \\
+  \textbf{overall} & \textbf{57.14\%} & \textbf{{\color{red}66.67\%}} & \textbf{61.90\%} & \textbf{59.52\%} & \textbf{57.14\%} & \textbf{29,76\%} & \textbf{57.14\%} \\
   \hline
 \end{tabular}
 \end{center} 
 \end{table}
 
-\noindent \textit{Poly1} stands for Polynomial and has degree parameter: $ D = 2 $
+\noindent \textit{Poly1} stands for Polynomial and has degree parameter: $ D = 2 $ and $ \gamma = 0.001953125 $
 \newline
-\noindent \textit{Poly2} stands for Polynomial and has degree parameter: $ D = 3 $
+\noindent \textit{Poly2} stands for Polynomial and has degree parameter: $ D = 3 $ and $ \gamma = 0.001953125 $
 \newline
 \noindent \textit{RBF1} has cache and $\gamma$ parameters: $ C = 128 $ and $ \gamma = 0.0078125 $
 \newline
@@ -73,7 +73,7 @@
 \end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for a model trained with Poly1 kernel parameters, with an overall accuracy rate of$ 66.67\% $. It is obtained with a classification based on the polynomial kernel and with following parameter: $ D = 2 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
+\noindent The best accuracy percentage is for a model trained with Poly1 kernel parameters, with an overall accuracy rate of$ 66.67\% $. It is obtained with a classification based on the polynomial kernel and with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
 \newline
 
 \begin{table}[h]
@@ -164,10 +164,32 @@
 \subsection{With face images from the KDEF database}
 
 \vspace{\baselineskip}
-\noindent Because the results do not have a good accuracy at first sight, another method is tested. Face images from the KDEF database are printed on A4 paper and are put in front of the Kinect.
+\noindent Because the results do not have a good accuracy at first sight, another method is tested. Face images from the KDEF database are given as input directly to our program. This way the data can be tested. Ten face images are randomly chosen among all the face images present in the KDEF database to be tested. 
 \newline
 
-\noindent GIVE THE RESULTS OBTAINED
+\noindent The model used is the one that gave the best results in the first test set: polynomial kernel with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_offline} represents the confusion matrix for this kernel and these test conditions.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_confusion_matrix_offline} Confusion matrix}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+   & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
+  \hline
+  neutral & \textbf{6} & 1 & 2 & 0 & 0 & 1 & 0 & 60.00\% \\
+  afraid & 0 & \textbf{4} & 0 & 3 & 0 & 3 & 0 & 40.00\% \\
+  angry & 2 & 1 & \textbf{6} & 1 & 0 & 0 & 0 & 60.00\% \\
+  disgusted & 0 & 1 & 0 & \textbf{7} & 1 & 1 & 0 & 70.00\% \\
+  happy & 0 & 0 & 0 & 0 & \textbf{10} & 0 & 0 & 100.00\% \\
+  sad & 1 & 3 & 2 & 1 & 1 & \textbf{2} & 0 & 20.00\% \\
+  surprised & 0 & 0 & 0 & 0 & 0 & 0 & \textbf{10} & 100.00\%\\
+  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\noindent The overall accuracy rate is of $ 64.28\% $ which is lower than the one obtained in the first result set: $ 66.67\% $. The results obtained are consistent with the ones found in the first result set.
 \newline
 
 \subsection{With subjects}
@@ -176,3 +198,123 @@
 \noindent GIVE THE RESULTS OBTAINED
 \newline
 
+\phantomsection
+\section{Additional results}
+
+\vspace{\baselineskip}
+\noindent One way to obtain better results with the LBP operator for this system is to add weights for each of the 42 regions of the face, as seen in Chapter~\ref{chap:lbp}. The LBP operator used in this system is already far from the basic LBP operator; it is a uniform circular LBP operator. Even though the results obtained with this operator are quite good with an accuracy of $ 66.67\% $, there is still room for improvement. Weighting the regions of the face will have an impact on the computed histogram, hence on the resulting feature vector ready for classification. \newline
+
+\noindent The face image is divided in 42 regions ($ 7 $ rows $\times$ $ 6 $ columns), as seen in Chapter~\ref{chap:lbp}, and mentioned in \cite{GAN08}. The weights are however not applied in the same way as in \cite{GAN08}, but rather as in Figure~\ref{lbp_region_weight}. Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses. Thus, border regions are less important than those containing the ROI of the face (eyes, nose, mouth). Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database used by this system.
+\newline
+
+\begin{figure}[!h]
+\begin{center}
+\noindent \includegraphics[scale=0.3]{figures/implementation_weight_example} 
+\newline
+\caption{Example of division into regions of face images from the KDEF database}
+\label{implementation_weight_example}
+\end{center} 
+\end{figure}
+
+\noindent Results has been obtained using the same process than for the first set result. The results with the weights applied are summed up in Table~\ref{table_results_kernels_weight}. The model has been trained with cross validation.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_kernels_weight} Results with different kernels and different parameters}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+    & Linear & \textbf{Poly1} & Poly2 & RBF1 & RBF2 & Sigmoid1 & Sigmoid2 \\
+  \hline
+  neutral & 75.00\% & 75.00\% & 91,67\% & \textbf{91,67\%} & 75.00\% & 100.00\% & 66.67\% \\
+  afraid & 91,67\% & 83.33\% & 100.00\% & \textbf{100.00\%} & 83.33\% & 33.33\% & 91,67\% \\
+  angry & 58.33\% & 58.33\% & 41.67\% & \textbf{66.67\%} & 58.33\% & 50.00\% & 50.00\% \\
+  disgusted & 41.67\% & 58.33\% & 50.00\% & \textbf{50.00\%} & 50.00\% & 75.00\% & 41.67\% \\
+  happy & 100.00\% & 100.00\% & 91.67\% & \textbf{100.00\%} & 100.00\% & 91.67\% & 91.67\% \\
+  sad & 8.33\% & 8.33\% & 8.33\% & \textbf{8.33\%} & 8.33\% & 8.33\% & 8.33\% \\
+  surprised & 75.00\% & 75.00\% & 75.00\% & \textbf{83.33\%} & 75.00\% & 66.67\% & 75.00\% \\
+  \textbf{overall} & \textbf{64.29\%} & \textbf{65.48\%} & \textbf{{65.48\%}\%} & \textbf{{\color{red}71.42\%}} & \textbf{64.29\%} & \textbf{59.52\%} & \textbf{60.71\%} \\
+  \hline
+\end{tabular}
+\end{center} 
+\end{table}
+
+\noindent \textit{Poly1} stands for Polynomial and has degree parameter: $ D = 2 $ and $ \gamma = 0.001953125 $
+\newline
+\noindent \textit{Poly2} stands for Polynomial and has degree parameter: $ D = 3 $ and $ \gamma = 0.001953125 $
+\newline
+\noindent \textit{RBF1} has cache and $\gamma$ parameters: $ C = 128 $ and $ \gamma = 0.0078125 $
+\newline
+\noindent \textit{RBF2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $ 
+\newline
+\noindent \textit{Sigmoid1} has cache and $\gamma$ parameters: $ C = 128 $ and $ \gamma = 0.0078125 $
+\newline
+\noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
+\newline
+
+\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation}. Sometimes results are better with cross validation, sometimes results are better without it. The best result however is obtained with cross validation.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_crossvalidation} Results with and without cross validation}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+    & with cross validation & without cross validation \\
+  \hline
+  Linear & 64.29\% & 66.67\% \\
+  Poly1 & 65.48\% & 65.48\% \\
+  Poly2 & 65.48\% & 65.48\% \\
+  RBF1 & 71.42\% & 63.10\% \\
+  RBF2 & 64.29\% & 67.86\% \\
+  Sigmoid1 & 59.52\% & 60.71\% \\
+  Sigmoid2 & 60.71\% & 67.86\% \\
+  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\noindent The best accuracy percentage is for a model trained with RBF1 kernel parameters and with cross validation, with an overall accuracy rate of$ 71.42\% $. It is obtained with a classification based on the RBF kernel and with following parameters: $ C = 128 $ and $ \gamma = 0.0078125 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_confusion_matrix} Confusion matrix}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+   & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
+  \hline
+  neutral & \textbf{11} & 0 & 0 & 0 & 0 & 1 & 0 & 91.67\% \\
+  afraid & 0 & \textbf{12} & 0 & 0 & 0 & 0 & 0 & 100.00\% \\
+  angry & 2 & 0 & \textbf{8} & 0 & 1 & 1 & 0 & 66.67\% \\
+  disgusted & 1 & 2 & 1 & \textbf{6} & 2 & 0 & 0 & 50.00\% \\
+  happy & 0 & 0 & 0 & 0 & \textbf{12} & 0 & 0 & 100.00\% \\
+  sad & 2 & 8 & 1 & 0 & 0 & \textbf{1} & 0 & 8.33\% \\
+  surprised & 0 & 2 & 0 & 0 & 0 & 0 & \textbf{10} & 83.33\%\\
+  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\noindent As for the first test result, two emotions are hard for our system to recognize: the \textit{sad} emotion and the \textit{disgusted} emotion. But this time this is not the \textit{angry} emotion that has bad results but the \textit{disgusted} emotion.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_accuracy} Recognition accuracy of the six basic emotions and of the neutral state}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+   $ \leq 50\% $ & > 66.67\% \\
+  \hline
+  disgusted ($ 6/12 $) & afraid ($ 12/12 $) \\
+  sad ($ 1/12 $) & angry ($ 8/12 $) \\
+   & happy ($ 12/12 $) \\
+   & surprised ($ 10/12 $) \\
+   & neutral ($ 11/12 $) \\
+  \hline
+\end{tabular}
+\end{center} 
+\end{table}
+
+\noindent Once again the \textit{sad} emotion is the one getting really bad results. However, with the weights applied to each region, better results are obtained. The percentage of accuracy is of $71.42\%$ instead of $66.67\%$ without the weights applied.
+\newline
