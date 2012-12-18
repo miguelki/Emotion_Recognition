@@ -1,0 +1,212 @@
+\begin{thebibliography}{10}
+
+\bibitem{AHO06}
+Timo Ahonen, Abdenour Hadid, and Matti Pietikainen.
+\newblock Face description with local binary patterns: Application to face
+  recognition.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  28(12):2037--2041, 2006.
+
+\bibitem{AND06}
+Keith Anderson and Peter~W. McOwan.
+\newblock A real-time automated system for recognition of human facial
+  expressions.
+\newblock {\em IEEE Trans. Systems, Man, and Cybernetics Part B},
+  36(1):96--105, 2006.
+
+\bibitem{BAR03}
+Marian~Stewart Bartlett, Gwen Littlewort, Ian Fasel, and Javier~R. Movellan.
+\newblock Real time face detection and facial expression recognition:
+  Development and application to human computer interaction.
+\newblock {\em Proc. CVPR Workshop on Computer Vision and Pattern Recognition
+  for Human-Computer Interaction}, 5:53, 2003.
+
+\bibitem{BET12}
+Vinay Bettadapura.
+\newblock Face expression recognition and analysis: The state of the art.
+\newblock {\em Tech Report}, 2012.
+
+\bibitem{BIS06}
+Christopher~M. Bishop.
+\newblock {\em Pattern Recognition and Machine Learning}.
+\newblock Springer Science, 2006.
+
+\bibitem{CC01}
+Chih-Chung Chang and Chih-Jen Lin.
+\newblock {LIBSVM}: A library for support vector machines.
+\newblock {\em ACM Transactions on Intelligent Systems and Technology},
+  2:27:1--27:27, 2011.
+\newblock Software available at \url{http://www.csie.ntu.edu.tw/~cjlin/libsvm}.
+
+\bibitem{CHI03}
+Claude~C. Chibelushi and Fabrice Bourel.
+\newblock Facial expression recognition: A brief tutorial overview.
+\newblock
+  \url{http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL_COPIES/CHIBELUSHI1/CCC_FB_FacExprRecCVonline.pdf},
+  2003.
+
+\bibitem{DAR04}
+Charles Darwin.
+\newblock {\em The Expression of the Emotions in Man and Animals}.
+\newblock John Murray, 2. ed. edition, 1904.
+
+\bibitem{DIN08}
+Fabrizio Dini.
+\newblock An application of viola-jones algorithm: face detection and tracking.
+\newblock \url{http://www.micc.unifi.it/dini/download/dbmm2008-Dini.pdf}, 2008.
+
+\bibitem{DON99}
+Gianluca Donato, Marian~Stewart Bartlett, Joseh~C. Hager, Paul Ekman, and
+  Terrence~J. Sejnowski.
+\newblock Classifying facial actions.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  21(10):974--989, 1999.
+
+\bibitem{FEN05}
+Xiao Feng, Matti Pietikainen, and Abdenour Hadid.
+\newblock Facial expression recognition with local binary patterns and linear
+  programming.
+\newblock {\em Pattern Recognition and Image Analysis}, 15(2):546--548, 2005.
+
+\bibitem{GAN08}
+Abhiram Ganesh.
+\newblock Evaluation of appearance based methods for facial expression
+  recognition.
+\newblock {\em Technische Universiteit Eindhoven}, 2008.
+
+\bibitem{GOH11}
+Yi~Zheng Goh, Andrew Beng~Jin Teoh, and Michael Kah~Ong Goh.
+\newblock Wavelet local binary patterns fusion as illuminated facial image
+  preprocessing for face verification.
+\newblock {\em Expert Systems with Applications}, 38(4):3959--3972, 2011.
+
+\bibitem{HAR12}
+Adam Harvey.
+\newblock Adam harvey explains viola-jones face detection.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2012.
+
+\bibitem{HEI09}
+Marko Heikkila, Matti Pietikainen, and Cordelia Schmid.
+\newblock Description of interest regions with local binary patterns.
+\newblock {\em Journal Pattern Recognition}, 42(3):425--436, 2009.
+
+\bibitem{HEW07}
+Robin Hewitt.
+\newblock How face detection works.
+\newblock
+  \url{http://www.cognotics.com/opencv/servo_2007_series/part_2/sidebar.html},
+  2007.
+
+\bibitem{JEM09}
+Yousra~Ben Jemaa and Sana Khanfir.
+\newblock Automatic local gabor features extraction for face recognition.
+\newblock {\em International Journal of Computer Science and Information
+  Security}, 3(1), 2009.
+
+\bibitem{JUL07}
+Bram~K. Julsing.
+\newblock Face recognition with local binary patterns, 2007.
+
+\bibitem{CK}
+Takeo Kanade, Jeffrey~F. Cohn, and Yingli Tian.
+\newblock Comprehensive database for facial expression analysis.
+\newblock {\em Proceedings of the Fourth IEEE International Conference on
+  Automatic Face and Gesture Recognition}, pages 46--53, 2000.
+
+\bibitem{KDEF}
+Emotion Lab.
+\newblock Karolinska directed emotional faces (kdef).
+\newblock \url{http://www.emotionlab.se/resources/kdef}.
+
+\bibitem{LIA09}
+S~Liao, Max W.~K. Law, , and Albert C.~S. Chung.
+\newblock Dominant local binary patterns for texture classification.
+\newblock {\em IEEE transactions on image processing}, 18(5):1107--1118, 2009.
+
+\bibitem{LIU11}
+Weifeng Liu, Yanjiang Wang, and Shujuan Li.
+\newblock Lbp feature extraction for facial expression recognition.
+\newblock {\em Journal of Information and Computational Science},
+  8(3):412--421, 2011.
+
+\bibitem{JAFFE}
+Michael Lyons.
+\newblock The japanese female facial expression (jaffe) database.
+\newblock \url{http://www.kasrl.org/jaffe.html}.
+
+\bibitem{ARFACE}
+Aleix Martinez and Robert Benavente.
+\newblock The ar face database.
+\newblock
+  \url{http://www-sipl.technion.ac.il/new/DataBases/Aleix%20Face%20Database.htm}.
+
+\bibitem{UBC01}
+University of~British~Columbia.
+\newblock The viola/jones face detector, 2001.
+
+\bibitem{OJA96}
+Timo Ojala, Matti Pietikainen, and David Harwood.
+\newblock A comparative study of texture measures with classification based on
+  feature distributions.
+\newblock {\em Pattern Recognition}, 29:51--59, 1996.
+
+\bibitem{PAN00}
+Maja Pantic and Leon~J.M. Rothkrantzi.
+\newblock Automatic analysis of facial expressions: the state of the art.
+\newblock {\em IEEE Trans. Pattern Analysis and Machine Intelligence},
+  22(12):1424--1445, 2000.
+
+\bibitem{PRA09}
+Lekshmi~V Praseeda and M~Sasikumar.
+\newblock Facial expression recognition from global and a combination of local
+  features.
+\newblock {\em IETE Tech Rev}, 26(1):41--46, 2009.
+
+\bibitem{SEB07}
+N~Sebe, M~S Lew, Y~Sun, I~Cohen, T~Gevers, and T~S Huang.
+\newblock Authentic facial expression analysis.
+\newblock {\em Image and Vision Computing}, 25:1856--1863, 2007.
+
+\bibitem{SHA09}
+Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
+\newblock Facial expression recognition based on local binary patterns: A
+  comprehensive study.
+\newblock {\em Image and Vision Computing}, 27:803--816, 2009.
+
+\bibitem{SMY07}
+Padhraic Smyth.
+\newblock Face detection using the viola-jones method.
+\newblock {\em University of California, Irvine}, 2007.
+
+\bibitem{MSFDE}
+UQUAM.
+\newblock The msfde.
+\newblock \url{http://www.er.uqam.ca/nobel/r24700/Labo/Labo/MSEFE.html}.
+
+\bibitem{VAL06}
+M~F. Valstar and M.~Pantic.
+\newblock Fully automatic facial action unit detection and temporal analysis.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
+  Workshop}, page 149, 2006.
+
+\bibitem{VAL05}
+M~F. Valstar, I.~Patras, and M.~Pantic.
+\newblock Facial action unit detection using probabilistic actively learned
+  support vector machines on tracked facial point data.
+\newblock {\em IEEE Conference on Computer Vision and Pattern Recognition
+  Workshop}, 3:76--84, 2005.
+
+\bibitem{VIO01}
+Paul Viola and Michael Jones.
+\newblock Robust real-time object detection.
+\newblock {\em Second International Workshop on Statistical and Computational
+  Theories of Vision - Modeling, Learning, Computing, and Sampling}, 2001.
+
+\bibitem{CLASS}
+Wikipedia.
+\newblock Statistical classification.
+\newblock \url{http://en.wikipedia.org/wiki/Classifier_(mathematics)}.
+
+\end{thebibliography}

@@ -2,7 +2,7 @@
 \chapter{Local Binary Patterns}
 \label{chap:lbp}
 
-\noindent Some feature extractions methods are widely used and studied to characterize and describe the face, such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA). These methods describe the whole image, and are not very efficient if there are changes in lighting or head pose. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterizing parts of the face depending on their importance. The Local Binary Pattern (LBP) feature extraction is a widely used a local descriptor \cite{AHO06}.
+\noindent Some feature extraction methods are widely used and studied to characterize and describe the face, such as Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA). These methods describe the whole image, and are not very efficient if there are changes in lighting or head pose. That is why some researchers turned to local descriptors. These local descriptors describe the face by characterizing parts of the face depending on their importance. The Local Binary Patterns (LBP) feature extraction is a widely used local descriptor \cite{AHO06}.
 \newline
 
 \noindent The LBP operator is known to be an effective texture descriptor because it efficiently describes micro-patterns. Since a face can be seen as a composition of micro-patterns, it is logical to use this texture descriptor. It has been introduced in 1996 by Ojala et al. \cite{OJA96}. This operator has a lot of advantages, one of them being its highly discriminative rate. Other advantages are its invariance to gray-level changes and its computation efficiency, which makes it suitable for image analysis but may not be efficient enough for real-time analysis \cite{AHO06}.
@@ -46,7 +46,7 @@
 \subsection{Circular LBP}
 
 \vspace{\baselineskip}
-\noindent In order to be able to use the LBP operator at different scales, a particular form of the operator has been introduced. This new form is the circular LBP operator. This way, the operator can be extended to other neighbourhoods than only eight pixels. \cite{GAN08}.
+\noindent In order to be able to use the LBP operator at different scales, a particular form of the operator has been introduced, which is circular LBP operator. This way, the operator can be extended to other neighbourhoods wih different sizes \cite{GAN08}.
 \newline
 
 \noindent This operator still compares the intensity value of the central pixel with its neighbors, but neighbors pixels are now calculated on a circle as follows \cite{GAN08}:
@@ -80,7 +80,7 @@
 \end{center} 
 \end{figure}
 
-\noindent Most of the time, when a circular LBP operator is used, coordinates of the neighbor pixels (calculated with the formulas given above) may not land exactly on a pixel. In this case, using a bilinear interpolation of neighbor pixels intensity values is recommended. For example, the circular operator with $ P = 8 $ and $ R = 1.0 $ is similar to the basic LBP operator; the only difference being during the calculation, if neighbor pixels do not land exactly onto single pixels, these pixels have to be interpolated first \cite{GAN08}.
+\noindent Most of the time, when a circular LBP operator is used, coordinates of the p$^{th}$ neighbor pixel (calculated with the formulas given above) may not land exactly on a pixel. In this case, using a bilinear interpolation of neighbor pixels intensity values is recommended. For example, the circular operator with $ P = 8 $ and $ R = 1.0 $ is similar to the basic LBP operator; the only difference being during the calculation, if neighbor pixels do not land exactly onto single pixels, these pixels have to be interpolated first \cite{GAN08}.
 \newline
 
 \noindent The LBP operation outputs a texture, which formula is \cite{GAN08}:
@@ -90,7 +90,7 @@
    T = t(I_C, I_0, I_1, ..., I_{P-1})
 \end{equation}
 
-\noindent $t(I_P)$ represents the luminance for a specific pixel $P$.
+\noindent where $t(I_P)$ represents the luminance for a specific pixel $P$.
 
 \vspace{\baselineskip}
 \noindent With $ I_C $, the intensity value of central pixel C, $ I_p $ for $ p = 0, 1, ..., P-1 $, the intensity values of the P neighbor pixels, and $ T $, the texture in the local neighborhood of $ C $ \cite{GAN08}.
@@ -112,14 +112,14 @@
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The above formula makes the texture description invariant against shifts in intensity values. t however does not make it invariant against scaling of intensity values. To obtain a texture description invariant to these scalings, only the signs of the differences are taken into account, and not the difference in itself. The new formula is as follows \cite{GAN08}:
+\noindent The above formula makes the texture description invariant against shifts in intensity values. It however does not make it invariant against scaling of intensity values. To obtain a texture description invariant to these scalings, only the signs of the differences are taken into account, and not the difference in itself. The new formula is as follows \cite{GAN08}:
 \newline
 
 \begin{equation}
    T = t(s(I_0 - I_C), s(I_1 - I_C), ..., s(I_{P-1} - I_C))
 \end{equation}
 
-\noindent where,
+\noindent where
 \newline
 
 \begin{equation}
@@ -132,7 +132,7 @@ s(x) = \left\{
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent For the pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For the pixels with an intensity value inferior to $I_C$it  would be 0 \cite{GAN08}.
+\noindent For pixels with an intensity value superior or equal to the one of the central pixel, the sign assigned would be 1. For pixels with an intensity value inferior to $I_C$it  would be 0 \cite{GAN08}.
 \newline
 
 \noindent The last step is to assign a binomial weight to each sign, for the LBP operation. These weights are summed, producing an imporved LBP code for central pixel $ C $ with coordinates $ (x_C,y_C) $ \cite{GAN08}:
@@ -144,7 +144,7 @@ s(x) = \left\{
 \end{equation}
 
 \vspace{\baselineskip}
-\noindent The use of the formula above to calculate LBP still outputs a large number of patterns, which does not help reducing the data size. An other improvement to the LBP operator, called uniform LBP, can then be used to efficiently reduce the data size. This kind of LBP will be explained in the subsection below.
+\noindent The use of the formula above to calculate LBP still outputs a large number of patterns, which does not help reducing the data size. Another modification of the basic LBP operator, called uniform LBP, can then be used to efficiently reduce the data size. This kind of LBP will be explained in the subsection below.
 \newline
 
 \phantomsection
@@ -154,7 +154,7 @@ s(x) = \left\{
 \noindent A Local Binary Pattern can be called uniform only if it contains 2 or less bitwise transitions. A bitwise transition is a transition from 0 to 1 or from 1 to 0 \cite{GAN08}. 
 \newline
 
-\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the neighbourhood is circular so there cannot be 1-bitwise transition in the pattern. Indeed, if there is a bitwise transition in the neighbourhood, i.e from 1 to 0, it means that there will be another bitwise transition from 0 to 1 further in the circular pattern \cite{GAN08}.
+\noindent In fact, there can be only 2 or 0 bitwise transitions for a uniform LBP. Indeed, the neighbourhood is circular so there cannot be 1-bitwise transition in the pattern. If there is a bitwise transition in the neighbourhood, i.e from 1 to 0, it means that there will be another bitwise transition from 0 to 1 further in the circular pattern \cite{GAN08}.
 \newline
 
 \noindent If a pattern contains 0 bitwise transitions, it means that it is composed only of 0s or of 1s \cite{GAN08}.

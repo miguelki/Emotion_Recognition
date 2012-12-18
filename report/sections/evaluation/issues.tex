@@ -6,20 +6,20 @@
 \section{Feature extraction}
 
 \vspace{\baselineskip}
-\noindent As seen in chapter~\ref{chap:lbp}, there are many ways to improve the basic LBP operator. Indeed, using a circular LBP, detecting uniform patterns or assigning weights to different regions of the image can improve facial expression recognition and yield better results than the basic LBP operator. These improvements however need more computation time, which can lead to a slow system.
+\noindent As seen in Chapter~\ref{chap:lbp}, there are many existing ways to improve the basic LBP operator. Indeed, using a circular LBP, detecting uniform patterns or assigning weights to different regions of the image can improve facial expression recognition and yield better results than the basic LBP operator. These improvements however need more computation time, which can lead to a slower system.
  \newline
 
-\noindent The LBP operator used in this system already has some improvements; it is a uniform circular LBP operator, with a radius $R = 1$, which is equivalent to a regular LBP operator. Results obtained with this operator are quite good, with an accuracy of $ 66.67\% $. This accuracy rate can be improved by weighting each region of the face, or applying a different radius in order to detect other kinds of patterns. This system has trouble recognizing some of the 7 emotions, especially the \textit{sad} one.
+\noindent The LBP operator used in this system already has some improvements; it is a uniform circular LBP operator, with a radius $R = 1$, which is equivalent to a regular LBP operator. Results obtained with this operator are quite good, with an accuracy of $ 66.67\% $. This accuracy rate can be improved by weighting each region of the face, or applying a different radius in order to detect other kinds of patterns. This system has however trouble recognizing some of the 7 emotions, especially the \textit{sad} one.
 \newline
 
-\noindent This feature extraction method was chosen because the LBP operator gives good results and has a high discriminative power. Moreover, the basic LBP operator is rather easy to implement, and can be improved in many ways afterwards. But there are most likely other methods that can output equal or higher accuracy rates than LBP.  There are also certainly other more optimized methods, than use less computation time than LBP. Even if the LBP operator seems to be a good compromise between computation time and results, other methods can be implemented to compare the performance of each algorithm with the same test conditions.
+\noindent This feature extraction method was chosen because the LBP operator gives good results and has a high discriminative power. Moreover, the basic LBP operator is rather easy to implement, and can be improved in many ways afterwards. But there are most likely other methods that can output equal or higher accuracy rates than LBP.  There are also certainly other more optimized methods using less computation time than LBP. Even if the LBP operator seems to be a good compromise between computation time and results, other methods can be implemented to compare the performance of each algorithm with the same test conditions.
 \newline
 
 \phantomsection
 \section{Real-time}
 
 \vspace{\baselineskip}
-\noindent Computation of feature vector for an image using LBP takes about 1-4 seconds, depending on the computer, which as not expected. Indeed, the computation time was expected to be a matter of milliseconds. This time consuming process can explain why this facial expression recognition system does not really work in real-time, and also why the subject has to trigger the system. With the Kinect, 30 frames are received per second. The system should hence need 33.3 milliseconds maximum ($ \frac{1}{30} = 0.0333 s $) to be able to work in real-time and have the time to process each frame. 
+\noindent Computation of feature vector for an image using LBP takes about 1-4 seconds, depending on the computer, which as not expected. Indeed, the computation time was expected to be a matter of milliseconds. This time consuming process can explain why this facial expression recognition system does not really work in real-time, and also why the subject has to trigger the system. With the Kinect, 30 frames are received per second. The system should hence need 33.3 milliseconds per frame maximum ($ \frac{1}{30} = 0.0333 s $) to be able to work in real-time and have the time to process each frame. 
 \newline
 
 \noindent The basic LBP operator is quite simple, so a system based on this feature extraction method should be able to work in real-time. Using the circular LBP operator adds some computation time; but the use of the uniform LBP allows reducing the computation time by only considering uniform patterns and not non-uniform ones.

@@ -3,7 +3,6 @@
 \label{chap:eval_results}
 
 \noindent Two kinds of results have been obtained. First results have been obtained by extracting a test set from the KDEF database, and test it against other subjects from the database. Feature extraction is done by LBP, followed by classification using SVM. The second set of results is obtained with the Kinect in real-time conditions, while the entire KDEF database is used for training. The Kinect gets video sequences of a subject in front of it, his or her face being extracted from these sequences using Viola-Jones algorithm. Then the same feature extraction and classification process is applied to these images.
-\newline
 
 \phantomsection
 \section{First result set}
@@ -48,7 +47,7 @@
 \noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-\noindent As said in Chapter \ref{chap:implementation_svm}, parameters for RBF and sigmoid kernels are found by the \textit{gridsearch} script of LIBSVM. For the polynomial kernel, as said in Chapter \ref{chap:implementation_svm}, the degree parameter $D$ has to be chosen, otherwise the default value is $D=3$. \textit{Poly2} has default $D$ value, while \textit{Poly1} has $D = 2$. It has been chosen because if the dimension is superior to $3$ then there an \textit{overfitting} issue. It means that the model yields good results, not because it has been trained with suitable parameters, but because it fits the test data too much, and will have erroneous results if given other data.
+\noindent As said in Chapter \ref{chap:implementation_svm}, parameters for RBF and sigmoid kernels are found by the \textit{gridsearch} script of LIBSVM. For the polynomial kernel, as said in Chapter \ref{chap:implementation_svm}, degree parameter $D$ has to be chosen, otherwise the default value is $D=3$. \textit{Poly2} has default $D$ value, while \textit{Poly1} has $D = 2$. It has been chosen because if dimension is greater than $3$ then there an \textit{overfitting} issue. It means that the model yields good results, not because it has been trained with suitable parameters, but because it fits the test data too much, and will have erroneous results if given other data.
 \newline
 
 \noindent A model has also been trained with same kernels and parameters but using cross-validation (as explained in Chapter \ref{chap:implementation_svm}). Results obtained with a model using cross-validation are compared to those with a model trained normally, this comparison being shown in  Table~\ref{table_results_crossvalidation}. All results are inferior or equal to those without cross-validation, except for the sigmoid kernel tuned with parameters cache and $\gamma$ equals to $ C = 8192 $ and $ \gamma = 0.00048828125 $.
@@ -73,7 +72,7 @@
 \end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for a model trained with Poly1 kernel parameters, with an overall accuracy rate of$ 66.67\% $. It is obtained with a classification based on the polynomial kernel and with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
+\noindent The best accuracy percentage is for a model trained with Poly1 kernel parameters, with an overall accuracy rate of $ 66.67\% $. It is obtained with a classification based on the polynomial kernel and with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
 \newline
 
 \begin{table}[h]
@@ -95,7 +94,7 @@
 \end{center}
 \end{table}
 
-\noindent By looking at the confusion matrix, it is easy to notice that 2 facial expressions are harder to recognize than others with this system: \textit{angry} and \textit{sad}. There is a great difference between these 2 emotions and the 5 other ones (afraid, disgusted, happy, neutral and surprised). Indeed, these 2 emotions are recognized with an accuracy lower than $ 50\% $, while the 4 other ones are recognized with an accuracy equal or higher than $ 75\% $, as summed up in Table~\ref{table_results_accuracy}. Furthermore, the recognition accuracy for the \textit{sad} expression is much lower than random guess, which really contrasts with the \textit{happy} facial expression, the latter reaching a $100\%$ accuracy.
+\noindent By looking at the confusion matrix, it is easy to notice that 2 facial expressions are harder to recognize than others with this system: \textit{angry} and \textit{sad}. There is a great difference between these 2 emotions and the 5 other ones (afraid, disgusted, happy, neutral and surprised). Indeed, these 2 emotions are recognized with an accuracy lower than $ 50\% $, while the 5 other ones are recognized with an accuracy equal or greater than $ 75\% $, as summed up in Table~\ref{table_results_accuracy}. Furthermore, the recognition accuracy for the \textit{sad} expression is much lower than random guess, which really contrasts with the \textit{happy} facial expression, the latter reaching a $100\%$ accuracy.
 \newline
 
 \begin{table}[h]
@@ -118,10 +117,10 @@
 \noindent The numbers in parenthesis represent the number of faces correctly classified over the total number of face images tested.
 \newline
 
-\noindent These 6 emotions plus the neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and another group containing the 5 remaining emotions.
+\noindent These 6 emotions plus neutral state can be categorized into 2 groups. Indeed, one group containing the 2 emotions hard to recognize and another group containing the 5 remaining emotions.
 \newline
 
-\noindent The first group contains the 5 following facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy}, \textit{surprised} and the \textit{neutral} state. These emotions distort significantly the face when they are expressed except for the neutral state that is the basic face of the subject when he does not express an emotion. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set, expressing these 5 facial expressions. Important features carrying emotion as the mouth or the eyes are changing a lot while these 5 emotions are expressed.
+\noindent The first group contains the 5 facial expressions \textit{afraid}, \textit{disgusted}, \textit{happy}, \textit{surprised} and the \textit{neutral} state. These emotions distort significantly the face when they are expressed, except for neutral state, which is the basic face of the subject when he or she does not express an emotion. This is why it is easier to recognize them. Figure~\ref{kdef_difference_emotions} shows face images from the KDEF database used in the test set expressing these 5 facial expressions. Important features carrying emotion as mouth or eyes are changing a lot while these 5 emotions are expressed.
 \newline
 
 \begin{figure}[!h]
@@ -133,10 +132,10 @@
 \end{center} 
 \end{figure}
 
-\noindent As it can be seen in Figure~\ref{kdef_difference_emotions}, for each emotion, eyebrows are raised, eyes are widely opened, and the mouth has a distinct shape, whereas in Figure~\ref{kdef_no_difference_emotions} there are no differences as visible as in Figure~\ref{kdef_difference_emotions}. These variations of intensity might explain why the system struggles when trying to differentiate \textit{angry} and \textit{sad} emotional states.
+\noindent As it can be seen in Figure~\ref{kdef_difference_emotions}, for each emotion, eyebrows are raised, eyes are widely opened, and the mouth has a distinct shape, whereas in Figure~\ref{kdef_no_difference_emotions} there are no differences as visible as in Figure~\ref{kdef_difference_emotions}. These variations of intensity might explain why it is easier for the system to differentiate them.
 \newline
 
-\noindent The second group contains the 2 remaining facial expressions. The 2 facial expressions \textit{angry} and \textit{sad}, are the ones that distort the less the face. For a same subject expressing these 2 different emotions, as in Figure~\ref{kdef_no_difference_emotions}, the differences are not clearly noticeable.
+\noindent The second group contains the 2 remaining facial expressions. The 2 facial expressions \textit{angry} and \textit{sad}, are the ones that distort the less the face. For a same subject expressing these 2 different emotions, as in Figure~\ref{kdef_no_difference_emotions}, the differences are not clearly noticeable. This might explain why the system struggles when trying to differentiate \textit{angry} and \textit{sad} emotional states and mistakes it with neutral state.
 \newline
 
 \begin{figure}[!h]
@@ -148,26 +147,25 @@
 \end{center} 
 \end{figure}
 
-\noindent The \textit{sad} emotion is the one that is the hardest to recognize. On 12 times, it has been well recognized only once. It is mostly taken for the \textit{neutral} state. As it can be seen in the Figure~\ref{kdef_no_difference_emotions}, there is not clear change between the \textit{neutral} state and the \textit{sad} emotion. Only the eyebrows are lightly frowned.
+\noindent The \textit{sad} emotion is the hardest to recognize. On 12 test faces, it has been well recognized only once. It is mostly mistaken for \textit{neutral} state. As it can be seen in Figure~\ref{kdef_no_difference_emotions}, there are no clear variations between \textit{neutral} state and \textit{sad} emotion, only the eyebrows are lightly frowned.
 \newline
 
-\noindent The \textit{angry} emotion is also hard to recognize. On 12 times, it has been well recognized only 5 times. It is mostly taken for the \textit{neutral} state and for the \textit{angry} emotion. As it can be seen in the Figure~\ref{kdef_no_difference_emotions}, there is not clear change between the \textit{neutral} state, the \textit{sad} emotion and the \textit{angry} emotion. Only the eyebrows slightly change as the eyes. The mouth is almost identical between the three face images in the Figure~\ref{kdef_no_difference_emotions}
-\newline
+\noindent The \textit{angry} emotion is also hard to recognize. On 12 test faces, it has been well recognized only 5 times. It is mostly mistaken for \textit{neutral} state or for \textit{angry} emotion. As it can be seen in Figure~\ref{kdef_no_difference_emotions}, there are no bold variations between \textit{neutral} state, \textit{sad} emotion and \textit{angry} emotion. Only the eyebrows slightly change, as well as the eyes. The mouth is almost identical between the three face images in Figure~\ref{kdef_no_difference_emotions}
 
 \phantomsection
 \section{Second result set}
 
 \vspace{\baselineskip}
-\noindent The second result test is processed in the same way as the first data set, the only difference being the input. Indeed, it is not performed on static images extracted from the KDEF database anymore; images used for texting are extracted from the video stream coming from the Kinect. A subject stands in front of the Kinect, his or her face is detected and extracted, then features are computed, and finally classification is performed. It runs almost in real-time, and the process outputs the name of the emotion expressed.
+\noindent The second result test is processed in the same way as the first data set, the only difference being the input. Indeed, it is not performed on static images extracted from the KDEF database anymore; images used for testing are extracted from the video stream coming from the Kinect. A subject stands in front of the Kinect, his or her face is detected and extracted, then features are computed, and finally classification is performed. It runs almost in real-time, and the process outputs the name of the emotion expressed.
 \newline
 
 \subsection{With face images from the KDEF database}
 
 \vspace{\baselineskip}
-\noindent Because the results do not have a good accuracy at first sight, another method is tested. Face images from the KDEF database are given as input directly to our program. This way the data can be tested. Ten face images are randomly chosen among all the face images present in the KDEF database to be tested for each emotion. 
+\noindent Because results do not have a good accuracy at first sight, another method was tested. Face images from the KDEF database are given as input directly to our program, bypassing face detection using the Kinect. Ten face images are randomly chosen among all face images present in the KDEF database to be tested for each emotion. 
 \newline
 
-\noindent The model used is the one that gave the best results in the first test set: polynomial kernel with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_offline} represents the confusion matrix for this kernel and these test conditions.
+\noindent The model used is the one that gave the best results in the first test set: polynomial kernel with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_offline} represents the confusion matrix for this kernel with these parameters.
 \newline
 
 \begin{table}[h]
@@ -189,21 +187,21 @@
 \end{center}
 \end{table}
 
-\noindent The overall accuracy rate is of $ 64.28\% $ which is lower than the one obtained in the first result set: $ 66.67\% $. The results obtained are consistent with the ones found in the first result set.
+\noindent Overall accuracy rate is $ 64.28\% $, which is lower than the one obtained previously. Obtained results are however consistent with those found in the first result set.
 \newline
 
 \subsection{With subjects}
 
 \vspace{\baselineskip}
-\noindent For this test set, we use face images from the JAFFE database that are placed in front of the Kinect. Ten face images has been chosen randomly from this databases for each emotion.
+\noindent For this test set, we used face images from the JAFFE database and displayed them in front of the Kinect. Ten face images has been chosen randomly from this databases for each emotion.
 \newline
 
-\noindent As for the precedent part, the model used is the polynomial kernel with the following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_kinect} represents the confusion matrix for this kernel and these test conditions.
+\noindent As for the precedent part, the model used is the polynomial kernel with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_jaffe} represents the confusion matrix for this kernel and these test conditions.
 \newline
 
 \begin{table}[h]
 \begin{center}
-   \caption{\label{table_results_confusion_matrix_kinect} Confusion matrix}
+   \caption{\label{table_results_confusion_matrix_jaffe} Confusion matrix}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
@@ -220,14 +218,13 @@
 \end{center}
 \end{table}
 
-\noindent The overall accuracy rate is of $ 15,71\% $ which is really low compared to the precedent result that is of $ 64.28\% $  and to the one obtained in the first result set that is of $ 66.67\% $. The results obtained are consistent with the ones found in the first result set.
-\newline
+\noindent The overall accuracy rate is $ 15,71\% $ which is really low compared to the previous result, and even lower than the one obtained in the first result set of $ 66.67\% $. 
 
 \phantomsection
 \section{Additional results}
 
 \vspace{\baselineskip}
-\noindent One way to obtain better results with the LBP operator for this system is to add weights for each of the 42 regions of the face, as seen in Chapter~\ref{chap:lbp}. The LBP operator used in this system is already far from the basic LBP operator; it is a uniform circular LBP operator. Even though the results obtained with this operator are quite good with an accuracy of $ 66.67\% $, there is still room for improvement. Weighting the regions of the face will have an impact on the computed histogram, hence on the resulting feature vector ready for classification. \newline
+\noindent One way to obtain better results with the LBP operator for this system is to add weights for each of the 42 regions of the face, as seen in Chapter~\ref{chap:lbp}. The LBP operator used in this system is already far from the basic LBP operator; it is a uniform circular invariant LBP operator. Even though results obtained with this operator are quite good with an accuracy of $ 66.67\% $, there is still room for improvement of feature extraction. Weighting the regions of the face will have an impact on the computed histogram, hence on the resulting feature vector ready for classification. \newline
 
 \noindent The face image is divided in 42 regions ($ 7 $ rows $\times$ $ 6 $ columns), as seen in Chapter~\ref{chap:lbp}, and mentioned in \cite{GAN08}. The weights are however not applied in the same way as in \cite{GAN08}, but rather as in Figure~\ref{lbp_region_weight}. Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database that this system uses. Thus, border regions are less important than those containing the ROI of the face (eyes, nose, mouth). Figure~\ref{implementation_weight_example} shows an example of the division into regions of face images from the KDEF database used by this system.
 \newline
@@ -241,7 +238,7 @@
 \end{center} 
 \end{figure}
 
-\noindent Results has been obtained using the same process than for the first set result. The results with the weights applied are summed up in Table~\ref{table_results_kernels_weight}. The model has been trained with cross validation.
+\noindent Results were obtained using the same process as for the first set result. The results with weights applied are summed up in Table~\ref{table_results_kernels_weight}. The model has also been trained with cross-validation.
 \newline
 
 \begin{table}[h]
@@ -277,7 +274,7 @@
 \noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation_weight}. Sometimes results are better with cross validation, sometimes results are better without it. The best result however is obtained with cross validation.
+\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation_weight}. Results are consistent whether cross-validation is used or not, and in contrary to non-weighed LBP, best results are achieved using cross-validation.
 \newline
 
 \begin{table}[h]
@@ -299,7 +296,7 @@
 \end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for a model trained with RBF1 kernel parameters and with cross validation, with an overall accuracy rate of$ 71.42\% $. It is obtained with a classification based on the RBF kernel and with following parameters: $ C = 128 $ and $ \gamma = 0.0078125 $. Table~\ref{table_results_confusion_matrix_weight} represents the confusion matrix for this kernel.
+\noindent The best accuracy percentage is for a model trained with RBF1 kernel parameters and with cross-validation, with an overall accuracy rate of $ 71.42\% $. It is obtained with classification based on the RBF kernel and with parameters $ C = 128 $ and $ \gamma = 0.0078125 $. Table~\ref{table_results_confusion_matrix_weight} represents the confusion matrix for this kernel.
 \newline
 
 \begin{table}[h]
@@ -321,12 +318,12 @@
 \end{center}
 \end{table}
 
-\noindent As for the first test result, two emotions are hard for our system to recognize: the \textit{sad} emotion and the \textit{disgusted} emotion (see Table~\ref{table_results_accuracy_weight}). But this time this is not the \textit{angry} emotion that has bad results but the \textit{disgusted} emotion.
+\noindent As for the first test result, two emotions are hardly recognized by our system: \textit{sad} emotion and \textit{disgusted} emotion (see Table~\ref{table_results_accuracy_weight}), this time not the \textit{angry} emotion.
 \newline
 
 \begin{table}[h]
 \begin{center}
-   \caption{\label{table_results_accuracy_weight} Recognition accuracy of the six basic emotions and of the neutral state}
+   \caption{\label{table_results_accuracy_weight} Recognition accuracy of the six basic emotions and neutral state}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    $ \leq 50\% $ & > 66.67\% \\
@@ -341,5 +338,3 @@
 \end{center} 
 \end{table}
 
-\noindent Once again the \textit{sad} emotion is the one getting really bad results. However, with the weights applied to each region, better results are obtained. The percentage of accuracy is of $71.42\%$ instead of $66.67\%$ without the weights applied.
-\newline

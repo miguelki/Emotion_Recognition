@@ -1,0 +1,2874 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.26)  18 DEC 2012 22:51
+entering extended mode
+**master.tex
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/preamble.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\danish.ldf"
+Language: danish 2009/09/19 v1.3r Danish support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen103
+)
+Package babel Info: Making " an active character on input line 82.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\uarial.sty"
+Package: uarial 2006/03/21 1.0 (WaS)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count89
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+\captionmargin=\dimen106
+\captionmargin@=\dimen107
+\captionwidth=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count90
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen112
+\extrarowheight=\dimen113
+\NC@list=\toks17
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen114
+\lightrulewidth=\dimen115
+\cmidrulewidth=\dimen116
+\belowrulesep=\dimen117
+\belowbottomsep=\dimen118
+\aboverulesep=\dimen119
+\abovetopsep=\dimen120
+\cmidrulesep=\dimen121
+\cmidrulekern=\dimen122
+\defaultaddspace=\dimen123
+\@cmidla=\count91
+\@cmidlb=\count92
+\@aboverulesep=\dimen124
+\@belowrulesep=\dimen125
+\@thisruleclass=\count93
+\@lastruleclass=\count94
+\@thisrulewidth=\dimen126
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip45
+\fb@frw=\dimen127
+\fb@frh=\dimen128
+\FrameRule=\dimen129
+\FrameSep=\dimen130
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip46
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks18
+\ex@=\dimen131
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen132
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen133
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks19
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks20
+\eqnshift@=\dimen134
+\alignsep@=\dimen135
+\tagshift@=\dimen136
+\tagwidth@=\dimen137
+\totwidth@=\dimen138
+\lineht@=\dimen139
+\@envbody=\toks21
+\multlinegap=\skip47
+\multlinetaggap=\skip48
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ntheorem\ntheorem.sty"
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\theorem@style=\toks23
+\theorem@@style=\toks24
+\theorembodyfont=\toks25
+\theoremnumbering=\toks26
+\theorempreskipamount=\skip49
+\theorempostskipamount=\skip50
+\theoremframepreskipamount=\skip51
+\theoremframepostskipamount=\skip52
+\theoreminframepreskipamount=\skip53
+\theoreminframepostskipamount=\skip54
+\theorem@preskip=\toks27
+\theorem@postskip=\toks28
+\theorem@framepreskip=\toks29
+\theorem@framepostskip=\toks30
+\theorem@inframepreskip=\toks31
+\theorem@inframepostskip=\toks32
+\theoremindent=\dimen140
+\theorem@indent=\dimen141
+\theoremrightindent=\dimen142
+\theorem@rightindent=\dimen143
+\theoremheaderfont=\toks33
+\theoremseparator=\toks34
+\theoremprework=\toks35
+\theorempostwork=\toks36
+\theoremsymbol=\toks37
+\qedsymbol=\toks38
+\theoremkeyword=\toks39
+\qedsymbol=\toks40
+\thm@topsep=\skip55
+\thm@topsepadd=\skip56
+Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
+\c@endNonectr=\count107
+\c@currNonectr=\count108
+\mysavskip=\skip57
+Package ntheorem Info: option `amsmath' handling for `thmmarks' loaded on input
+ line 1175.
+\thm@amstmpdepth=\dimen144
+\tagwidth=\dimen145
+\shadecolor=\toks41
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count109
+\c@ALG@rem=\count110
+\c@ALG@nested=\count111
+\ALG@tlm=\skip58
+\ALG@thistlm=\skip59
+\c@ALG@Lnr=\count112
+\c@ALG@blocknr=\count113
+\c@ALG@storecount=\count114
+\c@ALG@tmpcounter=\count115
+\ALG@tmplength=\skip60
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count116
+\Gm@cntv=\count117
+\c@Gm@tempcnt=\count118
+\Gm@bindingoffset=\dimen146
+\Gm@wd@mp=\dimen147
+\Gm@odd@mp=\dimen148
+\Gm@even@mp=\dimen149
+\Gm@layoutwidth=\dimen150
+\Gm@layoutheight=\dimen151
+\Gm@layouthoffset=\dimen152
+\Gm@layoutvoffset=\dimen153
+\Gm@dimlist=\toks42
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box28
+\beforetitleunit=\skip61
+\aftertitleunit=\skip62
+\ttl@plus=\dimen154
+\ttl@minus=\dimen155
+\ttl@toksa=\toks43
+\titlewidth=\dimen156
+\titlewidthlast=\dimen157
+\titlewidthfirst=\dimen158
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titletoc.sty"
+Package: titletoc 2011/12/15 v1.6 TOC entries
+\ttl@leftsep=\dimen159
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count119
+\calc@Bcount=\count120
+\calc@Adimen=\dimen160
+\calc@Bdimen=\dimen161
+\calc@Askip=\skip63
+\calc@Bskip=\skip64
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count121
+\calc@Cskip=\skip65
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wallpaper\wallpaper.sty"
+Package: wallpaper 2005/01/18, v1.01 easy wallpaper formatting (MHFW)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+))
+\wpXoffset=\skip66
+\wpYoffset=\skip67
+\tileXoffset=\skip68
+\tileYoffset=\skip69
+\tilewidth=\skip70
+\tileheight=\skip71
+\tileX=\skip72
+\tileY=\skip73
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lastpage\lastpage.sty"
+Package: lastpage 2011/09/01 v1.2k Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen162
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count124
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `hypertexnames' set `false' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count125
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count126
+\Field@Width=\dimen163
+\Fld@charsize=\dimen164
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count127
+\c@Item=\count128
+\c@Hfootnote=\count129
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip74
+)
+Package hyperref Info: Option `plainpages' set `false' on input line 179.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 179.
+
+Package hyperref Info: Option `colorlinks' set `true' on input line 179.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bookmark.sty"
+Package: bookmark 2011/12/02 v1.24 PDF bookmarks (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\bkm-pdftex.def"
+File: bkm-pdftex.def 2011/12/02 v1.24 bookmark driver for pdfTeX (HO)
+\BKM@id=\count132
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\setup/macros.tex)
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 20.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd"
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count133
+\scratchdimen=\dimen165
+\scratchbox=\box29
+\nofMPsegments=\count134
+\nofMParguments=\count135
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count136
+\MPscratchDim=\dimen166
+\MPnumerator=\count137
+\makeMPintoPDFobject=\count138
+\everyMPtoPDFconversion=\toks45
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(79.66771pt, 401.18387pt, 116.6563pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=401.18387pt
+* \textheight=591.5302pt
+* \oddsidemargin=7.39772pt
+* \evensidemargin=44.3863pt
+* \topmargin=-7.86334pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=103.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\AtBeginShipoutBox=\box30
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             macros/latex/contrib/pageslts/ 
+(lastpage)             or
+(lastpage)             http://www.ctan.org/tex-archive/ 
+(lastpage)             install/macros/latex/contrib/pageslts.tds.zip
+(lastpage)             ! on input line 20.
+Package hyperref Info: Link coloring ON on input line 20.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count139
+)
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
+
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/frontpage.te
+x
+LaTeX Font Info:    Try loading font information for T1+ua1 on input line 23.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arial\t1ua1.fd"
+File: t1ua1.fd 2006/03/21 Fontinst v1.928 font definitions for T1/ua1.
+)
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 31.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 31.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 31.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 31.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 31.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 31.
+LaTeX Font Info:    Try loading font information for U+msa on input line 31.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 31.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (9.04408pt too wide) in paragraph at lines 25--32
+[][][][][][] 
+ []
+
+<figures/aau_new_logo.png, id=3, 135.1449pt x 95.1555pt>
+File: figures/aau_new_logo.png Graphic file (type png)
+
+<use figures/aau_new_logo.png>
+Package pdftex.def Info: figures/aau_new_logo.png used on input line 42.
+(pdftex.def)             Requested size: 135.14456pt x 95.15524pt.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 42.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 42.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 42.
+
+<figures/aau_page_garde.png, id=5, 597.432pt x 845.0772pt>
+File: figures/aau_page_garde.png Graphic file (type png)
+
+<use figures/aau_page_garde.png>
+Package pdftex.def Info: figures/aau_page_garde.png used on input line 54.
+(pdftex.def)             Requested size: 597.55817pt x 845.04933pt.
+ [1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Pin/Documents/Gi
+tHub/Emotion_Recognition/report/figures/aau_page_garde.png> <C:/Users/Pin/Docum
+ents/GitHub/Emotion_Recognition/report/figures/aau_new_logo.png>]) [2
+
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/titlepages.t
+ex
+\titlepageleftcolumnwidth=\skip75
+\titlepagerightcolumnwidth=\skip76
+File: figures/aau_new_logo.png Graphic file (type png)
+ <use figures/aau_new_logo.png>
+Package pdftex.def Info: figures/aau_new_logo.png used on input line 41.
+(pdftex.def)             Requested size: 194.59193pt x 137.01506pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+LaTeX Font Info:    Font shape `T1/ua1/bx/n' in size <10> not available
+(Font)              Font shape `T1/ua1/b/n' tried instead on input line 41.
+
+Overfull \hbox (3.65002pt too wide) in paragraph at lines 41--41
+[] 
+ []
+
+[3]) [4
+
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/preface.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 22.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmr.fd"
+File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 22.
+) [5] [6
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/abbreviation
+s.tex) [7] [8
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.toc [9]
+[10])
+\tf@toc=\write3
+
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+.tex [1] [2]
+\c@ttl@toc@parts=\count140
+
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [3]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+/motivations.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
+
+ []
+
+
+Overfull \hbox (3.47784pt too wide) in paragraph at lines 23--25
+\T1/lmr/m/n/10.95 There are also var-i-ous other do-mains where emo-tion recog-
+ni-tion can be used: Telecom-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 26--22
+
+ []
+
+[5]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/introduction
+/recognition.tex
+Chapter 2.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+<figures/facial_expression_recognition_process.png, id=247, 689.57625pt x 294.0
+9875pt>
+File: figures/facial_expression_recognition_process.png Graphic file (type png)
+
+ <use figures/facial_expression_recognition_process.png>
+Package pdftex.def Info: figures/facial_expression_recognition_process.png used
+ on input line 17.
+(pdftex.def)             Requested size: 413.74893pt x 176.4606pt.
+
+Overfull \hbox (12.56506pt too wide) in paragraph at lines 17--19
+ []  
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
+
+ []
+
+[7 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/facial_exp
+ression_recognition_process.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+<figures/system_setup.png, id=273, 641.39626pt x 397.485pt>
+File: figures/system_setup.png Graphic file (type png)
+
+<use figures/system_setup.png>
+Package pdftex.def Info: figures/system_setup.png used on input line 62.
+(pdftex.def)             Requested size: 384.84071pt x 238.49283pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (3.44818pt too wide) in paragraph at lines 69--71
+\T1/lmr/m/n/10.95 For de-vel-op-ment and train-ing pur-poses we will use some p
+re-existing emo-tion datasets,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--78
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+[9 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/system_set
+up.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--96
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+<figures/jaffe_7facialexpressions.png, id=291, 403.5075pt x 234.8775pt>
+File: figures/jaffe_7facialexpressions.png Graphic file (type png)
+
+<use figures/jaffe_7facialexpressions.png>
+Package pdftex.def Info: figures/jaffe_7facialexpressions.png used on input lin
+e 102.
+(pdftex.def)             Requested size: 302.62988pt x 176.15768pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+[10 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/jaffe_7fa
+cialexpressions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--123
+
+ []
+
+<figures/kdef_7facialexpressions.png, id=304, 401.5pt x 274.02374pt>
+File: figures/kdef_7facialexpressions.png Graphic file (type png)
+
+<use figures/kdef_7facialexpressions.png>
+Package pdftex.def Info: figures/kdef_7facialexpressions.png used on input line
+ 126.
+(pdftex.def)             Requested size: 260.9719pt x 178.11331pt.
+
+Overfull \hbox (4.81941pt too wide) in paragraph at lines 133--133
+ |[]\T1/lmr/bx/n/12 Montreal Set of Fa-cial Dis-plays of Emo-tion Database (MSF
+DE)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+
+ []
+
+[11 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_7fac
+ialexpressions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--141
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--144
+
+ []
+
+<figures/msfde_7facialexpressions.png, id=315, 401.5pt x 176.66pt>
+File: figures/msfde_7facialexpressions.png Graphic file (type png)
+
+<use figures/msfde_7facialexpressions.png>
+Package pdftex.def Info: figures/msfde_7facialexpressions.png used on input lin
+e 147.
+(pdftex.def)             Requested size: 321.20042pt x 141.32819pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+[12 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/msfde_7fa
+cialexpressions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+<figures/ck_facs_coded.png, id=329, 1026.83624pt x 392.46625pt>
+File: figures/ck_facs_coded.png Graphic file (type png)
+
+<use figures/ck_facs_coded.png>
+Package pdftex.def Info: figures/ck_facs_coded.png used on input line 168.
+(pdftex.def)             Requested size: 410.72722pt x 156.9837pt.
+
+Overfull \hbox (9.54335pt too wide) in paragraph at lines 168--170
+ []  
+ []
+
+LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 170.
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+[13 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/ck_facs_c
+oded.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 194--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 215--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--223
+
+ []
+
+<figures/arface_example2.png, id=351, 801.99625pt x 306.14375pt>
+File: figures/arface_example2.png Graphic file (type png)
+
+<use figures/arface_example2.png>
+Package pdftex.def Info: figures/arface_example2.png used on input line 226.
+(pdftex.def)             Requested size: 240.60072pt x 91.84383pt.
+
+<figures/arface_example3.png, id=352, 804.00375pt x 307.1475pt>
+File: figures/arface_example3.png Graphic file (type png)
+
+<use figures/arface_example3.png>
+Package pdftex.def Info: figures/arface_example3.png used on input line 235.
+(pdftex.def)             Requested size: 241.20299pt x 92.14496pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 245--247
+
+ []
+
+[15 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_ex
+ample2.png>] <figures/arface_example1.png, id=366, 804.00375pt x 307.1475pt>
+File: figures/arface_example1.png Graphic file (type png)
+
+<use figures/arface_example1.png>
+Package pdftex.def Info: figures/arface_example1.png used on input line 250.
+(pdftex.def)             Requested size: 241.20299pt x 92.14496pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+<figures/example_angle.png, id=368, 1209.51875pt x 288.07625pt>
+File: figures/example_angle.png Graphic file (type png)
+
+<use figures/example_angle.png>
+Package pdftex.def Info: figures/example_angle.png used on input line 265.
+(pdftex.def)             Requested size: 362.85843pt x 86.42354pt.
+ [16 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/arface_e
+xample3.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/
+arface_example1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--283
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 284--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 288--291
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--295
+
+ []
+
+[17 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/example_a
+ngle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--299
+
+ []
+
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
+on.tex [18] [19]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [20]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
+on/face_detection.tex
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+<figures/output_example_face_detection.png, id=406, 318.18875pt x 288.07625pt>
+File: figures/output_example_face_detection.png Graphic file (type png)
+
+<use figures/output_example_face_detection.png>
+Package pdftex.def Info: figures/output_example_face_detection.png used on inpu
+t line 15.
+(pdftex.def)             Requested size: 222.73059pt x 201.65198pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[21 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/output_ex
+ample_face_detection.png>]
+<figures/output_example_face_detection_binary_classifier.png, id=420, 581.17125
+pt x 319.1925pt>
+File: figures/output_example_face_detection_binary_classifier.png Graphic file 
+(type png)
+
+<use figures/output_example_face_detection_binary_classifier.png>
+Package pdftex.def Info: figures/output_example_face_detection_binary_classifie
+r.png used on input line 27.
+(pdftex.def)             Requested size: 290.58492pt x 159.59586pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+) [22 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/output_
+example_face_detection_binary_classifier.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/face_detecti
+on/violajones.tex
+Chapter 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+
+ []
+
+<figures/haar_features_first_2_stage.png, id=433, 500.87125pt x 185.69376pt>
+File: figures/haar_features_first_2_stage.png Graphic file (type png)
+
+<use figures/haar_features_first_2_stage.png>
+Package pdftex.def Info: figures/haar_features_first_2_stage.png used on input 
+line 31.
+(pdftex.def)             Requested size: 350.60747pt x 129.98474pt.
+ [23]
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+<figures/haar_features_extended.png, id=448, 426.59375pt x 315.1775pt>
+File: figures/haar_features_extended.png Graphic file (type png)
+
+<use figures/haar_features_extended.png>
+Package pdftex.def Info: figures/haar_features_extended.png used on input line 
+43.
+(pdftex.def)             Requested size: 255.95822pt x 189.10796pt.
+
+<figures/haar_features_early_stage.jpg, id=451, 642.4pt x 642.4pt>
+File: figures/haar_features_early_stage.jpg Graphic file (type jpg)
+
+<use figures/haar_features_early_stage.jpg>
+Package pdftex.def Info: figures/haar_features_early_stage.jpg used on input li
+ne 52.
+(pdftex.def)             Requested size: 321.19922pt x 321.19922pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+[24 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ures_first_2_stage.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/repo
+rt/figures/haar_features_extended.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+<figures/haar_feature_later_stage.jpg, id=468, 321.2pt x 642.4pt>
+File: figures/haar_feature_later_stage.jpg Graphic file (type jpg)
+
+<use figures/haar_feature_later_stage.jpg>
+Package pdftex.def Info: figures/haar_feature_later_stage.jpg used on input lin
+e 67.
+(pdftex.def)             Requested size: 256.96034pt x 513.9207pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--76
+
+ []
+
+[25 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ures_early_stage.jpg>]
+
+LaTeX Warning: Text page 26 contains only floats.
+
+[26 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_later_stage.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+<figures/haar_feature_description.png, id=484, 452.69125pt x 465.74pt>
+File: figures/haar_feature_description.png Graphic file (type png)
+
+<use figures/haar_feature_description.png>
+Package pdftex.def Info: figures/haar_feature_description.png used on input lin
+e 88.
+(pdftex.def)             Requested size: 226.34506pt x 232.86943pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+[27 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_description.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+<figures/integral_image_description.png, id=496, 588.1975pt x 470.75874pt>
+File: figures/integral_image_description.png Graphic file (type png)
+
+<use figures/integral_image_description.png>
+Package pdftex.def Info: figures/integral_image_description.png used on input l
+ine 110.
+(pdftex.def)             Requested size: 176.4606pt x 141.22871pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+[28 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/integral_
+image_description.png>]
+<figures/integral_image_four_array.png, id=511, 588.1975pt x 470.75874pt>
+File: figures/integral_image_four_array.png Graphic file (type png)
+
+<use figures/integral_image_four_array.png>
+Package pdftex.def Info: figures/integral_image_four_array.png used on input li
+ne 132.
+(pdftex.def)             Requested size: 235.27483pt x 188.30016pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--148
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
+
+ []
+
+[29 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/integral_
+image_four_array.png>]
+<figures/haar_feature_adaboost.png, id=525, 868.24374pt x 643.40375pt>
+File: figures/haar_feature_adaboost.png Graphic file (type png)
+
+<use figures/haar_feature_adaboost.png>
+Package pdftex.def Info: figures/haar_feature_adaboost.png used on input line 1
+54.
+(pdftex.def)             Requested size: 347.29134pt x 257.35693pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--163
+
+ []
+
+<figures/haar_feature_example_result.png, id=528, 481.8pt x 389.455pt>
+File: figures/haar_feature_example_result.png Graphic file (type png)
+
+<use figures/haar_feature_example_result.png>
+Package pdftex.def Info: figures/haar_feature_example_result.png used on input 
+line 166.
+(pdftex.def)             Requested size: 385.4405pt x 311.5644pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--175
+
+ []
+
+[30 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_adaboost.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 180--182
+
+ []
+
+[31 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_example_result.png>]
+<figures/haar_feature_cascade.png, id=547, 921.4425pt x 288.07625pt>
+File: figures/haar_feature_cascade.png Graphic file (type png)
+
+<use figures/haar_feature_cascade.png>
+Package pdftex.def Info: figures/haar_feature_cascade.png used on input line 18
+5.
+(pdftex.def)             Requested size: 460.72012pt x 144.03777pt.
+
+Overfull \hbox (59.53625pt too wide) in paragraph at lines 185--187
+ []  
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+
+<figures/haar_feature_cascade_example_result.png, id=551, 653.44125pt x 546.04p
+t>
+File: figures/haar_feature_cascade_example_result.png Graphic file (type png)
+ <use figures/haar_feature_cascade_example_result.png>
+Package pdftex.def Info: figures/haar_feature_cascade_example_result.png used o
+n input line 197.
+(pdftex.def)             Requested size: 392.06776pt x 327.62653pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 204--206
+
+ []
+
+[32 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_cascade.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--212
+
+ []
+
+[33 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_cascade_example_result.png>]
+<figures/haar_feature_first_2_features.png, id=570, 241.90375pt x 183.68625pt>
+File: figures/haar_feature_first_2_features.png Graphic file (type png)
+
+<use figures/haar_feature_first_2_features.png>
+Package pdftex.def Info: figures/haar_feature_first_2_features.png used on inpu
+t line 215.
+(pdftex.def)             Requested size: 217.71135pt x 165.31607pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--224
+
+ []
+
+<figures/haar_feature_cascade_rate.png, id=574, 901.3675pt x 214.8025pt>
+File: figures/haar_feature_cascade_rate.png Graphic file (type png)
+
+<use figures/haar_feature_cascade_rate.png>
+Package pdftex.def Info: figures/haar_feature_cascade_rate.png used on input li
+ne 235.
+(pdftex.def)             Requested size: 450.68263pt x 107.40099pt.
+
+Overfull \hbox (49.49876pt too wide) in paragraph at lines 235--237
+ []  
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
+
+ []
+
+<figures/haar_feature_training_dataset.png, id=577, 343.5234pt x 343.5234pt>
+File: figures/haar_feature_training_dataset.png Graphic file (type png)
+
+<use figures/haar_feature_training_dataset.png>
+Package pdftex.def Info: figures/haar_feature_training_dataset.png used on inpu
+t line 251.
+(pdftex.def)             Requested size: 309.1682pt x 309.1682pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[34 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/haar_feat
+ure_first_2_features.png>] [35 <C:/Users/Pin/Documents/GitHub/Emotion_Recogniti
+on/report/figures/haar_feature_cascade_rate.png> <C:/Users/Pin/Documents/GitHub
+/Emotion_Recognition/report/figures/haar_feature_training_dataset.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action.tex [36] [37]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [38]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action/feat_extraction.tex
+Chapter 5.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Overfull \hbox (8.16774pt too wide) in paragraph at lines 16--18
+\T1/lmr/m/n/10.95 Two main cat-e-gories of fea-ture ex-trac-tion al-go-rithms c
+an be dis-tin-guished : \T1/lmr/m/it/10.95 appearance-
+ []
+
+
+Overfull \hbox (13.99394pt too wide) in paragraph at lines 16--18
+\T1/lmr/m/n/10.95 char-ac-ter-is-tics of the pic-ture. How-ever, these meth-ods
+ have to be care-fully parametrized,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
+
+ []
+
+<figures/gabor_wavelets_example.jpg, id=647, 352.3962pt x 160.52893pt>
+File: figures/gabor_wavelets_example.jpg Graphic file (type jpg)
+
+<use figures/gabor_wavelets_example.jpg>
+Package pdftex.def Info: figures/gabor_wavelets_example.jpg used on input line 
+63.
+(pdftex.def)             Requested size: 281.91733pt x 128.42331pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+<figures/lbp_change_lighting.png, id=651, 408.02437pt x 225.09094pt>
+File: figures/lbp_change_lighting.png Graphic file (type png)
+
+<use figures/lbp_change_lighting.png>
+Package pdftex.def Info: figures/lbp_change_lighting.png used on input line 78.
+
+(pdftex.def)             Requested size: 244.81651pt x 135.05559pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--87
+
+ []
+
+[41 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/gabor_wav
+elets_example.jpg>]) [42 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/rep
+ort/figures/lbp_change_lighting.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_extr
+action/lbp.tex
+Chapter 6.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
+
+ []
+
+<figures/lbp_basic_operator.png, id=676, 331.99031pt x 106.89937pt>
+File: figures/lbp_basic_operator.png Graphic file (type png)
+
+<use figures/lbp_basic_operator.png>
+Package pdftex.def Info: figures/lbp_basic_operator.png used on input line 23.
+(pdftex.def)             Requested size: 331.98949pt x 106.8991pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+[43]
+<figures/lbp_basic_operator_example.png, id=688, 314.67563pt x 152.82094pt>
+File: figures/lbp_basic_operator_example.png Graphic file (type png)
+
+<use figures/lbp_basic_operator_example.png>
+Package pdftex.def Info: figures/lbp_basic_operator_example.png used on input l
+ine 35.
+(pdftex.def)             Requested size: 220.27142pt x 106.9739pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+[44 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_basic
+_operator.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figure
+s/lbp_basic_operator_example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 60--62
+
+ []
+
+<figures/lbp_circular_operator.jpg, id=705, 513.41812pt x 208.52907pt>
+File: figures/lbp_circular_operator.jpg Graphic file (type jpg)
+
+<use figures/lbp_circular_operator.jpg>
+Package pdftex.def Info: figures/lbp_circular_operator.jpg used on input line 7
+6.
+(pdftex.def)             Requested size: 256.70842pt x 104.26427pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+[45 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_circu
+lar_operator.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 147--149
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--171
+
+ []
+
+<figures/lbp_structural_features.jpg, id=739, 321.45094pt x 245.41687pt>
+File: figures/lbp_structural_features.jpg Graphic file (type jpg)
+
+<use figures/lbp_structural_features.jpg>
+Package pdftex.def Info: figures/lbp_structural_features.jpg used on input line
+ 174.
+(pdftex.def)             Requested size: 225.01411pt x 171.79062pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[47]
+Underfull \hbox (badness 10000) in paragraph at lines 185--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+<figures/lbp_histogram.png, id=750, 587.19376pt x 268.00125pt>
+File: figures/lbp_histogram.png Graphic file (type png)
+
+<use figures/lbp_histogram.png>
+Package pdftex.def Info: figures/lbp_histogram.png used on input line 197.
+(pdftex.def)             Requested size: 411.03282pt x 187.59958pt.
+
+Overfull \hbox (9.84895pt too wide) in paragraph at lines 197--199
+ []  
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+[48 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_struc
+tural_features.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+<figures/lbp_region_weight.png, id=760, 346.29375pt x 172.645pt>
+File: figures/lbp_region_weight.png Graphic file (type png)
+
+<use figures/lbp_region_weight.png>
+Package pdftex.def Info: figures/lbp_region_weight.png used on input line 213.
+(pdftex.def)             Requested size: 207.77785pt x 103.58778pt.
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/feature_clas
+sification.tex [49 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/fi
+gures/lbp_histogram.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/rep
+ort/figures/lbp_region_weight.png>] [50]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [51]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/feat_classification.tex
+Chapter 7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
+
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Overfull \hbox (7.14478pt too wide) in paragraph at lines 66--67
+\T1/lmr/m/n/10.95 The clas-si-fier out-put will then be class $\OML/lmm/m/it/10
+.95 C[]$ \T1/lmr/m/n/10.95 which meets con-di-tion $\OML/lmm/m/it/10.95 p\OT1/l
+mr/m/n/10.95 (\OML/lmm/m/it/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x
+\OT1/lmr/m/n/10.95 ) = [] \OML/lmm/m/it/10.95 p\OT1/lmr/m/n/10.95 (\OML/lmm/m/i
+t/10.95 C[]\OMS/lmsy/m/n/10.95 j\OML/lmm/m/it/10.95 x\OT1/lmr/m/n/10.95 )$
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--89
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--104
+
+ []
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 105--107
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+[55]
+Underfull \hbox (badness 10000) in paragraph at lines 157--159
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--186
+
+ []
+
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+) [57]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/classificati
+on/svm.tex
+Chapter 8.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+[58
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 33--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+[59]
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
+
+ []
+
+
+Overfull \hbox (8.2074pt too wide) in paragraph at lines 91--93
+\T1/lmr/m/n/10.95 In or-der to achieve this map-ping, a \T1/lmr/m/it/10.95 ker-
+nel func-tion \T1/lmr/m/n/10.95 of the form $\OML/lmm/m/it/10.95 K\OT1/lmr/m/n/
+10.95 (\OML/lmm/m/it/10.95 x[]; x[]\OT1/lmr/m/n/10.95 ) = (\OML/lmm/m/it/10.95
+ x[]\OT1/lmr/m/n/10.95 )[](\OML/lmm/m/it/10.95 x[]\OT1/lmr/m/n/10.95 )$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--115
+
+ []
+
+[60]
+Underfull \hbox (badness 10000) in paragraph at lines 116--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
+
+ []
+
+[61]
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--130
+
+ []
+
+))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on.tex [62] [63]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [64]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_detection.tex
+Chapter 9.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+<figures/violajones_implementation_example.png, id=920, 493.0922pt x 388.45125p
+t>
+File: figures/violajones_implementation_example.png Graphic file (type png)
+ <use figures/violajones_implementation_example.png>
+Package pdftex.def Info: figures/violajones_implementation_example.png used on 
+input line 19.
+(pdftex.def)             Requested size: 197.23338pt x 155.37773pt.
+) [65 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/violajo
+nes_implementation_example.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_extraction.tex
+Chapter 10.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[66
+
+] <figures/lbp_implementation_histogram.png, id=937, 722.7pt x 238.8925pt>
+File: figures/lbp_implementation_histogram.png Graphic file (type png)
+
+<use figures/lbp_implementation_histogram.png>
+Package pdftex.def Info: figures/lbp_implementation_histogram.png used on input
+ line 27.
+(pdftex.def)             Requested size: 361.3491pt x 119.44595pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+
+ []
+
+<figures/lbp_implementation_vector.png, id=939, 978.65625pt x 165.61874pt>
+File: figures/lbp_implementation_vector.png Graphic file (type png)
+
+<use figures/lbp_implementation_vector.png>
+Package pdftex.def Info: figures/lbp_implementation_vector.png used on input li
+ne 39.
+(pdftex.def)             Requested size: 391.45557pt x 66.2463pt.
+) [67 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/lbp_imp
+lementation_histogram.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/r
+eport/figures/lbp_implementation_vector.png>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/feature_classification.tex
+Chapter 11.
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--34
+
+ []
+
+[68
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 36--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+[69]
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+) [70]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/implementati
+on/implementation_kinect.tex
+Chapter 12.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+[71
+
+]
+Overfull \hbox (1.92746pt too wide) in paragraph at lines 35--36
+[]\T1/lmr/m/n/10.95 The view en-ables user in-ter-ac-tion with the sys-tem by d
+is-play-ing human-readable
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+<figures/UML.png, id=979, 1046.91125pt x 612.2875pt>
+File: figures/UML.png Graphic file (type png)
+ <use figures/UML.png>
+Package pdftex.def Info: figures/UML.png used on input line 44.
+(pdftex.def)             Requested size: 418.75708pt x 244.91066pt.
+
+Overfull \hbox (17.57321pt too wide) in paragraph at lines 44--46
+ []  
+ []
+
+[72 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/UML.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+<figures/interface_computer.jpg, id=987, 861.2175pt x 531.48563pt>
+File: figures/interface_computer.jpg Graphic file (type jpg)
+
+<use figures/interface_computer.jpg>
+Package pdftex.def Info: figures/interface_computer.jpg used on input line 69.
+(pdftex.def)             Requested size: 344.4809pt x 212.59048pt.
+ [73 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/interfac
+e_computer.jpg>]))
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation.t
+ex [74] [75]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.ptc) [76]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/r
+esults.tex
+Chapter 13.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Overfull \hbox (33.45235pt too wide) in paragraph at lines 20--34
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--49
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--52
+
+ []
+
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--77
+
+ []
+
+
+Overfull \hbox (18.93692pt too wide) in paragraph at lines 81--94
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
+
+ []
+
+[78]
+Underfull \hbox (badness 10000) in paragraph at lines 117--119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--122
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 123--125
+
+ []
+
+<figures/kdef_difference_emotions.png, id=1043, 1157.32375pt x 335.2525pt>
+File: figures/kdef_difference_emotions.png Graphic file (type png)
+
+<use figures/kdef_difference_emotions.png>
+Package pdftex.def Info: figures/kdef_difference_emotions.png used on input lin
+e 128.
+(pdftex.def)             Requested size: 347.1998pt x 100.57652pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--137
+
+ []
+
+[79]
+Underfull \hbox (badness 10000) in paragraph at lines 138--140
+
+ []
+
+<figures/kdef_no_difference_emotions.png, id=1054, 694.595pt x 336.25626pt>
+File: figures/kdef_no_difference_emotions.png Graphic file (type png)
+
+<use figures/kdef_no_difference_emotions.png>
+Package pdftex.def Info: figures/kdef_no_difference_emotions.png used on input 
+line 143.
+(pdftex.def)             Requested size: 208.38011pt x 100.87766pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
+
+ []
+
+[80 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/kdef_diff
+erence_emotions.png> <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/
+figures/kdef_no_difference_emotions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 165--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--170
+
+ []
+
+
+Overfull \hbox (18.93692pt too wide) in paragraph at lines 174--187
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--192
+
+ []
+
+[81]
+Underfull \hbox (badness 10000) in paragraph at lines 196--198
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+
+ []
+
+
+Overfull \hbox (18.93692pt too wide) in paragraph at lines 205--218
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--231
+
+ []
+
+[82]
+<figures/implementation_weight_example.png, id=1089, 734.745pt x 236.885pt>
+File: figures/implementation_weight_example.png Graphic file (type png)
+
+<use figures/implementation_weight_example.png>
+Package pdftex.def Info: figures/implementation_weight_example.png used on inpu
+t line 234.
+(pdftex.def)             Requested size: 220.42519pt x 71.06604pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 241--243
+
+ []
+
+
+Overfull \hbox (44.31065pt too wide) in paragraph at lines 247--261
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--276
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--279
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--301
+
+ []
+
+[83 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/implement
+ation_weight_example.png>]
+Overfull \hbox (18.93692pt too wide) in paragraph at lines 305--318
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--323
+
+ []
+
+) [84]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/i
+ssues.tex
+Chapter 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+[85]
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+[86]
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 52--24
+
+ []
+
+[87]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/evaluation/c
+onclusion.tex
+Chapter 15.
+
+Overfull \hbox (4.23106pt too wide) in paragraph at lines 9--11
+\T1/lmr/m/n/10.95 face de-tec-tion, fea-ture ex-trac-tion and clas-si-fi-ca-tio
+n. Face de-tec-tion is achieved through
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--51
+
+ []
+
+<figures/combination_lbp_gabor.jpg, id=1137, 241.75275pt x 139.42354pt>
+File: figures/combination_lbp_gabor.jpg Graphic file (type jpg)
+
+<use figures/combination_lbp_gabor.jpg>
+Package pdftex.def Info: figures/combination_lbp_gabor.jpg used on input line 5
+4.
+(pdftex.def)             Requested size: 241.75215pt x 139.42319pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
+
+ []
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
+
+ []
+
+)) [90 <C:/Users/Pin/Documents/GitHub/Emotion_Recognition/report/figures/combin
+ation_lbp_gabor.jpg>]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.bbl
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 39.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [91
+
+] [92]
+Underfull \hbox (badness 2103) in paragraph at lines 208--211
+[]\T1/lmr/m/n/10.95 Wikipedia.  Sta-tis-ti-cal clas-si-fi-ca-tion.  [][]$\T1/lm
+tt/m/n/10.95 http : / / en . wikipedia . org / wiki /$
+ []
+
+) [93] [94
+
+]
+(C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\sections/source_code.
+tex)
+\tf@thm=\write4
+\tf@ptc=\write5
+ 
+AED: lastpage setting LastPage
+[95]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 57.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 57.
+ (C:\Users\Pin\Documents\GitHub\Emotion_Recognition\report\master.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 57.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 57.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 57.
+ ) 
+Here is how much of TeX's memory you used:
+ 11367 strings out of 494045
+ 173711 string characters out of 3145975
+ 267118 words of memory out of 3000000
+ 13899 multiletter control sequences out of 15000+200000
+ 111805 words of font info for 75 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 38i,14n,41p,1448b,493s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{page.107} has been referenced but does not exist,
+ replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-mathsy.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-mathex.enc}{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
+enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/lm/lmbx9.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
+type1/public/lm/lmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/lm/lmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/public/lm/lmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9
+/fonts/type1/public/lm/lmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/lm/lmr9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr
+i10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri9.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/lm/lmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
+s/type1/public/lm/lmsy9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1b8
+a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on master.pdf (105 pages, 8494874 bytes).
+PDF statistics:
+ 1551 PDF objects out of 1728 (max. 8388607)
+ 384 named destinations out of 1000 (max. 500000)
+ 754 words of extra memory for PDF output out of 10000 (max. 10000000)
+

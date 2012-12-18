@@ -1,0 +1,118 @@
+\select@language {english}
+\contentsline {chapter}{Preface}{v}{Doc-Start}
+\contentsline {chapter}{Abbreviations}{vii}{Doc-Start}
+\contentsline {part}{I\hspace {1em}Introduction}{2}{part.1}
+\ttl@starttoc {parts@1}
+\contentsline {chapter}{\numberline {1}Motivations}{4}{chapter.4}
+\contentsline {chapter}{\numberline {2}Facial expression recognition}{6}{chapter.6}
+\contentsline {section}{\numberline {2.1}General structure}{6}{section.7}
+\contentsline {subsection}{\numberline {2.1.1}Image Acquisition}{6}{subsection.9}
+\contentsline {subsection}{\numberline {2.1.2}Face Detection}{7}{subsection.10}
+\contentsline {subsection}{\numberline {2.1.3}Pre-processing}{7}{subsection.11}
+\contentsline {subsection}{\numberline {2.1.4}Feature Extraction}{8}{subsection.12}
+\contentsline {subsection}{\numberline {2.1.5}Classification}{8}{subsection.13}
+\contentsline {section}{\numberline {2.2}Environment Setup}{8}{section.15}
+\contentsline {section}{\numberline {2.3}Facial Expression Datasets}{8}{section.18}
+\contentsline {subsection}{\numberline {2.3.1}Japanese Female Facial Expression Database (JAFFE)}{10}{subsection.19}
+\contentsline {subsection}{\numberline {2.3.2}Karolinska Directed Emotional Faces Database (KDEF)}{10}{subsection.21}
+\contentsline {subsection}{\numberline {2.3.3}Montreal Set of Facial Displays of Emotion Database (MSFDE)}{12}{subsection.23}
+\contentsline {subsection}{\numberline {2.3.4}Cohn-Kanade AU-Coded Facial Expression Database (CK)}{12}{subsection.25}
+\contentsline {section}{\numberline {2.4}Issues}{13}{section.28}
+\contentsline {subsection}{\numberline {2.4.1}Datasets}{13}{subsection.29}
+\contentsline {subsection}{\numberline {2.4.2}Real-time}{14}{subsection.30}
+\contentsline {subsection}{\numberline {2.4.3}Conditions}{15}{subsection.31}
+\contentsline {subsubsection}{Occlusion}{15}{subsubsection*.32}
+\contentsline {subsubsection}{Lighting}{15}{subsubsection*.35}
+\contentsline {subsubsection}{Angle}{16}{subsubsection*.37}
+\contentsline {section}{\numberline {2.5}Requirements}{17}{section.40}
+\ttl@stoptoc {parts@1}
+\contentsline {part}{II\hspace {1em}Face detection}{19}{part.41}
+\ttl@stoptoc {parts@1}
+\ttl@starttoc {parts@2}
+\contentsline {chapter}{\numberline {3}Face detection}{21}{chapter.44}
+\contentsline {chapter}{\numberline {4}Viola-Jones Face detection}{23}{chapter.48}
+\contentsline {section}{\numberline {4.1}Overview}{23}{section.50}
+\contentsline {section}{\numberline {4.2}Haar features}{23}{section.52}
+\contentsline {section}{\numberline {4.3}Integral image}{28}{section.59}
+\contentsline {section}{\numberline {4.4}Weak classifiers and AdaBoost}{29}{section.65}
+\contentsline {section}{\numberline {4.5}Classifiers cascade}{32}{section.69}
+\contentsline {section}{\numberline {4.6}Test set and training}{34}{section.75}
+\ttl@stoptoc {parts@2}
+\contentsline {part}{III\hspace {1em}Feature extraction}{37}{part.77}
+\ttl@stoptoc {parts@2}
+\ttl@starttoc {parts@3}
+\contentsline {chapter}{\numberline {5}Feature extraction}{39}{chapter.80}
+\contentsline {section}{\numberline {5.1}Appearance-based methods}{40}{section.82}
+\contentsline {subsection}{\numberline {5.1.1}Principal Component Analysis (PCA)}{40}{subsection.83}
+\contentsline {subsection}{\numberline {5.1.2}Linear Discriminant Analysis (LDA)}{40}{subsection.84}
+\contentsline {section}{\numberline {5.2}Feature-based methods}{40}{section.86}
+\contentsline {subsection}{\numberline {5.2.1}Gabor Wavelets}{41}{subsection.87}
+\contentsline {subsection}{\numberline {5.2.2}Local Binary Patterns (LBP)}{41}{subsection.89}
+\contentsline {chapter}{\numberline {6}Local Binary Patterns}{43}{chapter.92}
+\contentsline {section}{\numberline {6.1}Overview}{43}{section.94}
+\contentsline {section}{\numberline {6.2}State of the art}{44}{section.98}
+\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{44}{subsection.100}
+\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{47}{subsection.111}
+\contentsline {section}{\numberline {6.3}Facial Expression Recognition based on LBP}{48}{section.114}
+\contentsline {section}{\numberline {6.4}Histogram computing}{48}{section.116}
+\ttl@stoptoc {parts@3}
+\contentsline {part}{IV\hspace {1em}Classification}{50}{part.119}
+\ttl@stoptoc {parts@3}
+\ttl@starttoc {parts@4}
+\contentsline {chapter}{\numberline {7}Classification}{52}{chapter.122}
+\contentsline {section}{\numberline {7.1}Supervised learning}{53}{section.124}
+\contentsline {subsection}{\numberline {7.1.1}Naive Bayes classifier}{53}{subsection.125}
+\contentsline {subsection}{\numberline {7.1.2}Linear Discrimination}{54}{subsection.129}
+\contentsline {section}{\numberline {7.2}Unsupervised learning}{54}{section.132}
+\contentsline {subsection}{\numberline {7.2.1}K-Means}{55}{subsection.133}
+\contentsline {subsection}{\numberline {7.2.2}Mixture of Gaussians}{56}{subsection.135}
+\contentsline {chapter}{\numberline {8}Support Vector Machines}{58}{chapter.138}
+\contentsline {section}{\numberline {8.1}Overview}{58}{section.140}
+\contentsline {section}{\numberline {8.2}Margin maximization}{59}{section.142}
+\contentsline {section}{\numberline {8.3}Kernel function}{60}{section.149}
+\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{61}{section.152}
+\ttl@stoptoc {parts@4}
+\contentsline {part}{V\hspace {1em}Implementation}{63}{part.153}
+\ttl@stoptoc {parts@4}
+\ttl@starttoc {parts@5}
+\contentsline {chapter}{\numberline {9}Face detection with Viola-Jones}{65}{chapter.156}
+\contentsline {section}{\numberline {9.1}Viola-Jones}{65}{section.158}
+\contentsline {chapter}{\numberline {10}Feature extraction with Local Binary Patterns}{66}{chapter.161}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{66}{section.163}
+\contentsline {section}{\numberline {10.2}Histogram computing}{66}{section.165}
+\contentsline {chapter}{\numberline {11}Classification with Support Vector Machines}{68}{chapter.169}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{68}{section.171}
+\contentsline {section}{\numberline {11.2}Training and Model}{69}{section.174}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{71}{chapter.180}
+\contentsline {section}{\numberline {12.1}Generalities}{71}{section.182}
+\contentsline {section}{\numberline {12.2}Librairies}{71}{section.184}
+\contentsline {section}{\numberline {12.3}Architecture}{72}{section.186}
+\contentsline {section}{\numberline {12.4}Interactions}{72}{section.189}
+\contentsline {section}{\numberline {12.5}Algorithm}{73}{section.192}
+\ttl@stoptoc {parts@5}
+\contentsline {part}{VI\hspace {1em}Evaluation}{75}{part.193}
+\ttl@stoptoc {parts@5}
+\ttl@starttoc {parts@6}
+\contentsline {chapter}{\numberline {13}Results}{77}{chapter.196}
+\contentsline {section}{\numberline {13.1}First result set}{77}{section.198}
+\contentsline {section}{\numberline {13.2}Second result set}{81}{section.206}
+\contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{81}{subsection.207}
+\contentsline {subsection}{\numberline {13.2.2}With subjects}{82}{subsection.209}
+\contentsline {section}{\numberline {13.3}Additional results}{82}{section.212}
+\contentsline {chapter}{\numberline {14}Issues}{85}{chapter.219}
+\contentsline {section}{\numberline {14.1}Feature extraction}{85}{section.221}
+\contentsline {section}{\numberline {14.2}Real-time}{85}{section.223}
+\contentsline {section}{\numberline {14.3}Issues with the implementation on the Kinect}{86}{section.225}
+\contentsline {section}{\numberline {14.4}Training dataset}{87}{section.227}
+\contentsline {chapter}{\numberline {15}Conclusion}{88}{chapter.229}
+\contentsline {section}{\numberline {15.1}Theoretical framework}{88}{section.231}
+\contentsline {section}{\numberline {15.2}Results}{88}{section.233}
+\contentsline {section}{\numberline {15.3}Future work}{89}{section.235}
+\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{89}{subsection.236}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{89}{subsection.237}
+\contentsline {subsection}{\numberline {15.3.3}Use of the Cohn-Kanade Database}{90}{subsection.239}
+\ttl@stoptoc {parts@6}
+\contentsline {chapter}{Bibliography}{91}{section*.240}
+\vspace \bigskipamount 
+\contentsline {chapter}{Appendix: Source Code}{95}{section*.241}
+\contentsfinish 

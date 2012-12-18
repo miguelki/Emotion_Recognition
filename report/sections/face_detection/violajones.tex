@@ -2,7 +2,7 @@
 \chapter{Viola-Jones Face detection}
 \label{chap:vj}
 
-\noindent Viola-Jones algorithm is "a visual object detection framework that is capable of processing images extremely rapidly while achieving high detection rates". 3 main points characterize this algorithm. The first one is the use of what is called an "integral image", which is a new representation of the image allowing the features to be computed very quickly. Second point is the use of a learning algorithm based on AdaBoost, which builds efficient classifiers. The third and last point is the use of a method to combine classifiers. This method combine classifiers in cascade. It allows to focus on the promising object-like regions by discarding the background in a very quick way \cite{VIO01}.
+\noindent Viola-Jones algorithm is "a visual object detection framework that is capable of processing images extremely rapidly while achieving high detection rates". 3 main points characterize this algorithm. The first one is the use of what is called an "integral image", which is a new representation of the image allowing the features to be computed very quickly. Second point is the use of a learning algorithm based on AdaBoost, which builds efficient classifiers. The third and last point is the use of a method to combine classifiers in cascade. It allows to focus on the promising object-like regions by discarding the background in a very quick way \cite{VIO01}.
 \newline
 
 \phantomsection
@@ -23,7 +23,7 @@
 \section{Haar features}
 
 \vspace{\baselineskip}
-\noindent The features used by Viola and Jones are based on Haar wavelets, which are single wavelength square waves. A square wave is composed of a high interval and a low interval. In a two dimensional space, a square wave is represented by a pair of adjacent rectangles: a light one and a dark one. True Haar wavelets are however not used in rectangle combinations for visual object detection. There are better suited features for this task, which are Haar-like, hence the name of Haar (or Haar-like) features, instead of Haar wavelets \cite{HEW07}.
+\noindent Features used by Viola and Jones are based on Haar wavelets, which are single wavelength square waves. A square wave is composed of a high interval and a low interval. In a two dimensional space, a square wave is represented by a pair of adjacent rectangles: a light one and a dark one. True Haar wavelets are however not used in rectangle combinations for visual object detection. There are better suited features for this task, which are Haar-like, hence the name of Haar (or Haar-like) features, instead of Haar wavelets \cite{HEW07}.
 \newline
 
 \begin{figure}[!h]
@@ -99,10 +99,10 @@
 \section{Integral image}
 
 \vspace{\baselineskip}
-\noindent Viola and Jones used an intermediate representation of an image called "integral image". This integral image allows a very fast computation of rectangle features \cite{VIO01}, which then influences the determination of the presence or absence of hundreds of Haar features. In general, adding small units together is similar to integrating them; here, the small units are pixel intensity values. The integral value of a pixel can hence be computed by summing values from pixels above it and on its left. Integration of an entire image consequently starts at the top left corner and goes through all the image to the down right corner \cite{HEW07}.
+\noindent Viola-Jones algorithm uses an intermediate representation of an image called "integral image". This integral image allows a very fast computation of rectangle features \cite{VIO01}, which then influences the determination of the presence or absence of hundreds of Haar features. In general, adding small units together is similar to integrating them; here, the small units are pixel intensity values. The integral value of a pixel can hence be computed by summing values from pixels above it and on its left. Integration of an entire image consequently starts at the top left corner and goes through all the image to the down right corner \cite{HEW07}.
 \newline
 
-\noindent For a pixel P with coordinates ($x,y$), its value in the integral image is computer as follows: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the input image intensity value function \cite{VIO01}. In Figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is represented as the sum of all pixels above and on its left. 
+\noindent For a pixel P with coordinates ($x,y$), its value in the integral image is computed as follows: \[ ii(x,y) = \sum_{x' \leq x,y' \leq y} i(x',y') \] where $ ii(x,y) $ is the integral image and $ i(x,y) $ is the input image intensity value function \cite{VIO01}. In Figure~\ref{integral_image_description}, the value of the integral image at point $ (x,y) $ is represented as the sum of all pixels above and on its left. 
 \newline
 	
 \begin{figure}[!h]
@@ -143,7 +143,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \noindent Features are extracted from a sub-region of an input image, which size is usually of $ 24\times24 $ pixels. Each feature type is moved and scaled across the entire input image, which means that there are about 160,000 possible combinations to process in a 24 pixel by 24 pixel sub-region \cite{SMY07}.
 \newline
 
-\noindent AdaBoost is a machine-learning method used by Viola and Jones in order to select specific Haar features to use. It is also used to set the threshold levels. This method is based on the statement that the combination of many weak classifiers forms a strong one. They are called weak classifiers because their accuracy and efficiency are only a bit above random guessing, which is not particularly good. The purpose of using so many weak classifiers is to get a right answer with a higher rate of success. This algorithm relies on on the verified hypothesis that if each weak classifier pushes the final answer a little bit in the right direction each time, it means the correct answer will be obtained in the end \cite{HEW07}. 
+\noindent AdaBoost is a machine-learning method used by Viola and Jones in order to select specific Haar features to use. It is also used to set the threshold levels. This method is based on the statement that combination of many weak classifiers forms a strong one. They are called weak classifiers because their accuracy and efficiency are only a bit above random guessing, which is not particularly good. The purpose of using so many weak classifiers is to get a right answer with a higher rate of success. This algorithm relies on on the verified hypothesis that if each weak classifier pushes the final answer a little bit in the right direction each time, it means the correct answer will be obtained in the end \cite{HEW07}. 
 \newline
 
 \noindent AdaBoost works the following way: it chooses a set of weak classifiers that are going to be combined and assigns a weight to each classifier (see Figure~\ref{haar_feature_adaboost}). The result of this weighted combination is a strong classifier \cite{HEW07}. One of the difficulties and challenges for this learning algorithm is to associate large weights to efficient classifiers, and smaller weights to poor classifiers. In order to succeed in selecting a small group of good classifiers but with significant variety, AdaBoost is an aggressive algorithm \cite{VIO01}.
@@ -158,7 +158,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent In \cite{VIO01}, Viola and Jones conduct experiments with a classifier built from 200 features and using AdaBoost. This experiment is a first step in their study; it is compared after with further experiments. The classifier had a detection rate of 95\%, and obtained only 1 false positive out of 14084 negative samples from the training dataset (see figure~\ref{haar_feature_example_result}). After, Viola and Jones conducts another experiment using what they call \textit{classifiers cascade}, the next step in their algorithm, to compare their results with the ones described here.
+\noindent In \cite{VIO01}, Viola and Jones conducte experiments with a classifier built from 200 features and using AdaBoost. This experiment was a first step in their study, since they compared it afterwards with further experiments. The classifier had a detection rate of 95\%, and obtained only 1 false positive out of 14084 negative samples from the training dataset (see figure~\ref{haar_feature_example_result}). Afterwards, Viola and Jones conducted another experiment using a \textit{classifiers cascade}, and compared the latter results with the ones described here.
 \newline
 
 \begin{figure}[!h]
@@ -170,14 +170,14 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent This experiment, points out that a 200-feature classifier is an efficient technique for object detection. It also means that a boosted classifier constructed from rectangle features is an efficient technique for face detection. Although the results of this experiment are convincing in terms of detection, they may not be performant enough for everyday applications. This boosted classifier requires 0.7 seconds to scan a $ 384\times288 $ pixel image. Regarding the computation time, it is probably faster than any other existing system. In order to improve the system so that it will perform well in real-world conditions, detection performance must be improved. The most straightforward method to achieve that is to add features to the classifier. Doing that will immediately decrease the speed of this system; it will increase computation time. This is why they find a method called \textit{classifiers cascade} in order to improve the computation time without decreasing the accuracy of the algorithm \cite{VIO01}.
+\noindent Their first experiment pointed out that a 200-feature classifier is an efficient technique for face detection. It also meant that a boosted classifier constructed from rectangle features is an efficient technique for face detection. Although the results of this experiment were convincing in terms of detection, they may not be performant enough for everyday applications. This boosted classifier required 0.7 seconds to scan a $ 384\times288 $ pixel image. Regarding computation time, it is probably faster than any other existing system. In order to improve the system so it will perform well in real-world conditions, detection performance must be improved. The most straightforward method to achieve that is to add features to the classifier. Doing that will immediately decrease the speed of this system while increasing computation time. This is why they implemented a method called \textit{classifiers cascade} in order to improve the computation time without decreasing the accuracy of the algorithm \cite{VIO01}.
 \newline
 
 \phantomsection
 \section{Classifiers cascade}
 
 \vspace{\baselineskip}
-\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade a hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
+\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade, hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
@@ -279,24 +279,24 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{itemize}
 
 \vspace{\baselineskip}
-\noindent There are usually two parts into a test set, first part being training set and second part being validation set. The training set is typically made of about 5,000 positives samples (faces) and 10,000 negative samples (non-faces, usually non-face sub-regions chosen from non-face images) \cite{DIN08}. For this kind of training, and with a 32 layer classifier, the total time usually exceeds several weeks \cite{VIO01}.
+\noindent When testing their algorithm, Viola and Jones typically had a training set made of about 5,000 positives samples (faces) and 10,000 negative samples (non-faces, usually non-face sub-regions chosen from non-face images) \cite{DIN08}. For this kind of training, and with a 32 layer classifier, the total time usually exceeded several weeks \cite{VIO01}.
 \newline
 
-\noindent Viola-Jones training stage proceeds with the following step \cite{DIN08}:
+\noindent Viola-Jones training stage proceeded with the following steps \cite{DIN08}:
 
 \begin{itemize}
   \item With a defined number K of features (about 160,000 for a $ 24\times24 $ grayscale image)
-  \item The number L of wanted stages has to be fixed for the cascade
-  \item Then it has to be done over and over again until the number L weak classifiers is reached:
+  \item The number L of wanted stages had to be fixed for the cascade
+  \item Then it has to be iterated until number L weak classifiers was reached:
   \begin{itemize}
-  	\item With the data that has be weighted again in the previous stage
-	\item all the number K of weak classifiers have to be trained (the best threshold has to be find to classify in the best way the training set)
-	\item The best classifier has to be chosen at this stage
-	\item The data is then weighted again
+  	\item With data that had been weighted again in the previous stage
+	\item all K of weak classifiers had to be trained (the best threshold had to be found to classify the training set in the best way)
+	\item The best classifier had to be chosen at this stage
+	\item The data was then weighted again
   \end{itemize}
 \end{itemize}
 
-\noindent As said previously, depending on the efficiency of a weak classifier, a weight is associated to it, depending on its classification error rate. Weak classifiers are then linearly combined depending on these weights, this operation having a huge computational cost \cite{DIN08}.
+\noindent As said previously, depending on the efficiency of a weak classifier, a weight was associated to it, depending on its classification error rate. Weak classifiers were then linearly combined depending on these weights, this operation having a huge computational cost \cite{DIN08}.
 \newline
 
 

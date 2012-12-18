@@ -21,7 +21,7 @@
 \begin{itemize}
   \item The library used for intercommunication with sensors is the Software Development Kit released by Microsoft for their Kinect for XBox in its version 1.0 Beta 2.
   \item OpenCV (Open Source Computer Vision Library) is a graphic library under BSD licence, optimized for real-time image processing. It have been released by Intel and is actually maintained by Willow Garage, a robotic company.
-  \item We are using LibSVM to perform classification, which is an OpenSource library for Support Vector Machines. The version used is the 3.14 released on November 16, 2012.
+  \item We are using LibSVM to perform classification, which is an OpenSource library for Support Vector Machines \cite{CC01}. The version used is the 3.14 released on November 16, 2012.
 \end{itemize}
 
 \phantomsection
@@ -54,11 +54,11 @@
 \vspace{\baselineskip}
 \noindent There are two possible ways for the user to interact with the system:
 \begin{itemize}
-  \item The user has to show a facial expression in front of the camera;
-  \item The user has to decide when he or she wants the program to perform facial expression recognition.
+  \item The user displays a facial expression in front of the camera;
+  \item The user  decides when he or she wants the program to perform facial expression recognition.
 \end{itemize}
 
-\noindent The first possibility does not need the user to be active. Indeed, the Kinect camera sensor can record 30 images per second, so each expression can be caught in the image stream. That is why the second possibility needs to be trigged by the user (in our case, press a button) to "capture" the facial expression and start the analysis process. 
+\noindent The first possibility does not need the user to be active. Indeed, the Kinect camera sensor can record 30 images per second, so each expression can be caught in the image stream. That is why the second option needs to be triggered by the user (in our case, press a button) to "capture" the facial expression and start the analysis process. 
 \newline
 
 \noindent The Figure~\ref{interface_computer} shows what the subject sees on the computer. The subject expressed the \textit{angry} emotion and it was well recognized.
@@ -87,7 +87,7 @@
 
 \vspace{\baselineskip}
 \fbox{
-\begin{minipage}{0.7\textwidth}
+\begin{minipage}{0.9\textwidth}
    \textbf{Main loop algorithm} 
 
 \begin{algorithmic}
