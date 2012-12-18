@@ -38,6 +38,7 @@
 \contentsline {section}{\numberline {5.1}Appearance-based methods}{40}{section.82}
 \contentsline {subsection}{\numberline {5.1.1}Principal Component Analysis (PCA)}{40}{subsection.83}
 \contentsline {subsection}{\numberline {5.1.2}Linear Discriminant Analysis (LDA)}{40}{subsection.84}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5.2}Feature-based methods}{41}{section.86}
 \contentsline {subsection}{\numberline {5.2.1}Gabor Wavelets}{41}{subsection.87}
 \contentsline {subsection}{\numberline {5.2.2}Local Binary Patterns (LBP)}{42}{subsection.89}
@@ -96,6 +97,67 @@
 \contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{91}{subsection.237}
 \contentsline {subsection}{\numberline {15.3.3}Use of the CK+ Database}{92}{subsection.239}
 \contentsline {chapter}{Bibliography}{93}{section*.240}
+=======
+\contentsline {subsection}{\numberline {5.1.3}Eigenfaces}{41}{subsection.85}
+\contentsline {section}{\numberline {5.2}Feature-based methods}{41}{section.88}
+\contentsline {subsection}{\numberline {5.2.1}Gabor Wavelets}{41}{subsection.89}
+\contentsline {subsection}{\numberline {5.2.2}Local Binary Patterns (LBP)}{42}{subsection.91}
+\contentsline {chapter}{\numberline {6}Local Binary Patterns}{43}{chapter.94}
+\contentsline {section}{\numberline {6.1}Overview}{44}{section.96}
+\contentsline {section}{\numberline {6.2}State of the art}{44}{section.100}
+\contentsline {subsection}{\numberline {6.2.1}Circular LBP}{44}{subsection.102}
+\contentsline {subsection}{\numberline {6.2.2}Uniform LBP}{47}{subsection.113}
+\contentsline {section}{\numberline {6.3}Facial Expression Recognition based on LBP}{49}{section.116}
+\contentsline {section}{\numberline {6.4}Histogram computing}{49}{section.118}
+\contentsline {part}{IV\hspace {1em}Classification}{51}{part.121}
+\contentsline {chapter}{\numberline {7}Classification}{53}{chapter.124}
+\contentsline {section}{\numberline {7.1}Supervised learning}{54}{section.126}
+\contentsline {subsection}{\numberline {7.1.1}Naive Bayes classifier}{54}{subsection.127}
+\contentsline {subsection}{\numberline {7.1.2}Linear Discrimination}{55}{subsection.131}
+\contentsline {section}{\numberline {7.2}Unsupervised learning}{55}{section.134}
+\contentsline {subsection}{\numberline {7.2.1}K-Means}{56}{subsection.135}
+\contentsline {subsection}{\numberline {7.2.2}Mixture of Gaussians}{57}{subsection.137}
+\contentsline {chapter}{\numberline {8}Support Vector Machines}{59}{chapter.140}
+\contentsline {section}{\numberline {8.1}Overview}{59}{section.142}
+\contentsline {section}{\numberline {8.2}Margin maximization}{60}{section.144}
+\contentsline {section}{\numberline {8.3}Kernel function}{61}{section.151}
+\contentsline {section}{\numberline {8.4}Combining LBP and SVM}{62}{section.154}
+\contentsline {part}{V\hspace {1em}Implementation}{64}{part.155}
+\contentsline {chapter}{\numberline {9}Face detection with Viola-Jones}{66}{chapter.158}
+\contentsline {section}{\numberline {9.1}Viola-Jones}{66}{section.160}
+\contentsline {chapter}{\numberline {10}Feature extraction with Local Binary Patterns}{68}{chapter.163}
+\contentsline {section}{\numberline {10.1}Uniform Local Binary Patterns}{68}{section.165}
+\contentsline {section}{\numberline {10.2}Histogram computing}{69}{section.168}
+\contentsline {chapter}{\numberline {11}Classification with Support Vector Machines}{71}{chapter.172}
+\contentsline {section}{\numberline {11.1}Histogram concatenation}{71}{section.174}
+\contentsline {section}{\numberline {11.2}Training and Model}{72}{section.177}
+\contentsline {chapter}{\numberline {12}Implementation on the Kinect}{74}{chapter.183}
+\contentsline {section}{\numberline {12.1}Generalities}{74}{section.185}
+\contentsline {section}{\numberline {12.2}Librairies}{74}{section.187}
+\contentsline {section}{\numberline {12.3}Architecture}{75}{section.189}
+\contentsline {section}{\numberline {12.4}Interactions}{75}{section.192}
+\contentsline {section}{\numberline {12.5}Algorithm}{76}{section.195}
+\contentsline {part}{VI\hspace {1em}Evaluation}{78}{part.196}
+\contentsline {chapter}{\numberline {13}Results}{80}{chapter.199}
+\contentsline {section}{\numberline {13.1}First result set}{80}{section.201}
+\contentsline {section}{\numberline {13.2}Second result set}{84}{section.209}
+\contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{84}{subsection.210}
+\contentsline {subsection}{\numberline {13.2.2}With subjects}{84}{subsection.212}
+\contentsline {section}{\numberline {13.3}Additional results}{85}{section.214}
+\contentsline {chapter}{\numberline {14}Issues}{88}{chapter.221}
+\contentsline {section}{\numberline {14.1}Feature extraction}{88}{section.223}
+\contentsline {section}{\numberline {14.2}Real-time}{88}{section.225}
+\contentsline {section}{\numberline {14.3}Issues with the implementation on the Kinect}{89}{section.227}
+\contentsline {section}{\numberline {14.4}Training dataset}{90}{section.229}
+\contentsline {chapter}{\numberline {15}Conclusion}{91}{chapter.231}
+\contentsline {section}{\numberline {15.1}Theoretical framework}{91}{section.233}
+\contentsline {section}{\numberline {15.2}Results}{91}{section.235}
+\contentsline {section}{\numberline {15.3}Future work}{92}{section.237}
+\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{92}{subsection.238}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{92}{subsection.239}
+\contentsline {subsection}{\numberline {15.3.3}Use of the CK+ Database}{93}{subsection.241}
+\contentsline {chapter}{Bibliography}{95}{section*.242}
+>>>>>>> 270948ee75485b22cbf0e7368a2b0c36856f11ff
 \vspace \bigskipamount 
-\contentsline {chapter}{Appendix: Source Code}{97}{section*.241}
+\contentsline {chapter}{Appendix: Source Code}{99}{section*.243}
 \contentsfinish 

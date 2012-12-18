@@ -118,11 +118,19 @@ S~Liao, Max W.~K. Law, , and Albert C.~S. Chung.
 \newblock Dominant local binary patterns for texture classification.
 \newblock {\em IEEE transactions on image processing}, 18(5):1107--1118, 2009.
 
+<<<<<<< HEAD
 \bibitem{LIU11}
 Weifeng Liu, Yanjiang Wang, and Shujuan Li.
 \newblock Lbp feature extraction for facial expression recognition.
 \newblock {\em Journal of Information and Computational Science},
   8(3):412--421, 2011.
+=======
+\bibitem{LIE98}
+Jenn-Jier~James Lien.
+\newblock Automatic recognition of facial expressions using hidden markov
+  models and estimation of expression intensity.
+\newblock {\em Carnegie Mellon University}, 1998.
+>>>>>>> 270948ee75485b22cbf0e7368a2b0c36856f11ff
 
 \bibitem{JAFFE}
 Michael Lyons.
@@ -172,6 +180,15 @@ Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
 Padhraic Smyth.
 \newblock Face detection using the viola-jones method.
 \newblock {\em University of California, Irvine}, 2007.
+<<<<<<< HEAD
+=======
+
+\bibitem{TSA09}
+Pohsiang Tsai, Longbing Cao, Tom Hintz, and Tony Jan.
+\newblock A bi-modal face recognition framework integrating facial expression
+  with facial appearance.
+\newblock {\em Pattern Recognition Letters}, 30(12):1096--1109, 2009.
+>>>>>>> 270948ee75485b22cbf0e7368a2b0c36856f11ff
 
 \bibitem{TUR91}
 Matthew Turk and Alex Pentland.
