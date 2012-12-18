@@ -1,7 +1,7 @@
 \phantomsection
 \chapter{Facial expression recognition}
 
-\noindent After having stated the conditions and motivations of this project, we will now describe the general structure a a facial expression recognition system. It can indeed be roughly summed up as classification applied to a pre-processed image.An overview of pre-processing steps will be done in this chapter, while feature extraction and classification will be more detailed respectively in Parts ~\ref{chap:extraction} and ~\ref{chap:classification}. Following sections will be about issues raised by facial expression recognition systems, and key requirements these systems have to meet in order to be considered acceptable.
+\noindent After having stated the conditions and motivations of this project, we will now describe the general structure of a facial expression recognition system. It can indeed be roughly summed up as classification applied to a pre-processed image. An overview of pre-processing steps will be done in this chapter, while feature extraction and classification will be more detailed respectively in Parts ~\ref{chap:extraction} and ~\ref{chap:classification}. Following sections will be about issues raised by facial expression recognition systems, and key requirements these systems have to meet in order to be considered acceptable.
 
 \section{General structure}
 
@@ -9,7 +9,7 @@
 \noindent Facial expression recognition is a system enabling an automatic recognition of emotions displayed by a human face. Facial expression recognition can be image or video-based; it can also be computed in real-time if needed. Researchers usually try to recognize emotions out of static images. It can also be achieved real-time on video streams: While the person displays his/her emotions, the facial expression recognition system analyses the video, and detect the displayed emotion.
 \newline
 
-\noindent In both cases, facial expression recognition process is structured as in Figure~\ref{facial_expression_recognition_process}
+\noindent In both cases, facial expression recognition process is structured as in Figure~\ref{facial_expression_recognition_process}.
 \newline
 
 \begin{figure}[!h]
@@ -42,7 +42,7 @@
 \subsection{Feature Extraction}
 
 \vspace{\baselineskip}
-\noindent Once the image has gone through the "Pre-processing" step, the next one is "Feature Extraction". In this step, data is converted "into a higher representation of shape, motion, color, texture, and spatial configuration of the face or its components" \cite{CHI03}. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain "essential information possessing high discrimination power and high stability" \cite{CHI03}. There are a lot of features extraction methods. The most famous are : Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Local Binary Patterns (LBP), Hidden Markov Models (HMM), Eigenfaces, Gabor Wavelets. This step will be detailed further in Part ~\ref{chap:extraction}. The extracted data is then used in the "Classification" step.
+\noindent Once the image has gone through the "Pre-processing" step, the next one is "Feature Extraction". In this step, data is converted "into a higher representation of shape, motion, color, texture, and spatial configuration of the face or its components" \cite{CHI03}. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain "essential information possessing high discrimination power and high stability" \cite{CHI03}. There are a lot of features extraction methods, i.e Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Local Binary Patterns (LBP), Gabor Wavelets. This step will be detailed further in Part ~\ref{chap:extraction}. The extracted data is then used in the "Classification" step.
 \newline
 
 \subsection{Classification}
@@ -54,7 +54,7 @@
 \section{Environment Setup}
 
 \vspace{\baselineskip}
-\noindent Our system will use the camera embedded into a Microsoft Kinect to record the user's video input. We will consider a casual use of the camera, the user sitting in front of the computer, the camera being next to him or her, as seen in \ref{system_setup}. The distance between the user and the camera sensor should be around 30-40 cm to match the data used for training. This camera provides a 640$\times$480 pixels frame resolution, while recording at 30 FPS.
+\noindent Our system will use the camera embedded into a Microsoft Kinect to record the user's video input. We will consider a casual use of the camera, the user sitting in front of the computer, the camera being next to him or her, as seen in Figure~\ref{system_setup}. The distance between the user and the camera sensor should be around 30-40 cm to match the size of the faces of the training. This camera provides a 640$\times$480 pixels frame resolution, while recording at 30 FPS.
 \newline
 
 \begin{figure}[!h]
@@ -79,10 +79,10 @@
 \noindent Using the same databases as in previous studies allows performance and accuracy comparisons between new implementations and previously obtained results. Since most studies draw their results on the same databases, it is then relatively easy to compare them and choose a database suitable for our system.
 \newline
 
-\noindent Databases are however difficult to build. Indeed, it has to be obtained following a meticulous procedure while being exhaustive so it can be considered as representative. The majority of actual databases use posed expressions rather than spontaneous ones, this choice having a major influence on facial expression recognition systems. This explains why some databases are updated, and now integrate spontaneous expressions. Even with this transition from posed expressions to spontaneous expressions, there are other requirements that should be met to have a standardized database.Its content should be of different resolutions and scales, and should also contain exposition under different conditions, i.e changes in lightning, occlusions or different head angles \cite{BET12}.  
+\noindent Moreover, databases are difficult to build. Indeed, it has to be obtained following a meticulous procedure while being exhaustive so it can be considered as representative. The majority of actual databases use \textit{posed} expressions rather than \textit{spontaneous} ones, this choice having a major influence on facial expression recognition systems. This explains why some databases are updated, and now integrate spontaneous expressions. Even with this transition from posed expressions to spontaneous expressions, there are other requirements that should be met to have a standardized database. Its content should be of different resolutions and scales, and should also contain exposition under different conditions, i.e changes in lighting, occlusions or different head angles \cite{BET12}.  
 \newline
 
-\noindent Constructing a database is then a tedious task because of all these requirements to meet. Consequently, most studies are based on already existing datasets. The 3 datasets described afterwards are popular and freely available facial expression datasets which have been used a numerous amount of times in the past few years. Our system will then be trained and tested with one or several of these databases.
+\noindent Constructing a database is then a tedious task because of all these requirements to meet. Consequently, most studies are based on already existing datasets. The 4 datasets described afterwards are popular and freely available facial expression datasets which have been used a numerous amount of times in the past few years. Our system will then be trained and tested with one or several of these databases.
 \newline
 
 \subsection{Japanese Female Facial Expression Database (JAFFE)}
@@ -91,7 +91,7 @@
 \noindent This database contains 213 images of 7 facial expressions (6 basic facial expressions: happy, angry, afraid, disgusted, sad, surprised, and 1 neutral facial expression). Each expression has been photographed three or four times. Each image has been rated on 6 emotion adjectives by 60 Japanese subjects. All images come from 10 Japanese female models.  The database was planned and assembled by Miyuki Kamachi, Michael Lyons, and Jiro Gyoba \cite{JAFFE}.
 \newline
 
-\noindent This database contains only posed expressions. The photos have been taken under strict  and controlled conditions: similar lighting and hair tied so there is no facial occlusion \cite{BET12}. 
+\noindent This database contains only posed expressions. Photos have been taken under strict  and controlled conditions: similar lighting and hair tied so there is no facial occlusion \cite{BET12}. 
 \newline
 
 \noindent An example of images contained in the database is given by Figure~\ref{jaffe_7facialexpressions}. In this figure, this is a female subject displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). 
@@ -112,13 +112,13 @@
 \noindent The Karolinska Directed Emotional Faces (KDEF) contains 4900 pictures of human facial expressions. The material was developed in 1998 by Daniel Lundqvist, Anders Flykt and Professor Arne Ohman at Karolinska Institutet, Department of Clinical Neuroscience, Section of Psychology, Stockholm, Sweden \cite{KDEF}.
 \newline
 
-\noindent The database was first developed for psychological and medical research purposes. It was created so it could used in perception, attention, emotion, memory and backward masking experiments. This database has also been built under controlled conditions. Indeed, researchers tried to maintain constant and soft lighting for each subject. Furthermore, they made their subjects wear the same grey T-shirts, and used a grid to center the participants faces while they were shot. This grid was also used to place eyes and mouths at the same position in fixed image coordinates during scanning \cite{KDEF}.
+\noindent The database was first developed for psychological and medical research purposes. It was created so it could be used in perception, attention, emotion, memory and backward masking experiments. This database has also been built under controlled conditions. Indeed, researchers tried to maintain constant and soft lighting for each subject. Furthermore, they made their subjects wear the same grey T-shirts, and used a grid to center the participants faces while they were shot. This grid was also used to place eyes and mouths at the same position in fixed image coordinates during scanning \cite{KDEF}.
 \newline
 
-\noindent The database contains 70 individuals (35 males and 35 females), from 20 to 30 years, each one displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). Each expression has been photographed (twice) from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
+\noindent The database contains 70 individuals (35 males and 35 females), from 20 to 30 years, each one displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised). Each expression has been photographed twice for each subject from 5 different angles (-90, -45, 0, +45, +90 degrees: i.e. full left profile, half left profile, straight, half right profile, full right profile)  \cite{KDEF}.
 \newline
 
-\noindent An example of images contained in the database is given in Figure~\ref{kdef_7facialexpressions}which represents a female subject photographed from a straight angle and displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised).
+\noindent An example of images contained in the database is given in Figure~\ref{kdef_7facialexpressions} which represents a female subject photographed from a straight angle and displaying 7 different emotional expressions (neutral, happy, angry, afraid, disgusted, sad, surprised).
 \newline
 
 \begin{figure}[!h]
@@ -154,13 +154,13 @@
 \subsection{Cohn-Kanade AU-Coded Facial Expression Database (CK)}
 
 \vspace{\baselineskip}
-\noindent The Cohn-Kanade AU-Coded Facial Expression Database was created for research purpose in the area of automatic facial image analysis. Two versions of this database are at the moment published \cite{CK}.
+\noindent The Cohn-Kanade AU-Coded Facial Expression Database was created in 2000 for research purposes in the area of automatic facial image analysis. Two versions of this database are at the moment published \cite{CK}.
 \newline
 
-\noindent The first version is the original release of the database. It is composed of 486 image sequences of 97 subjects. The database is FACS coded. For each sequence, the initial image is the neutral expression and the final image is a peak expression. For each emotion, a label is given. This label refers to the facial expression that is supposed to be expressed but not the one that is really expressed. This is the difference between the first and second version. The second version uses validated emotion labels \cite{CK}.
+\noindent The first version is the original release of the database. It is composed of 486 image sequences of 97 subjects. The database is FACS coded. For each sequence, the initial image is the neutral expression and the final image is a peak expression. For each emotion, a label is given, which refers to the facial expression that is supposed to be expressed but not necessarily the one that is really expressed. This is the difference between the first and second version, since the second version uses validated emotion labels, so the expressed emotion is the same as the labeled one \cite{CK}.
 \newline
 
-\noindent The second version called \textit{CK+}, is composed of both posed and spontaneous expressions. Concerning the posed expressions, the $22\%$ of the total number of image sequences is added and $27\%$ of the total number of subjects is added. An example of images contained in the database is given in Figure~\ref{ck_facs_coded}, where a female subject expresses the \textit{disgusted} emotion. The Figure~\ref{ck_facs_coded} shows all the step of the image sequence for the \textit{disgusted} emotion \cite{CK}.
+\noindent The second version called \textit{CK+}, is composed of both posed and spontaneous expressions. Concerning posed expressions, the database has an increased number of image sequences of $22\%$, and contains images from more subjects ($27\%$ augmentation). An example of images contained in the database is given in Figure~\ref{ck_facs_coded}, where a female subject expresses the \textit{disgusted} emotion. Figure~\ref{ck_facs_coded} shows all the steps of an image sequence for the \textit{disgusted} emotion \cite{CK}.
 \newline
 
 \begin{figure}[!h]
@@ -182,28 +182,28 @@
 \noindent Databases can be a source of issues. As said previously, databases should meet a number of requirements in order to be as exhaustive and efficient as possible. 
 \newline
 
-\noindent In order to build a facial expression recognition system efficient in live conditions,, it should be able to recognize spontaneous expressions rather than posed expressions. Indeed, spontaneous expressions are closer to reality than posed expressions, the latter being exaggerated to facilitate their labelling and recognition. While creating a database of spontaneous expressions, Sebe and al \cite{SEB07} made some observations of the major problems they encountered \cite{BET12}:
+\noindent In order to build a facial expression recognition system efficient in live conditions, it should be able to recognize spontaneous expressions rather than posed expressions. Indeed, spontaneous expressions are closer to reality than posed expressions, the latter being exaggerated to facilitate their labelling and recognition. While creating a database of spontaneous expressions, Sebe and al \cite{SEB07} made some observations of the major problems they encountered \cite{BET12}:
 \newline
 \begin{itemize}
   \item The same emotions can be expressed at different intensities by different subjects;
   \item As soon as the subject is aware of being photographed and studied, the authenticity of the emotion is lost;
-  \item Because of the laboratory conditions, even if the subject is not aware of being photographed or recorded, the subject is not encouraged to display spontaneous expressions.
+  \item Because of laboratory conditions, even if the subject is not aware of being photographed or recorded, the subject is not encouraged to display spontaneous expressions.
 \end{itemize}
 
 \vspace{\baselineskip}
 \noindent In order to overcome these problems, they came up with a method. Their solution was to record facial expressions with a camera hidden in a video kiosk displaying emotion inducing videos. Subjects were notified of the recording after it was done, and were asked a permission to use recorded sequences for research studies. The subjects then explained which emotions they felt and expressed, their replies being documented even if it did not match the recorded expressions \cite{SEB07}.
 \newline
 
-\noindent The researches found that a wide range of expressions are hard to induce, particularly fear and sadness. They also found that spontaneous expressions could be misleading: some subjects express one emotion while feeling another one (for example, one subject was showing sadness while being happy) \cite{SEB07}.
+\noindent The researchers found that a wide range of expressions are hard to induce, particularly fear and sadness. They also found that spontaneous expressions could be misleading: some subjects expressed one emotion while feeling another one (for example, one subject was showing sadness while being happy) \cite{SEB07}.
 \newline
 
-\noindent In a nutshell, databases bring some issues that can affect the authenticity of the recognition system. It depends of the type of expressions: spontaneous or posed expressions. If the system aims to recognize facial expressions of people unaware of it, spontaneous expressions databases will be used but, as seen previously, it can lead to authenticity issues. If the system aims to recognize facial expressions of people asked to express certain emotion, posed expressions databases will be used, but the result will not be close to reality.
+\noindent In a nutshell, databases bring some issues that can affect the authenticity of the recognition system. It depends of the type of expressions: spontaneous or posed expressions. If the system aims to recognize facial expressions of people unaware of it, spontaneous expressions databases will be used but, as seen previously, it can lead to authenticity issues. If the system aims to recognize facial expressions of people asked to express certain emotions, posed expressions databases will be used, but the result will not be close to reality.
 \newline
 
 \subsection{Real-time}
 
 \vspace{\baselineskip}
-\noindent The primary goal of the facial expression recognition system described in this paper is to perform real-time facial expression recognition. As a real-time application, the processing time should be taken into account. Indeed, if it is too long, the system will not be responsive enough to be labelled as real-time.
+\noindent The primary goal of the facial expression recognition system described in this paper is to perform real-time facial expression recognition. As a real-time application, processing time should be taken into account. Indeed, if it is too long, the system will not be responsive enough to be categorized as real-time.
 \newline
 
 \noindent This is one of the challenges of this kind of system, because processing is usually really heavy no matter which algorithm is used. Most facial expression recognition applications should be working in real-time conditions, for example in robotics or in surveillance. A solution could be to find new algorithms for facial expression recognition or to improve and lighten already existing algorithms.
@@ -218,7 +218,7 @@
 \subsubsection{Occlusion}
 
 \vspace{\baselineskip}
-\noindent "Occlusion" defines all elements covering the face, partly or entirely. For example, a beard, a scarf masking the bottom of the face, glasses or bangs. By hiding a part of the face, these occlusions can affect the recognition. Indeed, facial expression recognition systems are based on comparison of features, and if all the features cannot be compared because something is covering a part of the face, the recognition accuracy is affected. In order to compensate for this problem, some databases includes data with occluded faces, for example with beards, glasses or scarves. This is the case for the AR Face database \cite{ARFACE}. Some examples of images as the ones that could be find in this database are given by Figures~\ref{arface_example2} and ~\ref{arface_example3}.
+\noindent "Occlusion" defines all elements covering the face, partly or entirely. For example, a beard, a scarf masking the bottom of the face, glasses or bangs. By hiding a part of the face, these occlusions can affect the recognition. Indeed, facial expression recognition systems are based on features comparison, and if all  features cannot be compared because something is covering a part of the face, recognition accuracy is affected. In order to compensate for this problem, some databases includes data with occluded faces, for example with beards, glasses or scarves. This is the case for the AR Face database \cite{ARFACE}. Some examples of images as the ones that could be find in this database are given by Figures~\ref{arface_example2} and~\ref{arface_example3}.
 \newline
 
 \begin{figure}[!h]
@@ -242,7 +242,7 @@
 \subsubsection{Lighting}
 
 \vspace{\baselineskip}
-\noindent As for occlusion, lighting is an element that can affect recognition effectiveness. With different lighting conditions from those in the database, recognition will be less efficient. All conditions different from those recorded  in the database on which the recognition process is based will impact the system. If images are brighter or darker than reference data, some details can disappear, or some features will not be recognized as well as if the conditions were identical. In order to compensate for this problem, databases can include data with different lighting conditions. This is the case for the AR Face database \cite{ARFACE} and an example of images as the one that could be contained in this database is given by Figure~\ref{arface_example1}:
+\noindent As for occlusion, lighting is an element that can affect recognition effectiveness. With different lighting conditions from those in the database, recognition will be less efficient. All conditions different from those recorded  in the database on which the recognition process is based will impact the system. If images are brighter or darker than reference data, some details can disappear, or some features will not be recognized as well as if the conditions were identical. In order to compensate for this problem, databases can include data with different lighting conditions. This is the case for the AR Face database \cite{ARFACE} and an example of images as the one that could be contained in this database is given by Figure~\ref{arface_example1}.
 \newline
 
 \begin{figure}[!h]
@@ -257,7 +257,7 @@
 \subsubsection{Angle}
 
 \vspace{\baselineskip}
-\noindent Head angle is one of the most impacting conditions during recognition. Indeed, some features can be occluded or disappear if the head does not properly face the camera. This issue also rises if the system is not tuned to work with head angles other than straight profile. For example, with a profile angle, one eye, half of the nose and of the mouth disappear. If the database does not contain samples with profile faces, the recognition will fail. However, if the database contains images from straight angle as well as from different profile angles, recognition will be possible. An example of different images taken from different angles for one emotion \textit{neutral} is given in Figure~\ref{example_angle}:
+\noindent Head angle is one of the most impacting conditions during recognition. Indeed, some features can be occluded or disappear if the head does not properly face the camera. This issue also rises if the system is not tuned to work with head angles other than straight profile. For example, with a profile angle, one eye, half of the nose and of the mouth disappear. If the database does not contain samples with profile faces, recognition will fail. However, if the database contains images from straight angle as well as from different profile angles, recognition will be possible. An example of different images taken from different angles for one emotion \textit{neutral} is given in Figure~\ref{example_angle}:
 \newline
 
 \begin{figure}[!h]
@@ -294,7 +294,7 @@
 \newline
 
   \item Recognition with no changes in lighting : 
-  \noindent This system should be able to recognize emotions under constant lighting conditions during the recognition process. Moreover, the intensity level of the light should be as close as possible to the one of the database. This way the lighting would not have any influence on the recognition process.
+  \noindent This system should be able to recognize emotions under constant lighting conditions during recognition process. Moreover, the intensity level of the light should be as close as possible to the one of the database. This way lighting would not have any influence on the recognition process.
 \newline
 \end{itemize}
 
