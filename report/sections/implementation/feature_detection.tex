@@ -9,20 +9,20 @@
 \section{Viola-Jones}
 
 \vspace{\baselineskip}
-\noindent To perform Viola-Jones face detection, video sequences of face are obtained thanks to a webcam or to the Kinect. The algorithm is then able to detect face and regions of interest (ROI) in the frames. The regions of interest are the nose, the left eye, the right eye and the mouth. 
+\noindent To perform Viola-Jones face detection, video sequences of face are obtained with a webcam or the Kinect. The algorithm is then able to detect face and regions of interest in the frames. The regions of interest are the nose, the left eye, the right eye and the mouth. 
 \newline
 
-\noindent Classifiers are trained prior to be used. They are then loaded with a model; one for the face and one for each region of interest. Then, based on these classifiers, face and regions of interest are detected in the frames. Figure~\ref{violajones_implementation_example} shows an example of face detection,along with some regions of interest. In this case of ROI detection, different classifiers have been used for each eye. 
+\noindent Classifiers are trained prior to be used. They are then loaded with a model; one for the face and one for each region of interest. Then, based on these classifiers, face and ROI are detected in the frames. Figure~\ref{violajones_implementation_example} shows an example of face detection,along with some ROI. In this case of ROI detection, different classifiers have been used for each eye. 
 \newline
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.8]{figures/violajones_implementation_example} 
+\noindent \includegraphics[scale=0.5]{figures/violajones_implementation_example} 
 \newline
 \caption{Example of face and ROI detection with Viola-Jones}
 \label{violajones_implementation_example}
 \end{center} 
 \end{figure}
 
-\noindent The face detected are extracted with a size set of $ 200\times200 $ pixels. This way the face images do not contain much of the background. Face images contains only the face and part of the hair.
+\noindent Detected faces are extracted with a size set as $ 200\times200 $ pixels. This way face images do not contain much background. Face images only contain the face and part of the hair.
 \newline

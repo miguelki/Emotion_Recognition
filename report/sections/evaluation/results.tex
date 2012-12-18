@@ -141,7 +141,7 @@
 
 \begin{figure}[!h]
 \begin{center}
-\noindent \includegraphics[scale=0.5]{figures/kdef_no_difference_emotions} 
+\noindent \includegraphics[scale=0.3]{figures/kdef_no_difference_emotions} 
 \newline
 \caption{Face images from the KDEF database used in the test set}
 \label{kdef_no_difference_emotions}
@@ -164,7 +164,7 @@
 \subsection{With face images from the KDEF database}
 
 \vspace{\baselineskip}
-\noindent Because the results do not have a good accuracy at first sight, another method is tested. Face images from the KDEF database are given as input directly to our program. This way the data can be tested. Ten face images are randomly chosen among all the face images present in the KDEF database to be tested. 
+\noindent Because the results do not have a good accuracy at first sight, another method is tested. Face images from the KDEF database are given as input directly to our program. This way the data can be tested. Ten face images are randomly chosen among all the face images present in the KDEF database to be tested for each emotion. 
 \newline
 
 \noindent The model used is the one that gave the best results in the first test set: polynomial kernel with following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_offline} represents the confusion matrix for this kernel and these test conditions.
@@ -195,7 +195,32 @@
 \subsection{With subjects}
 
 \vspace{\baselineskip}
-\noindent GIVE THE RESULTS OBTAINED
+\noindent For this test set, we use face images from the JAFFE database that are placed in front of the Kinect. Ten face images has been chosen randomly from this databases for each emotion.
+\newline
+
+\noindent As for the precedent part, the model used is the polynomial kernel with the following parameters: $ D = 2 $ and $ \gamma = 0.001953125 $. Table~\ref{table_results_confusion_matrix_kinect} represents the confusion matrix for this kernel and these test conditions.
+\newline
+
+\begin{table}[h]
+\begin{center}
+   \caption{\label{table_results_confusion_matrix_kinect} Confusion matrix}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+  \hline
+   & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
+  \hline
+  neutral & \textbf{6} & 0 & 0 & 0 & 0 & 4 & 0 & 60.00\% \\
+  afraid & 2 & \textbf{1} & 1 & 0 & 0 & 6 & 0 & 10.00\% \\
+  angry & 3 & 0 & \textbf{0} & 0 & 0 & 7 & 0 & 0.00\% \\
+  disgusted & 1 & 0 & 1 & \textbf{0} & 0 & 8 & 0 & 0.00\% \\
+  happy & 4 & 3 & 0 & 0 & \textbf{0} & 3 & 0 & 0.00\% \\
+  sad & 4 & 0 & 0 & 0 & 0 & \textbf{5} & 1 & 50.00\% \\
+  surprised & 5 & 0 & 1 & 0 & 0 & 4 & \textbf{0} & 0.00\%\\
+  \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\noindent The overall accuracy rate is of $ 15,71\% $ which is really low compared to the precedent result that is of $ 64.28\% $  and to the one obtained in the first result set that is of $ 66.67\% $. The results obtained are consistent with the ones found in the first result set.
 \newline
 
 \phantomsection
@@ -252,12 +277,12 @@
 \noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation}. Sometimes results are better with cross validation, sometimes results are better without it. The best result however is obtained with cross validation.
+\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation_weight}. Sometimes results are better with cross validation, sometimes results are better without it. The best result however is obtained with cross validation.
 \newline
 
 \begin{table}[h]
 \begin{center}
-   \caption{\label{table_results_crossvalidation} Results with and without cross validation}
+   \caption{\label{table_results_crossvalidation_weight} Results with and without cross validation}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
     & with cross validation & without cross validation \\
@@ -274,12 +299,12 @@
 \end{center}
 \end{table}
 
-\noindent The best accuracy percentage is for a model trained with RBF1 kernel parameters and with cross validation, with an overall accuracy rate of$ 71.42\% $. It is obtained with a classification based on the RBF kernel and with following parameters: $ C = 128 $ and $ \gamma = 0.0078125 $. Table~\ref{table_results_confusion_matrix} represents the confusion matrix for this kernel.
+\noindent The best accuracy percentage is for a model trained with RBF1 kernel parameters and with cross validation, with an overall accuracy rate of$ 71.42\% $. It is obtained with a classification based on the RBF kernel and with following parameters: $ C = 128 $ and $ \gamma = 0.0078125 $. Table~\ref{table_results_confusion_matrix_weight} represents the confusion matrix for this kernel.
 \newline
 
 \begin{table}[h]
 \begin{center}
-   \caption{\label{table_results_confusion_matrix} Confusion matrix}
+   \caption{\label{table_results_confusion_matrix_weight} Confusion matrix}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    & neutral & afraid & angry & disgusted & happy & sad & surprised & accuracy \\
@@ -296,12 +321,12 @@
 \end{center}
 \end{table}
 
-\noindent As for the first test result, two emotions are hard for our system to recognize: the \textit{sad} emotion and the \textit{disgusted} emotion. But this time this is not the \textit{angry} emotion that has bad results but the \textit{disgusted} emotion.
+\noindent As for the first test result, two emotions are hard for our system to recognize: the \textit{sad} emotion and the \textit{disgusted} emotion (see Table~\ref{table_results_accuracy_weight}). But this time this is not the \textit{angry} emotion that has bad results but the \textit{disgusted} emotion.
 \newline
 
 \begin{table}[h]
 \begin{center}
-   \caption{\label{table_results_accuracy} Recognition accuracy of the six basic emotions and of the neutral state}
+   \caption{\label{table_results_accuracy_weight} Recognition accuracy of the six basic emotions and of the neutral state}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
   \hline
    $ \leq 50\% $ & > 66.67\% \\
