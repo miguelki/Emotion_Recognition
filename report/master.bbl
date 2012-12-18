@@ -64,7 +64,8 @@ Xiao Feng, Matti Pietikainen, and Abdenour Hadid.
 \bibitem{GAN08}
 Abhiram Ganesh.
 \newblock Evaluation of appearance based methods for facial expression
-  recognition, 2008.
+  recognition.
+\newblock {\em Technische Universiteit Eindhoven}, 2008.
 
 \bibitem{GOH11}
 Yi~Zheng Goh, Andrew Beng~Jin Teoh, and Michael Kah~Ong Goh.
@@ -101,6 +102,12 @@ Yousra~Ben Jemaa and Sana Khanfir.
 Bram~K. Julsing.
 \newblock Face recognition with local binary patterns, 2007.
 
+\bibitem{CK}
+Takeo Kanade, Jeffrey~F. Cohn, and Yingli Tian.
+\newblock Comprehensive database for facial expression analysis.
+\newblock {\em Proceedings of the Fourth IEEE International Conference on
+  Automatic Face and Gesture Recognition}, pages 46--53, 2000.
+
 \bibitem{KDEF}
 Emotion Lab.
 \newblock Karolinska directed emotional faces (kdef).
@@ -114,7 +121,8 @@ S~Liao, Max W.~K. Law, , and Albert C.~S. Chung.
 \bibitem{LIE98}
 Jenn-Jier~James Lien.
 \newblock Automatic recognition of facial expressions using hidden markov
-  models and estimation of expression intensity, 1998.
+  models and estimation of expression intensity.
+\newblock {\em Carnegie Mellon University}, 1998.
 
 \bibitem{JAFFE}
 Michael Lyons.
@@ -166,7 +174,8 @@ Caifeng Shan, Shaogang Gong, and Peter~W. McOwan.
 
 \bibitem{SMY07}
 Padhraic Smyth.
-\newblock Face detection using the viola-jones method, 2007.
+\newblock Face detection using the viola-jones method.
+\newblock {\em University of California, Irvine}, 2007.
 
 \bibitem{TSA09}
 Pohsiang Tsai, Longbing Cao, Tom Hintz, and Tony Jan.
@@ -199,7 +208,9 @@ M~F. Valstar, I.~Patras, and M.~Pantic.
 
 \bibitem{VIO01}
 Paul Viola and Michael Jones.
-\newblock Robust real-time object detection, 2001.
+\newblock Robust real-time object detection.
+\newblock {\em Second International Workshop on Statistical and Computational
+  Theories of Vision - Modeling, Learning, Computing, and Sampling}, 2001.
 
 \bibitem{CLASS}
 Wikipedia.
