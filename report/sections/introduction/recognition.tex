@@ -24,30 +24,30 @@
 \subsection{Image Acquisition}
 
 \vspace{\baselineskip}
-\noindent The first step is "Image Acquisition". Images used for facial expression recognition can be static images or image sequences, with the latter giving more informations about the displayed expression, i.e steps in muscles movement. About static images, facial expression recognition systems usually take 2D greyscale images as inputs. We can however expect future systems to use color images; first because of the increasing affordability of technologies and devices capable of capturing images or image sequences; then because colors can give more information on emotions, for example blushing \cite{CHI03}.
+\noindent The first step is \textit{Image Acquisition}. Images used for facial expression recognition can be static images or image sequences, with the latter giving more informations about the displayed expression, i.e steps in muscles movement. About static images, facial expression recognition systems usually take 2D greyscale images as inputs. We can however expect future systems to use color images; first because of the increasing affordability of technologies and devices capable of capturing images or image sequences; then because colors can give more information on emotions, for example blushing \cite{CHI03}.
 \newline
 
 \subsection{Face Detection}
 
 \vspace{\baselineskip}
-\noindent Second step is "Face Detection". Indeed, in a static image and even more in an images sequence, this is an obvious need. Once the face has been detected, all other non-relevant information can be deleted. This step could hence be included in the next step, which is "Pre-processing", but because of its importance it can be considered as a step in itself. If working with image sequences or video streams, the face has to be detected and tracked. One of the most used and famous detection and tracking algorithm is the Viola-Jones algorithm, which will be explained further in Chapter~\ref{chap:vj}. This algorithm can be trained to detect all kind of objects, but is mostly used for face detection.
+\noindent Second step is \textit{Face Detection}. Indeed, in a static image and even more in an images sequence, this is an obvious need. Once the face has been detected, all other non-relevant information can be deleted. This step could hence be included in the next step, which is \textit{Pre-processing}, but because of its importance it can be considered as a step in itself. If working with image sequences or video streams, the face has to be detected and tracked. One of the most used and famous detection and tracking algorithm is the Viola-Jones algorithm, which will be explained further in Chapter~\ref{chap:vj}. This algorithm can be trained to detect all kind of objects, but is mostly used for face detection.
 \newline
 
 \subsection{Pre-processing}
 
 \vspace{\baselineskip}
-\noindent Third step is "Pre-processing", where image processing algorithms are applied to the image in order to prepare it for the next step. Pre-processing is usually about noise removal, normalization against the variation of pixel position or brightness, segmentation, location or tracking of parts of the face. Transformation, scaling and rotation of the head in the image or image sequence have an effect on emotion recognition. In order to solve this problem, the image can be geometrically standardized, with the eyes generally used as reference points \cite{CHI03}.
+\noindent Third step is \textit{Pre-processing}, where image processing algorithms are applied to the image in order to prepare it for the next step. Pre-processing is usually about noise removal, normalization against the variation of pixel position or brightness, segmentation, location or tracking of parts of the face. Transformation, scaling and rotation of the head in the image or image sequence have an effect on emotion recognition. In order to solve this problem, the image can be geometrically standardized, with the eyes generally used as reference points \cite{CHI03}.
 \newline
 
 \subsection{Feature Extraction}
 
 \vspace{\baselineskip}
-\noindent Once the image has gone through the "Pre-processing" step, the next one is "Feature Extraction". In this step, data is converted "into a higher representation of shape, motion, color, texture, and spatial configuration of the face or its components" \cite{CHI03}. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain "essential information possessing high discrimination power and high stability" \cite{CHI03}. There are a lot of features extraction methods, i.e Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Local Binary Patterns (LBP), Gabor Wavelets. This step will be detailed further in Part ~\ref{chap:extraction}. The extracted data is then used in the "Classification" step.
+\noindent Once the image has gone through the \textit{Pre-processing} step, the next one is \textit{Feature Extraction}. In this step, data is converted "into a higher representation of shape, motion, color, texture, and spatial configuration of the face or its components" \cite{CHI03}. One of the main goals of this step is to reduce the dimensionality of the input data. The reduction procedure should retain "essential information possessing high discrimination power and high stability" \cite{CHI03}. There are a lot of features extraction methods, i.e Principal Component Analysis (PCA), Linear Discriminant Analysis (LDA), Local Binary Patterns (LBP), Gabor Wavelets. This step will be detailed further in Part ~\ref{chap:extraction}. The extracted data is then used in the \textit{Classification} step.
 \newline
 
 \subsection{Classification}
 
-\noindent The classification step is the culminating point of the facial expression recognition process. There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as it will be detailed in Part~\ref{chap:extraction}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
+\noindent The \textit{Classification} step is the culminating point of the facial expression recognition process. There are many kinds of classification algorithms, some of them can even be used in the feature extraction part, as it will be detailed in Part~\ref{chap:extraction}. This step takes into input a model previously trained with pre-processed data, and test data made of feature vectors extracted from the image we want to label. Feature vectors from pre-processed data and test data have to be obtained using the same feature extraction algorithm. The chosen classifier then outputs a value corresponding to the label of the class the picture belongs to.
 %\vspace{\baselineskip}
 
 \phantomsection
@@ -278,7 +278,7 @@
 
 \begin{itemize}
   \item Able to recognize basic emotions : 
-  \noindent As explained before, facial expression recognition systems are able to recognize 6 basic emotions and the neutral state. This system should be able to do the same: recognize the 6 basic emotion that are "Happiness", "Fear", "Surprise", "Disgust", "Sadness", "Anger" and the neutral state.
+  \noindent As explained before, facial expression recognition systems are able to recognize 6 basic emotions and the neutral state. This system should be able to do the same: recognize the 6 basic emotion that are \textit{Happiness}, \textit{Fear}, \textit{Surprise}, \textit{Disgust}, \textit{Sadness}, \textit{Anger} and the \textit{Neutral} state.
 \newline
 
   \item Able to work in real-time : 

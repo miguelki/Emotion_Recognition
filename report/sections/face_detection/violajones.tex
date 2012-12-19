@@ -177,7 +177,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \section{Classifiers cascade}
 
 \vspace{\baselineskip}
-\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade, hence its name  "Classifiers cascade". This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as "Face", otherwise it is classified as "Not Face" \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
+\noindent What Viola and Jones did to classify image regions and sub-regions in an efficient way is to combine AdaBoost classifiers as a filter chain. It is constructed as a cascade, hence its name  \textit{Classifiers cascade}. This chain is composed of a separate AdaBoost classifier for each filter, which has a fairly small number of weak classifiers. As in figure~\ref{haar_feature_cascade}, the classifier cascade represents a chain of filters. If an image sub-region passes successfully all cascade steps, it is labelled as \textit{Face}, otherwise it is classified as \textit{Not Face} \cite{HEW07}. Using this algorithm with the classifiers cascade method allows to reduce significantly the computation time and increase significantly the detection performance \cite{VIO01}.
 \newline
 
 \begin{figure}[!h]
@@ -201,7 +201,7 @@ ii(x,y) = ii(x - 1,y) + s(x,y)
 \end{center} 
 \end{figure}
 
-\noindent The cascade method has been made in a way that there must not be false negative labeling, meaning that no face should be classified as "Not Face". The assistance threshold has been set low for each level, low enough for the training set to pass all or almost all face examples. All training images that passed previous stages are classified by filters trained to do it for each level. A region is immediately classified as "Not Face" as soon as it failed at one filter. If one of these filters succeeds to pass a region, then it is up to the next filter in the chain. If a region succeed to pass through all the filters present in the chain, then it can be classified as "Face" \cite{HEW07}.
+\noindent The cascade method has been made in a way that there must not be false negative labeling, meaning that no face should be classified as \textit{Not Face}. The assistance threshold has been set low for each level, low enough for the training set to pass all or almost all face examples. All training images that passed previous stages are classified by filters trained to do it for each level. A region is immediately classified as \textit{Not Face} as soon as it failed at one filter. If one of these filters succeeds to pass a region, then it is up to the next filter in the chain. If a region succeed to pass through all the filters present in the chain, then it can be classified as \textit{Face} \cite{HEW07}.
 \newline
 
 \noindent The key point of this method is to construct smaller, more efficient, boosted classifiers. They will then detect nearly all positive instances while rejecting a lot of negative sub-regions. Before using complex classifiers to achieve low false positive rates, simple classifiers are called to reject most sub-regions \cite{VIO01}.
