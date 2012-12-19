@@ -221,7 +221,7 @@
 \noindent The overall accuracy rate is $ 15,71\% $ which is really low compared to the previous result, and even lower than the one obtained in the first result set of $ 66.67\% $. 
 \newline
 
-\noindent The JAFFE database is not well recognize with this system. It is easy to notice that the emotions expressed by the japanese female subjects are not expressed in the same way that for the european subjects of the KDEF database. Figure~\ref{result_jaffe_kdef_comparison} shows the comparison between the KDEF database and the JAFFE database for the same emotion expressed. The two emotions expressed are the \textit{disgusted} emotion and the \textit{angry} emotion.
+\noindent The JAFFE database is not well recognized with this system. It is easy to notice that emotions expressed by these Japanese female subjects are not expressed in the same way that as the Causasian subjects of the KDEF database. Figure~\ref{result_jaffe_kdef_comparison} shows the comparison between the KDEF database and the JAFFE database for the same expressed emotion, here \textit{disgusted} and \textit{angry}.
 \newline
 
 \begin{figure}[!h]
@@ -287,7 +287,7 @@
 \noindent \textit{Sigmoid2} has cache and $\gamma$ parameters: $ C = 8192 $ and $ \gamma = 0.00048828125 $
 \newline
 
-\noindent A model has also been trained with same kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation_weight}. Results are consistent whether cross-validation is used or not, and in contrary to non-weighed LBP, best results are achieved using cross-validation.
+\noindent A model has also been trained with identical kernels and parameters but without cross-validation. Comparison has been made between the model with cross validation and the one without cross validation as it is shown in  Table~\ref{table_results_crossvalidation_weight}. Results are consistent whether cross-validation is used or not, and in contrary to non-weighed LBP, best results are achieved using cross-validation.
 \newline
 
 \begin{table}[h]
@@ -351,5 +351,5 @@
 \end{center} 
 \end{table}
 
-\noindent Applying the weights to each region of the face gives better results. We obtained $ 71.42\% $ of accuracy instead of $ 66.67\% $. This is indeed an improvement that is explained in \cite{GAN08} and that we implemented.
+\noindent Applying weights to each region of the face gives better results, as explained in \cite{GAN08}. Since its implementation in our system obtain a $ 71.42\% $ accuracy rate, it is indeed an improvement.
 \newline
