@@ -83,19 +83,19 @@
 \contentsline {subsection}{\numberline {13.2.1}With face images from the KDEF database}{81}{subsection.207}
 \contentsline {subsection}{\numberline {13.2.2}With subjects}{82}{subsection.209}
 \contentsline {section}{\numberline {13.3}Additional results}{82}{section.212}
-\contentsline {chapter}{\numberline {14}Issues}{85}{chapter.219}
-\contentsline {section}{\numberline {14.1}Feature extraction}{85}{section.221}
-\contentsline {section}{\numberline {14.2}Real-time}{85}{section.223}
-\contentsline {section}{\numberline {14.3}Issues with the implementation on the Kinect}{86}{section.225}
-\contentsline {section}{\numberline {14.4}Training dataset}{87}{section.227}
-\contentsline {chapter}{\numberline {15}Conclusion}{88}{chapter.229}
-\contentsline {section}{\numberline {15.1}Theoretical framework}{88}{section.231}
-\contentsline {section}{\numberline {15.2}Results}{88}{section.233}
-\contentsline {section}{\numberline {15.3}Future work}{89}{section.235}
-\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{89}{subsection.236}
-\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{89}{subsection.237}
-\contentsline {subsection}{\numberline {15.3.3}Use of the Cohn-Kanade Database}{90}{subsection.239}
-\contentsline {chapter}{Bibliography}{91}{section*.240}
+\contentsline {chapter}{\numberline {14}Issues}{86}{chapter.219}
+\contentsline {section}{\numberline {14.1}Feature extraction}{86}{section.221}
+\contentsline {section}{\numberline {14.2}Real-time}{86}{section.223}
+\contentsline {section}{\numberline {14.3}Issues with the implementation on the Kinect}{87}{section.225}
+\contentsline {section}{\numberline {14.4}Training dataset}{88}{section.227}
+\contentsline {chapter}{\numberline {15}Conclusion}{89}{chapter.229}
+\contentsline {section}{\numberline {15.1}Theoretical framework}{89}{section.231}
+\contentsline {section}{\numberline {15.2}Results}{89}{section.233}
+\contentsline {section}{\numberline {15.3}Future work}{90}{section.235}
+\contentsline {subsection}{\numberline {15.3.1}Local Binary Patterns}{90}{subsection.236}
+\contentsline {subsection}{\numberline {15.3.2}Combination of feature extraction methods}{90}{subsection.237}
+\contentsline {subsection}{\numberline {15.3.3}Use of the Cohn-Kanade Database}{91}{subsection.239}
+\contentsline {chapter}{Bibliography}{93}{section*.240}
 \vspace \bigskipamount 
-\contentsline {chapter}{Appendix: Source Code}{95}{section*.241}
+\contentsline {chapter}{Appendix: Source Code}{97}{section*.241}
 \contentsfinish 
