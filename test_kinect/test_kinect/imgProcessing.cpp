@@ -44,8 +44,8 @@ string ImgProcessing::processImg(IplImage* src){
 svm_node* ImgProcessing::imgProcess(IplImage* src){
 
 	std::vector<unsigned int> hist; 
-	// Mat face = findFace(src); // If we need to find the face
-	Mat face(src); // Otherwise let's just assign the IplImg* to a matrix
+Mat face = findFace(src); // If we need to find the face
+//	Mat face(src); // Otherwise let's just assign the IplImg* to a matrix
 
 	/** prepare vector **/
 	hist.clear();
@@ -89,21 +89,22 @@ svm_node* ImgProcessing::imgProcess(IplImage* src){
 			}
 		}
 	}	
-	
+
 	std::vector<double> scHist = scaleHist(hist);
-	
+
 	return dataProcess(scHist);
 }
 
 Mat ImgProcessing::findFace(IplImage* img){
-	
+
 	cvClearMemStorage(storage);
 
 	// There can be more than one face in an image. So create a growable sequence of faces.
 	// Detect the objects and store them in the sequence
 	CvSeq* faces = cvHaarDetectObjects(img, cascade, storage,
 		1.1, 3, CV_HAAR_DO_CANNY_PRUNING,
-		cvSize(250, 350), cvSize(250,350) );
+		cvSize(160, 160), cvSize(160,160) );
+	
 
 	// Loop the number of faces found.
 	if (faces->total == 0) {
@@ -115,12 +116,11 @@ Mat ImgProcessing::findFace(IplImage* img){
 	CvRect *face = (CvRect*)cvGetSeqElem(faces, 0);
 	cvSetImageROI(img, *face);
 	Mat tmp(img);
-	
+
 	return tmp;
 }
 
 Mat ImgProcessing::processLbp(Mat src){
-
 	Mat dst = Mat::zeros(src.rows-2, src.cols-2, CV_8UC1);
 
 	for(int i=1;i<src.rows-1;i++) {
@@ -130,7 +130,7 @@ Mat ImgProcessing::processLbp(Mat src){
 			unsigned char value = 0;
 			unsigned int nb_transitions = 0;
 			unsigned char center = src.at<unsigned char>(i,j);
-			std::vector<unsigned int> nghbrs;
+			vector<unsigned int> nghbrs;
 
 			src.at<unsigned char>(i-1,j-1) > center ? nghbrs.push_back(1) : nghbrs.push_back(0);
 			src.at<unsigned char>(i-1,j) > center ? nghbrs.push_back(1) : nghbrs.push_back(0);
@@ -166,7 +166,7 @@ Mat ImgProcessing::processLbp(Mat src){
 }
 
 std::vector<unsigned int> ImgProcessing::histogramProcess(Mat src){
-	
+
 	std::vector<unsigned int> hist (10,0);
 
 	for (int i = 0; i < src.rows; i++) {
@@ -175,42 +175,36 @@ std::vector<unsigned int> ImgProcessing::histogramProcess(Mat src){
 			hist[n] += 1;
 		}
 	}
-	
+
 	return hist;
 }
 
 std::vector<double> ImgProcessing::scaleHist(std::vector<unsigned int> histogram) {
-	
-	unsigned int min, max, sz;
-	double sc;
+	unsigned int sz = histogram.size();
+	std::vector<double> scHist(sz, 0);
 
-	sz = histogram.size();
+	double max, min, sc;
 	max = 0;
 	min = INT_MAX;
 
-	std::vector<double> scaledH(sz, 0);
-	
 	// Go through histogram, find min and max
 
-	for (unsigned int i = 0; i < sz; i++) {
-		if (histogram[i] > max)
-			max = histogram[i];
-		if (histogram[i] < min)
-			min = histogram[i];
-	}
-
-	sc = (double)max - (double)min;
-
-	// Scale each value
 	for (unsigned int j = 0; j < sz; j++) {
-		scaledH[j] = (double)(-1 + 2 *((double)histogram[j] - (double)min)/sc);
+		if (histogram[j] > max)
+			max = (double)histogram[j];
+		if (histogram[j] < min)
+			min = (double)histogram[j];
 	}
-	 
-	return scaledH;
+
+	sc = max - min;
+	for (unsigned int i = 0; i < sz; i++)
+		scHist[i] = -1 + 2 *((double)histogram[i] - min)/(sc);
+
+	return scHist;
 }
 
 svm_node* ImgProcessing::dataProcess(std::vector<double> histogram){
-	
+
 	unsigned int sz = histogram.size();
 	svm_node* node = new svm_node[sz+1];
 
@@ -221,7 +215,7 @@ svm_node* ImgProcessing::dataProcess(std::vector<double> histogram){
 
 	node[sz].index = -1;
 	node[sz].value = -1;
-	
+
 	return node;
 }
 
@@ -234,6 +228,6 @@ string ImgProcessing::classifyImg(svm_node* vector){
 		str = classLbls[(unsigned int) res];
 	else
 		str = "No matching found, there's an error somewhere";
-	
+
 	return str;
 }

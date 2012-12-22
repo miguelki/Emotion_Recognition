@@ -4,9 +4,11 @@
 
 class FrameWindow
 {
-	IplImage* img;
+	IplImage* img; // image to display
 
 public:
+
+	// Constructor and destructor
 	FrameWindow(void);
 	~FrameWindow(void);
 

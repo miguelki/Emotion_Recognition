@@ -1,4 +1,15 @@
-//#include "stdafx.h"
+//
+//
+//				Entry point of the program
+//				Initialize main elements and run the main loop
+//
+//
+//
+//
+//
+//
+
+// Includes
 #include <Windows.h>
 #include <fstream>
 #include <vector>
@@ -10,23 +21,24 @@
 #include <highgui.h>
 #include "imgProcessing.h"
 #include "svm\svm.h"
-
-using namespace std;
-using namespace cv;
 #include "KinectController.h"
 
 using namespace std;
+using namespace cv;
+
 
 int main(int argc, char* argv[])
 {
-	cout << "Hello World !" << endl;
-
+	
+	// Initialize flags for Kinect connection
 	DWORD flags = NUI_INITIALIZE_FLAG_USES_COLOR|NUI_INITIALIZE_FLAG_USES_DEPTH;
 
-
+	// Init of MVC structure
 	KinectAccess* kA = new KinectAccess(flags);
 	FrameWindow* wdw = new FrameWindow();
 	KinectController* kC = new KinectController(kA, wdw, "Face Expression Recognition");
+
+	// Controller functions 
 	kC->init();
 	kC->display();
 	kC->shutdown();

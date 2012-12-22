@@ -5,22 +5,25 @@
 class KinectAccess
 {
 private:
-	BYTE* pBuffer;
-	DWORD flags;
-	HANDLE _videoStreamHandle; // reception du flux de donnees
-	HANDLE _videoNextFrame; // signale la disponibilite de la frame suivante
+	BYTE* pBuffer; // Buffer
+	DWORD flags; // flag for kinect access
+	HANDLE _videoStreamHandle; // data stream
+	HANDLE _videoNextFrame; // notice if a frame is available
 	INuiFrameTexture* pTexture;
 
 public:
+
+	// Constructor destructor
 	KinectAccess(DWORD f);
 	~KinectAccess(void);
 
+	// Get Image
 	HRESULT fetchImg();
 
 	void init();
 	void shutdown();
 
-	/** Getters & setters **/
+	// Getters and setters 
 
 	HANDLE getStreamHandle() {return _videoStreamHandle;}
 	HANDLE getNextFrame() {return _videoNextFrame;}

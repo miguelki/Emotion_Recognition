@@ -1,13 +1,17 @@
+//
+//
+//				Class FrameWindow, view part of the MVC pattern used
+//				Display images, window, for user interactions
+//
+//
+//
+//
+//
+//
 #include "StdAfx.h"
 #include "FrameWindow.h"
 #include "highgui.h"
 
-//void on_change(int state, void* userdata);
-void on_change(int state, void* userdata)
-{
-	cout<<"coucou"<<endl;
-	return;
-}
 
 FrameWindow::FrameWindow(void) : img(NULL) {
 }
@@ -16,11 +20,11 @@ FrameWindow::FrameWindow(void) : img(NULL) {
 FrameWindow::~FrameWindow(void) {
 }
 
+// Display an image
 void FrameWindow::displayImg(IplImage* i, char* title) {
+
 	img = i;
-	
 	cvShowImage(title,img);
-	//waitKey(1);
 }
 
 void FrameWindow::destroyWindow(char* title) {
