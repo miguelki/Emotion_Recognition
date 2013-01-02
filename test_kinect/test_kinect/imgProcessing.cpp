@@ -227,7 +227,7 @@ string ImgProcessing::classifyImg(svm_node* vector){
 	if (res > 0 && res < NB_CLASS)
 		str = classLbls[(unsigned int) res];
 	else
-		str = "No matching found, there's an error somewhere";
-
+		//str = "No matching found, there's an error somewhere";
+		str = "neutral";
 	return str;
 }
