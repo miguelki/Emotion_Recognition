@@ -224,10 +224,9 @@ string ImgProcessing::classifyImg(svm_node* vector){
 	double res = svm_predict(ImgProcessing::model, vector);
 	string str;
 
-	if (res > 0 && res < NB_CLASS)
+	if (res >= 0 && res < NB_CLASS)
 		str = classLbls[(unsigned int) res];
 	else
-		//str = "No matching found, there's an error somewhere";
-		str = "neutral";
+		str = "No matching found, there's an error somewhere";
 	return str;
 }
