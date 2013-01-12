@@ -1,4 +1,4 @@
-//
+ //
 //
 //				Class KinectAccess, model of the MVC pattern used
 //				Manage Kienct Acess and process face detection

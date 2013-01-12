@@ -44,8 +44,8 @@ string ImgProcessing::processImg(IplImage* src){
 svm_node* ImgProcessing::imgProcess(IplImage* src){
 
 	std::vector<unsigned int> hist; 
-Mat face = findFace(src); // If we need to find the face
-//	Mat face(src); // Otherwise let's just assign the IplImg* to a matrix
+    Mat face = findFace(src); // If we need to find the face
+    //	Mat face(src); // Otherwise let's just assign the IplImg* to a matrix
 
 	/** prepare vector **/
 	hist.clear();
